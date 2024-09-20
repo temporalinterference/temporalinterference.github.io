@@ -1,0 +1,74 @@
+// from https://google-webfonts-helper.herokuapp.com/
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("fonts/Roboto-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 700;
+  src: local(""), url("fonts/Roboto-700-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("fonts/Roboto-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 400;
+  src: local(""), url("fonts/Roboto-400-italic.woff2") format("woff2");
+}
+
+// 1. Your custom variables and variable overwrites.
+$global-font-family: Roboto, sans-serif;
+
+
+// 2. Import default variables and available mixins.
+@import "../uikit/src/scss/variables-theme.scss";
+@import "../uikit/src/scss/mixins-theme.scss";
+
+// 3. Your custom mixin overwrites.
+// @mixin hook-card() {
+//   color: #000;
+// }
+
+// 4. Import UIkit.
+@import "../uikit/src/scss/uikit-theme.scss";
+
+body {
+    background-color: #f0f0f0;
+}
+
+.ti-card-holder {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    column-gap: 20px;
+    padding-left: var(--ti-margin-measure-left);
+    padding-right: var(--ti-margin-measure-right);
+    overflow-x: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    scroll-behavior: smooth;
+}
+
+.ti-card-holder::-webkit-scrollbar {
+    display: none;
+}
+
+.ti-card {
+    width: 200px;
+    height: 400px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}

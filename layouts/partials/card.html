@@ -1,0 +1,42 @@
+{{ $bg := .Resources.Get "background.jpg" }}
+{{ if $bg }}
+    {{ $style := (printf "background-image: url('%s');" (
+        ($bg.Process "fill 300x500 center webp").RelPermalink )
+    )
+    }}
+    {{ .Scratch.Set "bg_style" $style }}
+{{ end }}
+
+{{ $modal := .Resources.Get "modal.md" }}
+{{ if $modal }}
+    {{ if eq ( .Scratch.Get "modal_id" ) "" }}
+        {{ .Scratch.Set "modal_id" 0 }}
+    {{ end }}
+    {{ .Scratch.Add "modal_id" 1 }}
+{{ end }}
+<div class="ti-card" style='{{ .Scratch.Get "bg_style" | safeCSS }}'>
+    <div class="ti-card-header">
+       <h2>{{ .Title }}</h2>
+    </div>
+    <div class="ti-card-body">
+        {{ .Content }}
+    </div>
+    {{ if $modal }}
+    <button
+        class="uk-button uk-button-primary uk-button-small uk-margin"
+        type="button" 
+        uk-toggle='target: #modal-{{ .Scratch.Get "modal_id" }}'
+    >More</button>
+    {{ end }}
+</div>
+
+{{ if $modal }}
+<!-- This is the modal with the default close button -->
+<div id='modal-{{ .Scratch.Get "modal_id" }}' class="uk-modal-container" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical" uk-overflow-auto>
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        {{ $modal.Content | safeHTML }}
+    </div>
+</div>
+{{ end }}
+
