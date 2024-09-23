@@ -24,10 +24,30 @@
   font-weight: 400;
   src: local(""), url("fonts/Roboto-400-italic.woff2") format("woff2");
 }
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local(""), url("fonts/Roboto-Slab-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(""), url("fonts/Roboto-Slab-700.woff2") format("woff2");
+}
 
 // 1. Your custom variables and variable overwrites.
 $global-font-family: Roboto, sans-serif;
-
+$global-font-family-heading: "Roboto Slab", sans-serif;
+$card-width: 348px;
+$card-height: 557px;
+$global-background: #e0e8f0;
+$global-emphasis-color: #1b3764;
+$global-muted-color: #888888;
+$navbar-background: #fff;
 
 // 2. Import default variables and available mixins.
 @import "../uikit/src/scss/variables-theme.scss";
@@ -41,34 +61,74 @@ $global-font-family: Roboto, sans-serif;
 // 4. Import UIkit.
 @import "../uikit/src/scss/uikit-theme.scss";
 
-body {
-    background-color: #f0f0f0;
-}
-
 .ti-card-holder {
-    display: flex;
-    justify-content: left;
-    flex-direction: row;
-    column-gap: 20px;
-    padding-left: var(--ti-margin-measure-left);
-    padding-right: var(--ti-margin-measure-right);
-    overflow-x: scroll;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    scroll-behavior: smooth;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  column-gap: 20px;
+  padding-left: var(--ti-margin-measure-left);
+  padding-right: var(--ti-margin-measure-right);
+  overflow-x: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  scroll-behavior: smooth;
 }
 
 .ti-card-holder::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .ti-card {
-    width: 200px;
-    height: 400px;
-    flex-grow: 0;
-    flex-shrink: 0;
-    border-radius: 10px;
-    background-color: #fff;
-    padding: 20px;
-    box-sizing: border-box;
+  width: $card-width;
+  height: $card-height;
+  flex-grow: 0;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  hyphens: auto;
+  position: relative;
+  text-shadow: 0 0 3px rgba(255, 255, 255, 1);
+  h3 {
+    font-size: 1.3rem;
+    font-family: $global-font-family-heading;
+    margin: 0;
+    margin-bottom: 0.2em;
+  }
+  .ti-card-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+.ti-modal-close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transform: rotate(45deg);
+}
+.ti-plus-button {
+  background-color: $global-muted-color;
+  border-style: none;
+  color: #fff;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  line-height: 0;
+  font-size: 30px;
+  text-indent: -1px;
+  font-weight: 700;
+  font-family: $global-font-family;
+}
+
+footer {
+  margin-top: 3rem;
+  background-color: $global-emphasis-color;
+  color: #fff;
+  padding: 20px;
+  font-size: 0.8rem;
 }
