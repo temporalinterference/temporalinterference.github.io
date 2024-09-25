@@ -1,4 +1,3 @@
 ---
-Title: Card P1
+Title: Image Card
 ---
-Content for Card 1
