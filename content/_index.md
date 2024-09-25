@@ -24,6 +24,7 @@ Welcome to the TI-Solutions website
 {{< card p2 >}}
 {{< /card-holder >}}
 
+{{< slider thedevice >}}
 
 {{< section >}}
 About Us

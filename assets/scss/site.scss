@@ -105,7 +105,12 @@ $navbar-background: #fff;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(180deg, $global-muted-color 0%, $global-muted-color 83%, #00000000 92%);
+    background-image: linear-gradient(
+      180deg,
+      $global-muted-color 0%,
+      $global-muted-color 83%,
+      #00000000 92%
+    );
   }
   .ti-card-button {
     position: absolute;
@@ -115,23 +120,23 @@ $navbar-background: #fff;
 }
 
 .ti-round-button {
-    background-color: $global-muted-color;
-    border-style: none;
-    border-radius: 100%;
-    width: 30px;
-    height: 30px;
-    line-height: 0;
-    font-size: 29px;
-    text-indent: -1px;
-    font-weight: 700;
-    font-family: $global-font-family;
-    &::after {
-        color: #fff;
-        z-index: 2;
-        position: absolute;
-        left: 4px;
-        top: 14px;
-      }
+  background-color: $global-muted-color;
+  border-style: none;
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+  line-height: 0;
+  font-size: 29px;
+  text-indent: -1px;
+  font-weight: 700;
+  font-family: $global-font-family;
+  &::after {
+    color: #fff;
+    z-index: 2;
+    position: absolute;
+    left: 4px;
+    top: 14px;
+  }
 }
 
 .ti-close-button {
@@ -157,4 +162,64 @@ footer {
   color: #fff;
   padding: 20px;
   font-size: 0.8rem;
+}
+
+.ti-slider {
+    margin-top: 6ex;
+    background-color: #fff;
+.ti-slider-image {
+    width: var(--ti-content-width);
+}
+}
+#ti-brain {
+    position: relative;
+}
+
+#ti-bg-box {
+    position: relative;
+    img {
+        width: 100%;
+    }
+    z-index: -1;
+    margin-bottom: -30%;
+}
+
+
+#ti-brain-spot {
+  position: absolute;
+  background-image: radial-gradient(
+    circle at center,
+    #0084b4,
+    rgba(25, 195, 252, 0.5) 20.5%,
+    rgba(255, 255, 255, 0) 34.71%
+  );
+  width: 35%;
+  height: 30%;
+  top: 15%;
+  right: 40%;
+  transform: rotate(10deg);
+  transform-origin: 90% 130%;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-name: brain-spot;
+  animation-timing-function: ease-in-out;
+  will-change: transform, opacity;
+}
+
+@keyframes brain-spot {
+  from {
+    opacity: 0;
+    transform: rotate(35deg);
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    transform: rotate(-40deg);
+  }
 }

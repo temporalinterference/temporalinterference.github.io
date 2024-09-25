@@ -15,6 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
             '--ti-margin-measure-left', `${contentRect.x}px`);
         document.documentElement.style.setProperty(
             '--ti-margin-measure-right', `${bodyRect.width - contentRect.width - contentRect.x}px`);
+        document.documentElement.style.setProperty(
+            '--ti-content-width', `${contentRect.width}px`);
     };
     measure();
     window.addEventListener('resize', measure);

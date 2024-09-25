@@ -24,7 +24,7 @@
 <div class="ti-card" style='{{ .Scratch.Get "bg_style" | safeCSS }}'>
     {{ if $teaser }}
     <div class="ti-card-teaser">
-    <img src='{{ .Scratch.Get "teaser_src" }}' alt='teaser-image'>
+    <img src='{{ .Scratch.Get "teaser_src" }}' alt="teaser-image">
     </div>
     {{ end }}
     <div class="ti-card-body">
@@ -33,7 +33,7 @@
     </div>
     {{ if $modal }}
     <button
-        class="ti-round-button ti-plus-button ti-plus-button"
+        class="ti-round-button ti-plus-button"
         type="button" 
         uk-toggle='target: #modal-{{ $.Scratch.Get "modal_id" }}'
     ></button>
