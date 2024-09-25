@@ -1,40 +1,50 @@
 {{ $bg := .Resources.Get "background.jpg" }}
 {{ if $bg }}
     {{ $style := (printf "background-image: url('%s');" (
-        ($bg.Process "fill 384x557 center webp").RelPermalink )
+        ($bg.Process "fill 348x557 center webp").RelPermalink )
     )
     }}
     {{ .Scratch.Set "bg_style" $style }}
 {{ end }}
+{{ $teaser := .Resources.Get "teaser.jpg" }}
+{{ if $teaser }}
+    {{ $src := ($teaser.Process "fill 348x278 center webp").RelPermalink
+    }}
+    {{ .Scratch.Set "teaser_src" $src }}
+{{ end }}
 
 {{ $modal := .Resources.Get "modal.md" }}
 {{ if $modal }}
-    {{ if eq ( .Scratch.Get "modal_id" ) "" }}
-        {{ .Scratch.Set "modal_id" 0 }}
+    {{ if eq ( $.Scratch.Get "modal_id" ) "" }}
+        {{ $.Scratch.Set "modal_id" 0 }}
     {{ end }}
-    {{ .Scratch.Add "modal_id" 1 }}
+    {{ $.Scratch.Add "modal_id" 1 }}
 {{ end }}
+
 <div class="ti-card" style='{{ .Scratch.Get "bg_style" | safeCSS }}'>
-    <div class="ti-card-header">
-       <h3>{{ .Title }}</h3>
+    {{ if $teaser }}
+    <div class="ti-card-teaser">
+    <img src='{{ .Scratch.Get "teaser_src" }}' alt='teaser-image'>
     </div>
+    {{ end }}
     <div class="ti-card-body">
+        <h3>{{ .Title }}</h3>
         {{ .Content }}
     </div>
     {{ if $modal }}
     <button
-        class="ti-card-button ti-plus-button"
+        class="ti-round-button ti-plus-button ti-plus-button"
         type="button" 
-        uk-toggle='target: #modal-{{ .Scratch.Get "modal_id" }}'
-    >+</button>
+        uk-toggle='target: #modal-{{ $.Scratch.Get "modal_id" }}'
+    ></button>
     {{ end }}
 </div>
 
 {{ if $modal }}
 <!-- This is the modal with the default close button -->
-<div id='modal-{{ .Scratch.Get "modal_id" }}' class="uk-modal-container" uk-modal>
+<div id='modal-{{ $.Scratch.Get "modal_id" }}' class="uk-modal-container" uk-modal>
     <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical" uk-overflow-auto>
-        <button class="ti-modal-close-button uk-modal-close ti-plus-button" type="button">+</button>
+        <button class="ti-round-button ti-close-button uk-modal-close" type="button"></button>
         {{ $modal.Content | safeHTML }}
     </div>
 </div>

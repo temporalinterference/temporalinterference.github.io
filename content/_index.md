@@ -10,7 +10,7 @@ Welcome to the TI-Solutions website
 {{< card-holder >}}
 {{< card p1 >}}
 {{< card p2 >}}
-{{< card p1 >}}
+{{< card p5 >}}
 {{< card p2 >}}
 {{< card p1 >}}
 {{< card p2 >}}

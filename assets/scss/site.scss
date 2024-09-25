@@ -85,18 +85,23 @@ $navbar-background: #fff;
   flex-shrink: 0;
   border-radius: 20px;
   background-color: #fff;
-  padding: 20px;
+  padding: 0px;
   box-sizing: border-box;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
   hyphens: auto;
   position: relative;
   text-shadow: 0 0 3px rgba(255, 255, 255, 1);
-  h3 {
-    font-size: 1.3rem;
-    font-family: $global-font-family-heading;
-    margin: 0;
-    margin-bottom: 0.2em;
+  overflow: hidden;
+  .ti-card-body {
+    padding: 20px;
+    overflow: hidden;
+    h3 {
+      font-size: 1.3rem;
+      font-family: $global-font-family-heading;
+      margin: 0;
+      margin-bottom: 0.2em;
+    }
   }
   .ti-card-button {
     position: absolute;
@@ -105,24 +110,41 @@ $navbar-background: #fff;
   }
 }
 
-.ti-modal-close-button {
+.ti-round-button {
+    background-color: $global-muted-color;
+    border-style: none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    line-height: 0;
+    font-size: 29px;
+    text-indent: -1px;
+    font-weight: 700;
+    font-family: $global-font-family;
+    &::after {
+        color: #fff;
+        z-index: 2;
+        position: absolute;
+        left: 4px;
+        top: 14px;
+      }
+}
+
+.ti-close-button {
   position: absolute;
   top: 20px;
   right: 20px;
-  transform: rotate(45deg);
+  &::after {
+    content: "×";
+  }
 }
 .ti-plus-button {
-  background-color: $global-muted-color;
-  border-style: none;
-  color: #fff;
-  border-radius: 100%;
-  width: 30px;
-  height: 30px;
-  line-height: 0;
-  font-size: 30px;
-  text-indent: -1px;
-  font-weight: 700;
-  font-family: $global-font-family;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  &::after {
+    content: "+";
+  }
 }
 
 footer {
