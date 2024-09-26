@@ -47,7 +47,7 @@ Cool Tools
 {{< /card-holder >}}
 
 {{< section id=jobs >}}
-Cool Tools
+A Job for You!
 {{< /section >}}
 
 {{< card-holder >}}
