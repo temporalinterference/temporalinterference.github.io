@@ -21,7 +21,7 @@
     {{ $.Scratch.Add "modal_id" 1 }}
 {{ end }}
 
-<div class="ti-card" style='{{ .Scratch.Get "bg_style" | safeCSS }}'>
+<div id="{{ .Params.id }}" class="ti-card" style='{{ .Scratch.Get "bg_style" | safeCSS }}'>
     {{ if $teaser }}
     <div class="ti-card-teaser">
     <img src='{{ .Scratch.Get "teaser_src" }}' alt="teaser-image">

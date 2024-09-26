@@ -7,16 +7,14 @@ Title: TI-Solutions Title
 Temporal Interference
 {{< /title >}}
 
-{{< section >}}
+{{< section id=news >}}
 News
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card p1 >}}
 {{< card p2 >}}
 {{< card p5 >}}
 {{< card p2 >}}
-{{< card p1 >}}
 {{< card p2 >}}
 {{< card p1 >}}
 {{< card p2 >}}
@@ -39,7 +37,7 @@ About Us
 {{< card p4 >}}
 {{< /card-holder >}}
 
-{{< section >}}
+{{< section id=cool-tools >}}
 Cool Tools
 {{< /section >}}
 
@@ -48,3 +46,21 @@ Cool Tools
 {{< card p4 >}}
 {{< /card-holder >}}
 
+{{< section id=jobs >}}
+Cool Tools
+{{< /section >}}
+
+{{< card-holder >}}
+{{< card p3 >}}
+{{< card p4 >}}
+{{< card p3 >}}
+{{< card p4 >}}
+{{< card p3 >}}
+{{< card p4 >}}
+{{< card p3 >}}
+{{< card p4 >}}
+{{< card p3 >}}
+{{< card p4 >}}
+{{< card p3 >}}
+{{< card p4 >}}
+{{< /card-holder >}}

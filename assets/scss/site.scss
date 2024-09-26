@@ -48,7 +48,7 @@ $global-background: #e0e8f0;
 $global-emphasis-color: #1b3764;
 $global-muted-color: #888888;
 $navbar-background: #fff;
-
+$navbar-nav-item-height: 50px;
 // 2. Import default variables and available mixins.
 @import "../uikit/src/scss/variables-theme.scss";
 @import "../uikit/src/scss/mixins-theme.scss";
@@ -79,8 +79,10 @@ $navbar-background: #fff;
 }
 
 .ti-logo {
-    height: 56px;
-    min-height: 56px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  height: 46px;
+  min-height: 46px;
 }
 .ti-card {
   width: $card-width;
@@ -128,24 +130,34 @@ $navbar-background: #fff;
 }
 
 .ti-title {
-  font-size: 3rem;
+  font-size: 1.8rem;
+  @media (min-width: $breakpoint-small) {
+    font-size: 3rem;
+  }
   font-family: $global-font-family-heading;
   color: $global-emphasis-color;
-    margin: 0;
+  margin: 0;
 }
 
 .ti-claim {
-    margin: 0;
-    color: $global-muted-color;
+  margin: 0;
+  color: $global-muted-color;
+  text-align: right;
+  @media (min-width: $breakpoint-small) {
     padding-left: 3.1em;
+    text-align: left;
+  }
 }
 
 .ti-section {
-    font-size: 2.3rem;
-    font-family: $global-font-family-heading;
-    color: $global-emphasis-color; 
-    margin: 0;
-    padding: 0;
+    font-size: 1.6rem;
+    @media (min-width: $breakpoint-small) { 
+  font-size: 2.3rem;
+    }
+  font-family: $global-font-family-heading;
+  color: $global-emphasis-color;
+  margin: 0;
+  padding: 0;
 }
 
 .ti-round-button {
@@ -188,28 +200,29 @@ $navbar-background: #fff;
 }
 
 .ti-left-button {
-    top: 50%;
-    left: calc(var(--ti-margin-measure-left) + 20px);
-    transform: translateY(-50%);
-    &::after {
-        content: "<";
-        font-size: 25px;
-        left: 6px;
-    }
+  top: 50%;
+  left: calc(var(--ti-margin-measure-left) + 20px);
+  transform: translateY(-50%);
+  &::after {
+    content: "<";
+    font-size: 25px;
+    left: 6px;
+  }
 }
 .ti-right-button {
-    top: 50%;
-    right: calc(var(--ti-margin-measure-right) + 20px);
-    transform: translateY(-50%);
-    &::after {
-        font-size: 25px;
-        left: 6px;
-        content: ">";
-    }
+  top: 50%;
+  right: calc(var(--ti-margin-measure-right) + 20px);
+  transform: translateY(-50%);
+  &::after {
+    font-size: 25px;
+    left: 6px;
+    content: ">";
+  }
 }
 footer {
   margin-top: 3rem;
   background-color: $global-emphasis-color;
+  font-family: $global-font-family-heading;
   color: #fff;
   padding: 20px;
   font-size: 0.8rem;
@@ -224,7 +237,7 @@ footer {
     width: var(--ti-content-width);
   }
   .ti-grey-filter {
-    background-color: rgba(255,255,255, 0.6);
+    background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: saturate(0%);
     height: 100%;
     position: absolute;
@@ -239,11 +252,13 @@ footer {
     right: 0;
   }
 }
+
 #ti-brain {
+  margin-top: 6ex;
   position: relative;
 }
 
-#ti-bg-box {
+#ti-brain-box {
   position: relative;
   img {
     width: 100%;

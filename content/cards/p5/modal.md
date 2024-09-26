@@ -1,5 +1,5 @@
 ---
-Title: Sample Popup Page
+title: Sample Popup Page
 ---
 # Sample Popup Page
 
