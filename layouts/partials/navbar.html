@@ -2,7 +2,7 @@
     uk-sticky="show-on-up: true; media: 640;animation: uk-animation-slide-top">
     <nav class="uk-container uk-container-small" uk-navbar>
         <div class="uk-navbar-left">
-            <a href="/"><img src="/images/logo.svg" alt="logo" class="uk-navbar-item ti-logo"></a>
+            <a href="/"><img src='{{ (resources.Get "images/logo.svg").RelPermalink }}' alt="logo" class="uk-navbar-item ti-logo"></a>
         </div>
         <div class="uk-navbar-right">
         <a class="uk-navbar-toggle" uk-toggle href="#ti-menu">

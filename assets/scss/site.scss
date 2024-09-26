@@ -4,39 +4,39 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("fonts/Roboto-700.woff2") format("woff2");
+  src: local(""), url('{{ (resources.Get "fonts/Roboto-700.woff2").RelPermalink }}' ) format("woff2");
 }
 @font-face {
   font-family: "Roboto";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url("fonts/Roboto-700-italic.woff2") format("woff2");
+  src: local(""), url('{{ (resources.Get "fonts/Roboto-700-italic.woff2").RelPermalink }}') format("woff2");
 }
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("fonts/Roboto-400.woff2") format("woff2");
+  src: local(""), url('{{ (resources.Get "fonts/Roboto-400.woff2").RelPermalink }}') format("woff2");
 }
 @font-face {
   font-family: "Roboto";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url("fonts/Roboto-400-italic.woff2") format("woff2");
+  src: local(""), url('{{ (resources.Get "fonts/Roboto-400-italic.woff2").RelPermalink }}') format("woff2");
 }
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local(""), url("fonts/Roboto-Slab-Regular.woff2") format("woff2");
+  src: local(""), url('{{ (resources.Get "fonts/Roboto-Slab-Regular.woff2").RelPermalink }}') format("woff2");
 }
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local(""), url("fonts/Roboto-Slab-700.woff2") format("woff2");
+  src: local(""), url('{{ (resources.Get "fonts/Roboto-Slab-700.woff2").RelPermalink }}') format("woff2");
 }
 
 // 1. Your custom variables and variable overwrites.
