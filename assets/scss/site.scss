@@ -78,6 +78,10 @@ $navbar-background: #fff;
   display: none;
 }
 
+.ti-logo {
+    height: 56px;
+    min-height: 56px;
+}
 .ti-card {
   width: $card-width;
   height: $card-height;
@@ -90,17 +94,21 @@ $navbar-background: #fff;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
   hyphens: auto;
+  -webkit-hyphens: auto;
   position: relative;
   overflow: hidden;
+  h3 {
+    padding: 20px;
+    padding-bottom: 0;
+    font-size: 1.3rem;
+    font-family: $global-font-family-heading;
+    color: $global-emphasis-color;
+    margin: 0;
+  }
   .ti-card-body {
     padding: 20px;
+    padding-top: 10px;
     overflow: hidden;
-    h3 {
-      font-size: 1.3rem;
-      font-family: $global-font-family-heading;
-      margin: 0;
-      margin-bottom: 0.2em;
-    }
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -119,19 +127,44 @@ $navbar-background: #fff;
   }
 }
 
+.ti-title {
+  font-size: 3rem;
+  font-family: $global-font-family-heading;
+  color: $global-emphasis-color;
+    margin: 0;
+}
+
+.ti-claim {
+    margin: 0;
+    color: $global-muted-color;
+    padding-left: 3.1em;
+}
+
+.ti-section {
+    font-size: 2.3rem;
+    font-family: $global-font-family-heading;
+    color: $global-emphasis-color; 
+    margin: 0;
+    padding: 0;
+}
+
 .ti-round-button {
+  position: absolute;
   background-color: $global-muted-color;
   border-style: none;
   border-radius: 100%;
   width: 30px;
   height: 30px;
   line-height: 0;
-  font-size: 29px;
+  font-size: 0;
+  padding: 0;
+  margin: 0;
   text-indent: -1px;
   font-weight: 700;
   font-family: $global-font-family;
   &::after {
     color: #fff;
+    font-size: 29px;
     z-index: 2;
     position: absolute;
     left: 4px;
@@ -140,7 +173,6 @@ $navbar-background: #fff;
 }
 
 .ti-close-button {
-  position: absolute;
   top: 20px;
   right: 20px;
   &::after {
@@ -148,7 +180,6 @@ $navbar-background: #fff;
   }
 }
 .ti-plus-button {
-  position: absolute;
   bottom: 20px;
   right: 20px;
   &::after {
@@ -156,6 +187,26 @@ $navbar-background: #fff;
   }
 }
 
+.ti-left-button {
+    top: 50%;
+    left: calc(var(--ti-margin-measure-left) + 20px);
+    transform: translateY(-50%);
+    &::after {
+        content: "<";
+        font-size: 25px;
+        left: 6px;
+    }
+}
+.ti-right-button {
+    top: 50%;
+    right: calc(var(--ti-margin-measure-right) + 20px);
+    transform: translateY(-50%);
+    &::after {
+        font-size: 25px;
+        left: 6px;
+        content: ">";
+    }
+}
 footer {
   margin-top: 3rem;
   background-color: $global-emphasis-color;
@@ -165,25 +216,41 @@ footer {
 }
 
 .ti-slider {
-    margin-top: 6ex;
-    background-color: #fff;
-.ti-slider-image {
+  margin-top: 6ex;
+  background-color: #fff;
+  padding-left: 0;
+  padding-right: 0;
+  .ti-slider-image {
     width: var(--ti-content-width);
-}
+  }
+  .ti-grey-filter {
+    background-color: rgba(255,255,255, 0.6);
+    backdrop-filter: saturate(0%);
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .ti-filter-left {
+    left: 0;
+    width: var(--ti-margin-measure-left);
+  }
+  .ti-filter-right {
+    width: var(--ti-margin-measure-right);
+    right: 0;
+  }
 }
 #ti-brain {
-    position: relative;
+  position: relative;
 }
 
 #ti-bg-box {
-    position: relative;
-    img {
-        width: 100%;
-    }
-    z-index: -1;
-    margin-bottom: -30%;
+  position: relative;
+  img {
+    width: 100%;
+  }
+  z-index: -1;
+  margin-bottom: -30%;
 }
-
 
 #ti-brain-spot {
   position: absolute;
