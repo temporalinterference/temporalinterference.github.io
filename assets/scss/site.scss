@@ -182,11 +182,10 @@ $navbar-nav-item-height: 50px;
   border-radius: 100%;
   width: 30px;
   height: 30px;
-  line-height: 0;
-  font-size: 0;
-  padding: 0;
-  margin: 0;
-  text-indent: -1px;
+  line-height: 0px;
+  font-size: 0px;
+  padding: 0px;
+  margin: 0px;
   font-weight: 700;
   font-family: $global-font-family;
   &::after {
@@ -194,8 +193,7 @@ $navbar-nav-item-height: 50px;
     font-size: 29px;
     z-index: 2;
     position: absolute;
-    left: 4px;
-    top: 14px;
+    
   }
 }
 
@@ -204,6 +202,9 @@ $navbar-nav-item-height: 50px;
   right: 20px;
   &::after {
     content: "×";
+    font-size: 28px;
+    left: 3.5px;
+    top: 14px;
   }
 }
 .ti-plus-button {
@@ -211,6 +212,8 @@ $navbar-nav-item-height: 50px;
   right: 20px;
   &::after {
     content: "+";
+    left: 3.3px;
+    top: 15px;
   }
 }
 
@@ -221,7 +224,8 @@ $navbar-nav-item-height: 50px;
   &::after {
     content: "<";
     font-size: 25px;
-    left: 6px;
+    left: 4px;
+    top: 14px;
   }
 }
 .ti-right-button {
@@ -230,7 +234,8 @@ $navbar-nav-item-height: 50px;
   transform: translateY(-50%);
   &::after {
     font-size: 25px;
-    left: 6px;
+    left: 4px;
+    top: 14px;
     content: ">";
   }
 }
