@@ -4,44 +4,58 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url('{{ (resources.Get "fonts/Roboto-700.woff2").RelPermalink }}' ) format("woff2");
+  src: local(""),
+    url('{{ (resources.Get "fonts/Roboto-700.woff2").RelPermalink }}')
+      format("woff2");
 }
 @font-face {
   font-family: "Roboto";
   font-style: italic;
   font-weight: 700;
-  src: local(""), url('{{ (resources.Get "fonts/Roboto-700-italic.woff2").RelPermalink }}') format("woff2");
+  src: local(""),
+    url('{{ (resources.Get "fonts/Roboto-700-italic.woff2").RelPermalink }}')
+      format("woff2");
 }
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url('{{ (resources.Get "fonts/Roboto-400.woff2").RelPermalink }}') format("woff2");
+  src: local(""),
+    url('{{ (resources.Get "fonts/Roboto-400.woff2").RelPermalink }}')
+      format("woff2");
 }
 @font-face {
   font-family: "Roboto";
   font-style: italic;
   font-weight: 400;
-  src: local(""), url('{{ (resources.Get "fonts/Roboto-400-italic.woff2").RelPermalink }}') format("woff2");
+  src: local(""),
+    url('{{ (resources.Get "fonts/Roboto-400-italic.woff2").RelPermalink }}')
+      format("woff2");
 }
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local(""), url('{{ (resources.Get "fonts/Roboto-Slab-Regular.woff2").RelPermalink }}') format("woff2");
+  src: local(""),
+    url('{{ (resources.Get "fonts/Roboto-Slab-Regular.woff2").RelPermalink }}')
+      format("woff2");
 }
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local(""), url('{{ (resources.Get "fonts/Roboto-Slab-700.woff2").RelPermalink }}') format("woff2");
+  src: local(""),
+    url('{{ (resources.Get "fonts/Roboto-Slab-700.woff2").RelPermalink }}')
+      format("woff2");
 }
 
 // 1. Your custom variables and variable overwrites.
 $global-font-family: Roboto, sans-serif;
 $global-font-family-heading: "Roboto Slab", sans-serif;
+$global-font-size: 18px !default;
+$global-line-height: 1.2 !default;
 $card-width: 348px;
 $card-height: 557px;
 $global-background: #e0e8f0;
@@ -49,6 +63,7 @@ $global-emphasis-color: #1b3764;
 $global-muted-color: #888888;
 $navbar-background: #fff;
 $navbar-nav-item-height: 50px;
+
 // 2. Import default variables and available mixins.
 @import "../uikit/src/scss/variables-theme.scss";
 @import "../uikit/src/scss/mixins-theme.scss";
@@ -79,8 +94,8 @@ $navbar-nav-item-height: 50px;
 }
 
 .ti-logo {
-    padding-top: 7px;
-    padding-bottom: 7px;
+  padding-top: 7px;
+  padding-bottom: 7px;
   height: 46px;
   min-height: 46px;
 }
@@ -89,7 +104,7 @@ $navbar-nav-item-height: 50px;
   height: $card-height;
   flex-grow: 0;
   flex-shrink: 0;
-  border-radius: 20px;
+  border-radius: 0px;
   background-color: #fff;
   padding: 0px;
   box-sizing: border-box;
@@ -150,10 +165,10 @@ $navbar-nav-item-height: 50px;
 }
 
 .ti-section {
-    font-size: 1.6rem;
-    @media (min-width: $breakpoint-small) { 
-  font-size: 2.3rem;
-    }
+  font-size: 1.6rem;
+  @media (min-width: $breakpoint-small) {
+    font-size: 2.3rem;
+  }
   font-family: $global-font-family-heading;
   color: $global-emphasis-color;
   margin: 0;
