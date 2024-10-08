@@ -20,13 +20,23 @@ document.addEventListener('DOMContentLoaded', () => {
     };
     measure();
     window.addEventListener('resize', measure);
-
+    function isElCompletelyInViewport(el) {
+        const rect = el.getBoundingClientRect();
+      
+        return (
+          rect.top >= 0 &&
+          rect.bottom <= window.innerHeight
+        );
+      }
     /* scroll animate items card-holders */
 
     const cardHolders = document.querySelectorAll('.ti-card-holder');
     cardHolders.forEach((cardHolder) => {
         // catch mouse scroll events and use them to scroll left and right
         cardHolder.addEventListener('wheel', (e) => {
+            if (! isElCompletelyInViewport(cardHolder)) {
+                return;
+            }
             const scrollState = cardHolder.scrollLeft;
             cardHolder.scrollLeft += e.deltaY;
             if (scrollState !== cardHolder.scrollLeft) {
