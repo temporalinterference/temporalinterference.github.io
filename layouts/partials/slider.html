@@ -5,8 +5,18 @@
                     <img class="ti-slider-image" src="{{ .RelPermalink }}"  alt="">
             {{ end }}
         </div>
-        <button class="ti-round-button ti-left-button" href="#" uk-slider-item="previous"></button>
-        <button class="ti-round-button ti-right-button" href="#" uk-slider-item="next"></button>
+        <a uk-slider-item="previous"><img 
+            src='{{ (resources.Get "images/left-icon.svg").RelPermalink }}' 
+            alt="open-modal" 
+            uk-img
+            class="ti-round-button ti-left-button"
+        ></a>
+        <a uk-slider-item="next" ><img 
+            src='{{ (resources.Get "images/right-icon.svg").RelPermalink }}' 
+            alt="open-modal" 
+            uk-img
+            class="ti-round-button ti-right-button"
+        ></a>
         <div class="ti-grey-filter ti-filter-left"></div>
         <div class="ti-grey-filter ti-filter-right"></div>
     </div>

@@ -26,7 +26,7 @@ News
 {{< card p2 >}}
 {{< /card-holder >}}
 
-{{< slider thedevice >}}
+{{< slider tool >}}
 
 {{< section >}}
 About Us
@@ -55,7 +55,7 @@ A Job for You!
 
 {{< card-holder >}}
 {{< card p3 >}}
-{{< card p4 >}}
+{{< card staff >}}
 {{< card p3 >}}
 {{< card p4 >}}
 {{< card p3 >}}

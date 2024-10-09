@@ -15,10 +15,10 @@
 
 {{ $modal := .Resources.Get "modal.md" }}
 {{ if $modal }}
-    {{ if eq ( $.Scratch.Get "modal_id" ) "" }}
-        {{ $.Scratch.Set "modal_id" 0 }}
+    {{ if eq ( page.Scratch.Get "modal_id" ) "" }}
+        {{ page.Scratch.Set "modal_id" 0 }}
     {{ end }}
-    {{ $.Scratch.Add "modal_id" 1 }}
+    {{ page.Scratch.Add "modal_id" 1 }}
 {{ end }}
 
 <div id="{{ .Params.id }}" class="ti-card" style='{{ .Scratch.Get "bg_style" | safeCSS }}'>
@@ -32,19 +32,27 @@
         {{ .Content }}
     </div>
     {{ if $modal }}
-    <button
+    <img 
+        src='{{ (resources.Get "images/plus-icon.svg").RelPermalink }}' 
+        uk-toggle='target: #modal-{{ page.Scratch.Get "modal_id" }}' 
+        alt="open-modal" 
+        uk-img
         class="ti-round-button ti-plus-button"
-        type="button" 
-        uk-toggle='target: #modal-{{ $.Scratch.Get "modal_id" }}'
-    ></button>
+    >
     {{ end }}
 </div>
 
 {{ if $modal }}
 <!-- This is the modal with the default close button -->
-<div id='modal-{{ $.Scratch.Get "modal_id" }}' class="uk-modal-container" uk-modal>
+<div id='modal-{{ page.Scratch.Get "modal_id" }}' class="uk-modal-container" uk-modal>
     <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical" uk-overflow-auto>
-        <button class="ti-round-button ti-close-button uk-modal-close" type="button"></button>
+        <img 
+            src='{{ (resources.Get "images/x-icon.svg").RelPermalink }}' 
+            uk-toggle='target: #modal-{{ page.Scratch.Get "modal_id" }}' 
+            alt="open-modal" 
+            uk-img
+            class="ti-round-button ti-close-button uk-modal-close"
+        >
         {{ $modal.Content | safeHTML }}
     </div>
 </div>

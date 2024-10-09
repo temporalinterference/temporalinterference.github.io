@@ -63,7 +63,7 @@ $global-emphasis-color: #1b3764;
 $global-muted-color: #888888;
 $navbar-background: #fff;
 $navbar-nav-item-height: 50px;
-
+$container-xsmall-max-width: 720px !default;
 // 2. Import default variables and available mixins.
 @import "../uikit/src/scss/variables-theme.scss";
 @import "../uikit/src/scss/mixins-theme.scss";
@@ -80,7 +80,9 @@ $navbar-nav-item-height: 50px;
   display: flex;
   justify-content: left;
   flex-direction: row;
-  column-gap: 20px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  column-gap: 24px;
   padding-left: var(--ti-margin-measure-left);
   padding-right: var(--ti-margin-measure-right);
   overflow-x: scroll;
@@ -109,7 +111,6 @@ $navbar-nav-item-height: 50px;
   padding: 0px;
   box-sizing: border-box;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
   hyphens: auto;
   -webkit-hyphens: auto;
   position: relative;
@@ -164,81 +165,54 @@ $navbar-nav-item-height: 50px;
   }
 }
 
+.ti-movie {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
 .ti-section {
-  font-size: 1.6rem;
-  @media (min-width: $breakpoint-small) {
-    font-size: 2.3rem;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  h2 {
+    font-size: 1.6rem;
+    @media (min-width: $breakpoint-small) {
+      font-size: 2.3rem;
+    }
+    font-family: $global-font-family-heading;
+    color: $global-emphasis-color;
+    padding: 0;
+    margin: 0;
   }
-  font-family: $global-font-family-heading;
-  color: $global-emphasis-color;
-  margin: 0;
-  padding: 0;
 }
 
 .ti-round-button {
   position: absolute;
-  background-color: $global-muted-color;
-  border-style: none;
-  border-radius: 100%;
   width: 30px;
   height: 30px;
-  line-height: 0px;
-  font-size: 0px;
   padding: 0px;
   margin: 0px;
-  font-weight: 700;
-  font-family: $global-font-family;
-  &::after {
-    color: #fff;
-    font-size: 29px;
-    z-index: 2;
-    position: absolute;
-    
-  }
 }
 
 .ti-close-button {
   top: 20px;
   right: 20px;
-  &::after {
-    content: "×";
-    font-size: 28px;
-    left: 3.5px;
-    top: 14px;
-  }
 }
 .ti-plus-button {
   bottom: 20px;
   right: 20px;
-  &::after {
-    content: "+";
-    left: 3.3px;
-    top: 15px;
-  }
 }
 
 .ti-left-button {
   top: 50%;
   left: calc(var(--ti-margin-measure-left) + 20px);
   transform: translateY(-50%);
-  &::after {
-    content: "<";
-    font-size: 25px;
-    left: 4px;
-    top: 14px;
-  }
 }
 .ti-right-button {
   top: 50%;
   right: calc(var(--ti-margin-measure-right) + 20px);
   transform: translateY(-50%);
-  &::after {
-    font-size: 25px;
-    left: 4px;
-    top: 14px;
-    content: ">";
-  }
 }
+
 footer {
   margin-top: 3rem;
   background-color: $global-emphasis-color;
@@ -249,7 +223,8 @@ footer {
 }
 
 .ti-slider {
-  margin-top: 6ex;
+  margin-top: 48px;
+  margin-bottom: 48px;
   background-color: #fff;
   padding-left: 0;
   padding-right: 0;
@@ -257,8 +232,8 @@ footer {
     width: var(--ti-content-width);
   }
   .ti-grey-filter {
-    background-color: rgba(255, 255, 255, 0.6);
-    backdrop-filter: saturate(0%);
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: saturate(30%);
     height: 100%;
     position: absolute;
     top: 0;
