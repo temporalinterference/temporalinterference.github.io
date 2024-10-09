@@ -159,10 +159,6 @@ $container-xsmall-max-width: 720px !default;
   margin: 0;
   color: $global-muted-color;
   text-align: right;
-  @media (min-width: $breakpoint-small) {
-    padding-left: 3.1em;
-    text-align: left;
-  }
 }
 
 .ti-movie {
