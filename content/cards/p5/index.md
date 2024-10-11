@@ -1,16 +1,5 @@
 ---
 title: P5
 ---
-Example of a simple card with just text content. This is a sample card with just a bunch of text. It is a simple card that is displayed on the home page. It is a great way to display information in a simple and easy to read format. You can use markdown to add formatted elements like lists, links, and more.
-
-Planets of the future:
-
-- Mars
-- Venus
-- Jupiter
-- Saturn
-
-[Learn more](https://example.com)
-
-If the text does not fit on the card, it will be cut of at the bottom.
+Text goes here
 
