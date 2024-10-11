@@ -29,7 +29,7 @@ News
 {{< slider tool >}}
 
 {{< section >}}
-About Us
+Devices
 {{< /section >}}
 
 {{< card-holder >}}
