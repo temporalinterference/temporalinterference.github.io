@@ -1,5 +1,5 @@
 ---
-Title: Staff
+Title: The People
 id: staff-pop
 ---
 # Staff
