@@ -55,7 +55,7 @@ About
 
 {{< card-holder >}}
 {{< card p3 >}}
-{{< card staff >}}
+{{< card the people >}}
 {{< card p3 >}}
 {{< card p4 >}}
 {{< card p3 >}}
