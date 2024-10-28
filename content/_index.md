@@ -57,13 +57,4 @@ About
 {{< card The-Company >}}
 {{< card staff >}}
 {{< card contact-us >}}
-{{< card p4 >}}
-{{< card p3 >}}
-{{< card p4 >}}
-{{< card p3 >}}
-{{< card p4 >}}
-{{< card p3 >}}
-{{< card p4 >}}
-{{< card p3 >}}
-{{< card p4 >}}
 {{< /card-holder >}}
