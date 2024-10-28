@@ -2,8 +2,8 @@
 title: Contact Us
 ---
 
-TI Solutions AG
-Zeughausstrasse 43
+TI Solutions AG,
+Zeughausstrasse 43,
 8004 Zurich, Switzerland
 
 ---
