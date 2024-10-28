@@ -1,4 +1,4 @@
 ---
-title: Staff
-id: staff
+title: The People
+id: The People
 ---
