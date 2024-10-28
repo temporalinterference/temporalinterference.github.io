@@ -40,8 +40,8 @@ Devices
 {{< movie tibs >}}
 
 
-{{< section id=cool-tools >}}
-Cool Tools
+{{< section id=the-science >}}
+The Science
 {{< /section >}}
 
 {{< card-holder >}}
