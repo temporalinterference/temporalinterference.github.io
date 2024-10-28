@@ -54,7 +54,7 @@ About
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card p3 >}}
+{{< card The-Company >}}
 {{< card staff >}}
 {{< card p3 >}}
 {{< card p4 >}}
