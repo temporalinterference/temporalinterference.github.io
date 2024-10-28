@@ -4,7 +4,7 @@ id: staff-pop
 ---
 # Staff
 
-## Niels
+## Niels Kuster
 {{< modal-image niels.png >}}
 What a Guy
 {{< /modal-image >}}
