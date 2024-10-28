@@ -45,7 +45,7 @@ The Science
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card p3 >}}
+{{< card the-science >}}
 {{< card p4 >}}
 {{< /card-holder >}}
 
