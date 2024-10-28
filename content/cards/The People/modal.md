@@ -1,8 +1,8 @@
 ---
-Title: Staff
-id: staff-pop
+Title: The People
+id: The People-pop
 ---
-# Staff
+# The People
 
 ## Niels
 {{< modal-image niels.png >}}
