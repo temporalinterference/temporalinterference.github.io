@@ -10,8 +10,8 @@ navigation:
       href: '#news'
     - title: About
       subnav:
-        - title: Cool Tools
-          href: '#cool-tools'
+        - title: Science
+          href: '#Science'
         - title: Legal Notice
           href: /legal-notice
     - title: Jobs
