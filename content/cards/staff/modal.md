@@ -2,7 +2,7 @@
 Title: Staff
 id: staff-pop
 ---
-# The People
+# Staff
 
 ## Niels
 {{< modal-image niels.png >}}
