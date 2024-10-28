@@ -56,7 +56,7 @@ About
 {{< card-holder >}}
 {{< card The-Company >}}
 {{< card staff >}}
-{{< card p3 >}}
+{{< card contact-us >}}
 {{< card p4 >}}
 {{< card p3 >}}
 {{< card p4 >}}
