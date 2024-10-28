@@ -50,7 +50,7 @@ Cool Tools
 {{< /card-holder >}}
 
 {{< section id=jobs >}}
-A Job for You!
+About
 {{< /section >}}
 
 {{< card-holder >}}
