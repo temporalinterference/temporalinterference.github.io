@@ -8,5 +8,6 @@ TI stimulation is a non-invasive technique that uses scalp electrodes to apply i
 ---
 Grossman N et al. Noninvasive deep brain stimulation via temporally interfering electric fields.  Cell. 2017;169(6):1029‐1041.e16. doi:10.1016/j.cell.2017.05.024
 
-{{< modal-image TI Solutions - Deep Brain Stimulation 1.jpg >}}
+{{< modal-image background.jpg >}}
+
 {{< /modal-image >}}
