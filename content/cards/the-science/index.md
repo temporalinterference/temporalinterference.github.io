@@ -1,3 +1,3 @@
 ---
-Title: Non-Invasive Deep Brain Stimulation
+Title: Deep Brain Stimulation
 ---
