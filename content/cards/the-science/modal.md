@@ -1,4 +1,7 @@
 ---
+Title: Deep Brain Stimulation
+id: deep brain stimulation-pop
+---
 # The Science
 
 ## Non-Invasive Deep Brain Simulation
