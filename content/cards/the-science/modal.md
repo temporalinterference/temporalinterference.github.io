@@ -21,5 +21,3 @@ Grossman N et al. Noninvasive deep brain stimulation via temporally interfering 
 {{< /modal-image >}}
 
 {{< movie tibs >}}
-
-{{< movie stimulation1 >}}
