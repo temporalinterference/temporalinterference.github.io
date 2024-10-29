@@ -1,3 +1,4 @@
 ---
-Title: Deep Brain Stimulation
+title: Deep Brain Stimulation
+id: deep brain stimulation
 ---
