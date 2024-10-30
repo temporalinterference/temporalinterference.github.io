@@ -32,7 +32,7 @@ Devices
 
 {{< card-holder >}}
 {{< card TI-Devices >}}
-{{< card p1 >}}
+{{< card TIBS-R-V3 >}}
 {{< card p1 >}}
 {{< /card-holder >}}
 
