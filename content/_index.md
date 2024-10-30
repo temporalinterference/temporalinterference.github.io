@@ -31,8 +31,9 @@ Devices
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card p3 >}}
-{{< card p4 >}}
+{{< card TI-Devices >}}
+{{< card p1 >}}
+{{< card p1 >}}
 {{< /card-holder >}}
 
 {{< movie tibs >}}
