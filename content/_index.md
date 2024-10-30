@@ -26,8 +26,6 @@ News
 {{< card p2 >}}
 {{< /card-holder >}}
 
-{{< slider tool >}}
-
 {{< section >}}
 Devices
 {{< /section >}}
@@ -39,6 +37,7 @@ Devices
 
 {{< movie tibs >}}
 
+{{< slider tool >}}
 
 {{< section id=the-science >}}
 The Science
