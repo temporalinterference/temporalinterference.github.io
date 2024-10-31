@@ -8,3 +8,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {{< modal-image setup.jpg >}}
 {{< /modal-image >}}
+
+{{< modal-image tibsrv3productphoto.jpg >}}
+{{< /modal-image >}}
