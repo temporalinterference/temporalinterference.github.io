@@ -33,7 +33,7 @@ Devices
 {{< card-holder >}}
 {{< card TI-Devices >}}
 {{< card TIBS-R-V3 >}}
-{{< card p1 >}}
+{{< card Specifications >}}
 {{< /card-holder >}}
 
 {{< movie tibs >}}
