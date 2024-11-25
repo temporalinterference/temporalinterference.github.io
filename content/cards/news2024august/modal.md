@@ -15,3 +15,5 @@ TIBS-R V3.0 has been released! The device is certified for electrical safety acc
 • New wireless charging option that extends stimulator run time, e.g., for overnight experiments
 
 • This update will be made available immediately to all researchers in our Early Adopter Program.
+
+{{< modal-image tibsrv3productphoto.jpg >}} {{< /modal-image >}}
