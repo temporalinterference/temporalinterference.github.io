@@ -2,6 +2,6 @@
 title: News Item Title
 ---
 
-May 30, 2024
+Month Day, Year
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
