@@ -33,6 +33,14 @@ Devices
 
 {{< movie tibs >}}
 
+{{< section id=Early-Adopter-Program-(EAP) >}}
+TI Solutions Early Adopter Program (EAP)
+{{< /section >}}
+
+{{< section id=TI-Planning-Tool >}}
+TI Planning Tool
+{{< /section >}}
+
 {{< slider tool >}}
 
 {{< section id=the-science >}}
