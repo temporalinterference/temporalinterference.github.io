@@ -7,7 +7,7 @@ id: staff-pop
 ## Ed Boyden
 
 {{< modal-image ed.png >}}
-
+---
 Prof. Ed Boyden is Y. Eva Tan Professor in Neurotechnology at MIT in Boston, USA, Professor of Biological Engineering and Brain and Cognitive Sciences at MIT’s McGovern Institute for Brain Research, and an Investigator at the Howard Hughes Medical Institute. He leads the Synthetic Neurobiology Group, which develops new biotechnological tools for probing, analyzing, and engineering brain circuits. He and Nir Grossman are inventors of the TI stimulation technology patent.
 {{< /modal-image >}}
 
