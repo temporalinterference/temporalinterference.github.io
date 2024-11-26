@@ -34,7 +34,7 @@ Devices
 {{< movie tibs >}}
 
 {{< section id=Early-Adopter-Program-(EAP) >}}
-TI Solutions Early Adopter Program (EAP)
+Early Adopter Program (EAP)
 {{< /section >}}
 
 {{< card-holder >}}
