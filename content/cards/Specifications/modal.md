@@ -8,14 +8,14 @@ id: specifications-pop
 ## TEST 1
 
 | First Header | Second Header |
-| --- | --- |
+| :--- | :--- |
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
 
 ## TEST 2
 
 | First Header  | Second Header |
-| ------------- | ------------- |
+| :------------- | :------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 
