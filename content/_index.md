@@ -51,6 +51,8 @@ TI Planning Tool
 
 {{< slider tool >}}
 
+{{< section id=Services >}} Services {{< /section >}}
+
 {{< section id=the-science >}}
 The Science
 {{< /section >}}
