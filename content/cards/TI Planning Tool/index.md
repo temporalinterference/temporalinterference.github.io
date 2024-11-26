@@ -1,1 +1,1 @@
-The TI planning tool is provided by the IT’IS Foundation for the optimization of electrode placements on human and animal subjects, currents and modulations.
+The TI planning tool is provided by the IT’IS Foundation for the optimization of electrode placements on human and animal subjects, currents and modulations. The tools are user-friendly and present results in a powerful visualization.
