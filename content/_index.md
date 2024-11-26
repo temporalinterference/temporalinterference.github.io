@@ -37,6 +37,10 @@ Devices
 TI Solutions Early Adopter Program (EAP)
 {{< /section >}}
 
+{{< card-holder >}}
+{{< card Early-Adopter-Program >}}
+{{< /card-holder >}}
+
 {{< section id=TI-Planning-Tool >}}
 TI Planning Tool
 {{< /section >}}
