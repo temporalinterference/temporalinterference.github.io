@@ -1,6 +1,8 @@
 ---
-Title: TIP
+Title: TI Planning Tool
+id: TI-Planning-Tool-pop
 ---
+# TI Planning Tool
 
 {{< modal-image tip1-2000px.jpg >}}
 
