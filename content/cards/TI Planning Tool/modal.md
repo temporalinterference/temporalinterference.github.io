@@ -1,5 +1,5 @@
 ---
-Title: TI Planning Tool
+Title: TIP
 ---
 
 {{< modal-image tip1-2000px.jpg >}}
@@ -15,5 +15,9 @@ Title: TI Planning Tool
 {{< /modal-image >}}
 
 {{< modal-image tip4-2000px.jpg >}}
+
+{{< /modal-image >}}
+
+{{< modal-image tip-itis-logo-blue-3000px.jpg >}}
 
 {{< /modal-image >}}
