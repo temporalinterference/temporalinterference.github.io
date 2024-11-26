@@ -5,6 +5,11 @@ id: specifications-pop
 # Specifications
 ## TIBS-R V3.0
 
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 data:
   list:
     - Specifications:
