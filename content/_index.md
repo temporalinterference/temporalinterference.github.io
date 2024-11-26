@@ -45,6 +45,10 @@ Early Adopter Program (EAP)
 TI Planning Tool
 {{< /section >}}
 
+{{< card-holder >}}
+{{< card TI-Planning-Tool >}}
+{{< /card-holder >}}
+
 {{< slider tool >}}
 
 {{< section id=the-science >}}
