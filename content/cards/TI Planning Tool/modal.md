@@ -1,3 +1,8 @@
+---
+Title: TIP
+---
+# TI Planning Tool
+
 {{< modal-image tip1-2000px.jpg >}}
 
 {{< /modal-image >}}
