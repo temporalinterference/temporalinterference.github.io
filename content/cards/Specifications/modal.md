@@ -7,10 +7,10 @@ id: specifications-pop
 
 ## TEST 1
 
-| First Header | Second Header|
-| :------------| :------------|
-| Content Cell | Content Cell |
-| Content Cell | Content Cell |
+|First Header--|Second Header--|
+|:-------------|:--------------|
+|Content Cell  | Content Cell  |
+|Content Cell  | Content Cell  |
 
 ## TEST 2
 
