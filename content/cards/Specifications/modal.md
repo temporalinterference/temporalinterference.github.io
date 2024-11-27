@@ -27,6 +27,12 @@ id: specifications-pop
 |Content Cell  | Content Cell  |
 |Content Cell  | Content Cell  |
 
+## Test 4
+
+| foo | bar |
+| --- | --- |
+| baz | bim |
+
 data:
   list:
     - Specifications:
