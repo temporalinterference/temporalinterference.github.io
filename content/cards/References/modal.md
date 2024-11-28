@@ -1,7 +1,8 @@
 # References
 
 Liu R et al. Temporal interference stimulation targets deep primate brain. NeuroImage. 2024; online 18 March. 
-[doi: 10.1016/j.neuroimage.2024.120581](url)
+[doi: 10.1016/j.neuroimage.2024.120581](https://www.sciencedirect.com/science/article/pii/S1053811924000764)
+## TESt 1
 [https://www.sciencedirect.com/science/article/pii/S1053811924000764](url)
 [www.sciencedirect.com/science/article/pii/S1053811924000764](url)
 https://www.google.ch/
