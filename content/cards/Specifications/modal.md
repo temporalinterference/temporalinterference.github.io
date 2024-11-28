@@ -6,12 +6,12 @@ id: specifications-pop
 ## TIBS-R V3.0
 
 ## TEST 1
-
+---
 |First Header--|Second Header--|
 |:-------------|:--------------|
 |Content Cell  | Content Cell  |
 |Content Cell  | Content Cell  |
-
+---
 ## TEST 2
 
 | First Header  | Second Header |
