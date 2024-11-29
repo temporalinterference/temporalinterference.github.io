@@ -24,15 +24,15 @@ Lee S et al. Multipair transcranial temporal interference stimulation for improv
 
 Liu R et al. A noninvasive deep brain stimulation method via temporal-spatial interference magneto-acoustic effect: Simulation and experimental validation. IEEE Trans Ultrason Ferroelectr Freq Control. 2022;69(8):2474-2483. [doi: 10.1109/TUFFC.2022.3187748](https://ieeexplore.ieee.org/document/9812716)
 
-Piao Y et al. Safety evaluation of employing temporal interference transcranial alternating current stimulation in human studies. Brain Sci. 2022;12(9):1194. doi: 10.3390/brainsci12091194
+Piao Y et al. Safety evaluation of employing temporal interference transcranial alternating current stimulation in human studies. Brain Sci. 2022;12(9):1194. [doi: 10.3390/brainsci12091194](https://www.mdpi.com/2076-3425/12/9/1194)
 
-Esmaeilpour Z et al. Temporal interference stimulation targets deep brain regions by modulating neural oscillations. Brain Stimul. 2021;14(1):55-65. doi: 10.1016/j.brs.2020.11.007
+Esmaeilpour Z et al. Temporal interference stimulation targets deep brain regions by modulating neural oscillations. Brain Stimul. 2021;14(1):55-65. [doi: 10.1016/j.brs.2020.11.007](https://www.brainstimjrnl.com/article/S1935-861X(20)30290-4/fulltext)
 
-Gomez-Tames J et al. Multiscale computational model reveals nerve response in a mouse model for temporal interference brain stimulation. Front Neurosci. 2021;15:684465. doi: 10.3389/fnins.2021.684465
+Gomez-Tames J et al. Multiscale computational model reveals nerve response in a mouse model for temporal interference brain stimulation. Front Neurosci. 2021;15:684465. [doi: 10.3389/fnins.2021.684465](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2021.684465/full)
 
-Howell B, McIntyre CC. Feasibility of interferential and pulsed transcranial electrical stimulation for neuromodulation at the human scale. Neuromodulation. 2021;24(5):843-853. doi: 10.1111/ner.13137
+Howell B, McIntyre CC. Feasibility of interferential and pulsed transcranial electrical stimulation for neuromodulation at the human scale. Neuromodulation. 2021;24(5):843-853. [doi: 10.1111/ner.13137](https://www.neuromodulationjournal.org/article/S1094-7159(21)06186-9/abstract)
 
-Missey F et al. Orientation of temporal interference for non-invasive deep brain stimulation in epilepsy. Front Neurosci. 2021;15:633988. doi: 10.3389/fnins.2021.633988
+Missey F et al. Orientation of temporal interference for non-invasive deep brain stimulation in epilepsy. Front Neurosci. 2021;15:633988. [doi: 10.3389/fnins.2021.633988](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2021.633988/full)
 
 Sunshine MD et al. Restoration of breathing after opioid overdose and spinal cord injury using temporal interference stimulation. Commun Biol. 2021;4(1):107. doi: 10.1038/s42003-020-01604-x
 
