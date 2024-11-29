@@ -46,9 +46,9 @@ Mirzakhalili E et al. Biophysics of temporal interference stimulation. Cell Syst
 
 Alekseichuk I et al. Comparative modeling of transcranial magnetic and electric stimulation in mouse, monkey, and human. Neuroimage. 2019;194:136‐148. [doi:10.1016/j.neuroimage.2019.03.044](https://www.sciencedirect.com/science/article/abs/pii/S1053811919302320?via%3Dihub/)
 
-Huang Y, Parra LC. Can transcranial electric stimulation with multiple electrodes reach deep targets? Brain Stimul. 2019;12(1):30‐40. doi:10.1016/j.brs.2018.09.010
+Huang Y, Parra LC. Can transcranial electric stimulation with multiple electrodes reach deep targets? Brain Stimul. 2019;12(1):30‐40. [doi:10.1016/j.brs.2018.09.010](https://www.brainstimjrnl.com/article/S1935-861X(18)30312-7/abstract)
 
-Karimi F et al. Computational analysis of non-invasive deep brain stimulation based on interfering electric fields. Phys Med Biol. 2019;64(23):235010. doi:10.1088/1361-6560/ab5229
+Karimi F et al. Computational analysis of non-invasive deep brain stimulation based on interfering electric fields. Phys Med Biol. 2019;64(23):235010. [doi:10.1088/1361-6560/ab5229](https://iopscience.iop.org/article/10.1088/1361-6560/ab5229)
 
 Rampersad S et al. Prospects for transcranial temporal interference stimulation in humans: A computational study. Neuroimage. 2019;202:116124. doi:10.1016/j.neuroimage.2019.116124
 
