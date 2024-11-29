@@ -6,19 +6,19 @@ Liu R et al. Temporal interference stimulation targets deep primate brain. Neuro
 
 Vassiliadis P et al. Safety, tolerability and blinding efficiency of non-invasive deep transcranial temporal interference stimulation: First experience from more than 250 sessions. J Neural Eng. 2024; online 11 March. [doi: 10.1088/1741-2552/ad2d32](https://iopscience.iop.org/article/10.1088/1741-2552/ad2d32)
 
-Budde RB et al. Temporal interference current stimulation in peripheral nerves is not driven by envelope extraction. J Neural Eng. 2023;20(2):026041. doi: 10.1088/1741-2552/acc6f1
+Budde RB et al. Temporal interference current stimulation in peripheral nerves is not driven by envelope extraction. J Neural Eng. 2023;20(2):026041. [doi: 10.1088/1741-2552/acc6f1](https://iopscience.iop.org/article/10.1088/1741-2552/acc6f1/meta)
 
-Iszak K et al. Why temporal inference stimulation may fail in the human brain: A pilot research study. Biomedicines. 2023;11(7):1813. doi: 10.3390/biomedicines11071813
+Iszak K et al. Why temporal inference stimulation may fail in the human brain: A pilot research study. Biomedicines. 2023;11(7):1813. [doi: 10.3390/biomedicines11071813](https://www.mdpi.com/2227-9059/11/7/1813)
 
-Violante IR et al. Non-invasive temporal interference electrical stimuation of the human hippocampus. Nat Neurosci. 2023;26:1994–2004. doi: 10.1038/s41593-023-01456-8
+Violante IR et al. Non-invasive temporal interference electrical stimuation of the human hippocampus. Nat Neurosci. 2023;26:1994–2004. [doi: 10.1038/s41593-023-01456-8](https://www.nature.com/articles/s41593-023-01456-8)
 
-Wessel MJ et al. Noninvasive theta-burst stimulation of the human striatum enhances striatal activity and motor skill learning. Nat Neurosci. 2023;26:2005–2016. doi: 10.1038/s41593-023-01457-7
+Wessel MJ et al. Noninvasive theta-burst stimulation of the human striatum enhances striatal activity and motor skill learning. Nat Neurosci. 2023;26:2005–2016. [doi: 10.1038/s41593-023-01457-7](https://www.nature.com/articles/s41593-023-01457-7)
 
-Acerbo E et al. Focal non-invasive deep-brain stimulation with temporal interference for the suppression of epileptic biomarkers. Front Neurosci. 2022;16:945221. doi: 10.3389/fnins.2022.945221
+Acerbo E et al. Focal non-invasive deep-brain stimulation with temporal interference for the suppression of epileptic biomarkers. Front Neurosci. 2022;16:945221. [doi: 10.3389/fnins.2022.945221](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.945221/full)
 
-Botzanowski B et al. Noninvasive stimulation of peripheral nerves using temporally-interfering electrical fields. Adv Healthc Mater. 2022;11(17):e2200075. doi: 10.1002/adhm.202200075
+Botzanowski B et al. Noninvasive stimulation of peripheral nerves using temporally-interfering electrical fields. Adv Healthc Mater. 2022;11(17):e2200075. [doi: 10.1002/adhm.202200075](https://onlinelibrary.wiley.com/doi/full/10.1002/adhm.202200075)
 
-Cassara’ AM et al. Safety recommendations for temporal interference stimulation in the brain. bioRxiv. 2022.12.15.520077. doi: 10.1101/2022.12.15.52007
+Cassara’ AM et al. Safety recommendations for temporal interference stimulation in the brain. bioRxiv. 2022.12.15.520077. [doi: 10.1101/2022.12.15.52007](https://www.biorxiv.org/content/10.1101/2022.12.15.520077v2)
 
 Lee S et al. Multipair transcranial temporal interference stimulation for improved focalized stimulation of deep brain regions: A simulation study. Comput Biol Med. 2022;143:105337. doi: 10.1016/j.compbiomed.2022.105337
 
