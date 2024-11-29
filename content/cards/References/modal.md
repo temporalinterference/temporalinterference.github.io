@@ -20,9 +20,9 @@ Botzanowski B et al. Noninvasive stimulation of peripheral nerves using temporal
 
 Cassara’ AM et al. Safety recommendations for temporal interference stimulation in the brain. bioRxiv. 2022.12.15.520077. [doi: 10.1101/2022.12.15.52007](https://www.biorxiv.org/content/10.1101/2022.12.15.520077v2)
 
-Lee S et al. Multipair transcranial temporal interference stimulation for improved focalized stimulation of deep brain regions: A simulation study. Comput Biol Med. 2022;143:105337. doi: 10.1016/j.compbiomed.2022.105337
+Lee S et al. Multipair transcranial temporal interference stimulation for improved focalized stimulation of deep brain regions: A simulation study. Comput Biol Med. 2022;143:105337. [doi: 10.1016/j.compbiomed.2022.105337](https://www.sciencedirect.com/science/article/abs/pii/S0010482522001299?via%3Dihub)
 
-Liu R et al. A noninvasive deep brain stimulation method via temporal-spatial interference magneto-acoustic effect: Simulation and experimental validation. IEEE Trans Ultrason Ferroelectr Freq Control. 2022;69(8):2474-2483. doi: 10.1109/TUFFC.2022.3187748
+Liu R et al. A noninvasive deep brain stimulation method via temporal-spatial interference magneto-acoustic effect: Simulation and experimental validation. IEEE Trans Ultrason Ferroelectr Freq Control. 2022;69(8):2474-2483. [doi: 10.1109/TUFFC.2022.3187748](https://ieeexplore.ieee.org/document/9812716)
 
 Piao Y et al. Safety evaluation of employing temporal interference transcranial alternating current stimulation in human studies. Brain Sci. 2022;12(9):1194. doi: 10.3390/brainsci12091194
 
