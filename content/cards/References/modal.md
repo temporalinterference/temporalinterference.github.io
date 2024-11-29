@@ -34,13 +34,13 @@ Howell B, McIntyre CC. Feasibility of interferential and pulsed transcranial ele
 
 Missey F et al. Orientation of temporal interference for non-invasive deep brain stimulation in epilepsy. Front Neurosci. 2021;15:633988. [doi: 10.3389/fnins.2021.633988](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2021.633988/full)
 
-Sunshine MD et al. Restoration of breathing after opioid overdose and spinal cord injury using temporal interference stimulation. Commun Biol. 2021;4(1):107. doi: 10.1038/s42003-020-01604-x
+Sunshine MD et al. Restoration of breathing after opioid overdose and spinal cord injury using temporal interference stimulation. Commun Biol. 2021;4(1):107. [doi: 10.1038/s42003-020-01604-x](https://www.nature.com/articles/s42003-020-01604-x)
 
-von Conta J et al. Interindividual variability of electric fields during transcranial temporal interference stimulation (tTIS). Scientific Reports. 2021;11:20357. doi.org/10.1038/s41598-021-99749-0
+von Conta J et al. Interindividual variability of electric fields during transcranial temporal interference stimulation (tTIS). Scientific Reports. 2021;11:20357. [doi.org/10.1038/s41598-021-99749-0](https://www.nature.com/articles/s41598-021-99749-0)
 
-Cao J, Grover P. STIMULUS: Noninvasive dynamic patterns of neurostimulation using spatio-temporal interference. IEEE Trans Biomed Eng. 2020;67(3):726-737. doi: 10.1109/TBME.2019.2919912
+Cao J, Grover P. STIMULUS: Noninvasive dynamic patterns of neurostimulation using spatio-temporal interference. IEEE Trans Biomed Eng. 2020;67(3):726-737. [doi: 10.1109/TBME.2019.2919912](https://ieeexplore.ieee.org/document/8726149)
 
-Li J et al. Analytical and experimental investigation of temporal interference for selective neuromuscular activation. IEEE Trans Neural Syst Rehabil Eng. 2020;28(12):3100-3112. doi: 10.1109/TNSRE.2020.3038025
+Li J et al. Analytical and experimental investigation of temporal interference for selective neuromuscular activation. IEEE Trans Neural Syst Rehabil Eng. 2020;28(12):3100-3112. [doi: 10.1109/TNSRE.2020.3038025](https://ieeexplore.ieee.org/document/9259118)
 
 Mirzakhalili E et al. Biophysics of temporal interference stimulation. Cell Syst. 2020;11(6):557-572.e5. doi: 10.1016/j.cels.2020.10.004
 
