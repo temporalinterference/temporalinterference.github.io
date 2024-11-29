@@ -42,9 +42,9 @@ Cao J, Grover P. STIMULUS: Noninvasive dynamic patterns of neurostimulation usin
 
 Li J et al. Analytical and experimental investigation of temporal interference for selective neuromuscular activation. IEEE Trans Neural Syst Rehabil Eng. 2020;28(12):3100-3112. [doi: 10.1109/TNSRE.2020.3038025](https://ieeexplore.ieee.org/document/9259118)
 
-Mirzakhalili E et al. Biophysics of temporal interference stimulation. Cell Syst. 2020;11(6):557-572.e5. doi: 10.1016/j.cels.2020.10.004
+Mirzakhalili E et al. Biophysics of temporal interference stimulation. Cell Syst. 2020;11(6):557-572.e5. [doi: 10.1016/j.cels.2020.10.004](https://www.sciencedirect.com/science/article/pii/S2405471220303720)
 
-Alekseichuk I et al. Comparative modeling of transcranial magnetic and electric stimulation in mouse, monkey, and human. Neuroimage. 2019;194:136‐148. doi:10.1016/j.neuroimage.2019.03.044
+Alekseichuk I et al. Comparative modeling of transcranial magnetic and electric stimulation in mouse, monkey, and human. Neuroimage. 2019;194:136‐148. [doi:10.1016/j.neuroimage.2019.03.044](https://www.sciencedirect.com/science/article/abs/pii/S1053811919302320?via%3Dihub/)
 
 Huang Y, Parra LC. Can transcranial electric stimulation with multiple electrodes reach deep targets? Brain Stimul. 2019;12(1):30‐40. doi:10.1016/j.brs.2018.09.010
 
