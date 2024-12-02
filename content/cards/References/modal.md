@@ -50,7 +50,7 @@ Huang Y, Parra LC. Can transcranial electric stimulation with multiple electrode
 
 Karimi F et al. Computational analysis of non-invasive deep brain stimulation based on interfering electric fields. Phys Med Biol. 2019;64(23):235010. [doi:10.1088/1361-6560/ab5229](https://iopscience.iop.org/article/10.1088/1361-6560/ab5229)
 
-Rampersad S et al. Prospects for transcranial temporal interference stimulation in humans: A computational study. Neuroimage. 2019;202:116124. doi:10.1016/j.neuroimage.2019.116124
+Rampersad S et al. Prospects for transcranial temporal interference stimulation in humans: A computational study. Neuroimage. 2019;202:116124. [doi:10.1016/j.neuroimage.2019.116124](https://www.sciencedirect.com/science/article/abs/pii/S1053811919307153?via%3Dihub/)
 
 Grossman N. Modulation without surgical intervention. Science. 2018;361(6401):461‐462. doi:10.1126/science.aau4915
 
