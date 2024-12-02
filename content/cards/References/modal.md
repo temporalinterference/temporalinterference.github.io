@@ -54,7 +54,7 @@ Rampersad S et al. Prospects for transcranial temporal interference stimulation 
 
 Grossman N. Modulation without surgical intervention. Science. 2018;361(6401):461‐462. [doi:10.1126/science.aau4915](https://www.science.org/doi/10.1126/science.aau4915)
 
-Grossman N et al. Translating temporal interference brain stimulation to treat neurological and psychiatric conditions [published correction in JAMA Neurol. 2018;75(11):1443]. JAMA Neurol. 2018;75(11):1307‐1308. doi:10.1001/jamaneurol.2018.2760
+Grossman N et al. Translating temporal interference brain stimulation to treat neurological and psychiatric conditions [published correction in JAMA Neurol. 2018;75(11):1443]. JAMA Neurol. 2018;75(11):1307‐1308. [doi:10.1001/jamaneurol.2018.2760](https://jamanetwork.com/journals/jamaneurology/article-abstract/2702591/)
 
 Halpern CH et al. Letter: Electric beats open new frontiers for deep brain stimulation. Neurosurgery. 2018;82(1):E19‐E20. doi:10.1093/neuros/nyx482
 
