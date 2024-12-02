@@ -58,7 +58,7 @@ Grossman N et al. Translating temporal interference brain stimulation to treat n
 
 Halpern CH et al. Letter: Electric beats open new frontiers for deep brain stimulation. Neurosurgery. 2018;82(1):E19‐E20. [doi:10.1093/neuros/nyx482](https://journals.lww.com/neurosurgery/Fulltext/2018/01000/Letter__Electric_Beats_Open_New_Frontiers_for_Deep.28.aspx)
 
-Negahbani E et al. Targeting alpha-band oscillations in a cortical model with amplitude-modulated high-frequency transcranial electric stimulation. Neuroimage. 2018;173:3‐12. doi:10.1016/j.neuroimage.2018.02.0052
+Negahbani E et al. Targeting alpha-band oscillations in a cortical model with amplitude-modulated high-frequency transcranial electric stimulation. Neuroimage. 2018;173:3‐12. [doi:10.1016/j.neuroimage.2018.02.0052](https://www.sciencedirect.com/science/article/abs/pii/S1053811918300934?via%3Dihub/)
 
 Vöröslakos M et al. Direct effects of transcranial electric stimulation on brain circuits in rats and humans. Nat Commun. 2018;9(1):483. doi:10.1038/s41467-018-02928-3
 
