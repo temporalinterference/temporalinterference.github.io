@@ -56,7 +56,7 @@ Grossman N. Modulation without surgical intervention. Science. 2018;361(6401):46
 
 Grossman N et al. Translating temporal interference brain stimulation to treat neurological and psychiatric conditions [published correction in JAMA Neurol. 2018;75(11):1443]. JAMA Neurol. 2018;75(11):1307‐1308. [doi:10.1001/jamaneurol.2018.2760](https://jamanetwork.com/journals/jamaneurology/article-abstract/2702591/)
 
-Halpern CH et al. Letter: Electric beats open new frontiers for deep brain stimulation. Neurosurgery. 2018;82(1):E19‐E20. doi:10.1093/neuros/nyx482
+Halpern CH et al. Letter: Electric beats open new frontiers for deep brain stimulation. Neurosurgery. 2018;82(1):E19‐E20. [doi:10.1093/neuros/nyx482](https://journals.lww.com/neurosurgery/Fulltext/2018/01000/Letter__Electric_Beats_Open_New_Frontiers_for_Deep.28.aspx)
 
 Negahbani E et al. Targeting alpha-band oscillations in a cortical model with amplitude-modulated high-frequency transcranial electric stimulation. Neuroimage. 2018;173:3‐12. doi:10.1016/j.neuroimage.2018.02.0052
 
