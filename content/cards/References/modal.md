@@ -62,6 +62,6 @@ Negahbani E et al. Targeting alpha-band oscillations in a cortical model with am
 
 Vöröslakos M et al. Direct effects of transcranial electric stimulation on brain circuits in rats and humans. Nat Commun. 2018;9(1):483. [doi:10.1038/s41467-018-02928-3](https://www.nature.com/articles/s41467-018-02928-3)
 
-Dmochowski J, Bikson M. Noninvasive neuromodulation goes deep. Cell. 2017;169(6):977‐978. doi:10.1016/j.cell.2017.05.017
+Dmochowski J, Bikson M. Noninvasive neuromodulation goes deep. Cell. 2017;169(6):977‐978. [doi:10.1016/j.cell.2017.05.017](https://www.cell.com/cell/fulltext/S0092-8674(17)30577-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867417305779%3Fshowall%3Dtrue/)
 
 Grossman N et al. Noninvasive deep brain stimulation via temporally interfering electric fields. Cell. 2017;169(6):1029‐1041.e16. doi:10.1016/j.cell.2017.05.024
