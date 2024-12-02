@@ -5,27 +5,13 @@ id: specifications-pop
 # Specifications
 ## TIBS-R V3.0
 
-## TEST 1
+## TEST 1 (table lines not visible but visible in Mark Down Preview)
 
-|First Header--|Second Header--|
-|:-------------|:--------------|
-|Content Cell  | Content Cell  |
-|Content Cell  | Content Cell  |
+|First Header|Second Header|
+|:-----------|:------------|
+|Content Cell|Content Cell |
+|Content Cell|Content Cell |
 
-## TEST 2
-
-| First Header  | Second Header |
-| :------------ | :-------------|
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-## TEST 3
-
-| First Header | Second Header |
-|:-------------|:--------------|
-|Content Cell  | Content Cell  |
-|Content Cell  | Content Cell  |
-|Content Cell  | Content Cell  |
 
 data:
   list:
