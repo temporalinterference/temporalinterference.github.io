@@ -52,7 +52,7 @@ Karimi F et al. Computational analysis of non-invasive deep brain stimulation ba
 
 Rampersad S et al. Prospects for transcranial temporal interference stimulation in humans: A computational study. Neuroimage. 2019;202:116124. [doi:10.1016/j.neuroimage.2019.116124](https://www.sciencedirect.com/science/article/abs/pii/S1053811919307153?via%3Dihub/)
 
-Grossman N. Modulation without surgical intervention. Science. 2018;361(6401):461‐462. doi:10.1126/science.aau4915
+Grossman N. Modulation without surgical intervention. Science. 2018;361(6401):461‐462. [doi:10.1126/science.aau4915](https://www.science.org/doi/10.1126/science.aau4915)
 
 Grossman N et al. Translating temporal interference brain stimulation to treat neurological and psychiatric conditions [published correction in JAMA Neurol. 2018;75(11):1443]. JAMA Neurol. 2018;75(11):1307‐1308. doi:10.1001/jamaneurol.2018.2760
 
