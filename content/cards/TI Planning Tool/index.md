@@ -1,4 +1,3 @@
----
 title: TIP and IT'IS
 id: tip-and-itis
 
