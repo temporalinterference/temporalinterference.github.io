@@ -13,7 +13,7 @@ News
 
 {{< card-holder >}}
 {{< card news2024august >}}
-{{< card news2024may >}}
+{{< card news2024feb >}}
 {{< card news2024may >}}
 {{< card news2024may >}}
 {{< card news2024may >}}
