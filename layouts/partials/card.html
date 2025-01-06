@@ -53,7 +53,7 @@
             uk-img
             class="ti-round-button ti-close-button uk-modal-close"
         >
-        {{ $modal.Content | safeHTML }}
+        <div class="ti-modal-body">{{ $modal.Content | safeHTML }}</div>
     </div>
 </div>
 {{ end }}
