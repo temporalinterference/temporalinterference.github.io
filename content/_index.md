@@ -25,7 +25,7 @@ Devices
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card TIBS-R-V3 >}}
+{{< card TIBS-R-V3.x >}}
 {{< card ICS >}}
 {{< card ECB >}}
 {{< card Specifications >}}
