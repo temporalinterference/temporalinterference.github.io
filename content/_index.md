@@ -33,7 +33,7 @@ Devices
 
 {{< movie tibs >}}
 
-{{< section id=TI-Planning-Tool >}}
+{{< section id=TI-Planning-Tool-(TIP) >}}
 TI Planning Tool
 {{< /section >}}
 
