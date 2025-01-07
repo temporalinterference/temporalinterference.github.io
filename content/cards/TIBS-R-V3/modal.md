@@ -1,10 +1,10 @@
 ---
-Title: TIBS-R V3.0
+Title: TIBS-R V3.2
 id: TIBS-R V3-pop
 ---
-# TIBS-R V3.0
+# TIBS-R V3.2
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The TIBS-R neurostimulation devices support direct current (DC), alternating current and TI stimulation, up to 8 synchronous stimulation channels, a wide carrier-frequency range (DC – 100 kHz), sinusoidal to arbitrary modulation, synchronization with external triggers, compatibility with electroencephalogram recordings, and more.
 
 {{< modal-image setup.jpg >}}
 {{< /modal-image >}}
