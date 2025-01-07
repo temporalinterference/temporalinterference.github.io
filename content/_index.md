@@ -26,6 +26,7 @@ Devices
 
 {{< card-holder >}}
 {{< card TIBS-R-V3 >}}
+{{< card TIBS-R-V3 >}}
 {{< card Specifications >}}
 {{< /card-holder >}}
 
