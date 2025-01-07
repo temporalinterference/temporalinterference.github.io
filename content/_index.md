@@ -48,6 +48,7 @@ Early Adopter Program (EAP)
 
 {{< card-holder >}}
 {{< card Early-Adopter-Program >}}
+{{< card Services >}}
 {{< /card-holder >}}
 
 {{< section id=Services >}} Services {{< /section >}}
