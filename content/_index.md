@@ -51,12 +51,6 @@ Early Adopter Program (EAP)
 {{< card Services >}}
 {{< /card-holder >}}
 
-{{< section id=Services >}} Services {{< /section >}}
-
-{{< card-holder >}}
-{{< card Services >}}
-{{< /card-holder >}}
-
 {{< section id=the-science >}}
 The Science
 {{< /section >}}
