@@ -6,7 +6,7 @@ id: Early Adopter Program-pop
 
 ## How can I become part of the EAP?
 
-Researchers interested in joining our Early Adopter Program are encouraged to contact us *(add link to eap@temporalinterference.com)* to schedule a preliminary conference call. Following this discussion, a short written proposal needs to be submitted for consideration. Proposals will be reviewed by our board based on their scientific significance, relevance, originality, and feasibility. Approved projects will then officially enter the EAP.
+Researchers interested in joining our Early Adopter Program are encouraged to [contact us](mailto:eap@temporalinterference.com) to schedule a preliminary conference call. Following this discussion, a short written proposal needs to be submitted for consideration. Proposals will be reviewed by our board based on their scientific significance, relevance, originality, and feasibility. Approved projects will then officially enter the EAP.
 
 Please note that all studies admitted to the EAP must receive approval from the relevant regulatory institution overseeing the study. This is a mandatory requirement before our TIBS-R device can be provided for the proposed research project.
 
