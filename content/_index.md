@@ -3,7 +3,7 @@ Title: TI-Solutions Title
 ---
 {{< brain-animation >}}
 
-{{< title claim="Neurostimultion Pioneers" >}}
+{{< title claim="For Tomorrow's Treatments" >}}
 Temporal Interference
 {{< /title >}}
 
