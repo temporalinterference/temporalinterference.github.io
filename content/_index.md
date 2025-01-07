@@ -25,7 +25,6 @@ Devices
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card TI-Devices >}}
 {{< card TIBS-R-V3 >}}
 {{< card Specifications >}}
 {{< /card-holder >}}
