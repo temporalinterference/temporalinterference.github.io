@@ -1,5 +1,5 @@
 ---
-title: TIP and IT'IS
-id: tip-and-itis
+title: Planning Tool
+id: planning-tool
 ---
-The TI planning tool (TIP) is provided by the IT’IS Foundation for the optimization of electrode placements on human and animal subjects, currents and modulations. The tools are user-friendly and present results in a powerful visualization. Users can also define different optimization criteria. Thanks to a state-of-the-art cloud-based modeling platform, simulations of complex and realistic setups can be performed without special software or hardware. Version 2.2 supports two channel configurations, and phase modulation and multi-channel target optimization. Version 3.0 will add personalized modeling, allowing modeling of any anatomy and any electrode shape and placement.
+The TI planning tool (TIP) is an advanced interactive modeling pipeline developed by the <a href="https://www.itis.swiss/" target="_blank" >IT’IS Foundation</a>, designed to optimize electrode placement and temporal interference brain stimulation using our TIBS-R device. This user-friendly tool delivers results through powerful visualizations and leverages a state-of-the-art cloud-based platform, enabling complex simulations of realistic setups directly in a browser – no specialized software or hardware required. The tool is continuously updated and enhanced to meet evolving research needs.
