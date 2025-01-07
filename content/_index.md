@@ -60,7 +60,7 @@ The Science
 {{< card References >}}
 {{< /card-holder >}}
 
-{{< section id=jobs >}}
+{{< section id=about >}}
 About
 {{< /section >}}
 
