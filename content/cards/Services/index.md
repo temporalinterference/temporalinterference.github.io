@@ -1,6 +1,8 @@
 ---
 Title: Service
 ---
+
+## Our Services
 For groups enrolled in the Early Adopter Program, our team of experts is dedicated to ensuring the optimal use of our TIBS-R device. We provide comprehensive engineering support during the lease period, including troubleshooting, device replacement, and repairs.
 
 ## 3rd Party Services
