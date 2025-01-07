@@ -32,14 +32,6 @@ Devices
 
 {{< movie tibs >}}
 
-{{< section id=Early-Adopter-Program-(EAP) >}}
-Early Adopter Program (EAP)
-{{< /section >}}
-
-{{< card-holder >}}
-{{< card Early-Adopter-Program >}}
-{{< /card-holder >}}
-
 {{< section id=TI-Planning-Tool >}}
 TI Planning Tool
 {{< /section >}}
@@ -49,6 +41,14 @@ TI Planning Tool
 {{< /card-holder >}}
 
 {{< slider tool >}}
+
+{{< section id=Early-Adopter-Program-(EAP) >}}
+Early Adopter Program (EAP)
+{{< /section >}}
+
+{{< card-holder >}}
+{{< card Early-Adopter-Program >}}
+{{< /card-holder >}}
 
 {{< section id=Services >}} Services {{< /section >}}
 
