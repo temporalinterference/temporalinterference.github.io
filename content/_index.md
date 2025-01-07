@@ -34,7 +34,7 @@ Devices
 {{< movie tibs >}}
 
 {{< section id=TI-Planning-Tool-(TIP) >}}
-TI Planning Tool
+TI Planning Tool (TIP)
 {{< /section >}}
 
 {{< card-holder >}}
