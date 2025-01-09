@@ -29,7 +29,6 @@ Devices
 {{< card TIBS-R-V3 >}}
 {{< card ICS >}}
 {{< card ECB >}}
-{{< card TIBS-R-V3 >}}
 {{< card Specifications >}}
 {{< /card-holder >}}
 
