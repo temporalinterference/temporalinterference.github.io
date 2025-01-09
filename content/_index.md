@@ -30,6 +30,7 @@ Devices
 {{< card ICS >}}
 {{< card ECB >}}
 {{< card EEG-Filters >}}
+{{< card MRI-Filters >}}
 {{< card Specifications >}}
 {{< /card-holder >}}
 
