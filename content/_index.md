@@ -29,6 +29,7 @@ Devices
 {{< card TIBS-R-V3 >}}
 {{< card ICS >}}
 {{< card ECB >}}
+{{< card EEG Filters >}}
 {{< card Specifications >}}
 {{< /card-holder >}}
 
