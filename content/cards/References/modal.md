@@ -8,7 +8,7 @@ Liu R et al. Temporal interference stimulation targets deep primate brain. Neuro
 Vassiliadis P et al. Safety, tolerability and blinding efficiency of non-invasive deep transcranial temporal interference stimulation: First experience from more than 250 sessions. J Neural Eng. 2024; 21: 024001. [doi: 10.1088/1741-2552/ad2d32]
 (https://iopscience.iop.org/article/10.1088/1741-2552/ad2d32)
 
-Vieira P.G. et al. Temporal interference stimulation disrupts spike timing in the primate brain. Nature Communications. 2024; 15: 4558. [doi: 10.1038/s41467-024-48962-2</a]
+Vieira P.G. et al. Temporal interference stimulation disrupts spike timing in the primate brain. Nature Communications. 2024; 15: 4558. [doi: 10.1038/s41467-024-48962-2]
 (https://www.nature.com/articles/s41467-024-48962-2#citeas)
     
 Wang et al. The safety and efficacy of applying a high-current temporal interference electrical stimulation in humans. Front. Hum. Neurosci. 2024; 18: 1484593. [doi: 10.3389/fnhum.2024.1484593]
