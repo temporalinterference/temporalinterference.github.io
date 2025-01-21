@@ -76,7 +76,7 @@ $card-height: 557px;
 $global-background: #e0e8f0;
 $global-emphasis-color: #1b3764;
 $global-muted-color: #888888;
-$card-link-color: #1485b5;
+$base-link-color: #1485b5;
 $card-background: #fff;
 $navbar-background: #fff;
 $base-em-color: inherit;
@@ -167,7 +167,7 @@ $modal-container-width: 778px !default;
     overflow: hidden;
 
     a {
-      color: $card-link-color;
+      color: $base-link-color;
       text-decoration: none;
 
       &:hover {
