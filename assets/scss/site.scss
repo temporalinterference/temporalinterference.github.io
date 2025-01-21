@@ -146,8 +146,8 @@ $modal-container-width: 778px !default;
   padding: 0px;
   box-sizing: border-box;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-  hyphens: auto;
-  -webkit-hyphens: auto;
+  /* hyphens: auto;
+  -webkit-hyphens: auto; */
   position: relative;
   overflow: hidden;
 
@@ -218,6 +218,8 @@ $modal-container-width: 778px !default;
 
 .ti-modal-body {
   overflow-x: hidden;
+  /* hyphens: auto;
+  -webkit-hyphens: auto; */
   h1 {
     font-size: 2.3rem;
     font-family: $global-font-family-heading;
