@@ -98,6 +98,11 @@ $modal-container-width: 778px !default;
     color: $inverse-nav-primary-item-color;
   }
 }
+@mixin hook-navbar-toggle-icon() {
+  svg {
+    fill: $global-emphasis-color;
+  }
+}
 // 4. Import UIkit.
 @import "../uikit/src/scss/uikit-theme.scss";
 
