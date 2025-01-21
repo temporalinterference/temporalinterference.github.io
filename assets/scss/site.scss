@@ -5,50 +5,65 @@
   font-style: normal;
   font-weight: 700;
   src: local(""),
-    url('{{ (resources.Get "fonts/Roboto-700.woff2").RelPermalink }}')
-      format("woff2");
+  url('{{ (resources.Get "fonts/Roboto-700.woff2").RelPermalink }}') format("woff2");
 }
+
 @font-face {
   font-family: "Roboto";
   font-style: italic;
   font-weight: 700;
   src: local(""),
-    url('{{ (resources.Get "fonts/Roboto-700-italic.woff2").RelPermalink }}')
-      format("woff2");
+  url('{{ (resources.Get "fonts/Roboto-700-italic.woff2").RelPermalink }}') format("woff2");
 }
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+  url('{{ (resources.Get "fonts/Roboto-500.woff2").RelPermalink }}') format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  src: local(""),
+  url('{{ (resources.Get "fonts/Roboto-500-italic.woff2").RelPermalink }}') format("woff2");
+}
+
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   src: local(""),
-    url('{{ (resources.Get "fonts/Roboto-400.woff2").RelPermalink }}')
-      format("woff2");
+  url('{{ (resources.Get "fonts/Roboto-400.woff2").RelPermalink }}') format("woff2");
 }
+
 @font-face {
   font-family: "Roboto";
   font-style: italic;
   font-weight: 400;
   src: local(""),
-    url('{{ (resources.Get "fonts/Roboto-400-italic.woff2").RelPermalink }}')
-      format("woff2");
+  url('{{ (resources.Get "fonts/Roboto-400-italic.woff2").RelPermalink }}') format("woff2");
 }
+
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: local(""),
-    url('{{ (resources.Get "fonts/Roboto-Slab-Regular.woff2").RelPermalink }}')
-      format("woff2");
+  url('{{ (resources.Get "fonts/Roboto-Slab-Regular.woff2").RelPermalink }}') format("woff2");
 }
+
 @font-face {
   font-family: "Roboto Slab";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: local(""),
-    url('{{ (resources.Get "fonts/Roboto-Slab-700.woff2").RelPermalink }}')
-      format("woff2");
+  url('{{ (resources.Get "fonts/Roboto-Slab-700.woff2").RelPermalink }}') format("woff2");
 }
 
 // 1. Your custom variables and variable overwrites.
@@ -63,17 +78,26 @@ $global-emphasis-color: #1b3764;
 $global-muted-color: #888888;
 $card-link-color: #1485b5;
 $navbar-background: #fff;
+$offcanvas-bar-background: #1b3764;
+$inverse-nav-primary-item-color: #e0e8f0;
+$inverse-nav-primary-sublist-item-color: #e0e8f0;
 $navbar-nav-item-height: 50px;
 $container-xsmall-max-width: 720px !default;
+$modal-container-width: 778px !default;
 // 2. Import default variables and available mixins.
 @import "../uikit/src/scss/variables-theme.scss";
 @import "../uikit/src/scss/mixins-theme.scss";
 
-// 3. Your custom mixin overwrites.
-// @mixin hook-card() {
-//   color: #000;
-// }
 
+// 3. Your custom mixin overwrites.
+@mixin hook-offcanvas-bar() {
+  font-family: $global-font-family-heading;
+}
+@mixin hook-offcanvas-close() {
+  svg line {
+    color: $inverse-nav-primary-item-color;
+  }
+}
 // 4. Import UIkit.
 @import "../uikit/src/scss/uikit-theme.scss";
 
@@ -102,6 +126,7 @@ $container-xsmall-max-width: 720px !default;
   height: 46px;
   min-height: 46px;
 }
+
 .ti-card {
   width: $card-width;
   max-width: 85vw;
@@ -117,6 +142,7 @@ $container-xsmall-max-width: 720px !default;
   -webkit-hyphens: auto;
   position: relative;
   overflow: hidden;
+
   h3 {
     padding: 20px;
     padding-bottom: 0;
@@ -125,18 +151,22 @@ $container-xsmall-max-width: 720px !default;
     color: $global-emphasis-color;
     margin: 0;
   }
+
   .ti-card-body {
     padding: 20px;
     padding-top: 10px;
     overflow: hidden;
+
     a {
       color: $card-link-color;
       text-decoration: none;
+
       &:hover {
         text-decoration: underline;
       }
     }
   }
+
   .ti-card-button {
     position: absolute;
     bottom: 20px;
@@ -146,9 +176,11 @@ $container-xsmall-max-width: 720px !default;
 
 .ti-title {
   font-size: 1.8rem;
+
   @media (min-width: $breakpoint-small) {
     font-size: 3rem;
   }
+
   font-family: $global-font-family-heading;
   color: $global-emphasis-color;
   margin: 0;
@@ -166,33 +198,82 @@ $container-xsmall-max-width: 720px !default;
 }
 
 .ti-modal-body {
+  h1 {
+    font-size: 2.3rem;
+    font-family: $global-font-family-heading;
+    color: $global-emphasis-color;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2ex;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    font-family: $global-font-family-heading;
+    color: $global-emphasis-color;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1ex;
+  }
+
   table {
     border-collapse: collapse;
-   
+    width: 100%;
+
     th {
-      font-weight: bold;
+      font-family: "Roboto Slab";
       padding: 8px;
-      background-color: rgba(255, 255, 255, 0.8);
     }
-   
+
     td {
       padding: 8px;
     }
-   
-    tr:nth-child(even) {
-      background-color: rgba(255, 255, 255, 0.8);
+
+    td:nth-child(1) {
+      font-weight: 500;
     }
-   }
+
+    tr {
+      border-bottom: 2px solid rgb(255, 255, 255);
+    }
+  }
+
+  .ti-image-text {
+    margin-bottom: 6ex;
+    overflow: hidden;
+    font-size: 0.9rem;
+    @media (max-width: $breakpoint-small) {
+      >div {
+        margin-top: 2ex;
+      }
+    }
+    @media (min-width: $breakpoint-small) {
+      >img {
+        width: 50%;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        &.ti-image-right {
+          float: right;
+          margin-right: 0;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
 }
 
 .ti-section {
   margin-top: 48px;
   margin-bottom: 24px;
+
   h2 {
     font-size: 1.6rem;
+
     @media (min-width: $breakpoint-small) {
       font-size: 2.3rem;
     }
+
     font-family: $global-font-family-heading;
     color: $global-emphasis-color;
     padding: 0;
@@ -212,6 +293,7 @@ $container-xsmall-max-width: 720px !default;
   top: 20px;
   right: 20px;
 }
+
 .ti-plus-button {
   bottom: 20px;
   right: 20px;
@@ -222,6 +304,7 @@ $container-xsmall-max-width: 720px !default;
   left: calc(var(--ti-margin-measure-left) + 20px);
   transform: translateY(-50%);
 }
+
 .ti-right-button {
   top: 50%;
   right: calc(var(--ti-margin-measure-right) + 20px);
@@ -243,9 +326,11 @@ footer {
   background-color: #fff;
   padding-left: 0;
   padding-right: 0;
+
   .ti-slider-image {
     width: var(--ti-content-width);
   }
+
   .ti-grey-filter {
     background-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: saturate(30%);
@@ -253,10 +338,12 @@ footer {
     position: absolute;
     top: 0;
   }
+
   .ti-filter-left {
     left: 0;
     width: var(--ti-margin-measure-left);
   }
+
   .ti-filter-right {
     width: var(--ti-margin-measure-right);
     right: 0;
@@ -270,21 +357,21 @@ footer {
 
 #ti-brain-box {
   position: relative;
+
   img {
     width: 100%;
   }
+
   z-index: -1;
   margin-bottom: -30%;
 }
 
 #ti-brain-spot {
   position: absolute;
-  background-image: radial-gradient(
-    circle at center,
-    #0084b4,
-    rgba(25, 195, 252, 0.5) 20.5%,
-    rgba(255, 255, 255, 0) 34.71%
-  );
+  background-image: radial-gradient(circle at center,
+      #0084b4,
+      rgba(25, 195, 252, 0.5) 20.5%,
+      rgba(255, 255, 255, 0) 34.71%);
   width: 35%;
   height: 30%;
   top: 15%;
@@ -304,12 +391,15 @@ footer {
     opacity: 0;
     transform: rotate(35deg);
   }
+
   10% {
     opacity: 1;
   }
+
   90% {
     opacity: 1;
   }
+
   to {
     opacity: 0;
     transform: rotate(-40deg);

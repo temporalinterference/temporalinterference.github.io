@@ -1,0 +1,7 @@
+{{ $title := .Get "title" }}
+{{ $image := $.Page.Parent.Resources.Get (.Get "src") }}
+{{ $pos := .Get "pos" }}
+{{ if not $image }}
+    {{ errorf "image not found: %v" (.Get "src") }}
+{{ end }}
+{{ partial "image-text.html" (dict "image" $image "body" (.Inner) "title" $title "pos" $pos) }}

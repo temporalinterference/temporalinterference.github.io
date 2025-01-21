@@ -15,4 +15,3 @@ navigation:
     - title: About
       href: '#about'
 ---
-# Menu
