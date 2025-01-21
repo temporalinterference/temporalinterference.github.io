@@ -28,7 +28,7 @@
     </div>
     {{ end }}
     <h3>{{ .Title }}</h3>
-    <div class="ti-card-body">
+    <div class="ti-card-body  {{ if not $bg }}ti-card-fadeout{{ end }}">
         {{ .Content }}
     </div>
     {{ if $modal }}

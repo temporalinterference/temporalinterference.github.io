@@ -77,6 +77,7 @@ $global-background: #e0e8f0;
 $global-emphasis-color: #1b3764;
 $global-muted-color: #888888;
 $card-link-color: #1485b5;
+$card-background: #fff;
 $navbar-background: #fff;
 $offcanvas-bar-background: #1b3764;
 $inverse-nav-primary-item-color: #e0e8f0;
@@ -111,7 +112,7 @@ $modal-container-width: 778px !default;
   justify-content: left;
   flex-direction: row;
   margin-top: 24px;
-  margin-bottom: 48px;
+  margin-bottom: 38px;
   column-gap: 24px;
   padding-left: var(--ti-margin-measure-left);
   padding-right: var(--ti-margin-measure-right);
@@ -119,6 +120,8 @@ $modal-container-width: 778px !default;
   scrollbar-width: none;
   -ms-overflow-style: none;
   scroll-behavior: smooth;
+  /* Add padding to prevent shadow cutoff */
+  padding-bottom: 10px; /* Match the shadow size */
 }
 
 .ti-card-holder::-webkit-scrollbar {
@@ -139,7 +142,7 @@ $modal-container-width: 778px !default;
   flex-grow: 0;
   flex-shrink: 0;
   border-radius: 0px;
-  background-color: #fff;
+  background-color: $card-background;
   padding: 0px;
   box-sizing: border-box;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
@@ -170,6 +173,16 @@ $modal-container-width: 778px !default;
         text-decoration: underline;
       }
     }
+    &.ti-card-fadeout::after {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 80px;
+      background: linear-gradient(to bottom, rgba($card-background, 0) 0%, $card-background 100%);
+    }
   }
 
   .ti-card-button {
@@ -177,6 +190,7 @@ $modal-container-width: 778px !default;
     bottom: 20px;
     right: 20px;
   }
+  
 }
 
 .ti-title {
@@ -267,6 +281,7 @@ $modal-container-width: 778px !default;
       }
     }
   }
+  
 }
 
 .ti-section {
