@@ -15,6 +15,8 @@ Switzerland
 
 Privacy Policy
 
-[Legal Notice](/legal-notice)
+{{< popup legal >}}
+Legal Notice
+{{< /popup >}}
 
 Copyright © 2024 TI Solutions AG

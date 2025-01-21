@@ -45,7 +45,7 @@
 {{ if $modal }}
 <!-- This is the modal with the default close button -->
 <div id='modal-{{ page.Scratch.Get "modal_id" }}' class="uk-modal-container" uk-modal>
-    <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical" uk-overflow-auto>
+    <div class="uk-modal-dialog">
         <img 
             src='{{ (resources.Get "images/x-icon.svg").RelPermalink }}' 
             uk-toggle='target: #modal-{{ page.Scratch.Get "modal_id" }}' 
@@ -53,7 +53,9 @@
             uk-img
             class="ti-round-button ti-close-button uk-modal-close"
         >
-        <div class="ti-modal-body">{{ $modal.Content | safeHTML }}</div>
+        <div class="uk-modal-body uk-margin-auto-vertical" uk-overflow-auto>
+            <div class="ti-modal-body">{{ $modal.Content | safeHTML }}</div>
+        </div>
     </div>
 </div>
 {{ end }}
