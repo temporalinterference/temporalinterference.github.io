@@ -203,6 +203,7 @@ $modal-container-width: 778px !default;
 }
 
 .ti-modal-body {
+  overflow-x: hidden;
   h1 {
     font-size: 2.3rem;
     font-family: $global-font-family-heading;
