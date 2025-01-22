@@ -17,11 +17,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {{< modal-image tip2-2000px.jpg >}}
 
 {{< /modal-image >}}
-
-{{< modal-image tip3-2000px.jpg >}}
-
-{{< /modal-image >}}
-
-{{< modal-image tip4-2000px.jpg >}}
-
-{{< /modal-image >}}
