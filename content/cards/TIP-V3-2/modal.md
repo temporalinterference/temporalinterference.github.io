@@ -8,6 +8,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {{< modal-image TIP-V3-2-1620px.jpg >}}
 
+{{< /modal-image >}}
+
 {{< modal-image tip1-2000px.jpg >}}
 
 {{< /modal-image >}}
