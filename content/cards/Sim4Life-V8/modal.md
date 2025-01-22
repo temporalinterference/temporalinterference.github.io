@@ -11,3 +11,7 @@ For more details visit: <a href="https://sim4life.swiss/" target="_blank" >www.s
 {{< modal-image S4L-1620px.jpg >}}
 
 {{< /modal-image >}}
+
+{{< modal-image Sim4Life-cloud-desktop-leading-researchers-worldwide.jpg >}}
+
+{{< /modal-image >}}
