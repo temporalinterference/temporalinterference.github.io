@@ -42,6 +42,8 @@ TI Planning Tool (TIP)
 
 {{< card-holder >}}
 {{< card TI-Planning-Tool >}}
+{{< card TIP-V3-2 >}}
+{{< card Sim4Life-V8 >}}
 {{< /card-holder >}}
 
 {{< slider tool >}}
