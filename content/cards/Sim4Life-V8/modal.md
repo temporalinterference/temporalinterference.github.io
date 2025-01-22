@@ -9,3 +9,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 For more details visit: <a href="https://sim4life.swiss/" target="_blank" >www.sim4life.swiss</a>
 
 {{< modal-image S4L-1620px.jpg >}}
+
+{{< /modal-image >}}
