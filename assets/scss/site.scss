@@ -182,6 +182,7 @@ $modal-container-width: 778px !default;
       left: 0;
       right: 0;
       height: 80px;
+      pointer-events: none;
       background: linear-gradient(to bottom, rgba($card-background, 0) 0%, $card-background 100%);
     }
   }
