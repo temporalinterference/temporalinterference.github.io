@@ -9,9 +9,7 @@ navigation:
     - title: News
       href: '#news'
     - title: The Science
-      subnav:
-        - title: Science
-          href: '#science'
+      href: '#the-science'
     - title: About
       href: '#about'
 ---
