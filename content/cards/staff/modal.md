@@ -20,21 +20,18 @@ Prof. Nir Grossman is a Lecturer at Imperial College London, a founding fellow o
 
 ## Esra Neufeld
 
-{{< modal-image esra.png >}}
-<br>
+{{< image-text title="Esra Neufeld" src="esra.png" pos="left" >}}
 Dr. Esra Neufeld is Associate Director of the Foundation for Research on Information Technologies in Society (IT’IS Foundation) in Zurich, Switzerland, and Head of the Computational Life Science group at IT’IS. He leads several research teams on advanced multiphysics simulation in medicine, treatment-planning software, medical image analysis and anatomical model generation, applied simulations, particularly in the field of bio-electromagnetics and electromagnetic-tissue interactions (heating, neurostimulation, cell proliferation, etc.) as well as in silico clinical trials and standardization.
-{{< /modal-image >}}
+{{< /image-text >}}
 
 ## Henrich Kisker
 
-{{< modal-image henrich.png >}}
-<br>
+{{< image-text title="Henrich Kisker" src="henrich.png" pos="left" >}}
 Henrich Kisker holds various positions as internal and external adviser on corporate, legal, and financial matters for a number of international companies. Since 2005, he has also been a member of the advisory board (“Bankrat”) of one of the largest Swiss banks, the Zürcher Kantonalbank, which has total assets of 167 billion Swiss francs. Until his retirement in 2018, he was the head of the tax and treasury functions of Senior PLC, an international manufacturing group listed on the London Stock Exchange.
-{{< /modal-image >}}
+{{< /image-text >}}
 
 ## Alvaro Pascual-Leone
 
-{{< modal-image alvaro.png >}}
-<br>
+{{< image-text title="Alvaro Pascual-Leone" src="alvaro.png" pos="left" >}}
 Prof. Alvaro Pascual-Leone is Professor of Neurology at Harvard Medical School and a Senior Scientist at the Hinda and Arthur Marcus Institute for Aging Research at Hebrew SeniorLife, Boston, USA. He is a pioneer in the use of noninvasive brain stimulation and its application for the study of brain behavior relations and the development of diagnostic and therapeutic interventions in neuropsychiatry. His contributions range from technology development to basic neurobiological insights gained from animal studies and modeling approaches to human proof-of-principle and multicenter clinical trials.
-{{< /modal-image >}}
+{{< /image-text >}}
