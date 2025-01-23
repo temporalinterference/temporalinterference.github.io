@@ -29,7 +29,7 @@
     {{ end }}
     <h3>{{ .Title }}</h3>
     <div class="ti-card-body  {{ if not $bg }}ti-card-fadeout{{ end }}">
-        {{ .Content  }}
+        {{ .Content | safeHTML }}
     </div>
     {{ if $modal }}
     <img 
@@ -54,7 +54,7 @@
             class="ti-round-button ti-close-button uk-modal-close"
         >
         <div class="uk-modal-body uk-margin-auto-vertical" uk-overflow-auto>
-            <div class="ti-modal-body">{{ $modal.Content }}</div>
+            <div class="ti-modal-body">{{ $modal.Content | safeHTML }}</div>
         </div>
     </div>
 </div>
