@@ -39,12 +39,14 @@ id: specifications-pop
 |IP Protection - Patents|US 10173061, 10905878,11759634, EP 3204113, only in FR, DE, GB, IT, ES, FI, DK, BE, NL, CH and LI, CZ |
 End of Life|December 2030 or later |
 
+---
+
 AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic resonance imging; WPT-TX/RX: wireless power transfer option
 
-* in future release only
+*in future release only
 
-** compliant with implemented safety concept (Cassara’ AM et al. bioRxiv. 2022.12.15.520077; IEC standards)
+**compliant with implemented safety concept (Cassara’ AM et al. bioRxiv. 2022.12.15.520077; IEC standards)
 
-*** EEG solution provided by the IT'IS Foundation
+***EEG solution provided by the IT'IS Foundation
 
 Minimal PC specifications (PC not included): Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
