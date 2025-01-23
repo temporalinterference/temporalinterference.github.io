@@ -20,3 +20,6 @@ Grossman N et al. Noninvasive deep brain stimulation via temporally interfering 
 {{< modal-image deep-brain-stimulation-4b.jpg >}}
 
 {{< /modal-image >}}
+
+{{< modal-movie ti-solutions-lab-no-audio.mp4 >}}
+{{< /modal-movie >}}
