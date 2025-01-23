@@ -3,11 +3,9 @@ Title: Specifications
 id: specifications-pop
 ---
 # Specifications
-## TIBS-R V3.0
+## TIBS-R V3.2
 
-## SPEC TABLE TEST 1 (table lines visible only in Preview but NOT on live page)
-
-|First Header|Second Header|
 |:-----------|:------------|
-|Content Cell|Content Cell |
-|Content Cell|Content Cell |
+|Frequency Range|DC - 100 kHz |
+|Waveforms|Sinusoid, phase modulation, frequency modulation, AWG* |
+|Number of Channels Per Unit|8 synchronized, fully differential |
