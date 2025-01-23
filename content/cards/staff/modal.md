@@ -14,10 +14,9 @@ Prof. Niels Kuster is the founder and Director of the Foundation for Research on
 
 ## Nir Grossmann
 
-{{< modal-image nir.png >}}
-<br>
+{{< image-text title="Nir Grossman" src="nir.png" pos="left" >}}
 Prof. Nir Grossman is a Lecturer at Imperial College London, a founding fellow of the UK Dementia Research Institute, and is affiliated with Imperial’s Centre for Bioinspired Technology and Centre for Neurotechnology, MIT’s Media Lab, and the McGovern Institute for Brain Research. His research focuses on the development of new tools and principles for neuromodulatory interventions for neurodegenerative diseases and other brain disorders. He and Ed Boyden are the inventors of the TI stimulation technology patent.
-{{< /modal-image >}}
+{{< /image-text >}}
 
 ## Esra Neufeld
 
