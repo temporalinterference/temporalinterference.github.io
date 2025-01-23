@@ -15,6 +15,7 @@ Sim4Life.lite is an online version of Sim4Life that is free-of-charge for studen
 For more details visit: <a href="https://sim4life.swiss/" target="_blank" >www.sim4life.swiss</a>
 
 {{< modal-image S4L-1620px.jpg >}}
-
 {{< /modal-image >}}
+
+{{< modal-download sample.pdf >}}Download Sample PDF{{< /modal-download >}}
 

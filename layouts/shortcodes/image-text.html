@@ -4,4 +4,4 @@
 {{ if not $image }}
     {{ errorf "image not found: %v" (.Get "src") }}
 {{ end }}
-{{ partial "image-text.html" (dict "image" $image "body" (.Inner) "title" $title "pos" $pos) }}
+{{ partial "image-text.html" (dict "image" $image "body" (.Inner) "title" $title "pos" $pos) | safeHTML}}
