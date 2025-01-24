@@ -17,7 +17,7 @@ Switzerland
 Privacy Policy
 {{< /popup >}}
 
--
+ | 
 
 {{< popup legal >}}
 Legal Notice
