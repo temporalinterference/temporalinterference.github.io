@@ -1,6 +1,5 @@
 ---
-title: Electro&shy;ence&shy;phalo&shy;graphy Recording during TI Stimulation
-hyphenate_mobile: true
+title: Electroencephalography Recording during TI Stimulation
 ---
 
 Feb 20, 2024
