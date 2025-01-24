@@ -13,11 +13,11 @@ Switzerland
 
 +41 44 245 9898
 
-Privacy Policy
-
 {{< popup privacy >}}
 Privacy Policy
 {{< /popup >}}
+
+---
 
 {{< popup legal >}}
 Legal Notice
