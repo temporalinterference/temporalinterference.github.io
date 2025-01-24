@@ -36,7 +36,7 @@ Devices
 
 {{< movie tibs >}}
 
-{{< section id=TI-Planning-Tool-(TIP) >}}
+{{< section id=ti-planning-tool >}}
 TI Planning Tool (TIP)
 {{< /section >}}
 
@@ -48,7 +48,7 @@ TI Planning Tool (TIP)
 
 {{< slider tool >}}
 
-{{< section id=Early-Adopter-Program-(EAP) >}}
+{{< section id=early-adopter-program >}}
 Early Adopter Program (EAP)
 {{< /section >}}
 
