@@ -8,6 +8,8 @@ navigation:
       href: /
     - title: News
       href: '#news'
+    - title: Devices
+      href: '#TI-Devices'
     - title: The Science
       href: '#the-science'
     - title: About
