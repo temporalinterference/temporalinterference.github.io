@@ -9,7 +9,7 @@ navigation:
     - title: News
       href: '#news'
     - title: Devices
-      href: '#TI-Devices'
+      href: '#ti-devices'
     - title: The Science
       href: '#the-science'
     - title: About
