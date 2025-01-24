@@ -17,5 +17,4 @@ For more details visit: [www.sim4life.swiss](https://sim4life.swiss/)
 {{< modal-image S4L-1620px.jpg >}}
 {{< /modal-image >}}
 
-{{< modal-download sample.pdf >}}Download Sample PDF{{< /modal-download >}}
 
