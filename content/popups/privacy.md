@@ -12,15 +12,15 @@ If you provide us with personal data of other persons (such as family members, w
 This Data Protection Statement is in line with the EU General Data Protection Regulation (GDPR). Although the GDPR is a regulation of the European Union (EU), it may be relevant for us. The Swiss data protection legislation (FADP) is heavily influenced by the law of the European Union. In addition, companies outside of the European Union or the European Economic Area (EEA) must comply with the GDPR in certain cases.
 
 Controller / Data Protection Officer / Representative
-The "controller" of data processing as described in this data protection statement (i.e., the responsible person) is
+The "controller" of data processing as described in this data protection statement (i.e., the responsible person) is:
 
 TI Solutions AG
 Zeughausstrasse 43
 8004 Zurich
-Switzerland.
+Switzerland
 
 You can notify us of any data protection related concerns using the following contact details:
-Data Protection Officer, TI Solutions AG, Zeughausstrasse 43, 8004 Zurich, Switzerland; email: dataprotection@speag.swiss.
+Data Protection Officer, TI Solutions AG, Zeughausstrasse 43, 8004 Zurich, Switzerland; email: info@temporalinterference.com
 
 Collection and Processing of Personal Data
 We primarily process personal data that we obtain from our clients and other business partners as well as other individuals in the context of our business relationships with them or that we collect from users when operating our websites, apps, and other applications.
