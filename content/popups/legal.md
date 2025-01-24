@@ -1,25 +1,19 @@
 ---
 ---
-# Legal Disclaimer
+# Legal Notice
 
-By accessing this website, you hereby acknowledge and agree to the following terms that our lawyers insist we include:
+TI Solutions AG has attempted and will continue to attempt to provide accurate information on the TI Solutions Internet Web Site.
 
-1. Any resemblance between our website's functionality and actual usefulness is purely coincidental.
+However, TI Solutions AG assumes no responsability for the accuracy and/or completeness of any kind, express or implied, as to the information contained or omitted and/or the products or services described on the Sites. Furthermore, TI Solutions AG may change the products or services mentioned on the Sites at any time without notice. TI Solutions AG shall not be liable for any damage whatsoever arising out of the use or inability to use the Sites.
 
-2. We accept no responsibility for:
+Questions regarding TI Solutions AG products and services should be directed to:
 
-   - Lost productivity while browsing our captivating content
-   - Excessive coffee consumption while reading our terms
-   - Spontaneous eye-rolling at our legal jargon
-   - Paper cuts from printing this disclaimer
+TI Solutions AG
 
-3. User warrants that they have read this entire document, including the invisible text written in disappeared ink between the lines.
+Zeughausstrasse 43
+8004 Zurich
+Switzerland
 
-4. While we'd love to accept payment in various currencies, we draw the line at monopoly money, magical beans, and promises of future good deeds.
-
-5. Any typos found herein are intentional Easter eggs placed to test your attention to detail.
-
-_Note: No firstborns were harmed in the making of this disclaimer. We've modernized our process and now accept digital signatures via carrier pigeon.*_
-
-\* Carrier pigeons not provided. Digital messages may be delayed due to pigeon traffic.
++41 44 245 9898
+info@temporalinterference.com
 
