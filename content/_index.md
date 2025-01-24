@@ -21,7 +21,7 @@ News
 {{< card news2022may >}}
 {{< /card-holder >}}
 
-{{< section >}}
+{{< section id=ti-devices >}}
 Devices
 {{< /section >}}
 
