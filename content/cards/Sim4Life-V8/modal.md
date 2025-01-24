@@ -12,7 +12,7 @@ Sim4Life (V8.x Web and Desktop) is a computational simulation platform developed
 
 Sim4Life.lite is an online version of Sim4Life that is free-of-charge for students for team-learning and online collaboration with classmates and teachers on limited size projects. Sim4Life.lite and Sim4Life.web rely on open-source o²S²PARC technologies, which were developed as part of the 'Stimulating Peripheral Activity to Relieve Conditions' (SPARC) program of the National Institutes of Health Common Fund to enable collaborative, reproducible, and sustainable computational neurosciences.
 
-For more details visit: <www.sim4life.swiss>
+For more details visit: [](www.sim4life.swiss)
 
 {{< modal-image S4L-1620px.jpg >}}
 {{< /modal-image >}}
