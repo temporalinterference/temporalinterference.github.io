@@ -195,6 +195,18 @@ $modal-container-width: 778px !default;
   
 }
 
+.ti-hyphenate {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.ti-hyphenate-mobile {
+  @media (max-width: $breakpoint-small) {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+}
+
 .ti-nobreak {
   white-space: nowrap;
 }

@@ -21,15 +21,15 @@
     {{ page.Scratch.Add "modal_id" 1 }}
 {{ end }}
 
-<div id="{{ .Params.id }}" class="ti-card" style='{{ .Scratch.Get "bg_style" | safeCSS }}'>
+<div id="{{ .Params.id }}" class="ti-card" style='{{ .Scratch.Get "bg_style" | safe.CSS }}'>
     {{ if $teaser }}
     <div class="ti-card-teaser">
     <img src='{{ .Scratch.Get "teaser_src" }}' alt="teaser-image">
     </div>
     {{ end }}
-    <h3>{{ .Title }}</h3>
+    <h3 class="{{ if .Params.hyphenate_mobile }}ti-hyphenate-mobile{{ end }}">{{ .Title | safe.HTML }}</h3>
     <div class="ti-card-body  {{ if not $bg }}ti-card-fadeout{{ end }}">
-        {{ .Content | safeHTML }}
+        {{ .Content | safe.HTML }}
     </div>
     {{ if $modal }}
     <img 
@@ -54,7 +54,7 @@
             class="ti-round-button ti-close-button uk-modal-close"
         >
         <div class="uk-modal-body uk-margin-auto-vertical" uk-overflow-auto>
-            <div class="ti-modal-body">{{ $modal.Content | safeHTML }}</div>
+            <div class="ti-modal-body">{{ $modal.Content | safe.HTML }}</div>
         </div>
     </div>
 </div>
