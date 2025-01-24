@@ -6,21 +6,26 @@ id: EEG Filters
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-# Low Pass Filters
+## Low Pass Filters
 
 {{< modal-image TI-Solutions-LPF-32.jpg >}}
 {{< /modal-image >}}
+LPF-32BP
 
 {{< modal-image TI-Solutions-LPF-32-stacked.jpg >}}
 {{< /modal-image >}}
+LPF-32BP stacked
 
 {{< modal-image TI-Solutions-LPF-128.jpg >}}
 {{< /modal-image >}}
+LPF-128EGI
 
 {{< modal-image TI-Solutions-LPF-256.jpg >}}
 {{< /modal-image >}}
+LPF-256EGI
 
-# High Pass Filters
+## High Pass Filters
 
 {{< modal-image TI-Solutions-HPF8.jpg >}}
 {{< /modal-image >}}
+HPF-8
