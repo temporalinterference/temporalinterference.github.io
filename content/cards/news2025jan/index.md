@@ -1,5 +1,5 @@
 ---
-title: TIBS-R V3.2: Minimal Latency Trigger Functionality for Closed-Loop Protocols
+title: TIBS-R V3.2 – Minimal Latency Trigger Functionality for Closed-Loop Protocols
 ---
 
 Jan 28, 2025
