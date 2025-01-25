@@ -1,4 +1,4 @@
-# References
+# Publications
 
 Caldas-Martinez et al. *Cell-specific effects of temporal interference stimulation on cortical function.* Commun Biol. 2024; 7: 1076. [doi: 10.1038/s42003-024-06728](https://www.nature.com/articles/s42003-024-06728-y)
 
