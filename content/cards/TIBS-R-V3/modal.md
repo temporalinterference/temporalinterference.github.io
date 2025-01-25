@@ -8,6 +8,8 @@ Temporal interference (TI) stimulation is a non-invasive technique that uses ove
 
 The device supports up to 8 synchronous stimulation channels, a broad carrier frequency range (DC – 100 kHz), and modulation from sinusoidal to arbitrary waveforms. With external trigger synchronization, compatibility with electroencephalography and magnetic resonance imaging recordings, and unmatched flexibility, it is the ideal device for highly controlled TI stimulation.
 
+Download the flyer to learn more! (ADD FLYER)
+
 {{< modal-image setup.jpg >}}
 {{< /modal-image >}}
 
