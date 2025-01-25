@@ -1,11 +1,7 @@
 ---
-title: TIBS-R V3.2: Minimal Latency Trigger Functionality for Closed-Loop Protocols
+title: News Item Title
 ---
 
-Jan 28, 2025
+Month Day, Year
 
-TIBS-R software has been upgraded, adding the capability of delivering envelope waveforms of arbitrary shapes with minimal latency upon receiving an external trigger. This new feature builds upon the proven phase-modulated temporal interference (TI) mode and allows the application of currents from 2 – 8 channels that combine to create a programmable envelope shape in the target region.
-
-In the new mode, instead of continuously repeating the programmed envelope, the modulation envelope stops – typically in anti-phase, to ensure that the currents sum to zero – until a trigger is received. Upon triggering, the pattern plays once, generating a TI pulse. When combined with a feedback loop – e.g., from electroencephalography (EEG), which can be recorded during TI stimulation with the EEG filter solution of our partner organization IT'IS Foundation (ADD LINK TO EEG FILTER SECTION) – this feature facilitates the realization of flexible, closed-loop stimulation protocols.
-
-Version 3.2 of the IT’IS TI Planning tool (ADD LINK TO PLANNING TOOL SECTION), a computational online tool designed to simplify the optimization of targeted TI neurostimulation protocols for the TIBS-R device, will soon be released. This update includes artificial-intelligence-powered optimized placement of fiducial points and a comprehensive multivariable optimization pipeline, for analysis of the entire set of possible setups.For further information about TIBS-R, please contact us as info@temporalinterference.com.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
