@@ -10,7 +10,7 @@ Prof. Niels Kuster (President of the Board) is the founder and Director of the F
 {{< /image-text >}}
 
 ## Ed Boyden
-{{< image-text title="Ed Boyan" src="ed.png" pos="left" >}}
+{{< image-text title="Ed Boydan" src="ed.png" pos="left" >}}
 Prof. Ed Boyden is Y. Eva Tan Professor in Neurotechnology at MIT in Boston, USA, Professor of Biological Engineering and Brain and Cognitive Sciences at MIT’s McGovern Institute for Brain Research, and an Investigator at the Howard Hughes Medical Institute. He leads the Synthetic Neurobiology Group, which develops new biotechnological tools for probing, analyzing, and engineering brain circuits. He and Nir Grossman are inventors of the TI stimulation technology patent.
 {{< /image-text >}}
 
