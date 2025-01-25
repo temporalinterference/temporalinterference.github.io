@@ -14,22 +14,22 @@ The filters are currently available for either 128 or 256 channels EEG systems m
 
 {{< modal-image TI-Solutions-LPF-32.jpg >}}
 {{< /modal-image >}}
-LPF-32BP
+LPF-32BP: 32-channel low-pass filter for BrainAmp EEG amplifiers (stackable)
 
 {{< modal-image TI-Solutions-LPF-32-stacked.jpg >}}
 {{< /modal-image >}}
-LPF-32BP stacked
+LPF-32BP stacked (NEEDED??)
 
 {{< modal-image TI-Solutions-LPF-128.jpg >}}
 {{< /modal-image >}}
-LPF-128EGI
+LPF-128EGI: 128-channel low-pass filter for EGI Net Amps Series
 
 {{< modal-image TI-Solutions-LPF-256.jpg >}}
 {{< /modal-image >}}
-LPF-256EGI
+LPF-256EGI: 256-channel low-pass filter for EGI Net Amps Series
 
 ## High Pass Filters
 
 {{< modal-image TI-Solutions-HPF8.jpg >}}
 {{< /modal-image >}}
-HPF-8
+HPF-8: 8-channel high-pass filter for TIBS-R
