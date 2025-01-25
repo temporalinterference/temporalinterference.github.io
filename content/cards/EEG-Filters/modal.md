@@ -4,7 +4,9 @@ id: EEG Filters
 ---
 # EEG Filters
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Many research groups are eager to explore closed-loop temporal interference stimulation studies. To meet this need, TI Solutions offers state-of-the-art filter solutions developed by the IT'IS Foundation, enabling artifact-free concurrent electroencephalography (EEG) recordings during stimulation with TIBS-R. These solutions include a high-pass filter and a low-pass filter for use with passive EEG electrodes. 2nd-order intermodulation products (IM2) remain under 30 nVrms at 2 mA. The detailed specifications of these filters are available here. (ADD FLYER)
+
+They are currently available for either 128 or 256 channels EEG systems manufactured by Electrical Geodesics, Inc., and 32-channel stackable modules are available for the systems of BrainProducts. Solutions for additional systems can be provided upon special request.
 
 ## Low Pass Filters
 
