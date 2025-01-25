@@ -18,7 +18,7 @@ LPF-32BP: 32-channel low-pass filter for BrainAmp EEG amplifiers (stackable)
 
 {{< modal-image TI-Solutions-LPF-32-stacked.jpg >}}
 {{< /modal-image >}}
-LPF-32BP stacked (NEEDED??)
+LPF-32BP stacked
 
 {{< modal-image TI-Solutions-LPF-128.jpg >}}
 {{< /modal-image >}}
