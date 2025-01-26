@@ -12,11 +12,10 @@ Through this website, you may be able to link to other websites which are not un
 
 Questions regarding TI Solutions AG's products and services should be directed to:
 
-TI Solutions AG
-
-Zeughausstrasse 43
-8004 Zurich
+TI Solutions AG  
+Zeughausstrase 43  
+8004 Zurich  
 Switzerland
 
 +41 44 245 9898
-info@temporalinterference.com
+<info@temporalinterference.com>
