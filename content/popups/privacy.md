@@ -14,9 +14,9 @@ This Data Protection Statement is in line with the EU General Data Protection Re
 ## Controller / Data Protection Officer / Representative
 The "controller" of data processing as described in this data protection statement (i.e., the responsible person) is:
 
-TI Solutions AG
-Zeughausstrasse 43
-8004 Zurich
+TI Solutions AG  
+Zeughausstrase 43  
+8004 Zurich  
 Switzerland
 
 You can notify us of any data protection related concerns using the following contact details:
