@@ -17,5 +17,6 @@ Zeughausstrase 43
 8004 Zurich  
 Switzerland
 
-+41 44 245 9898
 <info@temporalinterference.com>
+
++41 44 245 9898
