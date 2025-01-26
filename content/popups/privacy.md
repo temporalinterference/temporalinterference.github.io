@@ -3,7 +3,7 @@
 # Privacy Policy of TI Solutions AG
 Effective Date: September 13, 2020.
 
-With this Data Protection Statement, we, TI Solutions AG (hereinafter also TI Solutions, we, or us), describe how we collect and further process personal data. This Data Protection Statement is not necessarily a comprehensive description of our data processing. It is possible that other data protection statements are applicable to specific circumstances.
+With this Data Protection Statement, we, TI Solutions AG (hereinafter also we, or us), describe how we collect and further process personal data. This Data Protection Statement is not necessarily a comprehensive description of our data processing. It is possible that other data protection statements are applicable to specific circumstances.
 
 The term "personal data" in this Data Protection Statement refers to any information that identifies, or could reasonably be used to identify any person.
 
