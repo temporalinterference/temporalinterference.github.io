@@ -2,7 +2,7 @@
 ---
 # Legal Notice
 
-Disclaimer
+## Disclaimer
 
 The information provided on this website is for general informational purposes only. While TI Solutions AG strives to keep the content accurate and up to date, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, or availability of the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is strictly at your own risk.
 
