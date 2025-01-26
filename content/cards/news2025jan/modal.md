@@ -2,7 +2,7 @@
 Title: news2025jan
 id: news2025jan-pop
 ---
-# TIBS-R V3.2: Minimal Latency Trigger Functionality for Closed-Loop Protocols
+# TIBS-R V3.2 – Minimal Latency Trigger Functionality for Closed-Loop Protocols
 
 {{< modal-image TI-Solutions_scope_triggered_pm_news-item-2025-Jan.jpg >}} {{< /modal-image >}}
 
