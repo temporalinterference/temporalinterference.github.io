@@ -32,7 +32,7 @@ News
 {{< /card-holder >}}
 
 {{< section id=ti-devices >}}
-Devices
+TI Devices
 {{< /section >}}
 
 {{< card-holder >}}
