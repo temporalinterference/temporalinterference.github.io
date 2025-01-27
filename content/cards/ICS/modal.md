@@ -2,13 +2,14 @@
 Title: ICS
 id: ICS-pop
 ---
-# ICS
+# Intelligent Current Source (ICS)
 
-The core of TIBS-R is the Intelligent Current Source with unique specifications that can be connected to 3rd-party electrodes via an Electrode Connection Box (ECB) and controlled by a computer (PC) via an Application Programming Interface (API).
+The core of TIBS-R is the Intelligent Current Source, a battery-powered 8-channel programmable DC to 100 kHz current source connected optically to a PC and other peripherals, e.g., external trigger circuits, monitoring ports, and emergency stops. 
+The PC sends commands to the ICS using a highly flexible scripting interface. Some commands pertain to the configuration of the ICS and others to the signals to be generated. The signals that can be generated broadly fall into two categories, i.e., sinusoids and arbitrary waveforms. All the signal data is checked for integrity and completeness and any errors are reported back to the operator.  
+The signals for all 8 channels are generated in the same the FPGA using DDS architectures, this ensures synchronization across all the channels. The synthesized digital signals are converted to the analogue domain using digital to analogue converters (DAC) The DACs have a special architecture that allows control of the amplitude of the output current independent of the waveform providing simple control of the ramping at start and stop of an experiment to avoid transient effects. All current sources are fully differential allowing good control of the balance. At the output of the current source, monitoring circuits digitize the voltage and current and the relays that enable the output. Each channel can generate currents from DC to 100 kHz, to maintain operation within safe limits frequency dependent hardware current limiters have been implemented based on the best safety information available, further to this the user can program lower current limits as required.
 
-The highly flexible scripting interface is available in Python and MATLAB (other languages on request). A basic graphical user interface (GUI) is available from 3rd-party sources. Customized GUIs can be developed using the scripting API.
-
-The TIBS-R is battery powered and electrically isolated, in compliance with the relevant standards. Optical links connect it to the PC and to peripherals like triggers for synchronization with EEG and other instruments. All pertinent information, including stimulation protocol, currents, voltages, impedances and events, are continuously recorded and displayed to the researchers.
+An electrode connection box ECB is connected to the ICS using a 3m cable. The cable consists of eight individually screened twisted pairs for each of the eight current source channels and a shielded connection for the ground reference electrode. The ECB is made from plastic and houses the touch-proof electrode connectors, which are in turn connected to the cable via common mode and differential mode filters.
+For continuous operation, the wireless power transfer solution is connected between the ICS and ECB.
 
 {{< modal-image TI-Solutions-ICS-angled-view.jpg >}}
 {{< /modal-image >}}
