@@ -29,6 +29,13 @@ LPF-128EGI: 128-channel low-pass filter for EGI Net Amps Series
 {{< /modal-image >}}
 LPF-256EGI: 256-channel low-pass filter for EGI Net Amps Series
 
+## HPF-8
+
+|    |            |
+|:-----------|:------------|
+|Filter type|Passive current mode high-pass filter |
+|Compatibility|TIBS-R (TI Solutions AG, Switzerland)* |
+
 {{< modal-image TI-Solutions-HPF8.jpg >}}
 {{< /modal-image >}}
 HPF-8: 8-channel high-pass filter for TIBS-R
