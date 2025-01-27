@@ -7,6 +7,10 @@ Title: TI-Solutions Title
 Temporal Interference
 {{< /title >}}
 
+{{< section id=what-is-temporal-interference >}}
+What is Temporal Interference
+{{< /section >}}
+
 {{< section id=news >}}
 News
 {{< /section >}}
