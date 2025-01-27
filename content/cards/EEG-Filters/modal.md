@@ -32,3 +32,6 @@ LPF-256EGI: 256-channel low-pass filter for EGI Net Amps Series
 {{< modal-image TI-Solutions-HPF8.jpg >}}
 {{< /modal-image >}}
 HPF-8: 8-channel high-pass filter for TIBS-R
+
+## Available Systems
+Currently solutions are available for Electrical Geodesic Inc. (EGI) and Brain Vision LLC. Solutions for other EEG systems can be developed upon request.
