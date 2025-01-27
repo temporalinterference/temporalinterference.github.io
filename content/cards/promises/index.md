@@ -1,6 +1,6 @@
 ---
 title: Promises
-title: Promises (MRI of the Brain)
+title: Promises
 id: promises
 ---
-Based on the increasing evidence REFERENCE TO PUBLICATION, a growing number of researchers suggest that TI has significant potential for treating many of the most prevalent brain diseases. 
+Based on the increasing evidence, a growing number of researchers suggest that TI has significant potential for treating many of the most prevalent brain diseases. 
