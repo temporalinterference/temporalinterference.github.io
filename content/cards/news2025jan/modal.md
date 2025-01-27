@@ -10,6 +10,6 @@ In the new mode, instead of continuously repeating the programmed envelope, the 
 
 Version 3.2 of the IT’IS TI Planning tool (ADD LINK TO PLANNING TOOL SECTION), a computational online tool designed to simplify the optimization of targeted TI neurostimulation protocols for the TIBS-R device, will soon be released. This update includes artificial-intelligence-powered optimized placement of fiducial points and a comprehensive multivariable optimization pipeline, for analysis of the entire set of possible setups.
 
-For further information about TIBS-R, please contact us as info@temporalinterference.com
+For further information about TIBS-R, please contact us as info@temporalinterference.com.
 
 {{< modal-image ti-solutions-newsitem-2025.jpg >}} {{< /modal-image >}}
