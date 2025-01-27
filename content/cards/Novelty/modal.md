@@ -3,6 +3,9 @@ Title: The Growing Global Burden of Brain Diseases
 id: the-growing-global-burden-of-brain-diseases
 ---
 
+{{< modal-image what-is-ti-1500px.jpg >}} 
+{{< /modal-image >}}
+
 # The Growing Global Burden of Brain Diseases
 
 Brain diseases are increasing worldwide due to demographic shifts, population growth, and longer lifespans, with their global economic impact estimated to exceed $5 trillion. These conditions encompass neurodegenerative diseases like Alzheimer’s and Parkinson’s, cerebrovascular disorders such as stroke, mental health challenges like depression and anxiety, and neurological conditions including epilepsy and multiple sclerosis. Other categories include brain tumors, traumatic brain injuries, infectious diseases like meningitis, developmental and genetic disorders, autoimmune and metabolic diseases, as well as neuropsychiatric and functional neurological conditions.
@@ -19,4 +22,5 @@ Neuromodulation offers a promising non-pharmacological treatment by directly reg
 
 Temporal interference bridges the gap between classical NIBS technologies and DBS: it enables non- or minimally invasive, steerable stimulation of deep brain structures. This new methods paves the way for a transformative treatment strategy for a wide range of brain disorders, opening new possibilities for safe, effective, and patient-centered therapies.
 
-{{< modal-image what-is-ti-1500px.jpg >}} {{< /modal-image >}}
+{{< modal-image what-is-ti-1500px.jpg >}} 
+{{< /modal-image >}}
