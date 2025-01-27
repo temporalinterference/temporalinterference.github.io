@@ -40,7 +40,6 @@ TI Devices
 {{< card ICS >}}
 {{< card ti-wpt >}}
 {{< card EEG-Filters >}}
-{{< card MRI-Filters >}}
 {{< card Specifications >}}
 {{< /card-holder >}}
 
