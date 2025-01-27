@@ -2,7 +2,6 @@
 Title: The Growing Global Burden of Brain Diseases
 id: the-growing-global-burden-of-brain-diseases
 ---
-{{< modal-image what-is-ti-1500px.jpg >}} {{< /modal-image >}}
 
 # The Growing Global Burden of Brain Diseases
 
