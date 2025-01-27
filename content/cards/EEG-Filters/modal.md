@@ -10,8 +10,8 @@ The 8-channel passive current mode high-pass filter (HPF-8) is positioned betwee
 
 The low pass filter (LPF) is placed between the EEG recording electrodes and the EEG amplifier. It is engineered to prevent TI carrier signals from causing compression or intermodulation distortion in the EEG amplifier. The active 7th-order, ultra-low noise, ultra-low distortion design provides a flat response up to 90 Hz, while attenuating carrier signals of 1 kHz and higher by > 130 dB. Each EEG channel has its own filter, referenced to the COM / GND electrode of the EEG cap.
 
-NEW IMAGE HERE
-
+{{< modal-image ti-setup-1620px.jpg >}}
+{{< /modal-image >}}
 
 {{< modal-image TI-Solutions-LPF-32.jpg >}}
 {{< /modal-image >}}
