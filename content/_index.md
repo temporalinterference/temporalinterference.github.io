@@ -11,6 +11,12 @@ Temporal Interference
 What is Temporal Interference
 {{< /section >}}
 
+{{< card-holder >}}
+{{< card novelty >}}
+{{< card basics >}}
+{{< card promises >}}
+{{< /card-holder >}}
+
 {{< section id=news >}}
 News
 {{< /section >}}
