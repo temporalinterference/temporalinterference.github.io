@@ -1,9 +1,9 @@
 ---
-Title: The Growing Global Burden of Brain Diseases
-id: the-growing-global-burden-of-brain-diseases
+Title: Novelty
+id: Movelty
 ---
 
-# The Growing Global Burden of Brain Diseases
+## The Growing Global Burden of Brain Diseases
 
 Brain diseases are increasing worldwide due to demographic shifts, population growth, and longer lifespans, with their global economic impact estimated to exceed $5 trillion. These conditions encompass neurodegenerative diseases like Alzheimer’s and Parkinson’s, cerebrovascular disorders such as stroke, mental health challenges like depression and anxiety, and neurological conditions including epilepsy and multiple sclerosis. Other categories include brain tumors, traumatic brain injuries, infectious diseases like meningitis, developmental and genetic disorders, autoimmune and metabolic diseases, as well as neuropsychiatric and functional neurological conditions.
 
