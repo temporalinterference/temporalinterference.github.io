@@ -13,6 +13,7 @@ The low pass filter (LPF) is placed between the EEG recording electrodes and the
 {{< modal-image ti-setup-1620px.jpg >}}
 {{< /modal-image >}}
 
+---
 
 ## HPF-8
 
@@ -32,6 +33,7 @@ The low pass filter (LPF) is placed between the EEG recording electrodes and the
 {{< /modal-image >}}
 HPF-8: 8-channel high-pass filter for TIBS-R
 
+---
 
 ## LPF-32BP (stackable)
 
@@ -53,6 +55,7 @@ LPF-32BP: 32-channel low-pass filter for BrainAmp EEG amplifiers (stackable)
 {{< /modal-image >}}
 LPF-32BP stacked
 
+---
 
 ## LPF-128EGI/LPF-256EGI
 
@@ -74,6 +77,7 @@ LPF-128EGI: 128-channel low-pass filter for EGI Net Amps Series
 {{< /modal-image >}}
 LPF-256EGI: 256-channel low-pass filter for EGI Net Amps Series
 
+---
 
 ## Available Systems
 Currently solutions are available for Electrical Geodesic Inc. (EGI) and Brain Vision LLC. Solutions for other EEG systems can be developed upon request.
