@@ -9,8 +9,6 @@ All pertinent information, including stimulation protocol, currents, voltages, i
 Concurrent electroencephalography (EEG) recording during TI stimulation requires the TI-EEG Solution that includes a high-pass filter piggybacked to the ECB and an EEG system-specific filter before the EEG amplifiers. 
 Concurrent fMRI requires special resistive electrodes and a different ECB. 
 
-## Specifications
-
 {{< modal-image setup.jpg >}}
 {{< /modal-image >}}
 
