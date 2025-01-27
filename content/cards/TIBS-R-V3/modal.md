@@ -12,6 +12,7 @@ At the core of TIBS-R is the Intelligent Current Source (ICS) with unique specif
 All pertinent information, including stimulation protocol, currents, voltages, impedances, inputs, etc., is continuously recorded and displayed to the researchers on the monitoring window. Any malfunction is automatically detected and puts the device in a non-stimulating state that requires self-validation before stimulation can be continued.
 
 Concurrent electroencephalography (EEG) recording during TI stimulation requires the TI-EEG Solution that includes a high-pass filter piggybacked to the ECB and an EEG system-specific filter before the EEG amplifiers. 
+
 Concurrent fMRI requires special resistive electrodes and a different ECB. 
 
 ---
