@@ -13,6 +13,18 @@ The low pass filter (LPF) is placed between the EEG recording electrodes and the
 {{< modal-image ti-setup-1620px.jpg >}}
 {{< /modal-image >}}
 
+## LPF-32BP (stackable)
+
+|    |            |
+|:-----------|:------------|
+|Filter type|Active |
+|Compatibility|BrainAmp Standard, DC, MR actiCHamp Plus (via adapter, passive electrodes only) |
+|Number of channels|32 (stackable) |
+|Connector type|50-pin KEL |
+|Attenuation|> 130 dB at 1 kHz and above (7th order, fc = 90 Hz) |
+|Input impedance|3.3 MOhm |
+|Battery life|12 h |
+
 {{< modal-image TI-Solutions-LPF-32.jpg >}}
 {{< /modal-image >}}
 LPF-32BP: 32-channel low-pass filter for BrainAmp EEG amplifiers (stackable)
@@ -20,6 +32,18 @@ LPF-32BP: 32-channel low-pass filter for BrainAmp EEG amplifiers (stackable)
 {{< modal-image TI-Solutions-LPF-32-stacked.jpg >}}
 {{< /modal-image >}}
 LPF-32BP stacked
+
+## LPF-128EGI/LPF-256EGI
+
+|    |            |
+|:-----------|:------------|
+|Filter type|Active |
+|Compatibility|Electrical Geodesic Inc Net Amps Series |
+|Number of channels|128/256 |
+|Connector type|EGI 128/256 |
+|Attenuation|> 130 dB at 1 kHz and above (7th order, fc = 90 Hz) |
+|Input impedance|3.3 MOhm |
+|Battery life|LPF-128EGI: 6 h, 18 h with extended battery option LPF-256EGI: 3 h, 9 h with extended battery option |
 
 {{< modal-image TI-Solutions-LPF-128.jpg >}}
 {{< /modal-image >}}
@@ -37,7 +61,11 @@ LPF-256EGI: 256-channel low-pass filter for EGI Net Amps Series
 |Compatibility|TIBS-R (TI Solutions AG, Switzerland)* |
 |Number of channels|8 |
 |Connector type|Touch proof |
-|Attenuation|> 60 dB up to 60 Hz, > 40 dB up to 100 Hz, (4th order, fc = 350 Hz) |
+|Attenuation|> 60 dB up to 60 Hz, > 40 dB up to 100 Hz (4th order, fc = 350 Hz) |
+|TI carrier frequency range|2 – 30 kHz (recommended), 1 – 50 kHz (with reduced performance) |
+|Output Impedance|> 35 kOhm between 2 – 10 kHz |
+|Typical IM2 magnitude|< 30 nVrms |
+|Current monitoring port gain|2 V / mA |
 
 {{< modal-image TI-Solutions-HPF8.jpg >}}
 {{< /modal-image >}}
