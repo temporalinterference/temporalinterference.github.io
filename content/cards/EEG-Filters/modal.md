@@ -13,6 +13,26 @@ The low pass filter (LPF) is placed between the EEG recording electrodes and the
 {{< modal-image ti-setup-1620px.jpg >}}
 {{< /modal-image >}}
 
+
+## HPF-8
+
+|    |            |
+|:-----------|:------------|
+|Filter type|Passive current mode high-pass filter |
+|Compatibility|TIBS-R (TI Solutions AG, Switzerland)* |
+|Number of channels|8 |
+|Connector type|Touch proof |
+|Attenuation|> 60 dB up to 60 Hz, > 40 dB up to 100 Hz (4th order, fc = 350 Hz) |
+|TI carrier frequency range|2 – 30 kHz (recommended), 1 – 50 kHz (with reduced performance) |
+|Output Impedance|> 35 kOhm between 2 – 10 kHz |
+|Typical IM2 magnitude|< 30 nVrms |
+|Current monitoring port gain|2 V / mA |
+
+{{< modal-image ti-hpf-8-1620px.jpg >}}
+{{< /modal-image >}}
+HPF-8: 8-channel high-pass filter for TIBS-R
+
+
 ## LPF-32BP (stackable)
 
 |    |            |
@@ -32,6 +52,7 @@ LPF-32BP: 32-channel low-pass filter for BrainAmp EEG amplifiers (stackable)
 {{< modal-image TI-Solutions-LPF-32-stacked.jpg >}}
 {{< /modal-image >}}
 LPF-32BP stacked
+
 
 ## LPF-128EGI/LPF-256EGI
 
@@ -53,23 +74,6 @@ LPF-128EGI: 128-channel low-pass filter for EGI Net Amps Series
 {{< /modal-image >}}
 LPF-256EGI: 256-channel low-pass filter for EGI Net Amps Series
 
-## HPF-8
-
-|    |            |
-|:-----------|:------------|
-|Filter type|Passive current mode high-pass filter |
-|Compatibility|TIBS-R (TI Solutions AG, Switzerland)* |
-|Number of channels|8 |
-|Connector type|Touch proof |
-|Attenuation|> 60 dB up to 60 Hz, > 40 dB up to 100 Hz (4th order, fc = 350 Hz) |
-|TI carrier frequency range|2 – 30 kHz (recommended), 1 – 50 kHz (with reduced performance) |
-|Output Impedance|> 35 kOhm between 2 – 10 kHz |
-|Typical IM2 magnitude|< 30 nVrms |
-|Current monitoring port gain|2 V / mA |
-
-{{< modal-image TI-Solutions-HPF8.jpg >}}
-{{< /modal-image >}}
-HPF-8: 8-channel high-pass filter for TIBS-R
 
 ## Available Systems
 Currently solutions are available for Electrical Geodesic Inc. (EGI) and Brain Vision LLC. Solutions for other EEG systems can be developed upon request.
