@@ -39,7 +39,6 @@ TI Devices
 {{< card TIBS-R-V3 >}}
 {{< card ICS >}}
 {{< card ti-wpt >}}
-{{< card ECB >}}
 {{< card EEG-Filters >}}
 {{< card MRI-Filters >}}
 {{< card Specifications >}}
