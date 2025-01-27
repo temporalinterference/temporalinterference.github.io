@@ -18,7 +18,6 @@ Concurrent fMRI requires special resistive electrodes and a different ECB.
 ---
 
 ## Specifications 
-## TIBS-R V3.2
 
 |    |            |
 |:-----------|:------------|
