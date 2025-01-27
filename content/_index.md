@@ -8,7 +8,7 @@ Temporal Interference
 {{< /title >}}
 
 {{< section id=what-is-temporal-interference >}}
-What is Temporal Interference
+What is Temporal Interference (TI)
 {{< /section >}}
 
 {{< card-holder >}}
