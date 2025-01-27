@@ -1,5 +1,5 @@
 ---
-title: TIBS-R V3.x
+title: TIBS-R
 id: TIBS-R-V3
 ---
 
