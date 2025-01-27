@@ -56,8 +56,6 @@ TI Planning
 {{< card Sim4Life-V8 >}}
 {{< /card-holder >}}
 
-{{< slider tool >}}
-
 {{< section id=early-adopter-program >}}
 Early Adopter Program (EAP)
 {{< /section >}}
