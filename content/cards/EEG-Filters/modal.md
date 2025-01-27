@@ -35,6 +35,9 @@ LPF-256EGI: 256-channel low-pass filter for EGI Net Amps Series
 |:-----------|:------------|
 |Filter type|Passive current mode high-pass filter |
 |Compatibility|TIBS-R (TI Solutions AG, Switzerland)* |
+|Number of channels|8 |
+|Connector type|Touch proof |
+|Attenuation|> 60 dB up to 60 Hz, > 40 dB up to 100 Hz, (4th order, fc = 350 Hz) |
 
 {{< modal-image TI-Solutions-HPF8.jpg >}}
 {{< /modal-image >}}
