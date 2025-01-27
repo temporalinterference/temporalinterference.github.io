@@ -3,6 +3,6 @@ title: Basics
 title: Basics
 id: basics
 ---
-TI involves the application of two or more high-frequency electrical currents (typ. >1kHz), which individually do not effectively stimulate neurons due to their high frequency.
+TI uses two or more high-frequency currents (typically. >1 kHz) that, individually, cannot stimulate neurons due to high frequency. 
 
-When these high-frequency currents intersect in the brain, they create a low-frequency interference pattern (beat frequency) that modulates neuron activity.
+Their intersection in the brain creates a low-frequency beat that modulates neuronal activity.
