@@ -70,7 +70,6 @@ The Science
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card the-science >}}
 {{< card References >}}
 {{< /card-holder >}}
 
