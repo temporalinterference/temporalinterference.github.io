@@ -9,7 +9,7 @@ Brain diseases are increasing worldwide due to demographic shifts, population gr
 
 ## Challenges in Treating Brain Disorders
 
-Invasive deep brain stimulation (DBS) with implanted electrodes is used as a treatment for severe movement disorders, such as Parkinson’s disease. While effective, the risks of brain surgery limit the exploration of alternative brain targets and restrict the potential for broader therapeutic applications.
+Invasive deep brain stimulation (DBS) with implanted electrodes is used as a treatment for e.g., severe movement disorders, such as Parkinson’s disease. While effective, the risks of brain surgery limit the exploration of alternative brain targets and restrict the potential for broader therapeutic applications.
 
 ## Advancing Non-Invasive Neuromodulation
 
