@@ -13,7 +13,7 @@ The shape of the human heads and its dielectric properties vary and are non-homo
 ## Our Solution
 The synergy between TIP and Sim4Life provides researchers with the most advanced solution to master these challenges. By combining TIP’s intuitive protocol design with Sim4Life’s cutting-edge simulation and analysis capabilities, they empower researchers to efficiently develop, optimize, and validate TI protocols with unmatched precision.
 
-## TIP’s Core Strengths
+##  [TIP’s Core Strengths](https://itis.swiss/tools-and-systems/ti-planning/overview/)
 
 • User-friendly design: Intuitive interface tailored for TI research
 
@@ -25,7 +25,7 @@ The synergy between TIP and Sim4Life provides researchers with the most advanced
 
 • TI-specific tools: Streamlined simulation modes to enhance productivity
 
-## Sim4Life’s Advanced Capabilities
+##  [Sim4Life’s Advanced Capabilities](https://sim4life.swiss/)
 
 • Comprehensive simulation: Multiphysics engine for realistic modeling
 
