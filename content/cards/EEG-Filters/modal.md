@@ -1,6 +1,6 @@
 ---
 Title: EEG Filters
-id: EEG Filters
+id: EEG-Filters
 ---
 # TI-EEG Filter Solutions
 
