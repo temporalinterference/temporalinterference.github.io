@@ -1,6 +1,6 @@
 ---
-title: TI-WPT
+title: TI-WPT Solution
 id: ti-wpt
 ---
 
-The wireless power transfer system (TI-WPT) can be connected between the ICS and ECB to continuously charge the ICS batteries, allowing TI stimulations to extend beyond 4 hours.
+The wireless power transfer system solution can be connected between the ICS and ECB, allowing continuous charging of the ICS batteries and extending TI stimulation sessions beyond 4 hours.
