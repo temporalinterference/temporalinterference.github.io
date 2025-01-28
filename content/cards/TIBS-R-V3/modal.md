@@ -69,8 +69,5 @@ AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic reso
 
 Minimal PC specifications (PC not included): Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
 
-{{< modal-image ti-solutions-setup-with-labels-1620px.jpg >}}
-{{< /modal-image >}}
-
 {{< modal-image TIBS-setup1.jpg >}}
 {{< /modal-image >}}
