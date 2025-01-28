@@ -38,5 +38,4 @@ Henrich Kisker holds various positions as internal and external adviser on corpo
 Prof. Alvaro Pascual-Leone is Professor of Neurology at Harvard Medical School and a Senior Scientist at the Hinda and Arthur Marcus Institute for Aging Research at Hebrew SeniorLife, Boston, USA. He is a pioneer in the use of noninvasive brain stimulation and its application for the study of brain behavior relations and the development of diagnostic and therapeutic interventions in neuropsychiatry. His contributions range from technology development to basic neurobiological insights gained from animal studies and modeling approaches to human proof-of-principle and multicenter clinical trials.
 {{< /image-text >}}
 
-# Staff Members
 
