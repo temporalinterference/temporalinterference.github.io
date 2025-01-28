@@ -2,6 +2,9 @@
 Title: TI Planning Tool
 id: TI-Planning-Tool-pop
 ---
+{{< modal-image teaser.jpg >}}
+{{< /modal-image >}}
+
 # Precise TI Stimulation with TIP and Sim4Life
 
 ## The Challenges
