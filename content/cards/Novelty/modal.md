@@ -17,7 +17,7 @@ Neuromodulation offers a promising non-pharmacological treatment by directly reg
 
 ## Novelty 
 
-Temporal interference bridges the gap between classical NIBS technologies and DBS: it enables non- or minimally invasive, steerable stimulation of deep brain structures. This new methods paves the way for a transformative stimulation strategy for a wide range of brain disorders, opening new possibilities for safe, effective, and patient-centered therapies.
+Temporal interference (TI) bridges the gap between classical NIBS technologies and DBS: it enables non- or minimally invasive, steerable stimulation of deep brain structures. This new methods paves the way for a transformative stimulation strategy for a wide range of brain disorders, opening new possibilities for safe, effective, and patient-centered therapies.
 
 {{< modal-image ti-novelty-1620px.jpg >}}
 {{< /modal-image >}}
