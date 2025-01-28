@@ -13,7 +13,8 @@ This method utilizes harmonic electric fields applied through scalp electrodes a
 
 ## Advanced TI 
 
-[KEVIN ADD GRAPHICS FROM THE 3.2 REALEASE]
+{{< modal-image newsitem-2025-jan-1620px.jpg >}}
+{{< /modal-image >}}
 
 The use of multiple currents has the following advantages:
 
