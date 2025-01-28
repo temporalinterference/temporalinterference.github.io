@@ -6,6 +6,8 @@ build:
 navigation:
     - title: Home
       href: /
+    - title: What is TI
+      href: '#what-is-temporal-interference'
     - title: News
       href: '#news'
     - title: Devices
