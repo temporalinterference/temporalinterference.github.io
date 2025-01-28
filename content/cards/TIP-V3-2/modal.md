@@ -37,4 +37,4 @@ Visualization: Depict advanced phase modulation schemes and pulse shapes of the 
 
 {{< /modal-image >}}
 
-Visualize and analyze selected conditions using Sim4Life.web.
+Visualize and analyze selected conditions using [www.sim4life.swiss](https://sim4life.swiss/)
