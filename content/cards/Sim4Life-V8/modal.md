@@ -13,37 +13,37 @@ Sim4Life is the premier computational platform for biomedical simulations, healt
 
 Sim4Life combines powerful physics solvers with detailed anatomical models to analyze complex biological phenomena and technical devices. The platform includes:
 
-• Electromagnetic solvers (full-wave and quasi-static)
+* Electromagnetic solvers (full-wave and quasi-static)
 
-• Bioheat and thermodynamics solvers
+* Bioheat and thermodynamics solvers
 
-• Acoustics and wave propagation solvers
+* Acoustics and wave propagation solvers
 
-• Fluid dynamics solvers
+* Fluid dynamics solvers
 
 ## Anatomical Models
 
 The software integrates highly detailed anatomical models:
 
-• Virtual Population (ViP) human phantoms
+* Virtual Population (ViP) human phantoms
 
-• Virtual Zoo (ViZoo) animal phantoms
+* Virtual Zoo (ViZoo) animal phantoms
 
-• Sub-mm resolution with hundreds of tissues and organs
+* Sub-mm resolution with hundreds of tissues and organs
 
-• Dynamic tissue models with integrated physiological information
+* Dynamic tissue models with integrated physiological information
 
 ## Device Design and Optimization
 
 Sim4Life offers advanced tools for designing and optimizing medical and body-worn devices:
 
-• Computer-aided design (CAD) tools and versatile file importers
+* Computer-aided design (CAD) tools and versatile file importers
 
-• Specialized routing tools for implant lead trajectories
+* Specialized routing tools for implant lead trajectories
 
-• Multi-parameter, multi-goal optimizer
+* Multi-parameter, multi-goal optimizer
 
-• Parameterized modeling and sweeper functions
+* Parameterized modeling and sweeper functions
 
 {{< modal-movie 13-ti-small.mp4 >}}
 {{< /modal-movie >}}
@@ -52,57 +52,57 @@ Sim4Life offers advanced tools for designing and optimizing medical and body-wor
 
 The platform includes tissue and physiology models for assessing dynamic processes:
 
-• Electrophysiological neuron models
+* Electrophysiological neuron models
 
-• Thermal tissue damage models
+* Thermal tissue damage models
 
-• Perfusion and thermoregulation models
+* Perfusion and thermoregulation models
 
-• Database of tissue properties
+* Database of tissue properties
 
 ## Regulatory Compliance
 
 Sim4Life provides tools for regulatory-grade modeling:
 
-• Verified and validated evaluations for exposure metrics
+* Verified and validated evaluations for exposure metrics
 
-• Tissue temperature increase evaluations
+* Tissue temperature increase evaluations
 
-• MRI implant safety assessments (IMAnalytics with MRIxViP Libraries)
+* MRI implant safety assessments (IMAnalytics with MRIxViP Libraries)
 
 ## Usability and Accessibility
 
-• Available in both desktop and web-based versions (Sim4Life.web)
+* Available in both desktop and web-based versions (Sim4Life.web)
 
-• Cloud-based technology for collaborative work and scalability
+* Cloud-based technology for collaborative work and scalability
 
-• Intuitive user interface with search functionality
+* Intuitive user interface with search functionality
 
-• Project organization and sharing capabilities
+* Project organization and sharing capabilities
 
 ## Performance and Customization
 
-• High-performance computing (HPC)-accelerated solvers for managing complex 3D simulations
+* High-performance computing (HPC)-accelerated solvers for managing complex 3D simulations
 
-• Python API for workflow automation and custom tool creation
+* Python API for workflow automation and custom tool creation
 
-• Integration capabilities for custom-optimized software modules
+* Integration capabilities for custom-optimized software modules
 
 ## Specific TI Features 
 
-• Import and manipulate TIP projects
+* Import and manipulate TIP projects
 
-• Programming and visualization of custom-specific optimization goals 
+* Programming and visualization of custom-specific optimization goals 
 
-• Utilizing the large library of neuron models 
+* Utilizing the large library of neuron models 
 
-• Applying custom-defined electrodes
+* Applying custom-defined electrodes
 
-• Assessing the impact of conductive implants on TI 
+* Assessing the impact of conductive implants on TI 
 
-• Case-specific safety evaluations
+* Case-specific safety evaluations
 
-• Direct comparison of measurement and simulations and more
+* Direct comparison of measurement and simulations and more
 
 ## Access
 
