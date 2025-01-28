@@ -4,7 +4,6 @@ id: TI-Planning-Tool-pop
 ---
 # Why TI Planning
 
----
 ## TIP and Sim4Life: A Complete Workflow for Temporal Interference Stimulation Research
 TIP and Sim4Life form a powerful partnership, streamlining temporal interference (TI) stimulation research by combining TIP’s intuitive protocol design with Sim4Life’s advanced simulation and analysis capabilities. Together, they enable researchers to develop, optimize, and validate TI protocols efficiently.
 

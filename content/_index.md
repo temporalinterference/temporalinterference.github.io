@@ -50,7 +50,7 @@ TI Planning
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card ti-planning >}}
+{{< card ti-planning-tool >}}
 {{< card TIP-V3-2 >}}
 {{< card Sim4Life-V8 >}}
 {{< /card-holder >}}

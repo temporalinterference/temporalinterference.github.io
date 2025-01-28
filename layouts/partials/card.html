@@ -18,11 +18,11 @@
     {{ if $modal.Params.id }}
         {{ .Scratch.Set "local_modal_id" $modal.Params.id }}
     {{ else }}
-        {{ if eq ( page.Scratch.Get "modal_id" ) "" }}
-            {{ page.Scratch.Set "modal_id" 0 }}
+        {{ if eq ( $.Site.Store.Get "modal_id" ) "" }}
+            {{ $.Site.Store.Set "modal_id" 0 }}
         {{ end }}
-        {{ page.Scratch.Add "modal_id" 1 }}
-        {{ .Scratch.Set "local_modal_id" (page.Scratch.Get "modal_id") }}
+        {{ $.Site.Store.Add "modal_id" 1 }}
+        {{ .Scratch.Set "local_modal_id" ( $.Site.Store.Get "modal_id") }}
     {{ end }}
 {{ end }}
 
@@ -51,9 +51,9 @@
 <!-- This is the modal with the default close button -->
 <div id='modal-{{ .Scratch.Get "local_modal_id" }}' class="uk-modal-container" uk-modal>
     <div class="uk-modal-dialog">
-        <img 
+        <img S
             src='{{ (resources.Get "images/x-icon.svg").RelPermalink }}' 
-            uk-toggle='target: #modal-{{ page.Scratch.Get "modal_id" }}' 
+            uk-toggle='target: #modal-{{ .Scratch.Get "local_modal_id" }}' 
             alt="open-modal" 
             uk-img
             class="ti-round-button ti-close-button uk-modal-close"
