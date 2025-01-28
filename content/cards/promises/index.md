@@ -3,4 +3,4 @@ title: Promises
 title: Promises
 id: promises
 ---
-Building on increasing scientific evidence, a growing number of researchers suggest that TI holds significant promise for treating many of the most common brain diseases. 
+Building on a growing body of scientific evidence, researchers increasingly recognize the potential of TI stimulation to transform the treatment of many prevalent brain diseases. 
