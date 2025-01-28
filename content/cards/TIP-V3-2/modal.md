@@ -2,9 +2,9 @@
 Title: TIP V3-2
 id: TIP-V3-2
 ---
-# TI Planning Tool
+# TIP V3.0
 
-TIP provides an advanced modeling pipeline for electrode placement and stimulation targeting using TIBS-R, offering cloud-based simulations and interactive visualizations. Read more on the [IT'IS](https://itis.swiss/s/news-events/news/latest-news) website.
+The TI Planning tool TIP Version 3.0 provides an advanced modeling pipeline for electrode placement and stimulation targeting using TIBS-R, offering cloud-based simulations and interactive visualizations. Read more on the [IT'IS](https://itis.swiss/s/news-events/news/latest-news) website.
 
 {{< modal-image tip_1.jpg >}}
 {{< /modal-image >}}
