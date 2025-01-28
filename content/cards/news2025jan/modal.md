@@ -8,7 +8,7 @@ The TIBS-R software has been upgraded, adding the capability of delivering envel
 
 In the new mode, instead of continuously repeating the programmed envelope, the modulation envelope stops – typically in anti-phase, to ensure that the currents sum to zero – until a trigger is received. Upon triggering, the pattern plays once, generating a TI pulse. When combined with a feedback loop – e.g., from electroencephalography (EEG), which can be recorded during TI stimulation with the EEG filter solution of our partner organization IT'IS Foundation {{< modal-link EEG-Filters >}}EEG FILTER SECTION{{< /modal-link >}} – this feature facilitates the realization of flexible, closed-loop stimulation protocols.
 
-Version 3.2 of the IT’IS TI Planning tool {{< modal-link TI-Planning-Tool >}}TI PLANNING TOOL SECTION{{< /modal-link >}}, a computational online tool designed to simplify the optimization of targeted TI neurostimulation protocols for the TIBS-R device, will soon be released. This update includes artificial-intelligence-powered optimized placement of fiducial points and a comprehensive multivariable optimization pipeline, for analysis of the entire set of possible setups.
+Version 3.2 of the IT’IS TI Planning tool {{< modal-link TI-Planning-Tool-pop >}}TI PLANNING TOOL SECTION{{< /modal-link >}}, a computational online tool designed to simplify the optimization of targeted TI neurostimulation protocols for the TIBS-R device, will soon be released. This update includes artificial-intelligence-powered optimized placement of fiducial points and a comprehensive multivariable optimization pipeline, for analysis of the entire set of possible setups.
 
 For further information about TIBS-R, please contact us at info@temporalinterference.com
 
