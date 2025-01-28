@@ -2,44 +2,17 @@
 Title: TI Planning Tool
 id: TI-Planning-Tool-pop
 ---
-# Why TI Planning
+# Precise TI Stimulation with TIP and Sim4Life
 
-## TIP and Sim4Life: A Complete Workflow for Temporal Interference Stimulation Research
-TIP and Sim4Life form a powerful partnership, streamlining temporal interference (TI) stimulation research by combining TIP’s intuitive protocol design with Sim4Life’s advanced simulation and analysis capabilities. Together, they enable researchers to develop, optimize, and validate TI protocols efficiently.
+## The Challenges
+The shape of the human heads and its dielectric properties vary and are non-homogeneous and also non-isotropic, presenting challenges in achieving the desired interference in the target tissues, i.e., the desired modulation in the target and non-or low modulation in the off-target regions. This requires highly accurate current sources, careful meticulous planning, and robust tools for interpreting results and assessing stimulation sensitivities on tissue parameter variations. The same challenges are valid for in vivo experiments. 
 
-## [TIP](https://itis.swiss/tools-and-systems/ti-planning/overview/)’s core strengths
-- User-Friendly Design: Intuitive interface tailored for TI research
-- Rapid Optimization: Automated parameter sweeping for quick results
-- Broad Accessibility: Designed for researchers without computational expertise
-- TI-Specific Tools: Streamlined simulation modes to enhance productivity
+## Our Solution
+The synergy between TIP and Sim4Life provides researchers with the most advanced solution to master these challenges. By combining TIP’s intuitive protocol design with Sim4Life’s cutting-edge simulation and analysis capabilities, they empower researchers to efficiently develop, optimize, and validate TI protocols with unmatched precision.
 
-## [Sim4Life](www.sim4life.swiss)’s advanced capabilities
-- Comprehensive Simulation: Multiphysics engine for realistic modeling
-- Sophisticated Analysis: Advanced post-processing and visualization tools
-- Detailed Modeling: Neuronal tissue simulations with high precision
-- Rich Visual Outputs: Insights through advanced visualizations
-
-## An Integrated Workflow for TI Research
-By combining TIP’s rapid protocol design with Sim4Life’s powerful simulation and analysis tools, researchers can seamlessly transition from initial design to in-depth validation. TIP empowers researchers to efficiently optimize protocols through its accessible, TI-focused interface. These protocols can then be transferred to Sim4Life for advanced modeling, analysis, and visualization.
-This integration ensures an efficient and comprehensive approach to temporal interference stimulation research, enabling breakthroughs with confidence and precision.
-
-
-{{< modal-image tip1-2000px.jpg >}}
-
-{{< /modal-image >}}
-
-{{< modal-image tip2-2000px.jpg >}}
-
-{{< /modal-image >}}
-
-{{< modal-image tip3-2000px.jpg >}}
-
-{{< /modal-image >}}
-
-{{< modal-image tip4-2000px.jpg >}}
-
-{{< /modal-image >}}
-
-{{< modal-image tip-itis-logo-blue-3000px.jpg >}}
-
-{{< /modal-image >}}
+TIP’s Core Strengths
+• User-friendly design: Intuitive interface tailored for TI research
+• Personalization: Automated segmentation using magnetic resonance imaging (MRI) and diffusion tensor imaging (DTI) data 
+• Rapid optimization: Automated parameter sweeping for quick results
+• Broad accessibility: Designed for researchers without computational expertise
+• TI-specific tools: Streamlined simulation modes to enhance productivity
