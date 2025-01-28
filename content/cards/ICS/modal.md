@@ -4,7 +4,9 @@ id: ICS-pop
 ---
 # ICS
 
-Central to the TIBS-R system is the Intelligent Current Source (ICS), a battery-powered 8-channel programmable current source that is optically connected to a PC and other peripherals such as external trigger circuits, monitoring ports, and emergency stops. (SHOULD BE DIFFERENT FROM WHAT IS IN THE INDEX CARD?)
+## Intelligent Current Source
+
+The core component of the TIBS-R system is the battery-powered, 8-channel programmable high-impedance current source generating precise direct current (DC) and alternating curernt (AC) from 0 - > 100 kHz. To ensure superior electrical safety, the ICS is solely optically connected to the external world. The PC via optical Ethernet and other peripherals, including external trigger circuits, monitoring ports, and emergency stops, are also optically connected via fibers. 
 
 ## Signal Generation
 
