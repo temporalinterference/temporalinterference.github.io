@@ -1,7 +1,9 @@
 ---
 Title: Novelty
-id: Movelty
+id: Novelty
 ---
+{{< modal-image novelty-new-1620px.jpg >}}
+{{< /modal-image >}}
 
 ## The Growing Global Burden of Brain Diseases
 
@@ -19,5 +21,4 @@ Neuromodulation offers a promising non-pharmacological treatment by directly reg
 
 Temporal interference (TI) bridges the gap between classical NIBS technologies and DBS: it enables non- or minimally invasive, steerable stimulation of deep brain structures. This new methods paves the way for a transformative stimulation strategy for a wide range of brain disorders, opening new possibilities for safe, effective, and patient-centered therapies.
 
-{{< modal-image ti-novelty-1620px.jpg >}}
-{{< /modal-image >}}
+
