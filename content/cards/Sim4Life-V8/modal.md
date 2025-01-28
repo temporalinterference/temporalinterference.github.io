@@ -4,10 +4,11 @@ id: sim4life
 ---
 # Sim4Life Platform
 
-{{< modal-movie 7-ti-small.mp4 >}}
+Sim4Life is the premier computational platform for biomedical simulations, healthcare applications, and technical system design, including specific features for TI.
+
+{{< modal-movie 13-ti-small.mp4 >}}
 {{< /modal-movie >}}
 
-Sim4Life is the premier computational platform for biomedical simulations, healthcare applications, and technical system design. Its key features are:
 
 ## Multiphysics Simulation
 
@@ -45,8 +46,6 @@ Sim4Life offers advanced tools for designing and optimizing medical and body-wor
 
 * Parameterized modeling and sweeper functions
 
-{{< modal-movie 13-ti-small.mp4 >}}
-{{< /modal-movie >}}
 
 ## Physiological Response Modeling
 
@@ -59,6 +58,11 @@ The platform includes tissue and physiology models for assessing dynamic process
 * Perfusion and thermoregulation models
 
 * Database of tissue properties
+
+{{< modal-movie 7-ti-small.mp4 >}}
+{{< /modal-movie >}}
+
+
 
 ## Regulatory Compliance
 
