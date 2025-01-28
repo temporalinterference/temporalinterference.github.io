@@ -7,7 +7,9 @@ id: TIBS-R-V3-pop
 {{< modal-image TIBS-setup2.jpg >}}
 {{< /modal-image >}}
 
-At the core of Temporal Interference Brain Stimulator for Research (TIBS-R) is the Intelligent Current Source (ICS) with unique specifications that can be connected to 3rd-party electrodes via an Electrode Connection Box (ECB). The ICS is controlled by a computer (PC) via an Application Programming Interface (API). Highly flexible scripting interfaces in multiple languages (e.g., Python, MATLAB) and custom-specific graphical user interfaces (GUIs) can be accessed in the Programing Window. Optical inputs and outputs are available for synchronization with external triggers, e.g., electroencephalography (EEG) instruments.
+## TIBS-R Components
+
+At the core of Temporal Interference Brain Stimulator for Research (TIBS-R) is the Intelligent Current Source (ICS) with unique specifications that can be connected to 3rd-party electrodes via an Electrode Connection Box (ECB). The ICS is controlled by a computer (PC) via an Application Programming Interface (API). Highly flexible scripting interfaces in multiple languages (e.g., Python, MATLAB) and custom-specific graphical user interfaces (GUIs) can be accessed in the Programing Window. Optical inputs and outputs are available for synchronization with external triggers (Trigger In/Out), e.g., electroencephalography (EEG) instruments. The modulation envelope is available as an anolog signal (Envelope Out), e.g., to record with the EEG. The stimulation can be stoped at any time pressing one of the two optically connected Emergency Stops.
 
 ## Real-Time Monitoring and Safety Features
 
@@ -19,9 +21,12 @@ Concurrent EEG recording during TI stimulation requires our TI-EEG Solution (LIN
 
 Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI solution (LINK TO MRI CARD?) including special resistive electrodes and a different type of ECB. 
 
+{{< modal-image TIBS-setup1.jpg >}}
+{{< /modal-image >}}
+
 ---
 
-## Specifications 
+## Specifications of TIBS-R V3.2 
 
 |    |            |
 |:-----------|:------------|
@@ -69,5 +74,3 @@ AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic reso
 
 Minimal PC specifications (PC not included): Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
 
-{{< modal-image TIBS-setup1.jpg >}}
-{{< /modal-image >}}
