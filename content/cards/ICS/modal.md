@@ -3,6 +3,8 @@ Title: ICS
 id: ICS-pop
 ---
 # ICS
+{{< modal-image TI-Solutions-ICS.jpg >}}
+{{< /modal-image >}}
 
 ## Intelligent Current Source
 
@@ -27,5 +29,3 @@ For continuous operation, our wireless power transfer solution (TI-WPT) can be c
 {{< modal-image TI-Solutions-ICS-angled-view.jpg >}}
 {{< /modal-image >}}
 
-{{< modal-image TI-Solutions-ICS.jpg >}}
-{{< /modal-image >}}
