@@ -3,4 +3,4 @@ title: Novelty
 title: Novelty
 id: novelty
 ---
-TI introduces a new method for sculpting electrical fields, enabling, for the first time, steerable and precise stimulation of deep brain structures. This innovation paves the way for safer and more effective treatments across a wide range of brain disorders.
+TI introduces a new non-invasive method for sculpting electric fields, enabling, for the first time, steerable, precise deep brain stimulation. This innovation paves the way for safer, more effective treatments for a wide range of brain disorders.
