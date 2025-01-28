@@ -4,7 +4,7 @@ id: sim4life
 ---
 # Sim4Life Platform
 
-Sim4Life is the premier computational platform for biomedical simulations, healthcare applications, and technical system design, including specific features for TI.
+The cloud and desktop Sim4Life platforms V8.2 are the premier computational platform for biomedical simulations, healthcare applications, and technical system design, including specific features for TI planing and analysis.
 
 {{< modal-movie 13-ti-small.mp4 >}}
 {{< /modal-movie >}}
