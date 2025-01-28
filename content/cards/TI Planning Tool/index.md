@@ -1,5 +1,6 @@
 ---
-title: What is TIP?
+title: Why TI Planning
 id: ti-planning-tool
 ---
-The TI planning tool (TIP) is an advanced interactive modeling pipeline developed by the [IT’IS Foundation](https://www.itis.swiss), designed to optimize electrode placement and stimulation targeting using our TIBS-R device. This user-friendly tool delivers results through powerful visualizations and leverages a state-of-the-art...
+TI relies on inducing high-frequency currents to the targeted brain regions with great accuracy. 
+This not only requires high-precision current sources but also detailed personalized treatment planning to account for the highly non-homogenous head tissues.
