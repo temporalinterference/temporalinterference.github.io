@@ -4,6 +4,8 @@ id: TIBS-R-V3-pop
 ---
 # TIBS-R 3.2 System
 
+{{< modal-image TIBS-setup2.jpg >}}
+{{< /modal-image >}}
 
 At the core of Temporal Interference Brain Stimulator for Research (TIBS-R) is the Intelligent Current Source (ICS) with unique specifications that can be connected to 3rd-party electrodes via an Electrode Connection Box (ECB). The ICS is controlled by a computer (PC) via an Application Programming Interface (API). Highly flexible scripting interfaces in multiple languages (e.g., Python, MATLAB) and custom-specific graphical user interfaces (GUIs) can be accessed in the Programing Window. Optical inputs and outputs are available for synchronization with external triggers, e.g., electroencephalography (EEG) instruments.
 
@@ -68,4 +70,7 @@ AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic reso
 Minimal PC specifications (PC not included): Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
 
 {{< modal-image ti-solutions-setup-with-labels-1620px.jpg >}}
+{{< /modal-image >}}
+
+{{< modal-image TIBS-setup1.jpg >}}
 {{< /modal-image >}}
