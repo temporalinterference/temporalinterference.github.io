@@ -15,25 +15,29 @@ The synergy between TIP and Sim4Life provides researchers with the most advanced
 
 ##  [TIP’s Core Strengths](https://itis.swiss/tools-and-systems/ti-planning/overview/)
 
-• User-friendly design: Intuitive interface tailored for TI research
+ User-friendly design: Intuitive interface tailored for TI research
 
-• Personalization: Automated segmentation using magnetic resonance imaging (MRI) and diffusion tensor imaging (DTI) data 
+* Personalization: Automated segmentation using magnetic resonance imaging (MRI) and diffusion tensor imaging (DTI) data 
 
-• Rapid optimization: Automated parameter sweeping for quick results
+* Rapid optimization: Automated parameter sweeping for quick results
 
-• Broad accessibility: Designed for researchers without computational expertise
+* Broad accessibility: Designed for researchers without computational expertise
 
-• TI-specific tools: Streamlined simulation modes to enhance productivity
+* TI-specific tools: Streamlined simulation modes to enhance productivity
+
+For more details visit the [IT'IS TI Planning webpage](https://itis.swiss/tools-and-systems/ti-planning/overview/)
 
 ##  [Sim4Life’s Advanced Capabilities](https://sim4life.swiss/)
 
-• Comprehensive simulation: Multiphysics engine for realistic modeling
+* Comprehensive simulation: Multiphysics engine for realistic modeling
 
-• Sophisticated analysis: Advanced post-processing and visualization tools
+* Sophisticated analysis: Advanced post-processing and visualization tools
 
-• Detailed modeling: Neuronal tissue simulations with high precision
+* Detailed modeling: Neuronal tissue simulations with high precision
 
-• Rich visual outputs: Insights through advanced visualizations
+* Rich visual outputs: Insights through advanced visualizations
+
+For more details visit [Sim4Life.swiss](https://sim4life.swiss/)
 
 ## A Powerful Workflow
 
