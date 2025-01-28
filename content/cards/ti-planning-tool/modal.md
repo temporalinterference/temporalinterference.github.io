@@ -10,9 +10,14 @@ The shape of the human heads and its dielectric properties vary and are non-homo
 ## Our Solution
 The synergy between TIP and Sim4Life provides researchers with the most advanced solution to master these challenges. By combining TIP’s intuitive protocol design with Sim4Life’s cutting-edge simulation and analysis capabilities, they empower researchers to efficiently develop, optimize, and validate TI protocols with unmatched precision.
 
-TIP’s Core Strengths
+### TIP’s Core Strengths
+
 • User-friendly design: Intuitive interface tailored for TI research
+
 • Personalization: Automated segmentation using magnetic resonance imaging (MRI) and diffusion tensor imaging (DTI) data 
+
 • Rapid optimization: Automated parameter sweeping for quick results
+
 • Broad accessibility: Designed for researchers without computational expertise
+
 • TI-specific tools: Streamlined simulation modes to enhance productivity
