@@ -5,7 +5,7 @@ id: basics
 
 ## Basics
 
-{{< modal-image ti-basics-brain-1620px.jpg >}}
+{{< modal-image ti-basics-.jpg >}}
 {{< /modal-image >}}
 (Image from: Grossman N *et al*. Cell. 2017 Jun 1;169(6):1029-1041.e16)
 
