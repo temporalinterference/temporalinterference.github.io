@@ -1,5 +1,5 @@
 ---
-title: Sim4Life V8.x - 3rd party
+title: Sim4Life
 id: Sim4Life-V8-x
 ---
 
