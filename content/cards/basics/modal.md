@@ -11,7 +11,7 @@ id: basics
 
 Temporal interference (TI) is a new non-invasive brain stimulation method capable of targeting deep brain structures, unlike conventional transcranial electrical stimulation.
 
-TI stimulation utilizes harmonic electric fields applied through scalp electrodes at slightly different frequencies in the kHz range (e.g., f1 = 10.000 kHz and f2 = 10.010 kHz). The difference between these frequencies creates a beat (or envelope – here: 10 Hz), which falls within the physiological range of brain activity (1 – 100 Hz), and is able to modulate neural activity. This enables targeted stimulation of specific brain regions without affecting nearby areas. Additionally, adjusting the electrical currents across electrode pairs allows for steering, offering flexibility without the need to move the electrodes.
+TI stimulation utilizes harmonic electric fields applied through scalp electrodes at slightly different frequencies in the kHz range (e.g., f1 = 10.00 kHz and f2 = 10.01 kHz). The difference between these frequencies creates an envelope, also called beat frequency (here: 10 Hz), which falls within the physiological range of brain activity (1 – 100 Hz), and is able to modulate neural activity. This enables targeted stimulation of specific brain regions without affecting nearby areas. Additionally, adjusting the electrical currents across electrode pairs allows for steering, offering flexibility without the need to move the electrodes.
 
 ## Advanced TI 
 
@@ -22,5 +22,5 @@ The use of multiple electrical currents has the following advantages, such as:
 
 * Enhanced focus of the stimulation region 
 * Simultaneous stimulation of multiple brain arreas
-* Creation of complex modulation patterns
+* Creation of complex envelope shapes and patterns
 * Flexibility for andvanced stimulation protocols
