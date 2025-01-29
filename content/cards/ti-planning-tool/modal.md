@@ -17,7 +17,7 @@ The synergy between the Temporal Interference Planning (TIP) tool and the comput
 
 ##  TIP’s Core Strengths
 
- * User-friendly design: Intuitive interface tailored for TI research
+* User-friendly design: Intuitive interface tailored for TI research
 
 * Personalization: Automated segmentation using magnetic resonance imaging (MRI) and diffusion tensor imaging (DTI) data 
 
