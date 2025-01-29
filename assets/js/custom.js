@@ -1,16 +1,34 @@
-
 document.addEventListener('DOMContentLoaded', () => {
+    // Configuration constants
+    
+    // Multiplier applied to scroll delta values to control scroll speed
+    // Higher values make scrolling more sensitive
+    const SCROLL_MULTIPLIER = 1.5;
+    
+    // Number of pixels from the edge of scroll area to consider "at edge"
+    // Used to determine when to allow vertical scrolling
+    const EDGE_THRESHOLD = 1;
+    
+    // Time in milliseconds to wait after a touch event ends before
+    // allowing mouse wheel events again. Prevents accidental wheel
+    // events during and immediately after touch interactions
+    const TOUCH_TIMEOUT = 1000;
+    
+    // Maximum time in milliseconds between wheel events to consider
+    // them part of the same gesture. Used to detect touchpad gestures
+    // which often generate rapid wheel events
+    const WHEEL_THRESHOLD = 30;
+
     /* measure margins and set css variables */
     const full = document.getElementById('ti-measure-full');
     const content = document.getElementById('ti-measure-content');
     const body = document.body;
+    
     const measure = function() {
         const fullRect = full.getBoundingClientRect();
-        //console.log('Full:', fullRect);
         const contentRect = content.getBoundingClientRect();
-        //console.log('Content:', contentRect);
         const bodyRect = body.getBoundingClientRect();
-        //console.log('Body:', bodyRect);
+        
         document.documentElement.style.setProperty(
             '--ti-margin-measure-left', `${contentRect.x}px`);
         document.documentElement.style.setProperty(
@@ -18,30 +36,103 @@ document.addEventListener('DOMContentLoaded', () => {
         document.documentElement.style.setProperty(
             '--ti-content-width', `${contentRect.width}px`);
     };
+    
     measure();
     window.addEventListener('resize', measure);
+
     function isElCompletelyInViewport(el) {
         const rect = el.getBoundingClientRect();
-      
-        return (
-          rect.top >= 0 &&
-          rect.bottom <= window.innerHeight
-        );
-      }
-    /* scroll animate items card-holders */
+        return (rect.top >= 0 && rect.bottom <= window.innerHeight);
+    }
 
+    /* Handle mouse wheel horizontal scrolling */
     const cardHolders = document.querySelectorAll('.ti-card-holder');
+    
     cardHolders.forEach((cardHolder) => {
-        // catch mouse scroll events and use them to scroll left and right
+        let isTouching = false;
+        let touchTimeout = null;
+        let lastWheelTime = 0;
+        
+        // Track touch state
+        cardHolder.addEventListener('touchstart', () => {
+            isTouching = true;
+            if (touchTimeout) {
+                clearTimeout(touchTimeout);
+                touchTimeout = null;
+            }
+        });
+        
+        cardHolder.addEventListener('touchend', () => {
+            // Don't immediately clear isTouching - wait a bit
+            if (touchTimeout) {
+                clearTimeout(touchTimeout);
+            }
+            touchTimeout = setTimeout(() => {
+                isTouching = false;
+                touchTimeout = null;
+            }, TOUCH_TIMEOUT);
+        });
+
+        // Handle only mouse wheel events
         cardHolder.addEventListener('wheel', (e) => {
-            if (! isElCompletelyInViewport(cardHolder)) {
+            const now = Date.now();
+            const timeSinceLastWheel = now - lastWheelTime;
+            lastWheelTime = now;
+
+            // Detect likely touchpad usage by checking for rapid wheel events
+            if (timeSinceLastWheel < WHEEL_THRESHOLD) {
+                isTouching = true;
+                if (touchTimeout) {
+                    clearTimeout(touchTimeout);
+                }
+                touchTimeout = setTimeout(() => {
+                    isTouching = false;
+                    touchTimeout = null;
+                }, TOUCH_TIMEOUT);
+            }
+            
+            // Ignore wheel events during touch/touchpad interaction
+            if (isTouching || document.touchedElements?.length > 0) return;
+            
+            if (!isElCompletelyInViewport(cardHolder)) {
                 return;
             }
-            const scrollState = cardHolder.scrollLeft;
-            cardHolder.scrollLeft += e.deltaY;
-            if (scrollState !== cardHolder.scrollLeft) {
-                e.preventDefault();
+
+            const maxScroll = cardHolder.scrollWidth - cardHolder.clientWidth;
+            const currentScroll = cardHolder.scrollLeft;
+            
+            // Check if horizontal scrolling is possible
+            if (maxScroll <= 0) {
+                return;
             }
-        });        
+
+            // For vertical scroll (deltaY), check scroll position based on direction
+            if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {  // Primarily vertical scroll
+                const scrollingDown = e.deltaY > 0;
+                const scrollingUp = e.deltaY < 0;
+                
+                // When scrolling down, only allow vertical if we're at right edge
+                if (scrollingDown && currentScroll < maxScroll - EDGE_THRESHOLD) {
+                    e.preventDefault();
+                    cardHolder.scrollLeft = Math.min(maxScroll, currentScroll + (e.deltaY * SCROLL_MULTIPLIER));
+                    return;
+                }
+                
+                // When scrolling up, only allow vertical if we're at left edge
+                if (scrollingUp && currentScroll > EDGE_THRESHOLD) {
+                    e.preventDefault();
+                    cardHolder.scrollLeft = Math.max(0, currentScroll + (e.deltaY * SCROLL_MULTIPLIER));
+                    return;
+                }
+                
+                // Otherwise, let the vertical scroll happen naturally
+                return;
+            }
+            
+            // For horizontal scroll (deltaX), behave normally
+            e.preventDefault();
+            const scrollAmount = (e.deltaX !== 0 ? e.deltaX : e.deltaY) * SCROLL_MULTIPLIER;
+            cardHolder.scrollLeft = Math.max(0, Math.min(maxScroll, currentScroll + scrollAmount));
+        }, { passive: false });
     });
 });
