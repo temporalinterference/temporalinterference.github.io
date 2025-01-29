@@ -12,7 +12,7 @@ navigation:
       href: '#news'
     - title: TI Devices
       href: '#ti-devices'
-    - title: TI Planning Tool
+    - title: TI Planning
       href: '#ti-planning-tool'
     - title: Early Adopter Program
       href: '#early-adopter-program'
