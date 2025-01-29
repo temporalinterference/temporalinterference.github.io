@@ -2,7 +2,7 @@
 Title: news2023jan
 id: news2023jan-pop
 ---
-# TIBS-R and TIBS-R-MRI – The Ultimate in Technology for TI
+# TIBS-R and TIBS-R-MRI – The Ultimate Technology for TI
 
 After exactly 3 years of intense collaboration with [Z43 partners](https://z43.swiss), we have completed the development of our Temporal Interference Brain Stimulator for Research (TIBS-R).
 
