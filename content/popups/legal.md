@@ -13,7 +13,7 @@ Through this website, you may be able to link to other websites which are not un
 Questions regarding TI Solutions AG's products and services should be directed to:
 
 TI Solutions AG  
-Zeughausstrase 43  
+Zeughausstrasse 43  
 8004 Zurich  
 Switzerland
 
