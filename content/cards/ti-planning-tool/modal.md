@@ -9,7 +9,7 @@ id: TI-Planning-Tool-pop
 
 ## The Challenges
 
-The shape of the human head and its dielectric properties are highly varyable, non-homogeneous, and non-isotropic, posing significant challenges in achieving the desired interference patterns in target tissues while ensuring minimal or no modulation in off-target regions. Overcoming these complexities requires highly accurate current sources, meticulous planning, and robust tools for interpreting results and assessing stimulation sensitivities to tissue parameter variations. These challenges are equally relevant for *in vivo* experiments. 
+The shape of the human head and its dielectric properties are highly variable, non-homogeneous, and non-isotropic, posing significant challenges in achieving the desired interference patterns in target tissues while ensuring minimal or no modulation in off-target regions. Overcoming these complexities requires highly accurate current sources, meticulous planning, and robust tools for interpreting results and assessing stimulation sensitivities to tissue parameter variations. These challenges are equally relevant for *in vivo* experiments. 
 
 ## Our Solution
 
