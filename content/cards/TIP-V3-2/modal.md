@@ -50,4 +50,4 @@ Visualize and analyze selected conditions using Sim4Life (see [www.sim4life.swis
 
 ## Disclaimer
 
-TIP is a third-party tool developed by the [IT'IS Foundation](https://itis.swiss). We do not control, endorse, or assume any responsibility for the accuracy, functionality, availability, or performance of the tools provided by IT'IS, nor for any potential issues or damages resulting from their use. The responsibility for the tools, including their use, functionality, and any potential issues, lies solelly with IT'IS Foundation.
+TIP is a third-party tool developed by the [IT'IS Foundation](https://itis.swiss). Sim4Life is a third-party tool developed by [ZMT Zurich MedTech AG](https://sim4life.swiss). We do not control, endorse, or assume any responsibility for the accuracy, functionality, availability, or performance of the tools provided by IT'IS or ZMT, nor for any potential issues or damages resulting from their use. The responsibility for the tools, including their use, functionality, and any potential issues, lies solelly with IT'IS and ZMT.
