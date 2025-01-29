@@ -79,7 +79,7 @@ In accordance with and as far as provided by applicable law (as is the case wher
 
 In general, exercising these rights requires that you are able to prove your identity (e.g., by a copy of identification documents where your identity is not evident otherwise or can be verified in another way). In order to assert these rights, please contact us at the address provided in Section 1 above.
 
-In addition, every data subject has the right to enforce his/her rights in court or to lodge a complaint with the competent data protection authority. The competent data protection authority of Switzerland is the Federal Data Protection and Information Commissioner (http://www.edoeb.admin.ch).
+In addition, every data subject has the right to enforce his/her rights in court or to lodge a complaint with the competent data protection authority. The competent data protection authority of Switzerland is the Federal Data Protection and Information Commissioner [www.edoeb.admin.ch](https://www.edoeb.admin.ch).
 
 ## Amendments of this Data Protection Statement
 We may amend this Data Protection Statement at any time without prior notice. The current version published on our website shall apply. If the Data Protection Statement is part of an agreement with you, we will notify you by e-mail or other appropriate means in case of an amendment.
