@@ -12,4 +12,4 @@ IT'IS, in collaboration with Nir Grossman’s group at Imperial College London, 
 
 The new filter solution has been extensively tested in collaboration with the University Hospitals of Zurich.
 
-information is available under this {{< modal-link EEG-Filters >}}link{{< /modal-link >}} on our website.
+More information is available under this {{< modal-link EEG-Filters >}}link{{< /modal-link >}} on our website.
