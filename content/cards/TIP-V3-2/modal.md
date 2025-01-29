@@ -20,28 +20,28 @@ Incorporate magnetic resonance imaging (MRI) and diffusion tensor imaging (DTI) 
 
 Generate isotropic or anisotropic simulations and export optimization-ready files.
 
-Configuration
+## Configuration
 
 {{< modal-image tip_3.jpg >}}
 {{< /modal-image >}}
 
 Select species, stimulation target, and electrode locations defined on the 10-10 system to narrow the configuration search space.
 
-Optimal Configuration Identification
+## Optimal Configuration Identification
 
 {{< modal-image tip_4.jpg >}}
 {{< /modal-image >}}
 
 Explore high-performing exposure parameters with metrics and visualizations, and easily document findings.
 
-Visualization
+## Visualization
 
 {{< modal-image tip_5.jpg >}}
 {{< /modal-image >}}
 
 Depict advanced phase modulation schemes and pulse shapes of the complete electric field and its x-, y-, and z-components.
 
-Analysis
+## Analysis
 
 {{< modal-image tip_5.jpg >}}
 {{< /modal-image >}}
