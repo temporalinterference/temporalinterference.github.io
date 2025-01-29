@@ -20,25 +20,30 @@ Incorporate magnetic resonance imaging (MRI) and diffusion tensor imaging (DTI) 
 
 Generate isotropic or anisotropic simulations and export optimization-ready files.
 
+Configuration
+
 {{< modal-image tip_3.jpg >}}
 {{< /modal-image >}}
 
-Configuration: Select species, stimulation target, and electrode locations defined on the 10-10 system to narrow the configuration search space.
+Select species, stimulation target, and electrode locations defined on the 10-10 system to narrow the configuration search space.
+
+Optimal Configuration Identification
 
 {{< modal-image tip_4.jpg >}}
-
 {{< /modal-image >}}
 
-Optimal configuration identification: Explore high-performing exposure parameters with metrics and visualizations, and easily document findings.
+Explore high-performing exposure parameters with metrics and visualizations, and easily document findings.
+
+Visualization
 
 {{< modal-image tip_5.jpg >}}
-
 {{< /modal-image >}}
 
-Visualization: Depict advanced phase modulation schemes and pulse shapes of the complete electric field and its x-, y- and z-components.
+Depict advanced phase modulation schemes and pulse shapes of the complete electric field and its x-, y-, and z-components.
+
+Analysis
 
 {{< modal-image tip_5.jpg >}}
-
 {{< /modal-image >}}
 
 Visualize and analyze selected conditions using [www.sim4life.swiss](https://sim4life.swiss/)
