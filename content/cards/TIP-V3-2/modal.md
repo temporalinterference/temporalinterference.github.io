@@ -43,7 +43,7 @@ Depict advanced phase modulation schemes and pulse shapes of the complete electr
 
 ## Analysis
 
-{{< modal-image tip_5.jpg >}}
+{{< modal-image tip_6.jpg >}}
 {{< /modal-image >}}
 
 Visualize and analyze selected conditions using Sim4Life (see [www.sim4life.swiss](https://sim4life.swiss/)).
