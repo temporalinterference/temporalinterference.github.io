@@ -2,11 +2,7 @@
 
 {{/* Check index.md ID */}}
 {{ if .Params.id }}
-  {{ $validation := dict "id" .Params.id "filepath" .File.Path }}
-  {{ $result := partial "validate-id" $validation }}
-  {{ if not $result.valid }}
-    {{ errorf "%s (%s)" $result.error .File.Path }}
-  {{ end }}
+  {{ errorf "id: property is not allowed in %s" .File.Path }}
 {{ end }}
 
 {{/* Check modal.md ID */}}
