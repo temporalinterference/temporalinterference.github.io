@@ -1,14 +1,14 @@
 # Selected Publications
 
-Caldas-Martinez et al. *Cell-specific effects of temporal interference stimulation on cortical function.* Commun Biol. 2024; 7: 1076. [doi: 10.1038/s42003-024-06728](https://www.nature.com/articles/s42003-024-06728-y)
+Caldas-Martinez S *et al. Cell-specific effects of temporal interference stimulation on cortical function.* Commun Biol. 2024; 7: 1076. [doi: 10.1038/s42003-024-06728](https://www.nature.com/articles/s42003-024-06728-y)
 
-Liu R et al. *Temporal interference stimulation targets deep primate brain.* NeuroImage. 2024; 291: 120581. [doi: 10.1016/j.neuroimage.2024.120581](https://www.sciencedirect.com/science/article/pii/S1053811924000764)
+Liu R *et al. Temporal interference stimulation targets deep primate brain.* NeuroImage. 2024; 291: 120581. [doi: 10.1016/j.neuroimage.2024.120581](https://www.sciencedirect.com/science/article/pii/S1053811924000764)
     
 Vassiliadis P et al. *Safety, tolerability and blinding efficiency of non-invasive deep transcranial temporal interference stimulation: First experience from more than 250 sessions.* J Neural Eng. 2024; 21: 024001. [doi: 10.1088/1741-2552/ad2d32](https://iopscience.iop.org/article/10.1088/1741-2552/ad2d32)
     
-Vieira P.G. et al. *Temporal interference stimulation disrupts spike timing in the primate brain.* Nature Commun. 2024; 15: 4558. [doi: 10.1038/s41467-024-48962](https://www.nature.com/articles/s41467-024-48962-2)
+Vieira PG et al. *Temporal interference stimulation disrupts spike timing in the primate brain.* Nature Commun. 2024; 15: 4558. [doi: 10.1038/s41467-024-48962](https://www.nature.com/articles/s41467-024-48962-2)
     
-Wang et al. *The safety and efficacy of applying a high-current temporal interference electrical stimulation in humans.* Front Hum Neurosci. 2024; 18: 1484593. [doi: 10.3389/fnhum.2024.1484593](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2024.1484593/full)
+Wang Y et al. *The safety and efficacy of applying a high-current temporal interference electrical stimulation in humans.* Front Hum Neurosci. 2024; 18: 1484593. [doi: 10.3389/fnhum.2024.1484593](https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2024.1484593/full)
 
 Budde RB et al. *Temporal interference current stimulation in peripheral nerves is not driven by envelope extraction.* J Neural Eng. 2023;20(2):026041. [doi: 10.1088/1741-2552/acc6f1](https://iopscience.iop.org/article/10.1088/1741-2552/acc6f1/meta)
 
@@ -22,7 +22,7 @@ Acerbo E et al. *Focal non-invasive deep-brain stimulation with temporal interfe
 
 Botzanowski B et al. *Noninvasive stimulation of peripheral nerves using temporally-interfering electrical fields.* Adv Healthc Mater. 2022;11(17):e2200075. [doi: 10.1002/adhm.202200075](https://onlinelibrary.wiley.com/doi/full/10.1002/adhm.202200075)
 
-Cassara’ AM et al. *Safety recommendations for temporal interference stimulation in the brain.* bioRxiv. 2022.12.15.520077. [doi: 10.1101/2022.12.15.52007](https://www.biorxiv.org/content/10.1101/2022.12.15.520077v2)
+Cassarà AM et al. *Safety recommendations for temporal interference stimulation in the brain.* bioRxiv. 2022.12.15.520077. [doi: 10.1101/2022.12.15.52007](https://www.biorxiv.org/content/10.1101/2022.12.15.520077v2)
 
 Lee S et al. *Multipair transcranial temporal interference stimulation for improved focalized stimulation of deep brain regions: A simulation study.* Comput Biol Med. 2022;143:105337. [doi: 10.1016/j.compbiomed.2022.105337](https://www.sciencedirect.com/science/article/abs/pii/S0010482522001299?via%3Dihub)
 
