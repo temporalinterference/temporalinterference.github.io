@@ -1,6 +1,6 @@
 ---
 Title: news2023august
-id: news2024august-pop
+id: news2023august-pop
 ---
 # TIBS-R V2.0 – Phase Modulation for Shaping Interference
 
