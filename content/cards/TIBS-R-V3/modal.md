@@ -19,7 +19,7 @@ All pertinent parameters and information, including stimulation protocol, curren
 
 Concurrent EEG recording during TI stimulation requires our TI-EEG Solution (LINK TO EEG FILTER CARD?) that includes a high-pass filter (HPF) piggybacked to the ECB and an EEG system-specific low-pass filter (LPF) before the EEG amplifiers.
 
-Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI solution (LINK TO MRI CARD?) including special resistive electrodes and a different type of ECB. 
+Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI solution including special resistive electrodes and a different type of ECB. 
 
 {{< modal-image TIBS-setup1.jpg >}}
 {{< /modal-image >}}
