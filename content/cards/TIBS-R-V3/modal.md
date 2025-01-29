@@ -68,7 +68,7 @@ AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic reso
 
 *in future release only
 
-**compliant with implemented safety concept (Cassara’ AM et al. bioRxiv. 2022.12.15.520077; IEC standards)
+**compliant with implemented safety concept (Cassarà AM et al. bioRxiv. 2022.12.15.520077; IEC standards)
 
 ***EEG solution provided by the IT'IS Foundation
 
