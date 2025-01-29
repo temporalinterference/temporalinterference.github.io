@@ -5,7 +5,7 @@ build:
     render: never
 ---
 TI Solutions AG  
-Zeughausstrase 43  
+Zeughausstrasse 43  
 8004 Zurich  
 Switzerland
 
