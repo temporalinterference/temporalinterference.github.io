@@ -60,7 +60,7 @@ Early Adopter Program (EAP)
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card Early-Adopter-Program >}}
+{{< card EAP >}}
 {{< card Services >}}
 {{< /card-holder >}}
 

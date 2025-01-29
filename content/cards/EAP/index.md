@@ -1,5 +1,4 @@
 ---
-title: Early Adopter Program
 title: What is the EAP?
 id: early-adopter-program
 ---

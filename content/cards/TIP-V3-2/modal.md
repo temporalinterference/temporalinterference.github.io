@@ -1,6 +1,5 @@
 ---
 Title: TIP V3-2
-id: TIP-V3-2
 ---
 # TIP V3.0
 

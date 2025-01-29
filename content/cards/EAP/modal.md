@@ -1,6 +1,5 @@
 ---
 Title: Early Adopter Program
-id: Early Adopter Program-pop
 ---
 # Early Adopter Program
 
