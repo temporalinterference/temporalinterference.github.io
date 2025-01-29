@@ -2,7 +2,7 @@
 Title: TIBS-R System
 id: TIBS-R-V3-pop
 ---
-# TIBS-R 3.2 System
+# TIBS-R V3.2
 
 {{< modal-image TIBS-setup2.jpg >}}
 {{< /modal-image >}}
