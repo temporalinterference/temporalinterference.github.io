@@ -10,4 +10,6 @@ Today, we release Version 1.02, which will be demonstrated next week at NANS2023
 
 For further information about our TIBS-R system, please [contact us](mailto:eap@temporalinterference.com).
 
+To find out more about the technology, watch this [YouTube video](https://youtu.be/T0N5w9zxgJ4?feature=shared).
+
 {{< modal-image tibs-r-and-tibs-mri.jpg >}} {{< /modal-image >}}
