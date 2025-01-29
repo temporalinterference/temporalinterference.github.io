@@ -10,6 +10,6 @@ TIBS-R is certified for electrical safety according to IEC 60601-1:2005 + A1:201
 
 Version 3.0 of the TI Planning tool, a computational online tool designed to simplify the optimization of targeted TI neurostimulation protocols for the TIBS-R device, will soon be released. This update offers easy-to-apply personalization of stimulation using a novel AI segmentation implementation of magnetic resonance imaging data that has been specifically developed for TI.
 
-For further information about our TIBS-R system, please contact us at info@temporalinterference.com.
+For further information about our TIBS-R system, please contact us at eap@temporalinterference.com.
 
 {{< modal-image tibsrv3productphoto.jpg >}} {{< /modal-image >}}
