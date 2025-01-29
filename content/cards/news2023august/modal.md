@@ -10,5 +10,4 @@ Designed to meet the needs of rigorous research, TIBS-R V2.0 consists of a high-
 
 For further information about our TIBS-R system, please [contact us](mailto:eap@temporalinterference.com). For more information about TIP V2.0 check out this [YouTube video](https://youtu.be/3G43C-xAohU?feature=shared).
 
-
 {{< modal-image tibs-r-v2-release.jpg >}} {{< /modal-image >}}
