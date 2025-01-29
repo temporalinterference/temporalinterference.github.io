@@ -4,7 +4,7 @@ id: sim4life
 ---
 # Sim4Life V8.2
 
-The Sim4Life platform, available for both cloud and desktop use, is the premier computational tool for biomedical simulations, healthcare applications, and technical system design, featuring specialized features for temporal interference (TI) planning and analysis.
+The Sim4Life platform of [ZMT Zurich MedTech AG] (https://zmt.swiss/), available for both cloud and desktop use, is the premier computational tool for biomedical simulations, healthcare applications, and technical system design, featuring specialized features for temporal interference (TI) planning and analysis.
 
 {{< modal-movie 13-ti-small.mp4 >}}
 {{< /modal-movie >}}
