@@ -42,7 +42,7 @@ Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI solu
 |Trigger / Sync Output|External instrument and synchronization (optical) |
 |Trigger Input|Yes (digital, optical) |
 |EEG Level Output of Excitation Envelope|Yes - optical |
-|Sample Rate|1 MSamples/s |
+|Sample Rate|1 Msamples/s |
 |AWG Memory Depth|>2 Msamples 2 s* |
 |Dynamic Range|>60 dB 10 µA - 10 mA |
 |Precision / Resolution|16 bit, 1 µs, synchronous update |
