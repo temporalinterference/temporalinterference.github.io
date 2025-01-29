@@ -64,7 +64,7 @@ End of Life|December 2030 or later |
 
 ---
 
-AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic resonance imging; WPT-TX/RX: wireless power transfer option
+AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic resonance imaging; WPT-TX/RX: wireless power transfer option
 
 *in future release only
 
