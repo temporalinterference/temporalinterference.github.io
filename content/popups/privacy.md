@@ -34,13 +34,13 @@ We primarily use collected data in order to conclude and process contracts with 
 
 In addition, in line with applicable Swiss law and where appropriate, we may process your personal data for the following purposes, which are in our (or, as the case may be, any third parties') legitimate interest, such as: 
 
-- providing and developing our products, services and websites, apps and other platforms, on which we are active;
-- communication with third parties and processing of their requests (e.g., job applications, media inquiries);
-- review and optimization of procedures regarding needs assessment for the purpose of direct customer approach as well as obtaining personal data from publicly accessible sources for customer acquisition;
-- advertisement and marketing (including organizing events), provided that you have not objected to the use of your data for this purpose (if you are part of our customer base and you receive our advertisement, you may object at any time and we will place you on a blacklist against further advertising mailings);
-- market and opinion research, media surveillance;
-- asserting legal claims and defense in legal disputes and official proceedings;
-- ensuring our operation, including our IT, our websites, apps and other appliances.
+* Providing and developing our products, services and websites, apps and other platforms, on which we are active
+* Communication with third parties and processing of their requests (e.g., job applications, media inquiries)
+* Review and optimization of procedures regarding needs assessment for the purpose of direct customer approach as well as obtaining personal data from publicly accessible sources for customer acquisition
+* Advertisement and marketing (including organizing events), provided that you have not objected to the use of your data for this purpose (if you are part of our customer base and you receive our advertisement, you may object at any time and we will place you on a blacklist against further advertising mailings)
+* Market and opinion research, media surveillance
+* Asserting legal claims and defense in legal disputes and official proceedings
+* Ensuring our operation, including our IT, our websites, apps and other appliances
 
 If you have given us your consent to process your personal data for certain purposes (for example when registering to receive our newsletter), we will process your personal data within the scope of and based on this consent, unless we have another legal basis, provided that we require one. Consent given can be withdrawn at any time, but this does not affect data processed prior to withdrawal.
 
@@ -56,15 +56,15 @@ We may use Google Analytics or similar services on our website. These are servic
 ## Datatransfer and Transfer of Data Abroad
 In the context of our business activities and in line with the purposes of the data processing set out in Section 3, we may transfer data to third parties, insofar as such a transfer is permitted and we deem it appropriate, in order for them to process data for us or, as the case may be, their own purposes. In particular, the following categories of recipients may be concerned:
 
-- our service providers, including processors (such as e.g. IT providers);
-- dealers, suppliers, sub-contractors, and other business partners;
-- clients;
-- domestic and foreign authorities or courts;
-- the media;
-- the public, including users of our websites and social media;
-- other parties in possible or pending legal proceedings;
-- members of the Z43 alliance (for further information on these institutions refer to www.z43.swiss)
-(hereinafter Recipients).
+* Our service providers, including processors (such as e.g. IT providers)
+* Dealers, suppliers, sub-contractors, and other business partners
+* Clients
+* Domestic and foreign authorities or courts
+* The media
+* The public, including users of our websites and social media
+* Other parties in possible or pending legal proceedings
+* Members of the Z43 alliance (for further information on these institutions refer to www.z43.swiss)
+(hereinafter Recipients)
 
 Certain Recipients may be within Switzerland but they may be located in any country worldwide. In particular, you must anticipate your data to be transmitted to any country in which TI Solutions AG is represented by affiliates, branches or other offices as well as to other countries in Europe and the USA where our sales agents and service providers are located. If we transfer data to a country without adequate legal data protection, we ensure an appropriate level of protection as legally required by way of using appropriate contracts (or binding corporate rules or we rely on the statutory exceptions of consent, performance of contracts, the establishment, exercise or enforcement of legal claims, overriding public interests, published personal data or because it is necessary to protect the integrity of the persons concerned.
 
