@@ -39,7 +39,7 @@ For more details visit [IT'IS TI Planning overview.](https://itis.swiss/tools-an
 
 * Rich visual outputs: Insights through advanced visualizations
 
-For more details visit [Sim4Life.swiss](https://sim4life.swiss/)
+For more details visit [www.sim4life.swiss](https://sim4life.swiss/).
 
 ## A Powerful Workflow
 
