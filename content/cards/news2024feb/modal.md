@@ -4,7 +4,7 @@ id: news2024feb-pop
 ---
 # {{< hyphen mobile >}}Electro&shy;ence&shy;phalo&shy;graphy Recording during TI Stimulation{{< /hyphen >}}
 
-## Many research groups would like to perform closed-loop temporal interference stimulation studies. Our partner, the IT’IS Foundation has developed brand new filters specifically for the our TIBS-R device (currently available for Electrical Geodesics, Inc. and BrainProducts electroencephalography systems) that allow uncompromised high-density encephalogram recordings during stimulation.
+Many research groups would like to perform closed-loop temporal interference stimulation studies. Our partner, the IT’IS Foundation has developed brand new filters specifically for the our TIBS-R device (currently available for Electrical Geodesics, Inc. and BrainProducts electroencephalography systems) that allow uncompromised high-density encephalogram recordings during stimulation.
 
 Unlike other brain stimulation modalities, high-frequency temporal interference (TI) stimulation in principle allows for recording of an electroencephalogram (EEG) during stimulation – provided that the TI device does not generate intermodulation voltages and high-order filters are used between the EEG electrodes and the EEG recording system – opening up the possibility for researchers to monitor stimulation response and investigate new closed-loop stimulation strategies that were previously not possible.
 
@@ -12,6 +12,6 @@ IT'IS, in collaboration with Nir Grossman’s group at Imperial College London, 
 
 The new filter solution has been extensively tested in collaboration with the University Hospitals of Zurich.
 
-information is available under this {{< modal-link EEG-Filters >}}link{{< /modal-link >}} on our website.
+More information is available under this {{< modal-link EEG-Filters >}}link{{< /modal-link >}} on our website.
 
 {{< modal-image electroencephalography.jpg >}} {{< /modal-image >}}
