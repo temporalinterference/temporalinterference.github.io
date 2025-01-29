@@ -21,6 +21,6 @@ TI stimulation utilizes harmonic electric fields applied through scalp electrode
 The use of multiple electrical currents has the following advantages, such as:
 
 * Enhanced focus of the stimulation region 
-* Simultaneous stimulation of multiple brain arreas
+* Simultaneous stimulation of multiple brain areas
 * Creation of complex envelope shapes and patterns
-* Flexibility for andvanced stimulation protocols
+* Flexibility for advanced stimulation protocols
