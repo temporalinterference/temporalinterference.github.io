@@ -27,7 +27,7 @@ The synergy between the Temporal Interference Planning (TIP) tool and the comput
 
 * TI-specific tools: Streamlined simulation modes to enhance productivity
 
-For more details visit [IT'IS TI Planning overview.](https://itis.swiss/tools-and-systems/ti-planning/overview/)
+For more details visit the [IT'IS TI Planning webpage](https://itis.swiss/tools-and-systems/ti-planning/overview/).
 
 ##  Sim4Life’s Advanced Capabilities
 
