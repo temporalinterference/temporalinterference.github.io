@@ -4,17 +4,21 @@ id: TIP-V3-2
 ---
 # TIP V3.0
 
-The TI planning tool TIP Version 3.0 provides an advanced modeling pipeline for electrode placement and stimulation targeting using TIBS-R, offering cloud-based simulations and interactive visualizations. Read more on the [IT'IS](https://itis.swiss/s/news-events/news/latest-news) website.
+The Temporal Interference Planning (TIP) tool Version 3.0 provides an advanced modeling pipeline for electrode placement and stimulation targeting with the TIBS-R system, offering cloud-based simulations and interactive visualizations. Read more on the [IT'IS](https://itis.swiss/s/news-events/news/latest-news) website.
+
+## Personalized Optimization
 
 {{< modal-image tip_1.jpg >}}
 {{< /modal-image >}}
 
-Personalized optimization: Incorporate magnetic resonance imaging (MRI) and diffusion tensor imaging (DTI) data for individualized results, using automatic image processing to create tissue models with isotropic or anisotropic conductivity for simulations.
+Incorporate magnetic resonance imaging (MRI) and diffusion tensor imaging (DTI) data for individualized results, using automatic image processing to create tissue models with isotropic or anisotropic conductivity for simulations.
+
+## Electromagnetic Simulations
 
 {{< modal-image tip_2.jpg >}}
 {{< /modal-image >}}
 
-Electromagnetic simulations: Generate isotropic or anisotropic simulations and export optimization-ready files.
+Generate isotropic or anisotropic simulations and export optimization-ready files.
 
 {{< modal-image tip_3.jpg >}}
 {{< /modal-image >}}
