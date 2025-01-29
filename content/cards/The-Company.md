@@ -1,7 +1,7 @@
 ---
 Title: The Company
 ---
-TI Solutions AG was founded in Dec 2019 in Zurich, Switzerland, by the creators of the TI concept and [Z43](https://www.z43.swiss/) to foster TI research.
+TI Solutions AG was founded in Dec 2019 in Zurich (CH) by the creators of the TI concept and [Z43](https://www.z43.swiss/) to foster TI research.
     
 Our mission: 
 
