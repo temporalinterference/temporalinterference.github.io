@@ -2,13 +2,12 @@
 Title: Sim4Life
 id: sim4life
 ---
-# Sim4Life Platform
+# Sim4Life V8.2
 
-The cloud and desktop Sim4Life platforms V8.2 are the premier computational platform for biomedical simulations, healthcare applications, and technical system design, including specific features for TI planing and analysis.
+The Sim4Life platform, available for both cloud and desktop use, is the premier computational tool for biomedical simulations, healthcare applications, and technical system design, featuring specialized features for temporal interference (TI) planning and analysis.
 
 {{< modal-movie 13-ti-small.mp4 >}}
 {{< /modal-movie >}}
-
 
 ## Multiphysics Simulation
 
@@ -46,7 +45,6 @@ Sim4Life offers advanced tools for designing and optimizing medical and body-wor
 
 * Parameterized modeling and sweeper functions
 
-
 ## Physiological Response Modeling
 
 The platform includes tissue and physiology models for assessing dynamic processes:
@@ -62,8 +60,6 @@ The platform includes tissue and physiology models for assessing dynamic process
 {{< modal-movie 7-ti-small.mp4 >}}
 {{< /modal-movie >}}
 
-
-
 ## Regulatory Compliance
 
 Sim4Life provides tools for regulatory-grade modeling:
@@ -72,11 +68,11 @@ Sim4Life provides tools for regulatory-grade modeling:
 
 * Tissue temperature increase evaluations
 
-* MRI implant safety assessments (IMAnalytics with MRIxViP Libraries)
+* Magnetic resonance imaging (MRI) implant safety assessments (IMAnalytics with MRIxViP Libraries)
 
 ## Usability and Accessibility
 
-* Available in both desktop and web-based versions (Sim4Life.web)
+* Available in both desktop and web-based versions
 
 * Cloud-based technology for collaborative work and scalability
 
