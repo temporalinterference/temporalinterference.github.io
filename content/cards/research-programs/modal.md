@@ -6,8 +6,6 @@ id: research-programs-pop
 
 Bear With Us!
 
-This page is under construction but we are working hard to get everything ready for you.
-
-Please check back soon for the latest updates.
+We are in the process of updating this page to ensure all the information is ready for you. Please check back soon!
 
 Thank you for your patience!
