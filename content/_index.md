@@ -1,5 +1,5 @@
 ---
-Title: TI-Solutions Title
+Title: TI-Solutions
 ---
 {{< brain-animation >}}
 
