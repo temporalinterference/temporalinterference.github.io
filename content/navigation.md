@@ -10,7 +10,7 @@ navigation:
       href: '#what-is-temporal-interference'
     - title: News
       href: '#news'
-    - title: Devices
+    - title: TI Devices
       href: '#ti-devices'
     - title: TI Planning Tool
       href: '#ti-planning-tool'
