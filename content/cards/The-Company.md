@@ -5,6 +5,6 @@ TI Solutions AG was founded in Dec 2019 in Zurich, Switzerland, by the creators 
     
 Our mission:
 
-* Advance TI research by developing high-quality, flexible stimulation devices and innovative planning tools to identify the most effective stimu-lation methods and therapeutic endpoints for treating neurodegenerative diseases
+* Advance TI research by developing high-quality, flexible stimulation devices and innovative planning tools to identify the most effective methods and therapeutic endpoints for treating neurodegenerative diseases
 
 * Support the translation of this research into impactful medical therapies, while developing certified devices and tools that ensure safe, effective, and cost-efficient treatment solutions
