@@ -2,7 +2,7 @@
 title: TIBS-R V2.0 – Phase Modulation for Shaping Interference
 ---
 
-Aug 3, 2023
+Aug 03, 2023
 
 We are pleased to announce the release of TIBS-R V2.0! This upgrade of our temporal interference (TI) system offers an important new feature, i.e., multi-channel phase modulation. This allows researchers to generate complex modulation waveforms inside the brain where the different currents overlap, for a wider range of experimental possibilities. Also included in the upgrade are improvements in the device’s reliability and stability.
 
