@@ -137,118 +137,91 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Flag to prevent recursive history manipulations
+// Configuration
+const MODAL_PREFIXES = ['modal-', 'popup-'];
 let isHandlingPopState = false;
-let isDirectURLAccess = true;  // New flag for direct URL access
+let isDirectURLAccess = true;
 
-// Function to remove hash from URL
+// Core modal handling
+function isModalId(id) {
+    return MODAL_PREFIXES.some(prefix => id.startsWith(prefix));
+}
+
 function removeHash() {
     if (window.location.hash && !isHandlingPopState) {
-        // For direct URL access, use replaceState instead of pushState
-        // to avoid adding an extra history entry
-        const method = isDirectURLAccess ? 'replaceState' : 'pushState';
-        history[method]('', 
+        history[isDirectURLAccess ? 'replaceState' : 'pushState'](
+            '', 
             document.title, 
             window.location.pathname + window.location.search
         );
-        isDirectURLAccess = false;  // Reset the flag after first use
+        isDirectURLAccess = false;
     }
 }
 
-// Function to handle modal opening based on URL hash
 function handleModalHash() {
     const hash = window.location.hash.substring(1);
-    
-    if (hash && (hash.startsWith('modal-') || hash.startsWith('popup-')) ) {
+    if (hash && isModalId(hash)) {
         const modal = UIkit.modal(`#${hash}`);
-        
-        if (modal) {
-            modal.show();
-        }
+        modal?.show();
     }
 }
 
-// Set up modal event handlers
-function setupModalHandlers(modalElement) {
-    UIkit.util.on(modalElement, 'hidden', () => {
-        removeHash();
-    });
+// Event handlers
+function setupModalHandlers(element) {
+    UIkit.util.on(element, 'hidden', removeHash);
 }
 
-// Initialize all existing modals
-function initializeModals() {
-    document.querySelectorAll('[id^="modal-"],[id^="popup-"]').forEach(modalElement => {
-        // Remove any existing hidden event listeners
-        const newElement = modalElement.cloneNode(true);
-        modalElement.parentNode.replaceChild(newElement, modalElement);
-        setupModalHandlers(newElement);
+// Initialize and observe
+document.addEventListener('DOMContentLoaded', () => {
+    // Setup existing modals
+    document.querySelectorAll(MODAL_PREFIXES.map(p => `[id^="${p}"]`).join(',')).forEach(el => {
+        const newEl = el.cloneNode(true);
+        el.parentNode.replaceChild(newEl, el);
+        setupModalHandlers(newEl);
     });
-}
 
-// Add history entry when modals are opened via clicks
-document.addEventListener('click', (e) => {
+    // Handle initial hash
+    handleModalHash();
+
+    // Observe new modals
+    new MutationObserver(mutations => 
+        mutations.forEach(mutation => 
+            mutation.addedNodes.forEach(node => {
+                if (node.nodeType === 1 && node.id && isModalId(node.id)) {
+                    setupModalHandlers(node);
+                }
+            })
+        )
+    ).observe(document.body, { childList: true, subtree: true });
+});
+
+// Navigation handlers
+document.addEventListener('click', e => {
     const link = e.target.closest('a');
-    
-    if (link && link.hash && (link.hash.startsWith('#modal-') || link.hash.startsWith('#popup-'))) {
+    if (link?.hash && isModalId(link.hash.substring(1))) {
         e.preventDefault();
-        isDirectURLAccess = false;  // Not a direct URL access
-        
-        const modalId = link.hash.substring(1);
-        const modal = UIkit.modal(`#${modalId}`);
-        
-        if (modal) {
-            history.pushState('', document.title, `${window.location.pathname}${link.hash}`);
-            modal.show();
-        }
+        isDirectURLAccess = false;
+        history.pushState('', document.title, `${window.location.pathname}${link.hash}`);
+        UIkit.modal(link.hash)?.show();
     }
 });
 
-// Listen for hash changes while navigating
-window.addEventListener('hashchange', (e) => {
+window.addEventListener('hashchange', () => {
     if (!isHandlingPopState) {
-        isDirectURLAccess = false;  // Not a direct URL access
+        isDirectURLAccess = false;
         handleModalHash();
     }
 });
 
-// Check for hash when page loads
-document.addEventListener('DOMContentLoaded', () => {
-    initializeModals();
-    handleModalHash();
-    
-    // Re-attach modal event listeners on dynamic content changes
-    const observer = new MutationObserver((mutations) => {
-        mutations.forEach((mutation) => {
-            mutation.addedNodes.forEach((node) => {
-                if (node.nodeType === 1 && node.id && ( node.id.startsWith('modal-') || node.id.startsWith('popup-') )) {
-                    setupModalHandlers(node);
-                }
-            });
-        });
-    });
-
-    observer.observe(document.body, {
-        childList: true,
-        subtree: true
-    });
-});
-
-// Handle browser back/forward buttons
 window.addEventListener('popstate', () => {
     isHandlingPopState = true;
-    isDirectURLAccess = false;  // Not a direct URL access
+    isDirectURLAccess = false;
     
-    const openModals = document.querySelectorAll('.uk-modal.uk-open');
-    openModals.forEach(modalElement => {
-        const modal = UIkit.modal(modalElement);
-        if (modal) {
-            modal.hide();
-        }
-    });
+    document.querySelectorAll('.uk-modal.uk-open').forEach(el => 
+        UIkit.modal(el)?.hide()
+    );
     
     handleModalHash();
     
-    setTimeout(() => {
-        isHandlingPopState = false;
-    }, 100);
+    setTimeout(() => isHandlingPopState = false, 100);
 });
