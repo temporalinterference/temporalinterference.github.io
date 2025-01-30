@@ -133,6 +133,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Configuration
 const MODAL_PREFIXES = ['modal-', 'popup-'];
 let isProgrammaticModalOperation = false;
+let isModalTransition = false;
 
 function isModalId(id) {
     return MODAL_PREFIXES.some(prefix => id.startsWith(prefix));
@@ -140,7 +141,13 @@ function isModalId(id) {
 
 function removeHash() {
     if (window.location.hash) {
-        history.pushState('', document.title, window.location.pathname + window.location.search);
+        // When actively closing, push a new state without hash
+        if (!isModalTransition) {
+            history.pushState('', document.title, window.location.pathname + window.location.search);
+        } else {
+            // During modal transitions, just replace state
+            history.replaceState('', document.title, window.location.pathname + window.location.search);
+        }
     }
 }
 
@@ -160,15 +167,24 @@ function setupModalHandlers(element) {
     // Update URL when modal shows
     UIkit.util.on(element, 'beforeshow', () => {
         if (!isProgrammaticModalOperation && modalId && window.location.hash !== `#${modalId}`) {
+            isModalTransition = true;
             history.pushState(modalId, document.title, `#${modalId}`);
         }
     });
 
-    // Only remove hash if we're not immediately showing another modal
+    // Handle modal hiding
     UIkit.util.on(element, 'hide', () => {
-        if (!isProgrammaticModalOperation && window.location.hash === `#${modalId}` && !document.querySelector('.uk-modal.uk-open:not(.uk-modal-hiding)')) {
+        if (!isProgrammaticModalOperation && window.location.hash === `#${modalId}`) {
+            // Check if this is a transition to another modal
+            const otherModalOpening = document.querySelector('.uk-modal:not(.uk-modal-hiding)');
+            isModalTransition = !!otherModalOpening;
             removeHash();
         }
+    });
+
+    // Reset transition flag after show
+    UIkit.util.on(element, 'shown', () => {
+        isModalTransition = false;
     });
 }
 
