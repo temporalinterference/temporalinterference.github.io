@@ -5,7 +5,7 @@ id: EEG-Filters
 # TI-EEG Filter Solutions
 
 ## EEG Filter Solutions of the IT'IS Foundation
-The unique TI Filter Solutions for TI-TIBS-R of the IT'IS Foundation [IT'IS Foundation](https://itis.swiss) allow for artifact-free concurrent electroencephalography (EEG) recording during temporal interference (TI) stimulation in the 2 – 50 kHz frequency range.
+The unique TI Filter Solutions for TIBS-R of the IT'IS Foundation [IT'IS Foundation](https://itis.swiss) allow for artifact-free concurrent electroencephalography (EEG) recording during temporal interference (TI) stimulation in the 2 – 50 kHz frequency range.
 
 ## High-Pass Filter
 
