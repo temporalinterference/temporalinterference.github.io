@@ -52,11 +52,10 @@
   </div>
 
   {{ if $modal }}
-    <img src='{{ (resources.Get "images/plus-icon.svg").RelPermalink }}' 
+    <a href="#modal-{{ .Scratch.Get "local_modal_id" }}"><img src='{{ (resources.Get "images/plus-icon.svg").RelPermalink }}' 
          uk-toggle='target: #modal-{{ .Scratch.Get "local_modal_id" }}'
-         alt="open-modal"
          uk-img
-         class="ti-round-button ti-plus-button">
+         class="ti-round-button ti-plus-button"></a>
   {{ end }}
 </div>
 

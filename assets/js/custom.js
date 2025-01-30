@@ -136,3 +136,119 @@ document.addEventListener('DOMContentLoaded', () => {
         }, { passive: false });
     });
 });
+
+// Flag to prevent recursive history manipulations
+let isHandlingPopState = false;
+let isDirectURLAccess = true;  // New flag for direct URL access
+
+// Function to remove hash from URL
+function removeHash() {
+    if (window.location.hash && !isHandlingPopState) {
+        // For direct URL access, use replaceState instead of pushState
+        // to avoid adding an extra history entry
+        const method = isDirectURLAccess ? 'replaceState' : 'pushState';
+        history[method]('', 
+            document.title, 
+            window.location.pathname + window.location.search
+        );
+        isDirectURLAccess = false;  // Reset the flag after first use
+    }
+}
+
+// Function to handle modal opening based on URL hash
+function handleModalHash() {
+    const hash = window.location.hash.substring(1);
+    
+    if (hash && (hash.startsWith('modal-') || hash.startsWith('popup-')) ) {
+        const modal = UIkit.modal(`#${hash}`);
+        
+        if (modal) {
+            modal.show();
+        }
+    }
+}
+
+// Set up modal event handlers
+function setupModalHandlers(modalElement) {
+    UIkit.util.on(modalElement, 'hidden', () => {
+        removeHash();
+    });
+}
+
+// Initialize all existing modals
+function initializeModals() {
+    document.querySelectorAll('[id^="modal-"],[id^="popup-"]').forEach(modalElement => {
+        // Remove any existing hidden event listeners
+        const newElement = modalElement.cloneNode(true);
+        modalElement.parentNode.replaceChild(newElement, modalElement);
+        setupModalHandlers(newElement);
+    });
+}
+
+// Add history entry when modals are opened via clicks
+document.addEventListener('click', (e) => {
+    const link = e.target.closest('a');
+    
+    if (link && link.hash && (link.hash.startsWith('#modal-') || link.hash.startsWith('#popup-'))) {
+        e.preventDefault();
+        isDirectURLAccess = false;  // Not a direct URL access
+        
+        const modalId = link.hash.substring(1);
+        const modal = UIkit.modal(`#${modalId}`);
+        
+        if (modal) {
+            history.pushState('', document.title, `${window.location.pathname}${link.hash}`);
+            modal.show();
+        }
+    }
+});
+
+// Listen for hash changes while navigating
+window.addEventListener('hashchange', (e) => {
+    if (!isHandlingPopState) {
+        isDirectURLAccess = false;  // Not a direct URL access
+        handleModalHash();
+    }
+});
+
+// Check for hash when page loads
+document.addEventListener('DOMContentLoaded', () => {
+    initializeModals();
+    handleModalHash();
+    
+    // Re-attach modal event listeners on dynamic content changes
+    const observer = new MutationObserver((mutations) => {
+        mutations.forEach((mutation) => {
+            mutation.addedNodes.forEach((node) => {
+                if (node.nodeType === 1 && node.id && ( node.id.startsWith('modal-') || node.id.startsWith('popup-') )) {
+                    setupModalHandlers(node);
+                }
+            });
+        });
+    });
+
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+});
+
+// Handle browser back/forward buttons
+window.addEventListener('popstate', () => {
+    isHandlingPopState = true;
+    isDirectURLAccess = false;  // Not a direct URL access
+    
+    const openModals = document.querySelectorAll('.uk-modal.uk-open');
+    openModals.forEach(modalElement => {
+        const modal = UIkit.modal(modalElement);
+        if (modal) {
+            modal.hide();
+        }
+    });
+    
+    handleModalHash();
+    
+    setTimeout(() => {
+        isHandlingPopState = false;
+    }, 100);
+});
