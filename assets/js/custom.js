@@ -140,21 +140,21 @@ document.addEventListener('DOMContentLoaded', () => {
 // Configuration
 const MODAL_PREFIXES = ['modal-', 'popup-'];
 let isHandlingPopState = false;
-let isDirectURLAccess = true;
 
-// Core modal handling
 function isModalId(id) {
     return MODAL_PREFIXES.some(prefix => id.startsWith(prefix));
 }
 
 function removeHash() {
-    if (window.location.hash && !isHandlingPopState) {
-        history[isDirectURLAccess ? 'replaceState' : 'pushState'](
-            '', 
-            document.title, 
-            window.location.pathname + window.location.search
-        );
-        isDirectURLAccess = false;
+    if (window.location.hash) {
+        // Only keep hash if we're handling a popstate
+        if (!isHandlingPopState) {
+            history.pushState(
+                '', 
+                document.title, 
+                window.location.pathname + window.location.search
+            );
+        }
     }
 }
 
@@ -166,8 +166,17 @@ function handleModalHash() {
     }
 }
 
-// Event handlers
+// Event handlers for modals
 function setupModalHandlers(element) {
+    // Handle showing of modal
+    UIkit.util.on(element, 'show', () => {
+        const modalId = element.id;
+        if (modalId && window.location.hash !== `#${modalId}`) {
+            history.pushState('', document.title, `${window.location.pathname}#${modalId}`);
+        }
+    });
+
+    // Handle hiding of modal
     UIkit.util.on(element, 'hidden', removeHash);
 }
 
@@ -195,27 +204,15 @@ document.addEventListener('DOMContentLoaded', () => {
     ).observe(document.body, { childList: true, subtree: true });
 });
 
-// Navigation handlers
-document.addEventListener('click', e => {
-    const link = e.target.closest('a');
-    if (link?.hash && isModalId(link.hash.substring(1))) {
-        e.preventDefault();
-        isDirectURLAccess = false;
-        history.pushState('', document.title, `${window.location.pathname}${link.hash}`);
-        UIkit.modal(link.hash)?.show();
-    }
-});
-
+// Handle browser navigation
 window.addEventListener('hashchange', () => {
     if (!isHandlingPopState) {
-        isDirectURLAccess = false;
         handleModalHash();
     }
 });
 
 window.addEventListener('popstate', () => {
     isHandlingPopState = true;
-    isDirectURLAccess = false;
     
     document.querySelectorAll('.uk-modal.uk-open').forEach(el => 
         UIkit.modal(el)?.hide()
@@ -223,5 +220,7 @@ window.addEventListener('popstate', () => {
     
     handleModalHash();
     
-    setTimeout(() => isHandlingPopState = false, 100);
+    setTimeout(() => {
+        isHandlingPopState = false;
+    }, 100);
 });
