@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Multiplier applied to scroll delta values to control scroll speed
     // Higher values make scrolling more sensitive
-    const SCROLL_MULTIPLIER = 1.5;
+    const SCROLL_MULTIPLIER = 0.5;
     
     // Number of pixels from the edge of scroll area to consider "at edge"
     // Used to determine when to allow vertical scrolling
-    const EDGE_THRESHOLD = 1;
+    const EDGE_THRESHOLD = 20;
     
     // Time in milliseconds to wait after a touch event ends before
     // allowing mouse wheel events again. Prevents accidental wheel
@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Maximum time in milliseconds between wheel events to consider
     // them part of the same gesture. Used to detect touchpad gestures
     // which often generate rapid wheel events
-    const WHEEL_THRESHOLD = 30;
+    // const WHEEL_THRESHOLD = 30;
 
     /* measure margins and set css variables */
     const full = document.getElementById('ti-measure-full');
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cardHolders.forEach((cardHolder) => {
         let isTouching = false;
         let touchTimeout = null;
-        let lastWheelTime = 0;
+        //let lastWheelTime = 0;
         
         // Track touch state
         cardHolder.addEventListener('touchstart', () => {
@@ -76,20 +76,20 @@ document.addEventListener('DOMContentLoaded', () => {
         // Handle only mouse wheel events
         cardHolder.addEventListener('wheel', (e) => {
             const now = Date.now();
-            const timeSinceLastWheel = now - lastWheelTime;
+            // const timeSinceLastWheel = now - lastWheelTime;
             lastWheelTime = now;
 
-            // Detect likely touchpad usage by checking for rapid wheel events
-            if (timeSinceLastWheel < WHEEL_THRESHOLD) {
-                isTouching = true;
-                if (touchTimeout) {
-                    clearTimeout(touchTimeout);
-                }
-                touchTimeout = setTimeout(() => {
-                    isTouching = false;
-                    touchTimeout = null;
-                }, TOUCH_TIMEOUT);
-            }
+            // // Detect likely touchpad usage by checking for rapid wheel events
+            // if (timeSinceLastWheel < WHEEL_THRESHOLD) {
+            //     isTouching = true;
+            //     if (touchTimeout) {
+            //         clearTimeout(touchTimeout);
+            //     }
+            //     touchTimeout = setTimeout(() => {
+            //         isTouching = false;
+            //         touchTimeout = null;
+            //     }, TOUCH_TIMEOUT);
+            // }
             
             // Ignore wheel events during touch/touchpad interaction
             if (isTouching || document.touchedElements?.length > 0) return;
