@@ -2,7 +2,7 @@
 title: TIBS-R V3.2 – Minimal Latency Trigger Functionality for Closed-Loop Protocols
 ---
 
-Jan 29, 2025
+Jan 30, 2025
 
 The TIBS-R software has been upgraded, adding the capability of delivering envelope waveforms of arbitrary shapes with minimal latency upon receiving an external trigger. This new feature builds upon the proven phase-modulated temporal interference (TI) mode and allows the application of currents from 2 – 8 channels that combine to create a programmable envelope shape in the target region.
 
