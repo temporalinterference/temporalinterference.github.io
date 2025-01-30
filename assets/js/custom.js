@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 // Configuration
 const MODAL_PREFIXES = ['modal-', 'popup-'];
-let isHandlingPopState = false;
+let isProgrammaticModalOperation = false;
 
 function isModalId(id) {
     return MODAL_PREFIXES.some(prefix => id.startsWith(prefix));
@@ -140,14 +140,7 @@ function isModalId(id) {
 
 function removeHash() {
     if (window.location.hash) {
-        // Only keep hash if we're handling a popstate
-        if (!isHandlingPopState) {
-            history.pushState(
-                '', 
-                document.title, 
-                window.location.pathname + window.location.search
-            );
-        }
+        history.pushState('', document.title, window.location.pathname + window.location.search);
     }
 }
 
@@ -155,39 +148,38 @@ function handleModalHash() {
     const hash = window.location.hash.substring(1);
     if (hash && isModalId(hash)) {
         const modal = UIkit.modal(`#${hash}`);
-        modal?.show();
+        if (modal) {
+            modal.show();
+        }
     }
 }
 
-// Event handlers for modals
 function setupModalHandlers(element) {
-    // Handle showing of modal
-    UIkit.util.on(element, 'show', () => {
-        const modalId = element.id;
-        if (modalId && window.location.hash !== `#${modalId}`) {
-            history.pushState('', document.title, `${window.location.pathname}#${modalId}`);
+    const modalId = element.id;
+    
+    // Update URL when modal shows
+    UIkit.util.on(element, 'beforeshow', () => {
+        if (!isProgrammaticModalOperation && modalId && window.location.hash !== `#${modalId}`) {
+            history.pushState(modalId, document.title, `#${modalId}`);
         }
     });
 
-    // Handle hiding of modal
-    UIkit.util.on(element, 'hidden', removeHash);
+    // Only remove hash if we're not immediately showing another modal
+    UIkit.util.on(element, 'hide', () => {
+        if (!isProgrammaticModalOperation && window.location.hash === `#${modalId}` && !document.querySelector('.uk-modal.uk-open:not(.uk-modal-hiding)')) {
+            removeHash();
+        }
+    });
 }
 
-// Initialize and observe
+// Initialize
 document.addEventListener('DOMContentLoaded', () => {
-    // Setup existing modals
-    document.querySelectorAll(MODAL_PREFIXES.map(p => `[id^="${p}"]`).join(',')).forEach(el => {
-        const newEl = el.cloneNode(true);
-        el.parentNode.replaceChild(newEl, el);
-        setupModalHandlers(newEl);
-    });
+    // Setup handlers for existing modals
+    document.querySelectorAll(MODAL_PREFIXES.map(p => `[id^="${p}"]`).join(',')).forEach(setupModalHandlers);
 
-    // Handle initial hash
-    handleModalHash();
-
-    // Observe new modals
-    new MutationObserver(mutations => 
-        mutations.forEach(mutation => 
+    // Watch for new modals
+    new MutationObserver(mutations =>
+        mutations.forEach(mutation =>
             mutation.addedNodes.forEach(node => {
                 if (node.nodeType === 1 && node.id && isModalId(node.id)) {
                     setupModalHandlers(node);
@@ -195,25 +187,17 @@ document.addEventListener('DOMContentLoaded', () => {
             })
         )
     ).observe(document.body, { childList: true, subtree: true });
+
+    // Handle initial hash
+    handleModalHash();
 });
 
 // Handle browser navigation
-window.addEventListener('hashchange', () => {
-    if (!isHandlingPopState) {
-        handleModalHash();
-    }
-});
-
 window.addEventListener('popstate', () => {
-    isHandlingPopState = true;
-    
+    isProgrammaticModalOperation = true;
     document.querySelectorAll('.uk-modal.uk-open').forEach(el => 
         UIkit.modal(el)?.hide()
     );
-    
     handleModalHash();
-    
-    setTimeout(() => {
-        isHandlingPopState = false;
-    }, 100);
+    isProgrammaticModalOperation = false;
 });
