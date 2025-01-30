@@ -13,11 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // allowing mouse wheel events again. Prevents accidental wheel
     // events during and immediately after touch interactions
     const TOUCH_TIMEOUT = 1000;
-    
-    // Maximum time in milliseconds between wheel events to consider
-    // them part of the same gesture. Used to detect touchpad gestures
-    // which often generate rapid wheel events
-    // const WHEEL_THRESHOLD = 30;
 
     /* measure margins and set css variables */
     const full = document.getElementById('ti-measure-full');
@@ -45,13 +40,72 @@ document.addEventListener('DOMContentLoaded', () => {
         return (rect.top >= 0 && rect.bottom <= window.innerHeight);
     }
 
-    /* Handle mouse wheel horizontal scrolling */
+    /* Handle mouse wheel horizontal scrolling and drag scrolling */
     const cardHolders = document.querySelectorAll('.ti-card-holder');
     
     cardHolders.forEach((cardHolder) => {
         let isTouching = false;
         let touchTimeout = null;
-        //let lastWheelTime = 0;
+        let isMouseDown = false;
+        let lastX = 0;
+        let lastY = 0;
+        let isDragging = false;
+
+        // Mouse drag functionality
+        cardHolder.addEventListener('mousedown', (e) => {
+            isMouseDown = true;
+            cardHolder.style.cursor = 'grabbing';
+            lastX = e.clientX;
+            lastY = e.clientY;
+            
+            // Prevent text selection during drag
+            e.preventDefault();
+        });
+
+        cardHolder.addEventListener('mouseleave', () => {
+            isMouseDown = false;
+            isDragging = false;
+            cardHolder.style.cursor = 'grab';
+        });
+
+        cardHolder.addEventListener('mouseup', () => {
+            isMouseDown = false;
+            isDragging = false;
+            cardHolder.style.cursor = 'grab';
+        });
+
+        cardHolder.addEventListener('mousemove', (e) => {
+            if (!isMouseDown) return;
+            
+            // Calculate movement since last position
+            const deltaX = e.clientX - lastX;
+            const deltaY = e.clientY - lastY;
+            
+            // Update last position
+            lastX = e.clientX;
+            lastY = e.clientY;
+
+            // If we haven't started dragging yet, check if we've moved enough to start
+            if (!isDragging) {
+                const moveDistance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+                if (moveDistance > 5) { // Start dragging after 5px of movement
+                    isDragging = true;
+                }
+            }
+
+            if (isDragging) {
+                // Update scroll positions - using same delta-based approach for both directions
+                cardHolder.scrollLeft -= deltaX;
+                window.scrollBy(0, -deltaY);
+                
+                // Prevent any other events
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        });
+
+        // Set initial cursor style
+        cardHolder.style.cursor = 'grab';
         
         // Track touch state
         cardHolder.addEventListener('touchstart', () => {
@@ -63,7 +117,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         
         cardHolder.addEventListener('touchend', () => {
-            // Don't immediately clear isTouching - wait a bit
             if (touchTimeout) {
                 clearTimeout(touchTimeout);
             }
@@ -73,25 +126,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }, TOUCH_TIMEOUT);
         });
 
-        // Handle only mouse wheel events
+        // Handle mouse wheel events
         cardHolder.addEventListener('wheel', (e) => {
-            const now = Date.now();
-            // const timeSinceLastWheel = now - lastWheelTime;
-            lastWheelTime = now;
-
-            // // Detect likely touchpad usage by checking for rapid wheel events
-            // if (timeSinceLastWheel < WHEEL_THRESHOLD) {
-            //     isTouching = true;
-            //     if (touchTimeout) {
-            //         clearTimeout(touchTimeout);
-            //     }
-            //     touchTimeout = setTimeout(() => {
-            //         isTouching = false;
-            //         touchTimeout = null;
-            //     }, TOUCH_TIMEOUT);
-            // }
-            
-            // Ignore wheel events during touch/touchpad interaction
             if (isTouching || document.touchedElements?.length > 0) return;
             
             if (!isElCompletelyInViewport(cardHolder)) {
@@ -101,35 +137,29 @@ document.addEventListener('DOMContentLoaded', () => {
             const maxScroll = cardHolder.scrollWidth - cardHolder.clientWidth;
             const currentScroll = cardHolder.scrollLeft;
             
-            // Check if horizontal scrolling is possible
             if (maxScroll <= 0) {
                 return;
             }
 
-            // For vertical scroll (deltaY), check scroll position based on direction
-            if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {  // Primarily vertical scroll
+            if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
                 const scrollingDown = e.deltaY > 0;
                 const scrollingUp = e.deltaY < 0;
                 
-                // When scrolling down, only allow vertical if we're at right edge
                 if (scrollingDown && currentScroll < maxScroll - EDGE_THRESHOLD) {
                     e.preventDefault();
                     cardHolder.scrollLeft = Math.min(maxScroll, currentScroll + (e.deltaY * SCROLL_MULTIPLIER));
                     return;
                 }
                 
-                // When scrolling up, only allow vertical if we're at left edge
                 if (scrollingUp && currentScroll > EDGE_THRESHOLD) {
                     e.preventDefault();
                     cardHolder.scrollLeft = Math.max(0, currentScroll + (e.deltaY * SCROLL_MULTIPLIER));
                     return;
                 }
                 
-                // Otherwise, let the vertical scroll happen naturally
                 return;
             }
             
-            // For horizontal scroll (deltaX), behave normally
             e.preventDefault();
             const scrollAmount = (e.deltaX !== 0 ? e.deltaX : e.deltaY) * SCROLL_MULTIPLIER;
             cardHolder.scrollLeft = Math.max(0, Math.min(maxScroll, currentScroll + scrollAmount));
