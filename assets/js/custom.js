@@ -1,18 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Configuration constants
-    
-    // Multiplier applied to scroll delta values to control scroll speed
-    // Higher values make scrolling more sensitive
     const SCROLL_MULTIPLIER = 0.5;
-    
-    // Number of pixels from the edge of scroll area to consider "at edge"
-    // Used to determine when to allow vertical scrolling
     const EDGE_THRESHOLD = 20;
-    
-    // Time in milliseconds to wait after a touch event ends before
-    // allowing mouse wheel events again. Prevents accidental wheel
-    // events during and immediately after touch interactions
-    const TOUCH_TIMEOUT = 1000;
 
     /* measure margins and set css variables */
     const full = document.getElementById('ti-measure-full');
@@ -40,95 +29,70 @@ document.addEventListener('DOMContentLoaded', () => {
         return (rect.top >= 0 && rect.bottom <= window.innerHeight);
     }
 
-    /* Handle mouse wheel horizontal scrolling and drag scrolling */
+    /* Handle scrolling for each card holder */
     const cardHolders = document.querySelectorAll('.ti-card-holder');
     
     cardHolders.forEach((cardHolder) => {
-        let isTouching = false;
-        let touchTimeout = null;
-        let isMouseDown = false;
-        let lastX = 0;
-        let lastY = 0;
-        let isDragging = false;
+        // Disable smooth scrolling behavior
+        cardHolder.style.scrollBehavior = 'auto';
+        
+        let isPointerDown = false;
+        let activePointerId = null;
+        let grabX = 0;
+        let initialScroll = 0;
 
-        // Mouse drag functionality
-        cardHolder.addEventListener('mousedown', (e) => {
-            isMouseDown = true;
-            cardHolder.style.cursor = 'grabbing';
-            lastX = e.clientX;
-            lastY = e.clientY;
+        cardHolder.addEventListener('pointerdown', (e) => {
+            isPointerDown = true;
+            activePointerId = e.pointerId;
+            grabX = e.clientX;
+            initialScroll = cardHolder.scrollLeft;
             
-            // Prevent text selection during drag
+            cardHolder.setPointerCapture(e.pointerId);
+            
+            if (e.pointerType === 'mouse') {
+                cardHolder.style.cursor = 'grabbing';
+            }
+            
             e.preventDefault();
         });
 
-        cardHolder.addEventListener('mouseleave', () => {
-            isMouseDown = false;
-            isDragging = false;
-            cardHolder.style.cursor = 'grab';
+        cardHolder.addEventListener('pointermove', (e) => {
+            if (!isPointerDown || e.pointerId !== activePointerId) return;
+            
+            const moveX = e.clientX - grabX;
+            
+            // Use transform for immediate visual feedback
+            requestAnimationFrame(() => {
+                cardHolder.scrollLeft = initialScroll - moveX;
+            });
+            
+            e.preventDefault();
+            e.stopPropagation();
         });
 
-        cardHolder.addEventListener('mouseup', () => {
-            isMouseDown = false;
-            isDragging = false;
-            cardHolder.style.cursor = 'grab';
-        });
-
-        cardHolder.addEventListener('mousemove', (e) => {
-            if (!isMouseDown) return;
-            
-            // Calculate movement since last position
-            const deltaX = e.clientX - lastX;
-            const deltaY = e.clientY - lastY;
-            
-            // Update last position
-            lastX = e.clientX;
-            lastY = e.clientY;
-
-            // If we haven't started dragging yet, check if we've moved enough to start
-            if (!isDragging) {
-                const moveDistance = Math.sqrt(deltaX * deltaX + deltaY * deltaY);
-                if (moveDistance > 5) { // Start dragging after 5px of movement
-                    isDragging = true;
+        const endPointerDrag = (e) => {
+            if (e.pointerId === activePointerId) {
+                if (e.pointerType === 'mouse') {
+                    cardHolder.style.cursor = 'grab';
                 }
+                isPointerDown = false;
+                try {
+                    cardHolder.releasePointerCapture(e.pointerId);
+                } catch (err) {}
+                activePointerId = null;
             }
+        };
 
-            if (isDragging) {
-                // Update scroll positions - using same delta-based approach for both directions
-                cardHolder.scrollLeft -= deltaX;
-                window.scrollBy(0, -deltaY);
-                
-                // Prevent any other events
-                e.preventDefault();
-                e.stopPropagation();
-            }
-        });
+        cardHolder.addEventListener('pointerup', endPointerDrag);
+        cardHolder.addEventListener('pointercancel', endPointerDrag);
+        cardHolder.addEventListener('lostpointercapture', endPointerDrag);
 
-        // Set initial cursor style
         cardHolder.style.cursor = 'grab';
-        
-        // Track touch state
-        cardHolder.addEventListener('touchstart', () => {
-            isTouching = true;
-            if (touchTimeout) {
-                clearTimeout(touchTimeout);
-                touchTimeout = null;
-            }
-        });
-        
-        cardHolder.addEventListener('touchend', () => {
-            if (touchTimeout) {
-                clearTimeout(touchTimeout);
-            }
-            touchTimeout = setTimeout(() => {
-                isTouching = false;
-                touchTimeout = null;
-            }, TOUCH_TIMEOUT);
-        });
 
-        // Handle mouse wheel events
         cardHolder.addEventListener('wheel', (e) => {
-            if (isTouching || document.touchedElements?.length > 0) return;
+            if (Math.abs(e.deltaY) < 90 || Object.is(-0, e.deltaX) || e.deltaX < 0) {
+                return;
+            }
             
             if (!isElCompletelyInViewport(cardHolder)) {
                 return;
@@ -166,7 +130,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }, { passive: false });
     });
 });
-
 // Configuration
 const MODAL_PREFIXES = ['modal-', 'popup-'];
 let isHandlingPopState = false;
