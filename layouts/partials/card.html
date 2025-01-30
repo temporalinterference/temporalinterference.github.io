@@ -28,13 +28,13 @@
 
 {{ if $modal }}
   {{ if $modal.Params.id }}
-    {{ .Scratch.Set "local_modal_id" $modal.Params.id }}
+    {{ .Scratch.Set "local_modal_id" (printf "modal-%s" $modal.Params.id) }}
   {{ else }}
     {{ if eq ( $.Site.Store.Get "modal_id" ) "" }}
       {{ $.Site.Store.Set "modal_id" 0 }}
     {{ end }}
     {{ $.Site.Store.Add "modal_id" 1 }}
-    {{ .Scratch.Set "local_modal_id" ( $.Site.Store.Get "modal_id") }}
+    {{ .Scratch.Set "local_modal_id" (printf "automodal-%d" ( $.Site.Store.Get "modal_id")) }}
   {{ end }}
 {{ end }}
 
@@ -52,7 +52,7 @@
   </div>
 
   {{ if $modal }}
-    <a href="#modal-{{ .Scratch.Get "local_modal_id" }}" uk-toggle><img src='{{ (resources.Get "images/plus-icon.svg").RelPermalink }}' 
+    <a href="#{{ .Scratch.Get "local_modal_id" }}" uk-toggle><img src='{{ (resources.Get "images/plus-icon.svg").RelPermalink }}' 
          uk-img
          class="ti-round-button ti-plus-button"></a>
   {{ end }}
@@ -60,7 +60,7 @@
 
 {{ if $modal }}
   <!-- This is the modal with the default close button -->
-  <div id='modal-{{ .Scratch.Get "local_modal_id" }}' class="uk-modal-container" uk-modal>
+  <div id='{{ .Scratch.Get "local_modal_id" }}' class="uk-modal-container" uk-modal>
     <div class="uk-modal-dialog">
       <img src='{{ (resources.Get "images/x-icon.svg").RelPermalink }}'
            alt="open-modal"
