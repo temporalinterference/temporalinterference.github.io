@@ -47,8 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
             grabX = e.clientX;
             initialScroll = cardHolder.scrollLeft;
             
-//            cardHolder.setPointerCapture(e.pointerId);
-            
             if (e.pointerType === 'mouse') {
                 cardHolder.style.cursor = 'grabbing';
             }
@@ -76,21 +74,20 @@ document.addEventListener('DOMContentLoaded', () => {
                     cardHolder.style.cursor = 'grab';
                 }
                 isPointerDown = false;
-                try {
-                    cardHolder.releasePointerCapture(e.pointerId);
-                } catch (err) {}
                 activePointerId = null;
             }
         };
 
         cardHolder.addEventListener('pointerup', endPointerDrag);
         cardHolder.addEventListener('pointercancel', endPointerDrag);
-        cardHolder.addEventListener('lostpointercapture', endPointerDrag);
+
 
         cardHolder.style.cursor = 'grab';
 
         cardHolder.addEventListener('wheel', (e) => {
-            if (Math.abs(e.deltaY) < 90 || Object.is(-0, e.deltaX) || e.deltaX < 0) {
+            // console.log(e);
+            if ((e.deltaY != 120 && 'wheelDelta' in e && Number.isInteger(e.deltaY)) // chrome
+                && ( Math.abs(e.deltaY) < 90 || Object.is(-0, e.deltaX) || e.deltaX != 0)) {
                 return;
             }
             
@@ -125,6 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             e.preventDefault();
+            e.stopPropagation();
             const scrollAmount = (e.deltaX !== 0 ? e.deltaX : e.deltaY) * SCROLL_MULTIPLIER;
             cardHolder.scrollLeft = Math.max(0, Math.min(maxScroll, currentScroll + scrollAmount));
         }, { passive: false });
