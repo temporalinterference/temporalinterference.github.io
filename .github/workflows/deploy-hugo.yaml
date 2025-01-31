@@ -1,77 +1,103 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches:
-      - main
-  
+      - '**'
   pull_request:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
-# Default to bash
 defaults:
   run:
     shell: bash
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.140.2
     steps:
-      - name: Cache Hugo Deb
-        uses: actions/cache@v3
-        id: cache-hugo
-        with:
-          path: ${{ runner.temp }}
-          key: hugo-${{ env.HUGO_VERSION }}
-      - name: Fetch Hugo Deb
-        if: steps.cache-hugo.outputs.cache-hit != 'true'
-        run: |
-            wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
       - name: Install Hugo
         run: |
-            sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i hugo.deb
+      
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
+      
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
+      
+      - name: Download current pages
+        run: |
+          mkdir -p current-site
+          # Try to download current pages content, but don't fail if it doesn't exist
+          curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+               -H "Accept: application/vnd.github+json" \
+               -L \
+               "https://api.github.com/repos/${{ github.repository }}/actions/artifacts?name=github-pages" \
+               -o artifacts.json
+
+          if [ -s artifacts.json ]; then
+            DOWNLOAD_URL=$(jq -r '.artifacts[0].archive_download_url' artifacts.json)
+            if [ ! -z "$DOWNLOAD_URL" ]; then
+              curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+                   -L "$DOWNLOAD_URL" -o current-site.zip
+              unzip -o current-site.zip -d current-site || true
+            fi
+          fi
+      
       - name: Build with Hugo
         env:
-          # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: |
+          BRANCH=${GITHUB_REF#refs/heads/}
+          if [ "$BRANCH" = "main" ]; then
+            hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+            # Save branch directories
+            mkdir -p temp-branches
+            mv current-site/branch-* temp-branches/ 2>/dev/null || true
+            # Clear current site root and copy new content
+            rm -rf current-site/*
+            cp -r public/* current-site/
+            # Restore branch directories
+            mv temp-branches/branch-* current-site/ 2>/dev/null || true
+          else
+            hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/branch-${BRANCH}/"
+            mkdir -p current-site/branch-${BRANCH}
+            cp -r public/* current-site/branch-${BRANCH}/
+          fi
+          if [ -f current-site/index.html ]; then
+            echo "Site built successfully"
+          else
+            echo "Site build failed"
+            exit 1
+          fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./public
+          path: ./current-site
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    if: github.event_name == 'push'
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
