@@ -1,3 +1,6 @@
+# DO NOT CHANGE THIS FILE!
+# Talk to Tobi Oetiker before making any changes to this file.
+
 name: Deploy Hugo site to Pages
 
 on:
@@ -54,7 +57,9 @@ jobs:
             if [ ! -z "$DOWNLOAD_URL" ]; then
               curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
                    -L "$DOWNLOAD_URL" -o current-site.zip
-              unzip -o current-site.zip -d current-site || true
+              unzip -o current-site.zip -d current-site
+              tar xf current-site/artifact.tar -C current-site
+              rm current-site/artifact.tar
             fi
           fi
       
@@ -80,12 +85,11 @@ jobs:
             cp -r public/* current-site/branch-${BRANCH}/
           fi
           if [ -f current-site/index.html ]; then
-            echo "Site built successfully"
+            echo "Hugo build successful"
           else
-            echo "Site build failed"
+            echo "Hugo build failed"
             exit 1
           fi
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
