@@ -86,7 +86,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         cardHolder.addEventListener('wheel', (e) => {
             // console.log(e);
-            if ((e.deltaY != 120 && 'wheelDelta' in e && Number.isInteger(e.deltaY)) // chrome
+            if (( Math.abs(e.deltaY) != 120 && 'wheelDelta' in e && Number.isInteger(e.deltaY)) // chrome
                 && ( Math.abs(e.deltaY) < 90 || Object.is(-0, e.deltaX) || e.deltaX != 0)) {
                 return;
             }
