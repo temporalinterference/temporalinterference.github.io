@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
             grabX = e.clientX;
             initialScroll = cardHolder.scrollLeft;
             
-            cardHolder.setPointerCapture(e.pointerId);
+//            cardHolder.setPointerCapture(e.pointerId);
             
             if (e.pointerType === 'mouse') {
                 cardHolder.style.cursor = 'grabbing';
