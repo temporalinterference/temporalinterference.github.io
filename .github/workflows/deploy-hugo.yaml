@@ -1,3 +1,6 @@
+# DO NOT CHANGE THIS FILE!
+# Talk to Tobi Oetiker before making any changes to this file.
+
 name: Deploy Hugo site to Pages
 
 on:
