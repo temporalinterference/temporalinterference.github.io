@@ -1,9 +1,192 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Configuration constants
-    const SCROLL_MULTIPLIER = 0.5;
-    const EDGE_THRESHOLD = 20;
+    /**
+     * Configuration options for ScrollController
+     * @typedef {Object} ScrollControllerOptions
+     * @property {string} [selector='.ti-card-holder'] - Query selector for slider elements
+     * @property {number} [scrollSpeed=0.5] - Multiplier for horizontal scroll speed
+     * @property {number} [extremeThreshold=20] - Pixel threshold for detecting document extremes
+     */
+    class ScrollController {
+        /**
+         * Creates a new ScrollController instance
+         * @param {ScrollControllerOptions} [options={}] - Configuration options
+         */
+        constructor(options = {}) {
+            // Initialize configuration with defaults
+            const config = {
+                selector: '.ti-card-holder',
+                scrollSpeed: 0.5,
+                extremeThreshold: 20,
+                ...options
+            };
 
-    /* measure margins and set css variables */
+            // Initialize core properties
+            this.sliders = Array.from(document.querySelectorAll(config.selector));
+            this.scrollSpeed = config.scrollSpeed;
+            this.extremeThreshold = config.extremeThreshold;
+            this.lastScrollY = window.scrollY;
+            this.viewportHeight = window.innerHeight;
+            this.documentHeight = document.documentElement.scrollHeight;
+            this.virtualPointY = this.viewportHeight / 2;
+            
+            this.initSliders();
+            this.init();
+        }
+
+        /**
+         * Initialize sliders with drag behavior
+         */
+        initSliders() {
+            this.sliders.forEach(slider => {
+                // Disable smooth scrolling for better drag performance
+                slider.style.scrollBehavior = 'auto';
+                slider.style.cursor = 'grab';
+                
+                let isPointerDown = false;
+                let activePointerId = null;
+                let grabX = 0;
+                let initialScroll = 0;
+
+                slider.addEventListener('pointerdown', (e) => {
+                    isPointerDown = true;
+                    activePointerId = e.pointerId;
+                    grabX = e.clientX;
+                    initialScroll = slider.scrollLeft;
+                    
+                    if (e.pointerType === 'mouse') {
+                        slider.style.cursor = 'grabbing';
+                    }
+                    
+                    e.preventDefault();
+                });
+
+                slider.addEventListener('pointermove', (e) => {
+                    if (!isPointerDown || e.pointerId !== activePointerId) return;
+                    
+                    const moveX = e.clientX - grabX;
+                    
+                    requestAnimationFrame(() => {
+                        slider.scrollLeft = initialScroll - moveX;
+                    });
+                    
+                    e.preventDefault();
+                    e.stopPropagation();
+                });
+
+                const endPointerDrag = (e) => {
+                    if (e.pointerId === activePointerId) {
+                        if (e.pointerType === 'mouse') {
+                            slider.style.cursor = 'grab';
+                        }
+                        isPointerDown = false;
+                        activePointerId = null;
+                    }
+                };
+
+                slider.addEventListener('pointerup', endPointerDrag);
+                slider.addEventListener('pointercancel', endPointerDrag);
+            });
+        }
+
+        init() {
+            window.addEventListener('wheel', this.handleWheel.bind(this), { passive: false });
+            window.addEventListener('scroll', () => this.updateVirtualPoint());
+        }
+
+        isAtDocumentExtreme() {
+            const scrollY = window.scrollY;
+            const maxScroll = this.documentHeight - this.viewportHeight;
+            
+            return {
+                top: scrollY < this.extremeThreshold,
+                bottom: Math.abs(scrollY - maxScroll) < this.extremeThreshold
+            };
+        }
+
+        needsHorizontalScroll(slider, scrollingDown) {
+            const maxScroll = slider.scrollWidth - slider.clientWidth;
+            return scrollingDown ? 
+                slider.scrollLeft < maxScroll - this.extremeThreshold :
+                slider.scrollLeft > this.extremeThreshold;
+        }
+
+        getActiveSlider(scrollingDown) {
+            const extremes = this.isAtDocumentExtreme();
+            
+            if (extremes.top && !scrollingDown) {
+                return this.sliders.find(slider => slider.scrollLeft > 0);
+            }
+            
+            if (extremes.bottom && scrollingDown) {
+                return this.sliders.reverse().find(slider => 
+                    slider.scrollLeft < slider.scrollWidth - slider.clientWidth
+                );
+            }
+
+            return this.sliders.find(slider => {
+                const rect = slider.getBoundingClientRect();
+                const sliderCenter = rect.top + (rect.height / 2);
+                return this.needsHorizontalScroll(slider, scrollingDown) && (
+                    scrollingDown ? sliderCenter <= this.virtualPointY : sliderCenter >= this.virtualPointY
+                );
+            });
+        }
+
+        scrollSliderHorizontally(slider, delta) {
+            const maxScroll = slider.scrollWidth - slider.clientWidth;
+            const newScrollLeft = slider.scrollLeft + (delta * this.scrollSpeed);
+            slider.scrollLeft = Math.max(0, Math.min(newScrollLeft, maxScroll));
+            
+            return this.needsHorizontalScroll(slider, delta > 0);
+        }
+
+        updateVirtualPoint(scrollingDown = null) {
+            if (scrollingDown === null) {
+                scrollingDown = window.scrollY > this.lastScrollY;
+            }
+
+            const extremes = this.isAtDocumentExtreme();
+            
+            if (extremes.top) {
+                this.virtualPointY = 0;
+            } else if (extremes.bottom) {
+                this.virtualPointY = this.viewportHeight;
+            } else {
+                this.virtualPointY = this.viewportHeight / 2;
+            }
+            
+            this.lastScrollY = window.scrollY;
+        }
+
+        handleWheel(event) {
+            // Check if it's a genuine scroll event (adapted from your logic)
+            if (Math.abs(event.deltaY) != 120 && 
+                'wheelDelta' in event && 
+                Number.isInteger(event.deltaY) && 
+                (Math.abs(event.deltaY) < 90 || 
+                Object.is(-0, event.deltaX) || 
+                event.deltaX != 0)) {
+                return;
+            }
+            
+            const scrollingDown = event.deltaY > 0;
+            const isHorizontalScroll = Math.abs(event.deltaX) > Math.abs(event.deltaY);
+            
+            this.updateVirtualPoint(scrollingDown);
+            
+            const activeSlider = this.getActiveSlider(scrollingDown);
+            if (!activeSlider) return;
+            
+            if (isHorizontalScroll) {
+                activeSlider.scrollLeft += event.deltaX;
+                event.preventDefault();
+            } else if (this.scrollSliderHorizontally(activeSlider, event.deltaY)) {
+                event.preventDefault();
+            }
+        }
+    }
+
+    // Measure margins and set CSS variables
     const full = document.getElementById('ti-measure-full');
     const content = document.getElementById('ti-measure-content');
     const body = document.body;
@@ -24,108 +207,11 @@ document.addEventListener('DOMContentLoaded', () => {
     measure();
     window.addEventListener('resize', measure);
 
-    function isElCompletelyInViewport(el) {
-        const rect = el.getBoundingClientRect();
-        return (rect.top >= 0 && rect.bottom <= window.innerHeight);
-    }
-
-    /* Handle scrolling for each card holder */
-    const cardHolders = document.querySelectorAll('.ti-card-holder');
-    
-    cardHolders.forEach((cardHolder) => {
-        // Disable smooth scrolling behavior
-        cardHolder.style.scrollBehavior = 'auto';
-        
-        let isPointerDown = false;
-        let activePointerId = null;
-        let grabX = 0;
-        let initialScroll = 0;
-
-        cardHolder.addEventListener('pointerdown', (e) => {
-            isPointerDown = true;
-            activePointerId = e.pointerId;
-            grabX = e.clientX;
-            initialScroll = cardHolder.scrollLeft;
-            
-            if (e.pointerType === 'mouse') {
-                cardHolder.style.cursor = 'grabbing';
-            }
-            
-            e.preventDefault();
-        });
-
-        cardHolder.addEventListener('pointermove', (e) => {
-            if (!isPointerDown || e.pointerId !== activePointerId) return;
-            
-            const moveX = e.clientX - grabX;
-            
-            // Use transform for immediate visual feedback
-            requestAnimationFrame(() => {
-                cardHolder.scrollLeft = initialScroll - moveX;
-            });
-            
-            e.preventDefault();
-            e.stopPropagation();
-        });
-
-        const endPointerDrag = (e) => {
-            if (e.pointerId === activePointerId) {
-                if (e.pointerType === 'mouse') {
-                    cardHolder.style.cursor = 'grab';
-                }
-                isPointerDown = false;
-                activePointerId = null;
-            }
-        };
-
-        cardHolder.addEventListener('pointerup', endPointerDrag);
-        cardHolder.addEventListener('pointercancel', endPointerDrag);
-
-
-        cardHolder.style.cursor = 'grab';
-
-        cardHolder.addEventListener('wheel', (e) => {
-            // console.log(e);
-            if (( Math.abs(e.deltaY) != 120 && 'wheelDelta' in e && Number.isInteger(e.deltaY)) // chrome
-                && ( Math.abs(e.deltaY) < 90 || Object.is(-0, e.deltaX) || e.deltaX != 0)) {
-                return;
-            }
-            
-            if (!isElCompletelyInViewport(cardHolder)) {
-                return;
-            }
-
-            const maxScroll = cardHolder.scrollWidth - cardHolder.clientWidth;
-            const currentScroll = cardHolder.scrollLeft;
-            
-            if (maxScroll <= 0) {
-                return;
-            }
-
-            if (Math.abs(e.deltaY) > Math.abs(e.deltaX)) {
-                const scrollingDown = e.deltaY > 0;
-                const scrollingUp = e.deltaY < 0;
-                
-                if (scrollingDown && currentScroll < maxScroll - EDGE_THRESHOLD) {
-                    e.preventDefault();
-                    cardHolder.scrollLeft = Math.min(maxScroll, currentScroll + (e.deltaY * SCROLL_MULTIPLIER));
-                    return;
-                }
-                
-                if (scrollingUp && currentScroll > EDGE_THRESHOLD) {
-                    e.preventDefault();
-                    cardHolder.scrollLeft = Math.max(0, currentScroll + (e.deltaY * SCROLL_MULTIPLIER));
-                    return;
-                }
-                
-                return;
-            }
-            
-            e.preventDefault();
-            e.stopPropagation();
-            const scrollAmount = (e.deltaX !== 0 ? e.deltaX : e.deltaY) * SCROLL_MULTIPLIER;
-            cardHolder.scrollLeft = Math.max(0, Math.min(maxScroll, currentScroll + scrollAmount));
-        }, { passive: false });
+    // Initialize scroll controller with your configuration
+    new ScrollController({
+        selector: '.ti-card-holder',
+        scrollSpeed: 0.5,
+        extremeThreshold: 20
     });
 });
 // Configuration
