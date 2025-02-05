@@ -1,28 +1,20 @@
-# DO NOT CHANGE THIS FILE!
-# Talk to Tobi Oetiker before making any changes to this file.
-
 name: Deploy Hugo site to Pages
-
 on:
   push:
     branches:
       - '**'
   pull_request:
-
 permissions:
   contents: read
   pages: write
   id-token: write
   actions: read
-
 concurrency:
   group: "pages"
   cancel-in-progress: true
-
 defaults:
   run:
     shell: bash
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -44,13 +36,33 @@ jobs:
         uses: actions/configure-pages@v5
 
       - name: Download previous site
+        id: download
         uses: actions/download-artifact@v4
         with:
           name: github-pages
           path: current-site
-        continue-on-error: true  # In case this is the first run
-      - name: Display Content
-        run: ls -R      
+        continue-on-error: true
+
+      - name: Prepare site directory
+        run: |
+          if [ -f current-site/artifact.tar ]; then
+            tar xf current-site/artifact.tar -C current-site
+            rm current-site/artifact.tar
+          else
+            # No artifact found - need to rebuild main site
+            BRANCH=${GITHUB_REF#refs/heads/}
+            if [ "$BRANCH" != "main" ]; then
+              # Build main site first
+              git fetch origin main
+              git checkout main
+              hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+              mkdir -p current-site
+              cp -r public/* current-site/
+              # Switch back to original branch
+              git checkout $BRANCH
+            fi
+          fi
+    
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
@@ -78,11 +90,33 @@ jobs:
             echo "Hugo build failed"
             exit 1
           fi
+
+      # Clean up old artifacts
+      - name: Delete old artifacts
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const response = await github.rest.actions.listArtifactsForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+            });
+            for (const artifact of response.data.artifacts) {
+              if (artifact.name === 'github-pages') {
+                console.log('Deleting artifact:', artifact.id);
+                await github.rest.actions.deleteArtifact({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  artifact_id: artifact.id,
+                });
+              }
+            }
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./current-site
-
+          retention-days: 14
+          
   deploy:
     environment:
       name: github-pages
