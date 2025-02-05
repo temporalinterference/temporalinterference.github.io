@@ -237,7 +237,7 @@ jobs:
             fi
           done
           
-          cat >> current-site/previews.html << 'EOL'
+          cat >> current-site/previews.html << EOL
           </ul>
           <p>Last updated: $(date)</p>
           </body></html>
