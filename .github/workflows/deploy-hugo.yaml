@@ -49,8 +49,8 @@ jobs:
           name: github-pages
           path: current-site
         continue-on-error: true  # In case this is the first run
-        run: |
-          ls -R      
+      - name: Display Content
+        run: ls -R      
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
