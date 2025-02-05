@@ -42,28 +42,15 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      
-      - name: Download current pages
-        run: |
-          mkdir -p current-site
-          # Try to download current pages content, but don't fail if it doesn't exist
-          curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-               -H "Accept: application/vnd.github+json" \
-               -L \
-               "https://api.github.com/repos/${{ github.repository }}/actions/artifacts?name=github-pages" \
-               -o artifacts.json
 
-          if [ -s artifacts.json ]; then
-            DOWNLOAD_URL=$(jq -r '.artifacts[0].archive_download_url' artifacts.json)
-            if [ ! -z "$DOWNLOAD_URL" ]; then
-              curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-                   -L "$DOWNLOAD_URL" -o current-site.zip
-              unzip -o current-site.zip -d current-site
-              tar xf current-site/artifact.tar -C current-site
-              rm current-site/artifact.tar
-            fi
-          fi
-      
+      - name: Download previous site
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: current-site
+        continue-on-error: true  # In case this is the first run
+        run: |
+          ls -R      
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
