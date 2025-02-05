@@ -91,6 +91,45 @@ jobs:
             exit 1
           fi
 
+     - name: Add robots.txt for branches
+        run: |
+          echo "User-agent: *" > current-site/robots.txt
+          echo "Disallow: /branch-" >> current-site/robots.txt
+          
+     - name: Generate branches index
+        run: |
+          cat > current-site/branches.html << 'EOL'
+          <!DOCTYPE html>
+          <html>
+          <head>
+              <title>Branch Previews</title>
+              <meta name="robots" content="noindex,nofollow">
+              <meta name="googlebot" content="noindex,nofollow">
+          </head>
+          <body>
+          <h1>Branch Previews</h1>
+          <ul>
+          EOL
+          
+          for branch in current-site/branch-*/; do
+            if [ -d "$branch" ]; then
+              branch_name=$(basename "$branch" | sed 's/branch-//')
+              echo "<li><a href='branch-${branch_name}/'>${branch_name}</a></li>" >> current-site/branches.html
+            fi
+          done
+          
+          echo '</ul>' >> current-site/branches.html
+          echo "<p>Last updated: $(date)</p>" >> current-site/branches.html
+          echo '</body></html>' >> current-site/branches.html            
+
+     - name: Add noindex to branch pages
+        run: |
+          for file in $(find current-site/branch-* -name "*.html" -type f); do
+            if ! grep -q 'meta name="robots" content="noindex,nofollow"' "$file"; then
+              sed -i '/<head>/a \    <meta name="robots" content="noindex,nofollow">\n    <meta name="googlebot" content="noindex,nofollow">' "$file"
+            fi
+          done
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
