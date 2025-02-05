@@ -181,15 +181,6 @@ jobs:
             cp -r public/* current-site/branch-${BRANCH}/
           fi
 
-      - name: Add noindex to branch pages
-        run: |
-          # Add noindex to branch previews
-          for dir in current-site/branch-*/; do
-            if [ -d "$dir" ]; then
-              find "$dir" -name "*.html" -type f -exec sed -i '/<head>/a \    <meta name="robots" content="noindex,nofollow">\n    <meta name="googlebot" content="noindex,nofollow">' {} +
-            fi
-          done
-
       - name: Generate preview index
         run: |
           cat > current-site/previews.html << 'EOL'
@@ -225,13 +216,14 @@ jobs:
           <p>Last updated: $(date)</p>
           </body></html>
           EOL
-
+          
       - name: Add robots.txt
         run: |
           cat > current-site/robots.txt << 'EOL'
           User-agent: *
           Disallow: /branch-
           EOL
+          ls -l current-site
 
       - name: Comment on PR
         if: github.event_name == 'pull_request'
