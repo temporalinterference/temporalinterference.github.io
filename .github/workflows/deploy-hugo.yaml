@@ -32,9 +32,14 @@ jobs:
         id: check
         env:
           GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          BRANCH: ${{ github.ref_name }}
         run: |
-          PR_NUMBER=$(gh pr list --head "${{ github.ref_name }}" --json number -q '.[0].number')
-          if [ ! -z "$PR_NUMBER" ]; then
+          # Use the GitHub API directly instead of the CLI to avoid needing git checkout
+          PR=$(curl -s -H "Authorization: Bearer $GH_TOKEN" \
+            "https://api.github.com/repos/$REPO/pulls?head=${REPO%/*}:$BRANCH&state=open")
+          
+          if [ "$(echo "$PR" | jq '. | length')" -gt 0 ]; then
             echo "has_pr=true" >> $GITHUB_OUTPUT
           else
             echo "has_pr=false" >> $GITHUB_OUTPUT
@@ -285,6 +290,6 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-      
-      
+        
+# END
 # end
