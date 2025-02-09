@@ -16,7 +16,7 @@ Meet us at Booth #23+24 for a demonstration of
 
 
 ## Breakfast Workshop  
-### Tuesday, February 25, 7:30 – 8:30, Reception Hall  
+## Tuesday, February 25, 7:30 – 8:30, Reception Hall  
 
 Join our Breakfast Workshop "From Exposure Physics to Physiology: Next-Generation Neuromodulation Research with Sim4Life":
 - Discover how integrating exposure physics with neurophysiology is key for realistic modeling and simulation in the fast-moving field of neuromodulation.
