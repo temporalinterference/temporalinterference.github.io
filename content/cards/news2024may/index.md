@@ -16,7 +16,7 @@ Meet us at Booth #23+24 for a demonstration of
 
 
 ## Breakfast Workshop  
-### Tuesday, February 25, 7:30 – 8:30, Reception Hall  
+### Tuesday, February 25, 7:30 – 8:30 hrs, Reception Hall  
 
 Join our Breakfast Workshop "From Exposure Physics to Physiology: Next-Generation Neuromodulation Research with Sim4Life":
 - Discover how integrating exposure physics with neurophysiology is key for realistic modeling and simulation in the fast-moving field of neuromodulation.
@@ -26,7 +26,7 @@ For more details and registration, visit the [ZMT workshop website](https://zmt.
 
 
 ## Symposium 4H  
-### Wednesday, February 26, 13:30 – 15:30, Room 502 KICC  
+### Wednesday, February 26, 13:30 – 15:30 hrs, Room 502 KICC  
 
 Join us at Symposium 4H “Advanced In Silico Techniques for Next-Generation Stimulation and Sensing Technologies / Advances in Automated Algorithms, Robotics, and Coil Designs for TMS”:
 
