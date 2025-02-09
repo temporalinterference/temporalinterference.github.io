@@ -50,5 +50,3 @@ Biophysics-Based Surrogate Modeling for Neural Interface Optimization, Activity 
 Discussion
 
 We look forward to interesting exchange in Kobe!
-
-{{< modal-image newsitemvisual1500pxwide.jpg >}} {{< /modal-image >}}
