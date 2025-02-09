@@ -7,7 +7,7 @@ Feb 06, 2025
 TI Solutions and [Z43](https://z43.swiss) partner [ZMT](https://zmt.swiss) are excited to present their latest neuromodulation and simulation tools at the upcoming [6th Brain Stimulation Conference](https://www.elsevier.com/events/conferences/all/international-brain-stimulation-conference) in Kobe, Japan, February 23 – 26, 2025. In addition, experts of the [IT’IS Foundation](https://itis.swiss) will present their latest research.
 
 ## Booth 23+24  
-Meet us at Booth #23+24 for a demonstration of
+Meet us at Booth 23+24 for a demonstration of
 - the TIBS-R V3.2 neuromodulation device, now with enhanced trigger functionality, enabling delivery of arbitrary-shaped envelope waveforms via phase modulation upon receiving an external trigger with minimal latency for advanced closed-loop studies (compatible with all our EEG and MRI filters)
 - the TIP V3.0 temporal interference modeling tool for personalized stimulation planning with TIBS-R
 - how you can use Sim4Life to advance patient-specific neural stimulation and sensing with ease through in silico modeling
