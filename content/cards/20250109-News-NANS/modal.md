@@ -13,16 +13,16 @@ Join us at Booth #445 for a demonstration of
 - how Sim4Life automated workflows significantly reduce R&D time and costs
 - how your innovation benefits from using the gold standard of high-resolution neuro-functionalized anatomical models or image-based modeling techniques already implemented in Sim4Life
 
-Don't miss the poster presentations from the IT'IS Foundation, who will share the latest research findings:
+Don't miss the poster presentations from the [IT'IS Foundation](https://itis.swiss), who will share the latest research findings:
 
-###Jan 30, 2025, 8:00 – 17:00 hrs  
+### Jan 30, 2025, 8:00 – 17:00 hrs  
 Intelligent Meta-Modeling and Rapid Stimulation Predictors Enable *In Silico* Energy and Performance Optimization of Bioelectronic Implants
 *Javier García Ordóñez, Werner Van Geit, Antonino M. Cassarà, Esra Neufeld, and Niels Kuster*
 
 Electrical Impedance Tomography and Model-Based Control for Neural Interfaces on Complex Nerves
 *Esra Neufeld, Werner Van Geit, Simon Bolt, and Niels Kuster*
 
-###Jan 31, 2025, 17:30 – 19:00 hrs  
+### Jan 31, 2025, 17:30 – 19:00 hrs  
 Planning Tool for Personalized Temporal Interference Stimulation Optimization
 *Melanie Steiner, Esra Neufeld, Odei Maiz, Dustin Kaiser, Bryn Lloyd, Silvia Farcito*
 
