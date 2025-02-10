@@ -46,7 +46,4 @@ Insights on Neural Sensing from Biophysically-Detailed Models of Neural Circuits
 Biophysics-Based Surrogate Modeling for Neural Interface Optimization, Activity Mapping, and Closed-Loop Control of Electroceuticals
 *Esra Neufeld, Werner Van Geit, Javier Garcia Ordóñez, Antonino M. Cassarà, Niels Kuster*
 
-14:30 – 15:30 hrs  
-Discussion
-
 We look forward to interesting exchange in Kobe!
