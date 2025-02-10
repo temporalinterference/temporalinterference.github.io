@@ -30,5 +30,3 @@ Planning Tool for Personalized Temporal Interference Stimulation Optimization
 
 We look forward to meeting you in Orlando!
 
-{{< modal-image 250107-NANS-news-item-TI.jpg >}}
-{{< /modal-image >}}
