@@ -23,6 +23,7 @@ News
 
 {{< card-holder >}}
 {{< card news2025jan >}}
+{{< card 20250109-News-NANS >}}
 {{< card news2024dec >}}
 {{< card news2024august >}}
 {{< card news2024feb >}}
