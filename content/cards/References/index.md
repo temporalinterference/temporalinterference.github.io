@@ -2,6 +2,10 @@
 title: Selected Publications
 ---
 
+Cassarà AM *et al. Recommendations for the Safe Application of Temporal Interference Stimulation in the Human Brain Part I: Principles of Electrical Neuromodulation and Adverse Effects.* Bioelectromagnetics. 2025; 46:e22542. [doi:10.1002/bem.22542](https://onlinelibrary.wiley.com/doi/full/10.1002/bem.22542)
+
+Cassarà AM *et al. Interference Stimulation in the Human Brain Part II: Biophysics, Dosimetry, and Safety Recommendations.* Bioelectromagnetics. 2025; 46:e22536. [doi:10.1002/bem.22536](https://onlinelibrary.wiley.com/doi/10.1002/bem.22536)
+
 Caldas-Martinez S *et al. Cell-specific effects of temporal interference stimulation on cortical function.* Commun Biol. 2024; 7:1076. [doi: 10.1038/s42003-024-06728](https://www.nature.com/articles/s42003-024-06728-y)
 
 Liu R *et al. Temporal interference stimulation targets deep primate brain.* NeuroImage. 2024; 291:120581. [doi: 10.1016/j.neuroimage.2024.120581](https://www.sciencedirect.com/science/article/pii/S1053811924000764)
