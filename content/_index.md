@@ -81,5 +81,6 @@ About
 {{< card-holder >}}
 {{< card The-Company >}}
 {{< card staff >}}
+{{< card staff2 >}}
 {{< card contact-us >}}
 {{< /card-holder >}}
