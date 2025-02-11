@@ -19,7 +19,7 @@ Mischa Sabathy earned his degree in Electrical Engineering from the University o
 Stefan Beerli was born in Switzerland. He joined the IT'IS Foundation in February 2023. Stefan obtained his masters in physics and PhD in theoretical high energy physics from ETH Zurich. He then joined the transceiver company AXSEM (later acquired by OnSemi), where his responsibilities were analog IC design, lab evaluation of transceivers as well as SW and firmware development. 
 {{< /image-text >}}
 
-{{< image-text title="Cédric Bujard" src="Cedric.png" pos="left" ratio="one-third" >}}
+{{< image-text title="Cédric Bujard" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
 Cédric Bujard was born in Switzerland. He joined the IT'IS Foundation in October 2021. Cédric first graduated from Berklee College of Music, Boston, USA, in musical theory and composition, and in sound production and engineering. Cédric then obtained his master’s degree in mathematics from ETH Lausanne (EPFL), and his PhD in mathematics from the University of Strasbourg, France. He worked for few years as a lecturer at EPFL before working in the private sector as a data scientist and software engineer.
 {{< /image-text >}}
 
