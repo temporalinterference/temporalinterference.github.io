@@ -1,6 +1,5 @@
 ---
-Title: 20250109-News-NANS
-id: 20250109-News-NANS-pop
+id: news-20250109-NANS
 ---
 # TI Solutions and ZMT Exhibit at NANS 2025
 
