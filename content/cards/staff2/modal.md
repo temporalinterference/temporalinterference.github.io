@@ -20,7 +20,7 @@ Mischa Sabathy earned his degree in Electrical Engineering from the University o
 Stefan Beerli was born in Switzerland. He joined the IT'IS Foundation in February 2023. Stefan obtained his masters in physics and PhD in theoretical high energy physics from ETH Zurich. He then joined the transceiver company AXSEM (later acquired by OnSemi), where his responsibilities were analog IC design, lab evaluation of transceivers as well as SW and firmware development. 
 {{< /image-text >}}
 
-{{< image-text title="Cédric Bujard" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
+{{< image-text title="Cédric Bujard" src="Cedric.jpg" pos="left" ratio="one-third" >}}
 Cédric Bujard was born in Switzerland. He joined the IT'IS Foundation in October 2021. Cédric first graduated from Berklee College of Music, Boston, USA, in musical theory and composition, and in sound production and engineering. Cédric then obtained his master’s degree in mathematics from ETH Lausanne (EPFL), and his PhD in mathematics from the University of Strasbourg, France. He worked for few years as a lecturer at EPFL before working in the private sector as a data scientist and software engineer.
 {{< /image-text >}}
 
@@ -28,13 +28,18 @@ Cédric Bujard was born in Switzerland. He joined the IT'IS Foundation in Octobe
 Melanie Steiner is a Software Engineer and AI/ML Specialist at the Foundation for Research on Information Technologies in Society (IT’IS Foundation) and TI Solutions AG in Zurich, Switzerland. She holds a master’s degree in biomedical engineering from ETH Zurich, where she completed her thesis on Personalized Brain Stimulation Planning and Correlation with Functional and Behavioral Responses in a Temporal Interference Stimulation Trial at IT’IS. Since then, she has been a lead developer of the Temporal Interference Planning Tool (TIP).
 {{< /image-text >}}
 
-Sajeethan Thuraisamy
+{{< image-text title="Sajeethan Thuraisamy" src="saji-1500px-c.jpg" pos="left" ratio="one-third" >}}
+Sajeethan Thuraisamy joined SPEAG as a polymechanic and mechanical engineer in February 2014 and has also been working for TI Solutions AG since 2022. He completed an apprenticeship in mechanics with a specialization in Computer Numerical Control (CNC) machining in 2011. At SPEAG and TI Solutions AG, he is responsible for designing and manufacturing mechanical parts, as well as developing the mechanics of new products.
+{{< /image-text >}}
 
-Sylvain Reboux
+{{< image-text title="Sylvain Reboux" src="Sylvain-Reboux-1500px.jpg" pos="left" ratio="one-third" >}}
+Dr. Sylvain Reboux is a results-driven software engineer with deep expertise in electromagnetic simulations and medical technologies. As Product Owner at TI Solutions AG, he leads the development of the Temporal Interference Planning (TIP) tool, optimizing neurostimulation protocols through advanced simulations. With a background in mathematics and computational sciences, he has contributed to FDA-certified medical toolkits and cutting-edge EM applications. His passion lies in innovation, regulatory compliance, and high-performance software solutions.
+{{< /image-text >}}
 
 # External Developers
 
-Sven Kuehn
+{{< image-text title="Sven Kuehn" src="sven-1500px-c.jpg" pos="left" ratio="one-third" >}}
+Sven holds a Dipl. Ing. (MSc) in ICT from Chemnitz University of Technology (2004) and a PhD from ETH Zurich (2009). Since joining SPEAG in 2009, he led key innovations like the TDS sensor platform and ICEy system. Currently, as Director of HW R&D, Sven drives hardware innovation and manages SPEAG’s ISO17025-accredited calibration lab, ensuring top-tier standards in R&D and calibration.
 
 Nik Chavannes
 
