@@ -82,7 +82,7 @@ Bruno Reumer is a long time member of the Z43 Power house. He is leading the pro
 Ninad Chitnis is currently pursuing a PhD at the IT'IS Foundation. Originally from Mumbai, India, he moved to Zurich for master's studies in electrical engineering at ETH Zurich. He graduated in June 2021 with a focus on RF engineering and worked at SPEAG for one year. He has worked on the MRI compatibility of the TIBS-R.
 {{< /image-text >}}
 
-{{< image-text title="Odei Maiz" src="Odei-500px.jpg" pos="left" ratio="one-third" >}}
+{{< image-text title="Odei Maiz" src="odei-500px-cc.jpg" pos="left" ratio="one-third" >}}
 Odei Maiz is a Software Engineer at the IT’IS Foundation in Zurich, Switzerland, where they develop advanced computational tools, including the Temporal Interference Planning Tool (TIP). Before working on TIP, he contributed to Sim4Life, which, along with oSPARC, powers TIP. oSPARC is a cloud-based platform for computational models and simulations, and TIP leverages it to simplify neurostimulation protocol optimization with an easy-to-use web application that hides the complexity of the background processes.
 {{< /image-text >}}
 
