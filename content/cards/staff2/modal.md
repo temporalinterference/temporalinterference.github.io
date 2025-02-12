@@ -40,6 +40,7 @@ Dr. Sylvain Reboux is a results-driven software engineer with deep expertise in 
 
 {{< image-text title="Sven Kuehn" src="sven-1500px-c.jpg" pos="left" ratio="one-third" >}}
 Sven holds a Dipl. Ing. (MSc) in ICT from Chemnitz University of Technology (2004) and a PhD from ETH Zurich (2009). Since joining SPEAG in 2009, he led key innovations like the TDS sensor platform and ICEy system. Currently, as Director of HW R&D, Sven drives hardware innovation and manages SPEAG’s ISO17025-accredited calibration lab, ensuring top-tier standards in R&D and calibration.
+{{< /image-text >}}
 
 Nik Chavannes
 
