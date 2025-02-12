@@ -90,6 +90,6 @@ Odei Maiz is a Software Engineer at the IT’IS Foundation in Zurich, Switzerlan
 Dmytro Baibara was born in the Ukraine in 1987. He graduated in 2011 from the Kyiv Polytechnic Institute of the National Technical University of Ukraine in Kyiv with a Master’s degree in Computer Science. His work experience includes software development in various fields and environments, for example, medical devices, image processing, rapid prototyping, and data analysis. Dmytro joined the SPEAG team in March 2018 as a Senior Software Developer, working with the ICEy team.
 {{< /image-text >}}
 
-{{< image-text title="Tibor Kiss" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
+{{< image-text title="Tibor Kiss" src="tibor-500px-c.jpg" pos="left" ratio="one-third" >}}
 Tibor Kiss was born in Romania. Tibor earned his BS in Electronics and Communication Engineering in 1996. A great part of his career activities took place in Budapest, then from 2014 in Switzerland. He has been working in audio streaming, biotech, smart-grid, and sensor development fields. Tibor joined Schmid & Partner Engineering AG in September 2023 as an Embedded Software Engineer.
 {{< /image-text >}}
