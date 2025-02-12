@@ -42,13 +42,21 @@ Dr. Sylvain Reboux is a results-driven software engineer with deep expertise in 
 Sven holds a Dipl. Ing. (MSc) in ICT from Chemnitz University of Technology (2004) and a PhD from ETH Zurich (2009). Since joining SPEAG in 2009, he led key innovations like the TDS sensor platform and ICEy system. Currently, as Director of HW R&D, Sven drives hardware innovation and manages SPEAG’s ISO17025-accredited calibration lab, ensuring top-tier standards in R&D and calibration.
 {{< /image-text >}}
 
-Nik Chavannes
+{{< image-text title="Nik Chavannes" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< /image-text >}}
 
-Thomas Schmid
+{{< image-text title="Thomas Schmid" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< /image-text >}}
 
-Peter Achermann
+{{< image-text title="Peter Achermann" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< /image-text >}}
 
-Bruno Rivara
+{{< image-text title="Bruno Rivara" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< /image-text >}}
 
 {{< image-text title="Eric Hainfeld" src="eric-1500px-c.jpg" pos="left" ratio="one-third" >}}
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -62,7 +70,9 @@ Livio Ponato was born in Zurich, Switzerland in 1987. Livio completed an apprent
 Manuel Brönnimann was born in Switzerland in 1980. Manuel is a Hardware Development Engineer. Manuel studied electrical engineering at the University of Applied Sciences (HSR) in Rapperswil, and graduated with an advanced degree in engineering. He later completed a Master of Science degree in automation in Darmstadt DE. He worked for more than ten years at the PSI and for about two years for Helbling Technic in Zurich. He has a strong background in electronic hardware design, FPGA firmware programming, and control and automation system designs.
 {{< /image-text >}}
 
-Antonino Cassara
+{{< image-text title="Antonino Cassara" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< /image-text >}}
 
 {{< image-text title="Bruno Reumer" src="bruno-1500px-c.jpg" pos="left" ratio="one-third" >}}
 Bruno Reumer is a long time member of the Z43 Power house. He is leading the production department of SPEAG for over 20 years. He has sound manufacturing experience and he is a valuable team player in design teams when hardware needs to be built.
@@ -76,6 +86,10 @@ Ninad Chitnis is currently pursuing a PhD at the IT'IS Foundation. Originally fr
 Odei Maiz is a Software Engineer at the IT’IS Foundation in Zurich, Switzerland, where they develop advanced computational tools, including the Temporal Interference Planning Tool (TIP). Before working on TIP, he contributed to Sim4Life, which, along with oSPARC, powers TIP. oSPARC is a cloud-based platform for computational models and simulations, and TIP leverages it to simplify neurostimulation protocol optimization with an easy-to-use web application that hides the complexity of the background processes.
 {{< /image-text >}}
 
-Dmytro Baibara
+{{< image-text title="Dmytro Baibara" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< /image-text >}}
 
-Tibor Kiss
+{{< image-text title="Tibor Kiss" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< /image-text >}}
