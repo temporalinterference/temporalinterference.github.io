@@ -86,10 +86,10 @@ Ninad Chitnis is currently pursuing a PhD at the IT'IS Foundation. Originally fr
 Odei Maiz is a Software Engineer at the IT’IS Foundation in Zurich, Switzerland, where they develop advanced computational tools, including the Temporal Interference Planning Tool (TIP). Before working on TIP, he contributed to Sim4Life, which, along with oSPARC, powers TIP. oSPARC is a cloud-based platform for computational models and simulations, and TIP leverages it to simplify neurostimulation protocol optimization with an easy-to-use web application that hides the complexity of the background processes.
 {{< /image-text >}}
 
-{{< image-text title="Dmytro Baibara" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< image-text title="Dmytro Baibara" src="Dmytro-500px-c.jpg" pos="left" ratio="one-third" >}}
+Dmytro Baibara was born in the Ukraine in 1987. He graduated in 2011 from the Kyiv Polytechnic Institute of the National Technical University of Ukraine in Kyiv with a Master’s degree in Computer Science. His work experience includes software development in various fields and environments, for example, medical devices, image processing, rapid prototyping, and data analysis. Dmytro joined the SPEAG team in March 2018 as a Senior Software Developer, working with the ICEy team.
 {{< /image-text >}}
 
 {{< image-text title="Tibor Kiss" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Tibor Kiss was born in Romania. Tibor earned his BS in Electronics and Communication Engineering in 1996. A great part of his career activities took place in Budapest, then from 2014 in Switzerland. He has been working in audio streaming, biotech, smart-grid, and sensor development fields. Tibor joined Schmid & Partner Engineering AG in September 2023 as an Embedded Software Engineer.
 {{< /image-text >}}
