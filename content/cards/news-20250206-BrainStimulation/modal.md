@@ -1,5 +1,4 @@
 ---
-Title: news2024may
 id: news2024may-pop
 ---
 # TI Solutions and ZMT Exhibit at Brain Stimulation 2025
