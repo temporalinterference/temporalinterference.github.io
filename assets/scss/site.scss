@@ -308,7 +308,13 @@ $modal-container-width: 778px !default;
       }
     }
   }
-  
+  .ti-image-text-one-third {
+    @media (min-width: $breakpoint-small) {
+      >img {
+        width: 33%;
+      }
+    }
+  }
 }
 
 .ti-section {

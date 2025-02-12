@@ -1,4 +1,4 @@
-<div class="ti-image-text ">
+<div class="ti-image-text ti-image-text-{{ .ratio }}">
     <img class="ti-image-{{ .pos }}" 
         src='{{ ((.image.Resize "400x").Process "webp").RelPermalink }}' 
         alt="{{ .title }}" uk-img>
