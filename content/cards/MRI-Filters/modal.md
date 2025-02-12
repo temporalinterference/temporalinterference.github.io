@@ -1,5 +1,4 @@
 ---
-Title: MRI Filters
 id: MRI Filters
 ---
 # MRI Filters
