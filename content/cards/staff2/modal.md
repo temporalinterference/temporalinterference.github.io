@@ -50,19 +50,31 @@ Peter Achermann
 
 Bruno Rivara
 
-Eric Hainfeld
+{{< image-text title="Eric Hainfeld" src="eric-1500px-c.jpg" pos="left" ratio="one-third" >}}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< /image-text >}}
 
-Livio Ponato
+{{< image-text title="Livio Ponato" src="livio-1500px-c.jpg" pos="left" ratio="one-third" >}}
+Livio Ponato was born in Zurich, Switzerland in 1987. Livio completed an apprenticeship as a multimedia electronics technician, then stayed with that company for three more years. In 2012, after working for 11 months as an electronics technician at Bruker Biospin, he started at the "Höhere Fachschule Uster" to study electronics. Livio previously worked at SPEAG, starting in February 2013. In September 2017, he left Z43 to work elsewhere to gain additional experience. During his 1½ years away from SPEAG, he also completed studies as Business Engineer NDS HF. Livio returned to SPEAG in February 2019 as an electrical engineer.
+{{< /image-text >}}
 
-Manuel Brönnimann
+{{< image-text title="Manuel Brönnimann" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
+Manuel Brönnimann was born in Switzerland in 1980. Manuel is a Hardware Development Engineer. Manuel studied electrical engineering at the University of Applied Sciences (HSR) in Rapperswil, and graduated with an advanced degree in engineering. He later completed a Master of Science degree in automation in Darmstadt DE. He worked for more than ten years at the PSI and for about two years for Helbling Technic in Zurich. He has a strong background in electronic hardware design, FPGA firmware programming, and control and automation system designs.
+{{< /image-text >}}
 
 Antonino Cassara
 
-Bruno Reumer
+{{< image-text title="Bruno Reumer" src="bruno-1500px-c.jpg" pos="left" ratio="one-third" >}}
+Bruno Reumer is a long time member of the Z43 Power house. He is leading the production department of SPEAG for over 20 years. He has sound manufacturing experience and he is a valuable team player in design teams when hardware needs to be built.
+{{< /image-text >}}
 
-Ninad Chitnis
+{{< image-text title="Ninad Chitnis" src="ninad-1500px-c.jpg" pos="left" ratio="one-third" >}}
+Ninad Chitnis is currently pursuing a PhD at the IT'IS Foundation. Originally from Mumbai, India, he moved to Zurich for master's studies in electrical engineering at ETH Zurich. He graduated in June 2021 with a focus on RF engineering and worked at SPEAG for one year. He has worked on the MRI compatibility of the TIBS-R.
+{{< /image-text >}}
 
-Odei Maiz
+{{< image-text title="Odei Maiz" src="Odei-500px.jpg" pos="left" ratio="one-third" >}}
+Odei Maiz is a Software Engineer at the IT’IS Foundation in Zurich, Switzerland, where they develop advanced computational tools, including the Temporal Interference Planning Tool (TIP). Before working on TIP, he contributed to Sim4Life, which, along with oSPARC, powers TIP. oSPARC is a cloud-based platform for computational models and simulations, and TIP leverages it to simplify neurostimulation protocol optimization with an easy-to-use web application that hides the complexity of the background processes.
+{{< /image-text >}}
 
 Dmytro Baibara
 
