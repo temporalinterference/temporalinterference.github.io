@@ -1,5 +1,5 @@
 ---
-id: news2024dec-pop
+id: news-20241228-Z43-Newsquarter-Q4-2024
 ---
 # The Z43 Newsquarter features the latest developments and activities of Zurich43
 
