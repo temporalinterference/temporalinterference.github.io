@@ -55,7 +55,7 @@ TI Planning
 {{< card-holder >}}
 {{< card ti-planning-tool >}}
 {{< card TIP >}}
-{{< card Sim4Life-V8 >}}
+{{< card Sim4Life >}}
 {{< /card-holder >}}
 
 {{< section id=early-adopter-program >}}
@@ -73,7 +73,7 @@ The Science
 
 {{< card-holder >}}
 {{< card research-programs >}}
-{{< card References >}}
+{{< card Publications >}}
 {{< /card-holder >}}
 
 {{< section id=about >}}
