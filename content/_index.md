@@ -23,7 +23,6 @@ News
 
 {{< card-holder >}}
 {{< card news-20250206-Brain-Stimulation >}}
-{{< card news2025jan >}}
 {{< card news-20250109-NANS >}}
 {{< card news2024dec >}}
 {{< card news2024august >}}
