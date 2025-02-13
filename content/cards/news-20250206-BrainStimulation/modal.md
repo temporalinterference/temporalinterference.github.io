@@ -1,6 +1,10 @@
 ---
-id: news2024may-pop
+id: news-20250206-BrainStimulation
 ---
+
+{{< modal-image news-20250206-BrainStimulation.jpg >}}
+{{< /modal-image >}}
+
 # TI Solutions and ZMT Exhibit at Brain Stimulation 2025
 
 TI Solutions and [Z43](https://z43.swiss) partner [ZMT](https://zmt.swiss) are excited to present their latest neuromodulation and simulation tools at the upcoming [6th Brain Stimulation Conference](https://www.elsevier.com/events/conferences/all/international-brain-stimulation-conference) in Kobe, Japan, February 23 – 26, 2025. In addition, experts of the [IT’IS Foundation](https://itis.swiss) will present their latest research.
