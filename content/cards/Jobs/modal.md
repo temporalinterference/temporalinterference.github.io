@@ -20,9 +20,7 @@ If a profile fits one of the advertised positions, then please prepare your comp
 * Transcripts (with grades)
 * Work certificates and / or reference letters (if available)
 
-Important: Please ensure that the above are all saved as a single PDF.
-Please save as a multi-page document.
-Please save your single PDF as 'Last Name-First Name-job title'.
+**Important:** Please ensure that the above are all saved as a single PDF. Please save as a multi-page document. Please save your single PDF as 'Last Name-First Name-job title.pdf'.
 
 Please send your application to:
 
@@ -30,8 +28,8 @@ jobs@z43.swiss
 
 or post to:
 
-Zurich43 - TI Solutions AG
-HR - Yvonne Maeder
-Zeughausstrasse 43
-8004 Zurich
-Switzerland
+- Zurich43 - TI Solutions AG
+- HR - Yvonne Maeder
+- Zeughausstrasse 43
+- 8004 Zurich
+- Switzerland
