@@ -26,7 +26,7 @@ News
 {{< card news-20250130-TIBS-R-V-3-2 >}}
 {{< card news-20250109-NANS >}}
 {{< card news-20241228-Z43-Newsquarter-Q4-2024 >}}
-{{< card news2024feb >}}
+{{< card news-20240827-TIBS-R-V-3-0 >}}
 {{< card news2023august >}}
 {{< card news2023jan >}}
 {{< card news2022dec >}}
