@@ -1,6 +1,5 @@
 ---
-Title: Commitment
-id: commitment-pop
+id: commitment
 ---
 # Commitment
 ---

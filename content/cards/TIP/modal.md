@@ -1,5 +1,5 @@
 ---
-Title: TIP V3-2
+id: TIP
 ---
 # TIP V3.0
 

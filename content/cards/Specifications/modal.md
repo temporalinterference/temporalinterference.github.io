@@ -1,6 +1,5 @@
 ---
-Title: Specifications
-id: specifications-pop
+id: Specifications
 ---
 # Specifications
 ## TIBS-R V3.2

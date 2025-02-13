@@ -1,6 +1,5 @@
 ---
-Title: TIBS-R System
-id: TIBS-R-V3-pop
+id: TIBS-R-system
 ---
 # TIBS-R V3.2
 

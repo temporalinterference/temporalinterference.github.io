@@ -1,6 +1,5 @@
 ---
-Title: Staff
-id: staff2-pop
+id: Staff-and-External-Developers
 ---
 # Staff
 

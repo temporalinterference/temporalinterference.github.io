@@ -1,5 +1,5 @@
 ---
-Title: Early Adopter Program
+id: Early-Adopter-Program
 ---
 # Early Adopter Program
 

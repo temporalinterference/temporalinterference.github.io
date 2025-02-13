@@ -1,5 +1,4 @@
 ---
-Title: Sim4Life
 id: sim4life
 ---
 # Sim4Life V8.2

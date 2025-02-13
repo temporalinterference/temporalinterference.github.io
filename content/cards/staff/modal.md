@@ -1,6 +1,5 @@
 ---
-Title: Staff
-id: staff-pop
+id: The-People
 ---
 # The Board
 
