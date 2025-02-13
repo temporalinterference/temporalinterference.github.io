@@ -1,6 +1,5 @@
 ---
-Title: news2023jan
-id: news2023jan-pop
+id: news-20230105-TIBS-R-and-TIBS-R-MRI
 ---
 # TIBS-R and TIBS-R-MRI – The Ultimate Technology for TI
 
