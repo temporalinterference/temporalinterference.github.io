@@ -1,6 +1,5 @@
 ---
-title: New Project MRIcompLEAD
-id: news2022dec-pop
+id: news-20221205-MRIcompLEAD
 ---
 # New Innosuisse Project MRIcompLEAD
 
