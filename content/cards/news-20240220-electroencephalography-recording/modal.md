@@ -1,6 +1,5 @@
 ---
-Title: news2024feb
-id: news2024feb-pop
+id: news-20240220-electroencephalography-recording
 ---
 # {{< hyphen mobile >}}Electro&shy;ence&shy;phalo&shy;graphy Recording during TI Stimulation{{< /hyphen >}}
 
