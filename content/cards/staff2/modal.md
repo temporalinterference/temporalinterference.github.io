@@ -65,7 +65,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Livio Ponato was born in Zurich, Switzerland in 1987. Livio completed an apprenticeship as a multimedia electronics technician, then stayed with that company for three more years. In 2012, after working for 11 months as an electronics technician at Bruker Biospin, he started at the "Höhere Fachschule Uster" to study electronics. Livio previously worked at SPEAG, starting in February 2013. In September 2017, he left Z43 to work elsewhere to gain additional experience. During his 1½ years away from SPEAG, he also completed studies as Business Engineer NDS HF. Livio returned to SPEAG in February 2019 as an electrical engineer.
 {{< /image-text >}}
 
-{{< image-text title="Manuel Brönnimann" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
+{{< image-text title="Manuel Brönnimann" src="manuel-b-1500px-c.jpg" pos="left" ratio="one-third" >}}
 Manuel Brönnimann was born in Switzerland in 1980. Manuel is a Hardware Development Engineer. Manuel studied electrical engineering at the University of Applied Sciences (HSR) in Rapperswil, and graduated with an advanced degree in engineering. He later completed a Master of Science degree in automation in Darmstadt DE. He worked for more than ten years at the PSI and for about two years for Helbling Technic in Zurich. He has a strong background in electronic hardware design, FPGA firmware programming, and control and automation system designs.
 {{< /image-text >}}
 
