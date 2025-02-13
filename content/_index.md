@@ -39,7 +39,7 @@ TI Devices
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card TIBS-R-V3 >}}
+{{< card TIBS-R-system >}}
 {{< card ICS >}}
 {{< card ti-wpt >}}
 {{< card EEG-Filters >}}
@@ -54,7 +54,7 @@ TI Planning
 
 {{< card-holder >}}
 {{< card ti-planning-tool >}}
-{{< card TIP-V3-2 >}}
+{{< card TIP >}}
 {{< card Sim4Life-V8 >}}
 {{< /card-holder >}}
 
