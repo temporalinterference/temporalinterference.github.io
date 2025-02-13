@@ -58,7 +58,7 @@ Bruno Rivara was born in Parma, Italy on 1 July 1961. Bruno has lived in Switzer
 {{< /image-text >}}
 
 {{< image-text title="Eric Hainfeld" src="eric-1500px-c.jpg" pos="left" ratio="one-third" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Eric Hainfeld joined SPEAG in 2002 as an electronics technician after his education and apprenticeship in electronics. Eric works in electronics production and in the calibration lab, building, testing, and calibrating all of SPEAG's electronics products. Since 2010, he is fully responsible for the electronics team, and he is also engaged in IT-support in house.
 {{< /image-text >}}
 
 {{< image-text title="Livio Ponato" src="livio-1500px-c.jpg" pos="left" ratio="one-third" >}}
