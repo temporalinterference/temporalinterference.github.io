@@ -25,6 +25,7 @@ News
 {{< card news-20250206-Brain-Stimulation >}}
 {{< card news-20250130-TIBS-R-V-3-2 >}}
 {{< card news-20250109-NANS >}}
+{{< card news-20241228-Z43-Newsquarter-Q4-2024 >}}
 {{< card news2024august >}}
 {{< card news2024feb >}}
 {{< card news2023august >}}
