@@ -29,7 +29,7 @@ News
 {{< card news-20240827-TIBS-R-V-3-0 >}}
 {{< card news-20240220-electroencephalography-recording >}}
 {{< card news-20230803-TIBS-R-V-2-0 >}}
-{{< card news2022dec >}}
+{{< card news-20230105-TIBS-R-and-TIBS-R-MRI >}}
 {{< card news2022may >}}
 {{< /card-holder >}}
 
