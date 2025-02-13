@@ -28,8 +28,8 @@ jobs@z43.swiss
 
 or post to:
 
-- Zurich43 - TI Solutions AG
-- HR - Yvonne Maeder
-- Zeughausstrasse 43
-- 8004 Zurich
-- Switzerland
+Zurich43 - TI Solutions AG/
+HR - Yvonne Maeder/
+Zeughausstrasse 43/
+8004 Zurich/
+Switzerland/
