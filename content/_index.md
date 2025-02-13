@@ -31,6 +31,7 @@ News
 {{< card news-20230803-TIBS-R-V-2-0 >}}
 {{< card news-20230105-TIBS-R-and-TIBS-R-MRI >}}
 {{< card news-20221205-MRIcompLEAD >}}
+{{< card news-20220520-new-TI-technology >}}
 {{< /card-holder >}}
 
 {{< section id=ti-devices >}}
