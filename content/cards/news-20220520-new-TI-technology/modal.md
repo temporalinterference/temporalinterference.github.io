@@ -1,6 +1,5 @@
 ---
-Title: news2022may
-id: news2022may-pop
+id: news-20220520-new-TI-technology
 ---
 # TIBS-R and TIBS-R-MRI – Final Prototype of New TI Technology
 
