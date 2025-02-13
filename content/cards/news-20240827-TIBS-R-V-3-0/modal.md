@@ -1,6 +1,5 @@
 ---
-Title: news2024august
-id: news2024august-pop
+id: news-20240827-TIBS-R-V-3-0
 ---
 # TIBS-R V3.0 Warranties Maximum Performance of the IT’IS EEG Filters
 
