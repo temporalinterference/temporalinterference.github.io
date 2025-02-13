@@ -1,3 +1,6 @@
+---
+id: Publications
+
 # Selected Publications
 
 Cassarà AM *et al. Recommendations for the Safe Application of Temporal Interference Stimulation in the Human Brain Part I: Principles of Electrical Neuromodulation and Adverse Effects.* Bioelectromagnetics. 2025; 46:e22542. [doi:10.1002/bem.22542](https://onlinelibrary.wiley.com/doi/full/10.1002/bem.22542)
