@@ -1,5 +1,9 @@
 ---
+<<<<<<<< HEAD:content/cards/news-20250206-Brain-Stimulation/modal.md
 id: news-20250206-Brain-Stimulation
+========
+id: news2024may-pop
+>>>>>>>> main:content/cards/news-20250206-BrainStimulation/modal.md
 ---
 
 {{< modal-image news-20250206-Brain-Stimulation.jpg >}}
