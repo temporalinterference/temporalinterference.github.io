@@ -2,9 +2,6 @@
 id: news-20250206-Brain-Stimulation
 ---
 
-{{< modal-image news-20250206-Brain-Stimulation.jpg >}}
-{{< /modal-image >}}
-
 # TI Solutions and ZMT Exhibit at Brain Stimulation 2025
 
 TI Solutions and [Z43](https://z43.swiss) partner [ZMT](https://zmt.swiss) are excited to present their latest neuromodulation and simulation tools at the upcoming [6th Brain Stimulation Conference](https://www.elsevier.com/events/conferences/all/international-brain-stimulation-conference) in Kobe, Japan, February 23 – 26, 2025. In addition, experts of the [IT’IS Foundation](https://itis.swiss) will present their latest research.
@@ -50,3 +47,6 @@ Biophysics-Based Surrogate Modeling for Neural Interface Optimization, Activity 
 *Esra Neufeld, Werner Van Geit, Javier Garcia Ordóñez, Antonino M. Cassarà, Niels Kuster*
 
 We look forward to interesting exchange in Kobe!
+
+{{< modal-image news-20250206-Brain-Stimulation.jpg >}}
+{{< /modal-image >}}
