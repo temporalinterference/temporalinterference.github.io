@@ -26,6 +26,7 @@ News
 {{< card news-20250130-TIBS-R-V-3-2 >}}
 {{< card news-20250109-NANS >}}
 {{< card news-20241228-Z43-Newsquarter-Q4-2024 >}}
+{{< card news-20240927-TI-international-meeting >}}
 {{< card news-20240827-TIBS-R-V-3-0 >}}
 {{< card news-20240220-electroencephalography-recording >}}
 {{< card news-20230803-TIBS-R-V-2-0 >}}
