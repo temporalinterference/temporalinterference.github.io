@@ -1,6 +1,5 @@
 ---
-Title: ECB
-id: ECB-pop
+id: ECB
 ---
 # ECB
 

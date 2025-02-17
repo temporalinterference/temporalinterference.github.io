@@ -1,6 +1,5 @@
 ---
-Title: Research Programs expanded
-id: research-programs-pop
+id: research-programs
 ---
 # Research Programs
 

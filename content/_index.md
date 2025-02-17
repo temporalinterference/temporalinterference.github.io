@@ -22,15 +22,16 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card news2025jan >}}
+{{< card news-20250206-Brain-Stimulation >}}
+{{< card news-20250130-TIBS-R-V-3-2 >}}
 {{< card news-20250109-NANS >}}
-{{< card news2024dec >}}
-{{< card news2024august >}}
-{{< card news2024feb >}}
-{{< card news2023august >}}
-{{< card news2023jan >}}
-{{< card news2022dec >}}
-{{< card news2022may >}}
+{{< card news-20241228-Z43-Newsquarter-Q4-2024 >}}
+{{< card news-20240827-TIBS-R-V-3-0 >}}
+{{< card news-20240220-electroencephalography-recording >}}
+{{< card news-20230803-TIBS-R-V-2-0 >}}
+{{< card news-20230105-TIBS-R-and-TIBS-R-MRI >}}
+{{< card news-20221205-MRIcompLEAD >}}
+{{< card news-20220520-new-TI-technology >}}
 {{< /card-holder >}}
 
 {{< section id=ti-devices >}}
@@ -38,7 +39,7 @@ TI Devices
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card TIBS-R-V3 >}}
+{{< card TIBS-R-system >}}
 {{< card ICS >}}
 {{< card ti-wpt >}}
 {{< card EEG-Filters >}}
@@ -53,8 +54,8 @@ TI Planning
 
 {{< card-holder >}}
 {{< card ti-planning-tool >}}
-{{< card TIP-V3-2 >}}
-{{< card Sim4Life-V8 >}}
+{{< card TIP >}}
+{{< card Sim4Life >}}
 {{< /card-holder >}}
 
 {{< section id=early-adopter-program >}}
@@ -72,7 +73,7 @@ The Science
 
 {{< card-holder >}}
 {{< card research-programs >}}
-{{< card References >}}
+{{< card Publications >}}
 {{< /card-holder >}}
 
 {{< section id=about >}}

@@ -1,6 +1,5 @@
 ---
-Title: ICS
-id: ICS-pop
+id: ICS
 ---
 # ICS
 {{< modal-image TI-Solutions-ICS.jpg >}}

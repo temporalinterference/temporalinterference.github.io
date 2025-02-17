@@ -1,5 +1,4 @@
 ---
-Title: Novelty
 id: Novelty
 ---
 {{< modal-image novelty-new-1620px.jpg >}}
