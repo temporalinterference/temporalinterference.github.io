@@ -21,9 +21,9 @@ If a profile fits one of the advertised positions, then please prepare your comp
 * Transcripts (with grades)
 * Work certificates and / or reference letters (if available)
 
-**Important:** Please ensure that the above are all saved as a single PDF. Please save as a multi-page A4 PDF document.
+**Important:** Please ensure that the above are all saved as a single A4 PDF document.
 
-**Please email your application to:**
+**Please email your single PDF application to:**
 
 jobs@z43.swiss
 
