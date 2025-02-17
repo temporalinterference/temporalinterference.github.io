@@ -23,7 +23,7 @@ If a profile fits one of the advertised positions, then please prepare your comp
 
 **Important:** Please ensure that the above are all saved as a single PDF. Please save as a multi-page A4 PDF document.
 
-**Please send your application to:**
+**Please email your application to:**
 
 jobs@z43.swiss
 
