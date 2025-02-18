@@ -11,3 +11,6 @@ The two days were filled with interesting research results and key takeaways tha
 The full program of the UK DRI Workshop is accessible on the Imperial College [website](https://www.imperial.ac.uk/dementia-research-institute/events/international-meeting-on-temporal-interference-brain-stimulation/).
 
 Thank you to the organizers – we are excited to see what’s next!
+
+{{< modal-image TI-Brain-Stimulation-UK-DRI-Centre-Imperial.jpg >}} {{< /modal-image >}}
+Image credit: UK DRI at Imperial
