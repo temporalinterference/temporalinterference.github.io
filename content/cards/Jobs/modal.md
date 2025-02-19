@@ -7,13 +7,13 @@ While we don’t have any open positions at the moment, we are always looking fo
 
 Stay in touch and check back for future openings!
 
-## Vacancies:
+## Vacancies
 
 **No vacancies at present, please visit our jobs page again soon.**
 
 ---
 
-## How to apply to an open position:
+## How to apply to an open position
 
 If a profile fits one of the advertized positions, please prepare your complete resume materials (in English) consisting of:
 - Motivational letter
