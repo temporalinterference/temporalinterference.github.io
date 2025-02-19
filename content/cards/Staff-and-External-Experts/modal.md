@@ -7,7 +7,7 @@ id: Staff-and-External-Experts
 Dr. Sabine Regel (CEO) earned her Ph.D. in Sleep Research from the Institute of Pharmacology and Toxicology at the University of Zurich, Switzerland. After her PostDoc, she transitioned from an active research career to research management, taking on pivotal roles at King’s College London, UK, and the ETH Zurich. With a proven track record in contributing to national and international multi-university research programs and other centers of excellence, she excels at driving strategic collaborations in complex, multi-stakeholder environments.
 
 {{< image-text title="Myles Capstick" src="myles.jpg" pos="left" ratio="one-third" >}}
-Dr. Myles Capstick (CTO) is an Electronic Engineer and Associate Director, Project Leader and Head of Hardware at the IT’IS Foundation in Zurich, Switzerland. His expertise encompasses the design of analog, radiofrequency, microwave, and millimeter-wave systems, subsystems, circuits, and antennas, which he applies in the fields of device and system development for health risk assessment studies (* *in vitro* **, * *in vivo* * animal and human studies), measurement technology, and biomedicine. He was instrumental in developing the TIBS-R hardware and the filter solutions for electroencephalography compatibility.
+Dr. Myles Capstick (CTO) is an Electronic Engineer and Associate Director, Project Leader and Head of Hardware at the IT’IS Foundation in Zurich, Switzerland. His expertise encompasses the design of analog, radiofrequency, microwave, and millimeter-wave systems, subsystems, circuits, and antennas, which he applies in the fields of device and system development for health risk assessment studies (*in vitro*, *in vivo* animal and human studies), measurement technology, and biomedicine. He was instrumental in developing the TIBS-R hardware and the filter solutions for electroencephalography compatibility.
 {{< /image-text >}}
 
 {{< image-text title="Mischa Sabathy" src="mischa-1500px-c.jpg" pos="left" ratio="one-third" >}}
@@ -23,7 +23,7 @@ Dr. Cédric Bujard graduated from Berklee College of Music, Boston, USA, in Musi
 {{< /image-text >}}
 
 {{< image-text title="Melanie Steiner" src="melanie-1500px-c.jpg" pos="left" ratio="one-third" >}}
-Melanie Steiner is a Software Engineer and Artificial Intelligence/Machine Learning (AI/ML) Specialist. She holds a M.Sc. in Biomedical Engineering from ETH Zurich, where she completed her thesis on * *Personalized Brain Stimulation Planning and Correlation with Functional and Behavioral Responses in a Temporal Interference Stimulation Trial* * performed at the IT’IS Foundation in Zurich, Switzerland. At TI Solutions, she is a lead developer of the TIP tool, contributing to its advancement and optimization.
+Melanie Steiner is a Software Engineer and Artificial Intelligence/Machine Learning (AI/ML) Specialist. She holds a M.Sc. in Biomedical Engineering from ETH Zurich, where she completed her thesis on *Personalized Brain Stimulation Planning and Correlation with Functional and Behavioral Responses in a Temporal Interference Stimulation Trial* performed at the IT’IS Foundation in Zurich, Switzerland. At TI Solutions, she is a lead developer of the TIP tool, contributing to its advancement and optimization.
 {{< /image-text >}}
 
 {{< image-text title="Sylvain Reboux" src="Sylvain-Reboux-1500px.jpg" pos="left" ratio="one-third" >}}
