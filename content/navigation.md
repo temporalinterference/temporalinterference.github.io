@@ -21,5 +21,5 @@ navigation:
     - title: About
       href: '#about'
     - title: Jobs
-      href: '#about'
+      href: '#modal-Jobs'
 ---
