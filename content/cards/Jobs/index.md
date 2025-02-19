@@ -2,4 +2,6 @@
 title: Jobs
 ---
 
-We are always interested in creative and highly motivated individuals who are looking for a challenging job. You should be comfortable to work with a young and dedicated team of motivated engineers, developing novel and highly sophisticated solutions for medical device testing and numerical modeling in life-science. If you fit this description and want to apply and expand your know-how and technical flair in a flexible and inspiring environment we are looking forward to your application.
+While we don’t have any open positions at the moment, we are always looking for passionate and talented individuals seeking a challenging opportunity to join our team.
+
+Stay in touch and check back for future openings!
