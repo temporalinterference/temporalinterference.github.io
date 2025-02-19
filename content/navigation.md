@@ -22,5 +22,5 @@ navigation:
       href: '#about'
     - title: Jobs
       modal: true
-      href: '#about'
+      href: '#modal-Jobs'
 ---
