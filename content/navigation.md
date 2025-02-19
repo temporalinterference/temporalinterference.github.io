@@ -20,4 +20,6 @@ navigation:
       href: '#the-science'
     - title: About
       href: '#about'
+    - title: Jobs
+      href: '#about'
 ---
