@@ -13,7 +13,7 @@ Stay in touch and check back for future openings!
 
 ---
 
-## How to apply to an open position
+## How to Apply to an Open Position
 
 If a profile fits one of the advertized positions, please prepare your complete resume materials (in English) consisting of:
 - Motivational letter
