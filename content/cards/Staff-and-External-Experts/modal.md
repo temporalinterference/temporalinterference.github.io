@@ -7,7 +7,7 @@ id: Staff-and-External-Experts
 Dr. Sabine Regel (CEO) earned her Ph.D. in Sleep Research from the Institute of Pharmacology and Toxicology at the University of Zurich, Switzerland. After her PostDoc, she transitioned from an active research career to research management, taking on pivotal roles at King’s College London, UK, and the ETH Zurich. With a proven track record in contributing to national and international multi-university research programs and other centers of excellence, she excels at driving strategic collaborations in complex, multi-stakeholder environments.
 
 {{< image-text title="Myles Capstick" src="myles.jpg" pos="left" ratio="one-third" >}}
-Dr. Myles Capstick (CTO) is an Electronic Engineer and Associate Director, Project Leader and Head of Hardware at the IT’IS Foundation in Zurich, Switzerland. His expertise encompasses the design of analog, radiofrequency, microwave, and millimeter-wave systems, subsystems, circuits, and antennas, which he applies in the fields of device and system development for health risk assessment studies (*in vitro*, *in vivo* animal and human studies), measurement technology, and biomedicine. He was instrumental in developing the TIBS-R hardware and the filter solutions for electroencephalography compatibility.
+Dr. Myles Capstick (CTO) is an Electronic Engineer and Associate Director, Project Leader and Head of Hardware at the IT’IS Foundation in Zurich, Switzerland. His expertise encompasses the design of analog, radiofrequency, microwave, and millimeter-wave systems, subsystems, circuits, and antennas, which he applies in the fields of device and system development for health risk assessment studies (_in vitro_, _in vivo_ animal and human studies), measurement technology, and biomedicine. He was instrumental in developing the TIBS-R hardware and the filter solutions for electroencephalography compatibility.
 {{< /image-text >}}
 
 {{< image-text title="Mischa Sabathy" src="mischa-1500px-c.jpg" pos="left" ratio="one-third" >}}
@@ -23,7 +23,7 @@ Dr. Cédric Bujard graduated from Berklee College of Music, Boston, USA, in Musi
 {{< /image-text >}}
 
 {{< image-text title="Melanie Steiner" src="melanie-1500px-c.jpg" pos="left" ratio="one-third" >}}
-Melanie Steiner is a Software Engineer and Artificial Intelligence/Machine Learning (AI/ML) Specialist. She holds a M.Sc. in Biomedical Engineering from ETH Zurich, where she completed her thesis on *Personalized Brain Stimulation Planning and Correlation with Functional and Behavioral Responses in a Temporal Interference Stimulation Trial* performed at the IT’IS Foundation in Zurich, Switzerland. At TI Solutions, she is a lead developer of the TIP tool, contributing to its advancement and optimization.
+Melanie Steiner is a Software Engineer and Artificial Intelligence/Machine Learning (AI/ML) Specialist. She holds a M.Sc. in Biomedical Engineering from ETH Zurich, Switzerland, where she completed her thesis on _Personalized Brain Stimulation Planning and Correlation with Functional and Behavioral Responses in a Temporal Interference Stimulation Trial_ performed at the IT’IS Foundation in Zurich, Switzerland. At TI Solutions, she is a lead developer of the TIP tool, contributing to its advancement and optimization.
 {{< /image-text >}}
 
 {{< image-text title="Sylvain Reboux" src="Sylvain-Reboux-1500px.jpg" pos="left" ratio="one-third" >}}
@@ -31,7 +31,7 @@ Dr. Sylvain Reboux is a Senior Software Engineer with a M.Sc. in Fluid Mechanics
 {{< /image-text >}}
 
 {{< image-text title="Sajeethan Thuraisamy" src="saji-1500px-c.jpg" pos="left" ratio="one-third" >}}
-Sajeethan Thuraisamy began his career at SPEAG in Zurich, Switzerland, as a Polymechanic and Mechanical Engineer in early 2014 and has been working for TI Solutions since 2022. He completed an apprenticeship in mechanics with a specialization in Computer Numerical Control Machining in 2011. At both SPEAG and TI Solutions, he is responsible for designing and manufacturing mechanical components, as well as developing the mechanics of new products.
+Sajeethan Thuraisamy began his career at SPEAG in Zurich, Switzerland, as a Polymechanic and Mechanical Engineer in early 2014 and has been working for TI Solutions in Zurich since 2022. He completed an apprenticeship in mechanics with a specialization in Computer Numerical Control Machining in 2011. At both SPEAG and TI Solutions, he is responsible for designing and manufacturing mechanical components, as well as developing the mechanics of new products.
 {{< /image-text >}}
 
 # External Experts
@@ -85,7 +85,7 @@ Tibor Kiss was born in Romania and earned his B.Sc. in Electronics and Communica
 {{< /image-text >}}
 
 {{< image-text title="Peter Achermann" src="peter-achermann.jpg" pos="left" ratio="one-third" >}}
-Prof. Peter Achermann is Emeritus Professor at the University of Zurich, Switzerland, Vize President of the IT'IS Foundation Board in Zurich, and served as Scientific Director of *The KEY Institute for Brain-Mind Research* in Zurich until March 2021. He is internationally recognized for his contributions to sleep electroencephalography analysis, modeling of sleep regulation and circadian rhythms, and investigations related to biological effects of electromagnetic fields.
+Prof. Peter Achermann is Emeritus Professor at the University of Zurich, Switzerland, Vize President of the IT'IS Foundation Board in Zurich, and served as Scientific Director of _The KEY Institute for Brain-Mind Research_ in Zurich until March 2021. He is internationally recognized for his contributions to sleep electroencephalography analysis, modeling of sleep regulation and circadian rhythms, and investigations related to biological effects of electromagnetic fields.
 {{< /image-text >}}
 
 ## Thomas Schmid
