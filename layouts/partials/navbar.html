@@ -25,13 +25,13 @@
                     <ul class="uk-nav-sub">
                     {{ range .subnav }}
                         <li>
-                            <a href="{{ .href }}" {{ if .modal }}uk-toggle{{ else }}uk-scroll{{ end }}>{{ .title }}</a>
+                            <a href="{{ .href }}" {{ if .modal }}uk-toggle{{ else }}uk-scroll{{ end }}>{{ .title | markdownify }}</a>
                         </li>
                     {{ end }}
                     </ul>
                 </li>
                 {{ else }}
-                <li><a href="{{ .href }}" {{ if .modal }}uk-toggle{{ else }}uk-scroll{{ end }}>{{ .title }}</a></li>
+                <li><a href="{{ .href }}" {{ if .modal }}uk-toggle{{ else }}uk-scroll{{ end }}>{{ .title | markdownify }}</a></li>
                 {{ end }}
             {{ end }}
             </ul>
