@@ -82,9 +82,9 @@ About
 {{< /section >}}
 
 {{< card-holder >}}
+{{< card contact-us >}}
 {{< card The-Company >}}
 {{< card staff >}}
 {{< card Staff-and-External-Developers >}}
 {{< card Jobs >}}
-{{< card contact-us >}}
 {{< /card-holder >}}
