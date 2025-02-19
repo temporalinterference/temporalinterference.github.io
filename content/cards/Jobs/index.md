@@ -2,6 +2,6 @@
 title: Jobs
 ---
 
-While we don’t have any open positions at the moment, we are always looking for passionate and talented individuals seeking a challenging opportunity to join our team.
+No vacancies at the moment, but we’re always growing!
 
-Stay in touch and check back for future openings!
+If you're driven, innovative, and eager to make an impact, stay connected and check back for future openings – we look forward to hearing from you!
