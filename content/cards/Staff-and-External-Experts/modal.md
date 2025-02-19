@@ -11,7 +11,7 @@ Dr. Myles Capstick (CTO) is an Electronic Engineer and Associate Director, Proje
 {{< /image-text >}}
 
 {{< image-text title="Mischa Sabathy" src="mischa-1500px-c.jpg" pos="left" ratio="one-third" >}}
-Mischa Sabathy earned his Electrical Engineering degree from the University of Applied Sciences (HSR) in Rapperswil, Switzerland, before joining the HSR Wireless Lab as a research associate. To this day, he continues to serve as an external advisor for B.Sc. and M.Sc. theses in electrical engineering at the Eastern Switzerland University of Applied Sciences. Throughout his career, he has gained extensive experience as an radiofrequency engineer in various companies, specializing in high-frequency circuit design, programming, and algorithm development. Mischa has been with TI Solutions since its inception.
+Mischa Sabathy earned his Electrical Engineering degree from the University of Applied Sciences (HSR) in Rapperswil, Switzerland, before joining the HSR Wireless Lab as a research associate. To this day, he continues to serve as an external advisor for B.Sc. and M.Sc. theses in electrical engineering at the Eastern Switzerland University of Applied Sciences. Throughout his career, he has gained extensive experience as a Radiofrequency Engineer in various companies, specializing in high-frequency circuit design, programming, and algorithm development. Mischa has been with TI Solutions since its inception.
 {{< /image-text >}}
 
 {{< image-text title="Stefan Beerli" src="stefan-1500px-c.jpg" pos="left" ratio="one-third" >}}
