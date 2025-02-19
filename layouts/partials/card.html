@@ -44,16 +44,16 @@
       <img src='{{ .Scratch.Get "teaser_src" }}' alt="teaser-image">
     </div>
   {{ end }}
-  
+
   <h3 class="{{ if .Params.hyphenate_mobile }}ti-hyphenate-mobile{{ end }}">{{ .Title | safe.HTML }}</h3>
-  
+
   <div class="ti-card-body {{ if not $bg }}ti-card-fadeout{{ end }}">
     {{ .Content | safe.HTML }}
   </div>
 
   {{ if $modal }}
-    <a href="#{{ .Scratch.Get "local_modal_id" }}" uk-toggle><img src='{{ (resources.Get "images/plus-icon.svg").RelPermalink }}' 
-         uk-img
+    <a href='#{{ .Scratch.Get "local_modal_id" }}' uk-toggle><img src='{{ (resources.Get "images/plus-icon.svg").RelPermalink }}' 
+         uk-img alt="+"
          class="ti-round-button ti-plus-button"></a>
   {{ end }}
 </div>
