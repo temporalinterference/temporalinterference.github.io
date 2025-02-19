@@ -73,7 +73,7 @@ Ninad Chitnis is currently pursuing a Ph.D. at the IT'IS Foundation in Zurich, S
 {{< /image-text >}}
 
 {{< image-text title="Odei Maiz" src="odei-500px-cc.jpg" pos="left" ratio="one-third" >}}
-Odei Maiz is a Software Engineer at the IT’IS Foundation in Zurich, Switzerland, where he is involved in developing advanced computational tools, including the state-of-the-art Sim4Life platform, o<sup>2<sup>S<sup>2</sup>PARC, and TIP. He holds a B.Sc. in Telecommunications Engineering and has experience in frontend application development, application programming interface generation and inter-process communication, and microservice creation.
+Odei Maiz is a Software Engineer at the IT’IS Foundation in Zurich, Switzerland, where he is involved in developing advanced computational tools, including the state-of-the-art Sim4Life platform, o<sup>2</sup>S<sup>2</sup>PARC, and TIP. He holds a B.Sc. in Telecommunications Engineering and has experience in frontend application development, application programming interface generation and inter-process communication, and microservice creation.
 {{< /image-text >}}
 
 {{< image-text title="Dmytro Baibara" src="Dmytro-500px-c.jpg" pos="left" ratio="one-third" >}}
@@ -85,7 +85,7 @@ Tibor Kiss was born in Romania and earned his B.Sc. in Electronics and Communica
 {{< /image-text >}}
 
 {{< image-text title="Peter Achermann" src="peter-achermann.jpg" pos="left" ratio="one-third" >}}
-Prof. Peter Achermann is Emeritus Professor at the University of Zurich, Switzerland, and served as Scientific Director of *The KEY Institute for Brain-Mind Research* in Zurich until March 2021. He is internationally recognized for his contributions to sleep electroencephalography analysis, modeling of sleep regulation and circadian rhythms, and investigations related to biological effects of electromagnetic fields.
+Prof. Peter Achermann is Emeritus Professor at the University of Zurich, Switzerland, Vize President of the IT'IS Foundation Board in Zurich, and served as Scientific Director of *The KEY Institute for Brain-Mind Research* in Zurich until March 2021. He is internationally recognized for his contributions to sleep electroencephalography analysis, modeling of sleep regulation and circadian rhythms, and investigations related to biological effects of electromagnetic fields.
 {{< /image-text >}}
 
 ## Thomas Schmid
