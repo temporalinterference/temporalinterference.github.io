@@ -3,10 +3,6 @@ id: Staff-and-External-Developers
 ---
 # Staff
 
-{{< image-text title="Sabine Regel" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-{{< /image-text >}}
-
 {{< image-text title="Myles Capstick" src="myles.jpg" pos="left" ratio="one-third" >}}
 Dr Myles Capstick (CTO) is an associate director, project leader and head of hardware at the Foundation for Research on Information Technologies in Society (IT’IS Foundation) in Zurich, Switzerland. His expertise encompasses the design of analog, radiofrequency (RF), microwave, and millimeter-wave (mm-wave) systems, subsystems, circuits, and antennas, which he applies in the fields of device and system development for health risk assessment studies (in vitro, in vivo animal and human), measurement technology, and bio-medicine. He was instrumental in developing the TI hardware and EEG compatibility filters.
 {{< /image-text >}}
@@ -27,30 +23,25 @@ Cédric Bujard was born in Switzerland. He joined the IT'IS Foundation in Octobe
 Melanie Steiner is a Software Engineer and AI/ML Specialist at the Foundation for Research on Information Technologies in Society (IT’IS Foundation) and TI Solutions AG in Zurich, Switzerland. She holds a master’s degree in biomedical engineering from ETH Zurich, where she completed her thesis on Personalized Brain Stimulation Planning and Correlation with Functional and Behavioral Responses in a Temporal Interference Stimulation Trial at IT’IS. Since then, she has been a lead developer of the Temporal Interference Planning Tool (TIP).
 {{< /image-text >}}
 
-{{< image-text title="Sajeethan Thuraisamy" src="saji-1500px-c.jpg" pos="left" ratio="one-third" >}}
-Sajeethan Thuraisamy joined SPEAG as a polymechanic and mechanical engineer in February 2014 and has also been working for TI Solutions AG since 2022. He completed an apprenticeship in mechanics with a specialization in Computer Numerical Control (CNC) machining in 2011. At SPEAG and TI Solutions AG, he is responsible for designing and manufacturing mechanical parts, as well as developing the mechanics of new products.
-{{< /image-text >}}
-
 {{< image-text title="Sylvain Reboux" src="Sylvain-Reboux-1500px.jpg" pos="left" ratio="one-third" >}}
 Dr. Sylvain Reboux is a results-driven software engineer with deep expertise in electromagnetic simulations and medical technologies. As Product Owner at TI Solutions AG, he leads the development of the Temporal Interference Planning (TIP) tool, optimizing neurostimulation protocols through advanced simulations. With a background in mathematics and computational sciences, he has contributed to FDA-certified medical toolkits and cutting-edge EM applications. His passion lies in innovation, regulatory compliance, and high-performance software solutions.
 {{< /image-text >}}
 
-# External Developers
+{{< image-text title="Sajeethan Thuraisamy" src="saji-1500px-c.jpg" pos="left" ratio="one-third" >}}
+Sajeethan Thuraisamy joined SPEAG as a polymechanic and mechanical engineer in February 2014 and has also been working for TI Solutions AG since 2022. He completed an apprenticeship in mechanics with a specialization in Computer Numerical Control (CNC) machining in 2011. At SPEAG and TI Solutions AG, he is responsible for designing and manufacturing mechanical parts, as well as developing the mechanics of new products.
+{{< /image-text >}}
 
-{{< image-text title="Sven Kuehn" src="sven-1500px-c.jpg" pos="left" ratio="one-third" >}}
+## Sabine Regel
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+# External Experts
+
+{{< image-text title="Sven Kühn" src="sven-1500px-c.jpg" pos="left" ratio="one-third" >}}
 Sven holds a Dipl. Ing. (MSc) in ICT from Chemnitz University of Technology (2004) and a PhD from ETH Zurich (2009). Since joining SPEAG in 2009, he led key innovations like the TDS sensor platform and ICEy system. Currently, as Director of HW R&D, Sven drives hardware innovation and manages SPEAG’s ISO17025-accredited calibration lab, ensuring top-tier standards in R&D and calibration.
 {{< /image-text >}}
 
 {{< image-text title="Nik Chavannes" src="nik-chavannes-500px-c.jpg" pos="left" ratio="one-third" >}}
 Nik Chavannes was born in Bern, Switzerland in April 1972. He received his MS and PhD degrees in Electrical Engineering from the Swiss Federal Institute of Technology (ETH), Zurich in 1998 and 2002, respectively. In 1996, he joined the Bioelectromagnetics/EMC Group (BIOEM/EMC) at ETH Zurich where he widened his experience in numerical simulation techniques using the Finite-Difference Time-Domain (FDTD) method, applied to Electromagnetics. From 1998 to 2002, Nik Chavannes was a Graduate Research Assistant within the Laboratory for Electromagnetic Fields and Microwave Electronics (IFH) as well as the Laboratory for Integrated Systems (IIS), both located at ETH Zurich. His PhD thesis was focused on the development of enhanced FDTD local refinement techniques and their application to numerical near-field analysis, antennas and improved modeling capabilities in general. In early 2002, he joined SPEAG as Director of Software where he is responsible for the software R&D activities, focusing mainly on innovations and implementations for SPEAG's major products, namely SEMCAD X as well as the experimental near-field scanners DASY and the novel cSAR3D product line. In addition, he is involved in various projects within the Foundation for Research on Information Technologies in Society (IT'IS), Switzerland, related to EM near- and far-field assessment as well as dosimetry, using the means of Computational Electromagnetics. At IT'IS, he is leading the project POSEIDON which involves the extension and improvement of the advanced electromagnetic simulation platform SEMCAD towards uWave simulation. Currently Nik also serves as the Head of Software at ZurichMedTech, leading the software development related activities for the Sim4Life platform. Nik's primary research interests include the development, implementation and application of computational modeling and simulation techniques to Electromagnetics in general, and antennas as well as bioelectromagnetic interaction mechanisms in particular. Special emphasis is given to the usage of computational means supporting R&D processes with respect to forthcoming trends in fields of BioMed and Life Sciences. His research activities have resulted in various scientific publications, book chapters and numerous conference/invited presentations within the areas of theoretical FDTD-related electromagnetics, numerical and experimental near-field analysis, antenna design and dosimetry. In addition, Nik contributed to classes and giving lectures at ETH Zurich, operating as reviewer for several IEEE journals, furthermore, acting as session organizer and chair for international conferences within the related fields.
-{{< /image-text >}}
-
-{{< image-text title="Thomas Schmid" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-{{< /image-text >}}
-
-{{< image-text title="Peter Achermann" src="portrait-placeholder-800px.jpg" pos="left" ratio="one-third" >}}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 {{< /image-text >}}
 
 {{< image-text title="Bruno Rivara" src="Bruno-R-500px-c.jpg" pos="left" ratio="one-third" >}}
@@ -92,3 +83,10 @@ Dmytro Baibara was born in the Ukraine in 1987. He graduated in 2011 from the Ky
 {{< image-text title="Tibor Kiss" src="tibor-500px-c.jpg" pos="left" ratio="one-third" >}}
 Tibor Kiss was born in Romania. Tibor earned his BS in Electronics and Communication Engineering in 1996. A great part of his career activities took place in Budapest, then from 2014 in Switzerland. He has been working in audio streaming, biotech, smart-grid, and sensor development fields. Tibor joined Schmid & Partner Engineering AG in September 2023 as an Embedded Software Engineer.
 {{< /image-text >}}
+
+{{< image-text title="Peter Achermann" src="peter-achermann.jpg" pos="left" ratio="one-third" >}}
+Peter Achermann is Emeritus Professor at the University of Zurich, where he previously led a research group focused on basic and clinical aspects of sleep regulation and analysis of electroencephalography (EEG) signals. He also served as scientific director of The KEY Institute for Brain-Mind Research in Zurich until March 2021. Prof. Achermann is internationally recognized for his contributions to sleep EEG analysis, modeling of sleep regulation and circadian rhythms, and investigations related to biological effects of electromagnetic fields. His reputation as a top sleep EEG expert, in particular in relation to EEG analysis, is reflected in numerous international collaborations and scientific publications throughout his career. Over the past decade, Prof. Achermann's research has mainly focused on trait aspects in sleep and wake EEG, developmental aspect of sleep and sleep regulation in preschool children and adolescents, brain connectivity and cerebral blood flow during sleep, and the process of sleep onset and the borderland between wakefulness and sleep. Recent methodological advances included machine learning, particularly deep learning, to automatically score sleep stages and detect microsleep episodes (short fragments of sleep < 15 s).
+{{< /image-text >}}
+
+## Thomas Schmid
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
