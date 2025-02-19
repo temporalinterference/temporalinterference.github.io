@@ -32,7 +32,7 @@ Dr. Nicolas Chavannes (R&D) is an Electrical Engineer and Head of Software at th
 {{< /image-text >}}
 
 {{< image-text title="Ninad Chitnis" src="ninad-1500px-c.jpg" pos="left" ratio="one-third" >}}
-Ninad Chitnis (R&D) is currently pursuing a Ph.D. at the IT'IS Foundation in Zurich, Switzerland. Originally from Mumbai, India, he moved to Zurich to complete his M.Sc. in Electrical Engineering at ETH Zurich, specializing in radiofrequency engineering. After graduating in mid-2021, he spent a year working at SPEAG in Zurich, during which he contributed to magnetic resonance imaging compatibility research for TIBS-R.
+Ninad Chitnis (R&D) is currently pursuing a Ph.D. at the IT'IS Foundation in Zurich, Switzerland. Originally from Mumbai, India, he moved to Zurich to complete his M.Sc. in Electrical Engineering at ETH Zurich, specializing in radiofrequency engineering. After graduating in mid-2021, he spent about a year working at SPEAG in Zurich, during which he contributed to magnetic resonance imaging compatibility research for TIBS-R.
 {{< /image-text >}}
 
 {{< image-text title="Eric Hainfeld" src="eric-1500px-c.jpg" pos="left" ratio="one-third" >}}
@@ -58,7 +58,6 @@ Livio Ponato (R&D) began his career with an apprenticeship as a Multimedia Elect
 {{< image-text title="Sylvain Reboux" src="Sylvain-Reboux-1500px.jpg" pos="left" ratio="one-third" >}}
 Dr. Sylvain Reboux (Head of Software) is a Senior Software Engineer with a M.Sc. in Fluid Mechanics from Université Pierre and Marie Curie, France, and a Ph.D. in Applied Mathematics from the University of Nottingham, UK. Throughout his career, he has specialized in electromagnetic simulations and medical technologies, contributing to FDA-certified medical toolkits and cutting-edge electromagnetic applications. At TI Solutions, he leads the development of TIP, refining neurostimulation protocols through advanced simulations.
 {{< /image-text >}}
-
 ## Sabine Regel
 Dr. Sabine Regel (CEO) earned her Ph.D. in Sleep Research from the University of Zurich, Switzerland. After her PostDoc, she transitioned from an active research career to research management, taking on pivotal roles at King’s College London, UK, and the ETH Zurich. With a proven track record in contributing to national and international multi-university research programs and other centers of excellence, she excels at driving strategic collaborations in complex, multi-stakeholder environments.
 
