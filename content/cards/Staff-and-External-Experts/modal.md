@@ -1,7 +1,7 @@
 ---
 id: Staff-and-External-Experts
 ---
-# Our Team and Z43 Contributors 
+# Our Team and Contributors 
 
 {{< image-text title="Dmytro Baibara" src="Dmytro-500px-c.jpg" pos="left" ratio="one-third" >}}
 Dmytro Baibara (R&D) was born in Ukraine, where he graduated in 2011 with a M.Sc. in Computer Science from the Kyiv Polytechnic Institute of the National Technical University of Ukraine. His professional background spans software development in various fields and environments, for example, medical devices, image processing, rapid prototyping, and data analysis. In spring 2018, he joined SPEAG in Zurich, Switzerland, as a Senior Software Developer, contributing to the ICEy team.
@@ -60,7 +60,7 @@ Dr. Sylvain Reboux (Head of Software) is a Senior Software Engineer with a M.Sc.
 {{< /image-text >}}
 
 ## Sabine Regel
-Dr. Sabine Regel (CEO) earned her Ph.D. in Sleep Research from the Institute of Pharmacology and Toxicology at the University of Zurich, Switzerland. After her PostDoc, she transitioned from an active research career to research management, taking on pivotal roles at King’s College London, UK, and the ETH Zurich. With a proven track record in contributing to national and international multi-university research programs and other centers of excellence, she excels at driving strategic collaborations in complex, multi-stakeholder environments.
+Dr. Sabine Regel (CEO) earned her Ph.D. in Sleep Research from the University of Zurich, Switzerland. After her PostDoc, she transitioned from an active research career to research management, taking on pivotal roles at King’s College London, UK, and the ETH Zurich. With a proven track record in contributing to national and international multi-university research programs and other centers of excellence, she excels at driving strategic collaborations in complex, multi-stakeholder environments.  
 
 {{< image-text title="Bruno Rivara" src="Bruno-R-500px-c.jpg" pos="left" ratio="one-third" >}}
 Bruno Rivara (R&D) was born in Parma, Italy, and moved to Switzerland in 1994. During his career, he has developed a strong expertise in embedded systems, computer vision, communications, and system programming. He joined SPEAG in Zurich in 2012 as an R&D engineer and currently holds the position as senior R&D engineer, contributing to the development of various SPEAG products and also supporting other projects at Z43.
