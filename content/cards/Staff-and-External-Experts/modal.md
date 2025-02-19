@@ -60,7 +60,9 @@ Dr. Sylvain Reboux (Head of Software) is a Senior Software Engineer with a M.Sc.
 {{< /image-text >}}
 
 ## Sabine Regel
-Dr. Sabine Regel (CEO) earned her Ph.D. in Sleep Research from the University of Zurich, Switzerland. After her PostDoc, she transitioned from an active research career to research management, taking on pivotal roles at King’s College London, UK, and the ETH Zurich. With a proven track record in contributing to national and international multi-university research programs and other centers of excellence, she excels at driving strategic collaborations in complex, multi-stakeholder environments.< br / >
+Dr. Sabine Regel (CEO) earned her Ph.D. in Sleep Research from the University of Zurich, Switzerland. After her PostDoc, she transitioned from an active research career to research management, taking on pivotal roles at King’s College London, UK, and the ETH Zurich. With a proven track record in contributing to national and international multi-university research programs and other centers of excellence, she excels at driving strategic collaborations in complex, multi-stakeholder environments.
+
+***
 
 {{< image-text title="Bruno Rivara" src="Bruno-R-500px-c.jpg" pos="left" ratio="one-third" >}}
 Bruno Rivara (R&D) was born in Parma, Italy, and moved to Switzerland in 1994. During his career, he has developed a strong expertise in embedded systems, computer vision, communications, and system programming. He joined SPEAG in Zurich in 2012 as an R&D engineer and currently holds the position as senior R&D engineer, contributing to the development of various SPEAG products and also supporting other projects at Z43.
