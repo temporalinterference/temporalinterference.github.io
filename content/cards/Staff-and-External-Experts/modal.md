@@ -16,7 +16,7 @@ Manuel Brönnimann (R&D) is a Hardware Development Engineer with a strong backgr
 {{< /image-text >}}
 
 {{< image-text title="Cédric Bujard" src="Cedric.jpg" pos="left" ratio="one-third" >}}
-Dr. Cédric Bujard (R&D) graduated from Berklee College of Music, Boston, USA, in Musical Theory and Composition, and in Sound Production and Engineering before obtaining his M.SC. in Mathematics from EPFL, Switzerland, and his Ph.D. in Mathematics from the University of Strasbourg, France. After working as a lecturer at EPFL and in the private sector as a data scientist and software engineer, he joined the IT’IS Foundation and TI Solutions in Zurich, Switzerland, in late 2021. His focus is on TI optimization algorithms.
+Dr. Cédric Bujard (R&D) graduated from Berklee College of Music, Boston, USA, in Musical Theory and Composition, and in Sound Production and Engineering before obtaining his M.SC. in Mathematics from EPFL, Switzerland, and his Ph.D. in Mathematics from the University of Strasbourg, France. After working as a lecturer at EPFL and in the private sector as a data scientist and software engineer, he joined the IT’IS Foundation and TI Solutions in Zurich, Switzerland, in late 2021. He develops solutions in mathematical modeling, such as surrogate modeling, data analysis, optimization algorithms, system validation, and uncertainty quantification.
 {{< /image-text >}}
 
 {{< image-text title="Myles Capstick" src="myles.jpg" pos="left" ratio="one-third" >}}
