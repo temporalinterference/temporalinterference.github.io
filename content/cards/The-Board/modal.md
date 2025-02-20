@@ -1,5 +1,5 @@
 ---
-id: The-People
+id: The-Board
 ---
 # The Board
 

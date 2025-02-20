@@ -6,7 +6,7 @@
         </div>
         <div class="uk-navbar-right">
         <a class="uk-navbar-toggle" uk-toggle href="#ti-menu">
-            <span uk-navbar-toggle-icon></span> 
+            <span uk-navbar-toggle-icon></span>
         </a>
     </div>
     </nav>
@@ -25,13 +25,13 @@
                     <ul class="uk-nav-sub">
                     {{ range .subnav }}
                         <li>
-                            <a href="{{ .href }}" uk-scroll>{{ .title }}</a>
+                            <a href="{{ .href }}" {{ if .modal }}uk-toggle{{ else }}uk-scroll{{ end }}>{{ .title | markdownify }}</a>
                         </li>
                     {{ end }}
                     </ul>
                 </li>
                 {{ else }}
-                <li><a href="{{ .href }}" uk-scroll>{{ .title }}</a></li>
+                <li><a href="{{ .href }}" {{ if .modal }}uk-toggle{{ else }}uk-scroll{{ end }}>{{ .title | markdownify }}</a></li>
                 {{ end }}
             {{ end }}
             </ul>
