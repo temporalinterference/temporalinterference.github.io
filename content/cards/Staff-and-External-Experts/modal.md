@@ -39,7 +39,7 @@ Ninad Chitnis (R&D) is currently pursuing a Ph.D. at the IT'IS Foundation in Zur
 Eric Hainfeld (Head of Production) joined SPEAG in Zurich, Switzerland, in 2002 as an Electronics Technician, following his education and apprenticeship in electronics. He initially worked in electronics production and the calibration laboratory, where he built, tested, and calibrated all of Z43's electronic products. Since 2010, he leads the electronics team and has also taken on responsibilities for in-house IT support.
 {{< /image-text >}}
 
-{{< image-text title="Tibor Kiss" src="tibor-500px-c.jpg" pos="left" ratio="one-third" >}}
+{{< image-text title="Tibor Kiss" src="tibor-kiss-2025C.jpg" pos="left" ratio="one-third" >}}
 Tibor Kiss (R&D) was born in Romania and earned his B.Sc. in Electronics and Communication Engineering in 1996. With much of his career spent in Budapest and more recently in Switzerland since 2014, he has gained extensive experience in audio streaming, biotech, smart-grid, and sensor development. In September 2023, he joined SPEAG in Zurich, Switzerland, as an Embedded Software Engineer.
 {{< /image-text >}}
 
@@ -82,7 +82,7 @@ Sajeethan Thuraisamy (R&D) began his career at SPEAG in Zurich, Switzerland, as 
 
 # External Experts
 {{< image-text title="Peter Achermann" src="peter-achermann.jpg" pos="left" ratio="one-third" >}}
-Prof. Peter Achermann (External Expert) is Emeritus Professor at the University of Zurich, Switzerland, Vize President of the IT'IS Foundation Board in Zurich, and served as Scientific Director of *The KEY Institute for Brain-Mind Research* in Zurich until March 2021. He is internationally recognized for his contributions to sleep electroencephalography analysis, modeling of sleep regulation and circadian rhythms, and investigations related to biological effects of electromagnetic fields.
+Prof. Peter Achermann (External Expert) is Emeritus Professor at the University of Zurich, Switzerland, Vice President of the IT'IS Foundation Board in Zurich, and served as Scientific Director of *The KEY Institute for Brain-Mind Research* in Zurich until March 2021. He is internationally recognized for his contributions to sleep electroencephalography analysis, modeling of sleep regulation and circadian rhythms, and investigations related to biological effects of electromagnetic fields.
 {{< /image-text >}}
 
 ## Thomas Schmid
