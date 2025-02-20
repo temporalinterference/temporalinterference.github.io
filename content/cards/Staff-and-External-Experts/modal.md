@@ -59,6 +59,10 @@ Livio Ponato (R&D) began his career with an apprenticeship as a Multimedia Elect
 Dr. Sylvain Reboux (Head of Software) is a Senior Software Engineer with a M.Sc. in Fluid Mechanics from Université Pierre and Marie Curie, France, and a Ph.D. in Applied Mathematics from the University of Nottingham, UK. Throughout his career, he has specialized in electromagnetic simulations and medical technologies, contributing to FDA-certified medical toolkits and cutting-edge electromagnetic applications. At TI Solutions, he leads the development of TIP, refining neurostimulation protocols through advanced simulations.
 {{< /image-text >}}
 
+{{< image-text title="Sabine Regel" src="portrait-coming-soon.jpg" pos="left" ratio="one-third" >}}
+Dr. Sabine Regel (CEO) earned her Ph.D. in Sleep Research from the University of Zurich, Switzerland. After her PostDoc, she transitioned from an active research career to research management, taking on pivotal roles at King’s College London, UK, and the ETH Zurich. With a proven track record in contributing to national and international multi-university research programs and other centers of excellence, she excels at driving strategic collaborations in complex, multi-stakeholder environments.
+{{< /image-text >}}
+
 ## Sabine Regel
 Dr. Sabine Regel (CEO) earned her Ph.D. in Sleep Research from the University of Zurich, Switzerland. After her PostDoc, she transitioned from an active research career to research management, taking on pivotal roles at King’s College London, UK, and the ETH Zurich. With a proven track record in contributing to national and international multi-university research programs and other centers of excellence, she excels at driving strategic collaborations in complex, multi-stakeholder environments.
 
