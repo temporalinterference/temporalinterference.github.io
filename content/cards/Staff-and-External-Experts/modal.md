@@ -16,7 +16,7 @@ Manuel Brönnimann (R&D) is a Hardware Development Engineer with a strong backgr
 {{< /image-text >}}
 
 {{< image-text title="Cédric Bujard" src="Cedric.jpg" pos="left" ratio="one-third" >}}
-Dr. Cédric Bujard (R&D) graduated from Berklee College of Music, Boston, USA, in Musical Theory and Composition, and in Sound Production and Engineering before obtaining his M.SC. in Mathematics from EPFL, Switzerland, and his Ph.D. in Mathematics from the University of Strasbourg, France. After working as a lecturer at EPFL and in the private sector as a data scientist and software engineer, he joined the IT’IS Foundation and TI Solutions in Zurich, Switzerland, in late 2021. He develops solutions in mathematical modeling, such as surrogate modeling, data analysis, optimization algorithms, system validation, and uncertainty quantification.
+Dr. Cédric Bujard (R&D) graduated from Berklee College of Music, Boston, USA, in Musical Theory and Composition, and in Sound Production and Engineering before obtaining his M.SC. in Mathematics from EPFL, Switzerland, and his Ph.D. in Mathematics from the University of Strasbourg, France. After working as a lecturer at EPFL and in the private sector as a data scientist and software engineer, he joined the IT’IS Foundation and TI Solutions in Zurich, Switzerland, in late 2021. He develops solutions in mathematical modeling, including surrogate modeling, data analysis, optimization algorithms, system validation, and uncertainty quantification.
 {{< /image-text >}}
 
 {{< image-text title="Myles Capstick" src="myles.jpg" pos="left" ratio="one-third" >}}
@@ -40,7 +40,7 @@ Eric Hainfeld (Head of Production) joined SPEAG in Zurich, Switzerland, in 2002 
 {{< /image-text >}}
 
 {{< image-text title="Tibor Kiss" src="tibor-kiss-2025C.jpg" pos="left" ratio="one-third" >}}
-Tibor Kiss (R&D) was born in Romania and earned his B.Sc. in Electronics and Communication Engineering in 1996. With much of his career spent in Budapest and more recently in Switzerland since 2014, he has gained extensive experience in audio streaming, biotech, smart-grid, and sensor development. In September 2023, he joined SPEAG in Zurich, Switzerland, as an Embedded Software Engineer.
+Tibor Kiss (R&D) is an accomplished Embedded Software Engineer with a diverse background spanning multiple cutting-edge industries. After obtaining his B.Sc. in Electronics and Communication Engineering in 1996, he has devoted his career to innovative developments in both embedded systems and broader software engineering domains. His expertise encompasses audio, biotech, smart-grid fields, showcasing his versatility and adaptability in tackling complex technological challenges. He joined SPEAG in Zurich, Switzerland, in 2023 where he contributes to various projects.
 {{< /image-text >}}
 
 {{< image-text title="Sven Kühn" src="sven-1500px-c.jpg" pos="left" ratio="one-third" >}}
