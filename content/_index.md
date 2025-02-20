@@ -84,7 +84,7 @@ About
 {{< card-holder >}}
 {{< card contact-us >}}
 {{< card The-Company >}}
-{{< card staff >}}
+{{< card The-Board >}}
 {{< card Staff-and-External-Experts >}}
 {{< card Jobs >}}
 {{< /card-holder >}}
