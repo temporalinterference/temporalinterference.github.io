@@ -34,7 +34,7 @@ Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI solu
 |Number of Channels Per Unit|8 synchronized, fully differential |
 |EEG Compatibility|Brain Products, Geodesic*** |
 |MRI Compatibility Option|Upon special request |
-|Operation Time|>4 hrs active use on single battery charge, unlimited with WPT-TX/RX |
+|Operation Time|ca. 4 hrs active use on single battery charge, unlimited with WPT-TX/RX |
 |Battery Charger|USB-C
 |Peak Output Voltage|52 V differential** |
 |Peak Output Current|5 mA max at ≤1.8 kHz**, 7 mA max at 2.5 kHz**, 14 mA max at ≥5 kHz** |
@@ -67,11 +67,11 @@ AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic reso
 
 *in future release only
 
-**compliant with implemented safety concept (Cassarà AM et al. bioRxiv. 2022.12.15.520077; IEC standards)
+**compliant with implemented safety concept (Cassarà *et al*. (2025) dois: [10.1002/bem.22542](https://onlinelibrary.wiley.com/doi/full/10.1002/bem.22542) + [10.1002/bem.22536](https://onlinelibrary.wiley.com/doi/10.1002/bem.22536); IEC standards)
 
 ***EEG solution provided by the IT'IS Foundation
 
-Minimal PC specifications (PC not included): Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
+Minimal PC specifications: Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
 
 {{< modal-download TI-Solutions-TIBS-R.pdf >}}Download the TIBS-R flyer here.{{< /modal-download >}}
 
