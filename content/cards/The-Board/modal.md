@@ -23,7 +23,7 @@ Dr. Esra Neufeld (CSO) is Associate Director of the Foundation for Research on I
 Henrich Kisker (CFO) holds various positions as internal and external adviser on corporate, legal, and financial matters for a number of international companies. Since 2005, he has also been a member of the advisory board (“Bankrat”) of one of the largest Swiss banks, the Zürcher Kantonalbank, which has total assets of 167 billion Swiss francs. Until his retirement in 2018, he was the head of the tax and treasury functions of Senior PLC, an international manufacturing group listed on the London Stock Exchange.
 {{< /image-text >}}
 
-{{< image-text title="Alvaro Pascual-Leone" src="alvaro.png" pos="left" >}}
+{{< image-text title="Alvaro Pascual-Leone" src="Alvaro-1500px.jpg" pos="left" >}}
 Prof. Alvaro Pascual-Leone is Professor of Neurology at Harvard Medical School and a Senior Scientist at the Hinda and Arthur Marcus Institute for Aging Research at Hebrew SeniorLife, Boston, USA. He is a pioneer in the use of noninvasive brain stimulation and its application for the study of brain behavior relations and the development of diagnostic and therapeutic interventions in neuropsychiatry. His contributions range from technology development to basic neurobiological insights gained from animal studies and modeling approaches to human proof-of-principle and multicenter clinical trials.
 {{< /image-text >}}
 
