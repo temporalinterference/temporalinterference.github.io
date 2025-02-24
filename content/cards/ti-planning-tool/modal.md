@@ -44,4 +44,4 @@ For more details visit [www.sim4life.swiss](https://sim4life.swiss/).
 
 By combining TIP’s rapid protocol design with Sim4Life’s powerful simulation and analysis tools, researchers can seamlessly transition from initial design to in-depth validation. TIP empowers researchers to efficiently optimize protocols through its accessible, TI-focused interface. These protocols can then be transferred to Sim4Life for advanced modeling, analysis, and visualization. This integration ensures an efficient and comprehensive approach to TI stimulation research, enabling breakthroughs with confidence and precision.
 
-{{< modal-download TI-Solutions-TIP-flyer-web.pdf >}}Download the TIP flyer here.{{< /modal-download >}}
+{{< modal-download TI-Solutions-TIP-flyer-web2.pdf >}}Download the TIP flyer here.{{< /modal-download >}}

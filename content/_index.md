@@ -22,6 +22,7 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
+{{< card news-20250218-EpiTIW-kick-off >}}
 {{< card news-20250206-Brain-Stimulation >}}
 {{< card news-20250130-TIBS-R-V-3-2 >}}
 {{< card news-20250109-NANS >}}
