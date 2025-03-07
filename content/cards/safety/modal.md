@@ -1,0 +1,6 @@
+---
+id: Safety
+---
+# Safety
+
+Pending...
