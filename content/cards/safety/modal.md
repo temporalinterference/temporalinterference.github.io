@@ -45,6 +45,7 @@ As brain stimulation applications continue to evolve, our research ensures they 
 
 {{< modal-image simulated-steady-state.jpg >}}
 {{< /modal-image >}}  
+
 ***Simulated steady-state temperature increase distributions for DBS and tES:** Input current of 1 mA, bipolar electrode configuration (top-left), various electrode sizes. Heating is principally localized near the electrodes, such that brain heating is minimal for tES. In all cases, heating is well below thresholds for direct tissue damage.*
 
 
@@ -54,8 +55,8 @@ As brain stimulation applications continue to evolve, our research ensures they 
 
 ## Reference
 
-1.	Polanía R *et al. Studying and Modifying Brain Function With Non-Invasive Brain Stimulation.* Nature Neuroscience. 21:174–187. https://doi.org/10.1038/s41593-017-0054-4
-2.	Grossman N *et al. Noninvasive Deep Brain Stimulation via Temporally Interfering Electric Fields.* Cell. 2017; 169:1029-1041.e16. https://doi.org/10.1016/j.cell.2017.05.024
-3. Cassarà AM *et al. Recommendations for the Safe Application of Temporal Interference Stimulation in the Human Brain Part I: Principles of Electrical Neuromodulation and Adverse Effects.* Bioelectromagnetics. 2025; 46:e22542. doi:10.1002/bem.22542
-4. Cassarà AM *et al. Recommendations for the Safe Application of Temporal Interference Stimulation in the Human Brain Part II: Biophysics, Dosimetry, and Safety Recommendations.* Bioelectromagnetics. 2025; 46:e22536. doi:10.1002/bem.22536
-5. Karimi F *et al. Safety of Non-Invasive Brain Stimulation in Patients with Implants: A Computational Risk Assessment.* J Neural Eng. 2025; 22:016039. doi: 10.1088/1741-2552/ad8efa
+1.	Polanía R *et al. Studying and Modifying Brain Function With Non-Invasive Brain Stimulation.* Nature Neuroscience. 21:174–187. [doi.org/10.1038/s41593-017-0054-4](https://doi.org/10.1038/s41593-017-0054-4)
+2.	Grossman N *et al. Noninvasive Deep Brain Stimulation via Temporally Interfering Electric Fields.* Cell. 2017; 169:1029-1041.e16. [doi.org/10.1016/j.cell.2017.05.024](https://doi.org/10.1016/j.cell.2017.05.024)
+3. Cassarà AM *et al. Recommendations for the Safe Application of Temporal Interference Stimulation in the Human Brain Part I: Principles of Electrical Neuromodulation and Adverse Effects.* Bioelectromagnetics. 2025; 46:e22542. [doi:10.1002/bem.22542](https://onlinelibrary.wiley.com/doi/full/10.1002/bem.22542)
+4. Cassarà AM *et al. Recommendations for the Safe Application of Temporal Interference Stimulation in the Human Brain Part II: Biophysics, Dosimetry, and Safety Recommendations.* Bioelectromagnetics. 2025; 46:e22536. [doi:10.1002/bem.22536](https://onlinelibrary.wiley.com/doi/full/10.1002/bem.22536)
+5. Karimi F *et al. Safety of Non-Invasive Brain Stimulation in Patients with Implants: A Computational Risk Assessment.* J Neural Eng. 2025; 22:016039. [doi: 10.1088/1741-2552/ad8efa](https://iopscience.iop.org/article/10.1088/1741-2552/ad8efa)
