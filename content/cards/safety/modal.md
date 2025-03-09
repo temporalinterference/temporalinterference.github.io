@@ -39,16 +39,16 @@ These scientific insights have been directly incorporated into our TIBS-R system
 
 As brain stimulation applications continue to evolve, our research ensures they can be delivered safely in research and clinical studies. Through continued research and development, we are committed to advancing the field of NIBS while maintaining the highest safety standards. The TIBS-R system, TIP, and Sim4Life platform provide researchers and clinical scientists with the tools they need to deliver TIS safely and effectively.
 
-**ADD FIGURE 1**
+**ADD FIGURE 1**  
 ***Comparing TIS and tES:** Comparison between conventional single pair transcranial electric stimulation (tES, left) and total TIS high frequency E-field exposure (middle), as well as the corresponding low-frequency TIS modulation magnitude distribution (right). The total TIS carrier frequency E-field map (middle) shows the maximal high frequency field magnitude achieved for in-phase, constructive interference.*
 
 
 {{< modal-image simulated-steady-state.jpg >}}
-{{< /modal-image >}}
+{{< /modal-image >}}  
 ***Simulated steady-state temperature increase distributions for DBS and tES:** Input current of 1 mA, bipolar electrode configuration (top-left), various electrode sizes. Heating is principally localized near the electrodes, such that brain heating is minimal for tES. In all cases, heating is well below thresholds for direct tissue damage.*
 
 
-**ADD FIGURE 3**
+**ADD FIGURE 3**  
 ***Anatomical model validation of the enhancement factor approach.** (a) Illustration of the IXI025 head model (29 different tissue classes, isotropic material properties), with a transverse E-field slice overlay depicting transcranial direct current stimulation (tDCS) with implanted stereoelectroencephalography (SEEG) electrodes. (b) E-field magnitude distribution on a slice containing an SEEG electrode, and (c) zoomed E-field distribution near the SEEG implant.*
 
 
