@@ -53,7 +53,7 @@ As brain stimulation applications continue to evolve, our research ensures they 
 ***Anatomical model validation of the enhancement factor approach.** (a) Illustration of the IXI025 head model (29 different tissue classes, isotropic material properties), with a transverse E-field slice overlay depicting transcranial direct current stimulation (tDCS) with implanted stereoelectroencephalography (SEEG) electrodes. (b) E-field magnitude distribution on a slice containing an SEEG electrode, and (c) zoomed E-field distribution near the SEEG implant.*
 
 
-## Reference
+## References
 
 1.	Polanía R *et al. Studying and Modifying Brain Function With Non-Invasive Brain Stimulation.* Nature Neuroscience. 21:174–187. [doi.org/10.1038/s41593-017-0054-4](https://doi.org/10.1038/s41593-017-0054-4)
 2.	Grossman N *et al. Noninvasive Deep Brain Stimulation via Temporally Interfering Electric Fields.* Cell. 2017; 169:1029-1041.e16. [doi.org/10.1016/j.cell.2017.05.024](https://doi.org/10.1016/j.cell.2017.05.024)
