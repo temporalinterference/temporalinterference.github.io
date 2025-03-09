@@ -5,7 +5,7 @@ id: Safety
 
 Non-invasive brain stimulation (NIBS) is rapidly transforming the landscape of neurological and psychiatric treatments<sup>1</sup>. In particular, temporal interference stimulation (TIS), introduced in 2017, allows for targeted neuromodulation of deep brain structures<sup>2</sup>. However, two critical questions arise: First, what are the fundamental safety boundaries for TIS? And second, how can we ensure safety for the growing population of patients with conductive implanted medical devices that may distort and/or amplify the electric (E-) fields induced by NIBS?
 
-The team of TI Solutions partner, the [IT’IS Foundation](www.itis.swiss), has tackled these questions head-on through a series of investigations described in three recent scientific publications that combine advanced computational modeling and experimental validation to probe NIBS safety. The first two articles are companion papers in which quantitative guidelines for the safe application of TIS<sup>3,4</sup> are proposed, while the second is an assessment of NIBS safety in the presence of conductive implants<sup>5</sup>.
+The team of TI Solutions partner organization [IT’IS Foundation](https://www.itis.swiss/), has tackled these questions head-on through a series of investigations described in three recent scientific publications that combine advanced computational modeling and experimental validation to probe NIBS safety. The first two articles are companion papers in which quantitative guidelines for the safe application of TIS<sup>3,4</sup> are proposed, while the second is an assessment of NIBS safety in the presence of conductive implants<sup>5</sup>.
 
 ## Setting the Boundaries: TIS Safety Framework
 
@@ -13,7 +13,7 @@ The two-part investigation of TIS safety represents the first systematic effort 
 
 INSERT TABLE
 
-*Proposed safety thresholds for TIS by exposure metric (3 cm<sup2</sup> electrodes)<sup>3</sup>: TIS can safely apply currents up to 7 mA at frequencies below 2.5 kHz. Above 2.5 kHz, safe current levels increase linearly with frequency. No more than 14 mA should be applied at any frequency to avoid unsafe brain tissue heating.*
+***Proposed safety thresholds for TIS by exposure metric (3 cm<sup2</sup> electrodes)<sup>3</sup>:** TIS can safely apply currents up to 7 mA at frequencies below 2.5 kHz. Above 2.5 kHz, safe current levels increase linearly with frequency. No more than 14 mA should be applied at any frequency to avoid unsafe brain tissue heating.*
 
 Notably, TIS allows for significantly higher thresholds compared to conventional stimulation methods due to reduced skin sensations at higher frequencies. Also, temperature increases remain well below critical thresholds, with brain tissue heating limited to 0.2°C even at the maximum recommended current. Skin heating stays well below the limits of 2°C set by the U.S. Food and Drug Administration (FDA), ensuring effective blinding conditions and enhancing comfort in experimental and clinical settings. Moreover, TIS permits increased E-field focality compared to conventional stimulation, allowing the targeting of deep brain regions with minimal activation of overlying cortical areas.
 
@@ -33,11 +33,24 @@ This comprehensive understanding of field-implant interactions enables precise, 
 
 ## From Research to Clinical Practice
 
-These scientific insights have been directly incorporated into our TIBS-R system, which includes hardware-level current limiting that automatically enforces safety boundaries while providing real-time impedance monitoring to ensure reliable electrode contact. Working in concert with TIBS-R, TIP – a dedicated platform for TIS planning with TIBS-R – offers a streamlined, web-accessible tool for personalized TI planning and optimization. Finally, Sim4Life provides detailed, subject-specific safety assessments, with particular attention to field-implant interactions. Together, these tools offer researchers and clinicians automated enforcement of safety guidelines, subject-specific and risk-minimized TIS optimization, real-time monitoring and adjustment capabilities, and complete documentation for regulatory compliance.
+These scientific insights have been directly incorporated into our TIBS-R system, which includes hardware-level current limiting that automatically enforces safety boundaries while providing real-time impedance monitoring to ensure reliable electrode contact. Working in concert with TIBS-R, {{< modal-link ti-planning-tool >}}TIP{{< /modal-link >}} – a dedicated platform for TIS planning with TIBS-R – offers a streamlined, web-accessible tool for personalized TI planning and optimization. Finally, {{< modal-link Sim4Life >}}Sim4Life{{< /modal-link >}} provides detailed, subject-specific safety assessments, with particular attention to field-implant interactions. Together, these tools offer researchers and clinicians automated enforcement of safety guidelines, subject-specific and risk-minimized TIS optimization, real-time monitoring and adjustment capabilities, and complete documentation for regulatory compliance.
 
 ## Looking Ahead
 
 As brain stimulation applications continue to evolve, our research ensures they can be delivered safely in research and clinical studies. Through continued research and development, we are committed to advancing the field of NIBS while maintaining the highest safety standards. The TIBS-R system, TIP, and Sim4Life platform provide researchers and clinical scientists with the tools they need to deliver TIS safely and effectively.
+
+**ADD FIGURE 1**
+***Comparing TIS and tES:** Comparison between conventional single pair transcranial electric stimulation (tES, left) and total TIS high frequency E-field exposure (middle), as well as the corresponding low-frequency TIS modulation magnitude distribution (right). The total TIS carrier frequency E-field map (middle) shows the maximal high frequency field magnitude achieved for in-phase, constructive interference.*
+
+
+**ADD FIGURE 2**
+***Simulated steady-state temperature increase distributions for DBS and tES:** Input current of 1 mA, bipolar electrode configuration (top-left), various electrode sizes. Heating is principally localized near the electrodes, such that brain heating is minimal for tES. In all cases, heating is well below thresholds for direct tissue damage.*
+
+
+**ADD FIGURE 3**
+
+***Anatomical model validation of the enhancement factor approach.** (a) Illustration of the IXI025 head model (29 different tissue classes, isotropic material properties), with a transverse E-field slice overlay depicting transcranial direct current stimulation (tDCS) with implanted stereoelectroencephalography (SEEG) electrodes. (b) E-field magnitude distribution on a slice containing an SEEG electrode, and (c) zoomed E-field distribution near the SEEG implant.*
+
 
 ## Reference
 
