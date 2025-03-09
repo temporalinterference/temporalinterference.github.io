@@ -13,7 +13,7 @@ The two-part investigation of TIS safety represents the first systematic effort 
 
 INSERT TABLE
 
-***Proposed safety thresholds for TIS by exposure metric (3 cm<sup2</sup> electrodes)<sup>3</sup>:** TIS can safely apply currents up to 7 mA at frequencies below 2.5 kHz. Above 2.5 kHz, safe current levels increase linearly with frequency. No more than 14 mA should be applied at any frequency to avoid unsafe brain tissue heating.*
+***Proposed safety thresholds for TIS by exposure metric (3 cm<sup>2</sup> electrodes)<sup>3</sup>:** TIS can safely apply currents up to 7 mA at frequencies below 2.5 kHz. Above 2.5 kHz, safe current levels increase linearly with frequency. No more than 14 mA should be applied at any frequency to avoid unsafe brain tissue heating.*
 
 Notably, TIS allows for significantly higher thresholds compared to conventional stimulation methods due to reduced skin sensations at higher frequencies. Also, temperature increases remain well below critical thresholds, with brain tissue heating limited to 0.2°C even at the maximum recommended current. Skin heating stays well below the limits of 2°C set by the U.S. Food and Drug Administration (FDA), ensuring effective blinding conditions and enhancing comfort in experimental and clinical settings. Moreover, TIS permits increased E-field focality compared to conventional stimulation, allowing the targeting of deep brain regions with minimal activation of overlying cortical areas.
 
@@ -43,12 +43,12 @@ As brain stimulation applications continue to evolve, our research ensures they 
 ***Comparing TIS and tES:** Comparison between conventional single pair transcranial electric stimulation (tES, left) and total TIS high frequency E-field exposure (middle), as well as the corresponding low-frequency TIS modulation magnitude distribution (right). The total TIS carrier frequency E-field map (middle) shows the maximal high frequency field magnitude achieved for in-phase, constructive interference.*
 
 
-**ADD FIGURE 2**
+{{< modal-image simulated-steady-state.jpg >}}
+{{< /modal-image >}}
 ***Simulated steady-state temperature increase distributions for DBS and tES:** Input current of 1 mA, bipolar electrode configuration (top-left), various electrode sizes. Heating is principally localized near the electrodes, such that brain heating is minimal for tES. In all cases, heating is well below thresholds for direct tissue damage.*
 
 
 **ADD FIGURE 3**
-
 ***Anatomical model validation of the enhancement factor approach.** (a) Illustration of the IXI025 head model (29 different tissue classes, isotropic material properties), with a transverse E-field slice overlay depicting transcranial direct current stimulation (tDCS) with implanted stereoelectroencephalography (SEEG) electrodes. (b) E-field magnitude distribution on a slice containing an SEEG electrode, and (c) zoomed E-field distribution near the SEEG implant.*
 
 
@@ -59,10 +59,3 @@ As brain stimulation applications continue to evolve, our research ensures they 
 3. Cassarà AM *et al. Recommendations for the Safe Application of Temporal Interference Stimulation in the Human Brain Part I: Principles of Electrical Neuromodulation and Adverse Effects.* Bioelectromagnetics. 2025; 46:e22542. doi:10.1002/bem.22542
 4. Cassarà AM *et al. Recommendations for the Safe Application of Temporal Interference Stimulation in the Human Brain Part II: Biophysics, Dosimetry, and Safety Recommendations.* Bioelectromagnetics. 2025; 46:e22536. doi:10.1002/bem.22536
 5. Karimi F *et al. Safety of Non-Invasive Brain Stimulation in Patients with Implants: A Computational Risk Assessment.* J Neural Eng. 2025; 22:016039. doi: 10.1088/1741-2552/ad8efa
-
-
-
-{{< modal-image simulated-steady-state.jpg >}}
-{{< /modal-image >}}
-
-Image: Simulated steady-state temperature increase distributions for DBS and tES. Input current of 1 mA, bipolar electrode configuration (top-left) with various electrode sizes. Heating is principally localized near the electrodes, such that brain heating is minimal for tES. In all cases, heating is well below published thresholds for direct tissue damage.
