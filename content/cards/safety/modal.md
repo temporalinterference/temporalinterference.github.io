@@ -27,8 +27,6 @@ The two-part investigation of TI stimulation safety represents the first systema
 |skin temperature increase (peak) |skin heating |100 mA (2°C, FDA) |100 mA (2°C, FDA) |
 |applied voltage (peak-to-peak) |leakage current |60 V (IEC/ISO 60601-1) |60 V (IEC/ISO 60601-1) |
 
-***Proposed safety thresholds for TI stimulation by exposure metric (3 cm<sup>2</sup> electrodes)<sup>3</sup>:** TI stimulation can safely apply currents up to 7 mA at frequencies below 2.5 kHz. Above 2.5 kHz, safe current levels increase linearly with frequency. No more than 14 mA should be applied at any frequency to avoid unsafe brain tissue heating.*
-
 ***Proposed safety thresholds for TI stimulation by exposure metric (3 cm^2^ electrodes)3:** TI stimulation can safely apply currents up to 7 mA at frequencies below 2.5 kHz. Above 2.5 kHz, safe current levels increase linearly with frequency. No more than 14 mA should be applied at any frequency to avoid unsafe brain tissue heating.*
 
 Notably, TI stimulation allows for significantly higher thresholds compared to conventional stimulation methods due to reduced skin sensations at higher frequencies. Also, temperature increases remain well below critical thresholds, with brain tissue heating limited to 0.2°C even at the maximum recommended current. Skin heating stays well below the limits of 2°C set by the U.S. Food and Drug Administration (FDA), ensuring effective blinding conditions and enhancing comfort in experimental and clinical settings. Moreover, TI stimulation permits increased E-field focality compared to conventional stimulation, allowing the targeting of deep brain regions with minimal activation of overlying cortical areas.
@@ -47,7 +45,7 @@ The practical implementation of TI stimulation demands careful consideration of 
 
 ## Managing Implant Interactions
 
-A parallel investigation was focused on the specific challenges posed by metallic implants, such as DBS electrodes or recording devices, in the context of NIBS<sup>5</sup>. The analysis revealed that field enhancement effects near implanted conductors can reach factors of up to 10-fold for typical implant geometries, with enhancement scaling proportionally to conductor length in elongated implants. Importantly, while these local field concentrations are significant, they generally remain below neural activation thresholds during NIBS. We also discovered that the formation of scar tissue around implants actually helps reduce enhancement effects in the surrounding brain tissue.
+A parallel investigation was focused on the specific challenges posed by metallic implants, such as DBS electrodes or recording devices, in the context of NIBS^5^. The analysis revealed that field enhancement effects near implanted conductors can reach factors of up to 10-fold for typical implant geometries, with enhancement scaling proportionally to conductor length in elongated implants. Importantly, while these local field concentrations are significant, they generally remain below neural activation thresholds during NIBS. We also discovered that the formation of scar tissue around implants actually helps reduce enhancement effects in the surrounding brain tissue.
 
 Four critical mechanisms were evaluated:
 - local field enhancement near metallic contacts
