@@ -13,7 +13,10 @@ These studies have been described in three recent scientific publications by TI 
 
 The two-part investigation of TI stimulation safety represents the first systematic effort to establish quantitative safety guidelines for this emerging technology. In TI stimulation, unlike in conventional brain stimulation, two high-frequency E-fields applied through scalp electrodes at slightly different frequencies (e.g., 10.00 kHz and 10.01 kHz). While these frequencies are themselves too high to directly stimulate neurons, their interaction creates a low-frequency – in this case 10 Hz – modulation envelope that can influence neural activity at targeted locations deep in the brain. Using advanced computational modeling, the IT’IS team systematically simulated various NIBS exposure scenarios, including TI stimulation, transcranial alternating current stimulation (tACS), and deep brain stimulation (DBS), in a detailed model of the head and brain. By matching field exposure magnitudes across the three stimulation modalities, we calculated TI stimulation parameters that produce conditions known to be safe for tACS and DBS and used these to establish thresholds for the safe application of TI stimulation.
 
-INSERT TABLE
+|    |            |            |              |     
+|:-----------|:------------|:------------|:------------|
+|Metric|Relevance |< 2.5 kHz |2.5 – 100 kHz |
+|E-field brain (peak)|brain stimulation |16 mA (30 V/m, DBS outside stimulation zone) |16 mAxf/2.5 kHz (30 V/mxf/2.5 kHz, DBS outside stimulation zone) |
 
 ***Proposed safety thresholds for TI stimulation by exposure metric (3 cm<sup>2</sup> electrodes)<sup>3</sup>:** TI stimulation can safely apply currents up to 7 mA at frequencies below 2.5 kHz. Above 2.5 kHz, safe current levels increase linearly with frequency. No more than 14 mA should be applied at any frequency to avoid unsafe brain tissue heating.*
 
