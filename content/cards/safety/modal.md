@@ -29,8 +29,7 @@ The two-part investigation of TI stimulation safety represents the first systema
 
 ***Proposed safety thresholds for TI stimulation by exposure metric (3 cm<sup>2</sup> electrodes)<sup>3</sup>:** TI stimulation can safely apply currents up to 7 mA at frequencies below 2.5 kHz. Above 2.5 kHz, safe current levels increase linearly with frequency. No more than 14 mA should be applied at any frequency to avoid unsafe brain tissue heating.*
 
-TEST
-***Proposed safety thresholds for TI stimulation by exposure metric (3 cm^2^ electrodes)3:**
+***Proposed safety thresholds for TI stimulation by exposure metric (3 cm^2^ electrodes)3:** TI stimulation can safely apply currents up to 7 mA at frequencies below 2.5 kHz. Above 2.5 kHz, safe current levels increase linearly with frequency. No more than 14 mA should be applied at any frequency to avoid unsafe brain tissue heating.*
 
 Notably, TI stimulation allows for significantly higher thresholds compared to conventional stimulation methods due to reduced skin sensations at higher frequencies. Also, temperature increases remain well below critical thresholds, with brain tissue heating limited to 0.2°C even at the maximum recommended current. Skin heating stays well below the limits of 2°C set by the U.S. Food and Drug Administration (FDA), ensuring effective blinding conditions and enhancing comfort in experimental and clinical settings. Moreover, TI stimulation permits increased E-field focality compared to conventional stimulation, allowing the targeting of deep brain regions with minimal activation of overlying cortical areas.
 
