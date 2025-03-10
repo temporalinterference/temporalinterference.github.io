@@ -58,6 +58,8 @@ This comprehensive understanding of field-implant interactions enables precise, 
 {{< modal-image Fig3-anatomical-model-validation.jpg >}}
 {{< /modal-image >}}
 
+***Anatomical model validation of the enhancement factor approach.** (a) Illustration of the IXI025 head model (29 different tissue classes, isotropic material properties), with a transverse E-field slice overlay depicting transcranial direct current stimulation (tDCS) with implanted stereoelectroencephalography (SEEG) electrodes. (b) E-field magnitude distribution on a slice containing an SEEG electrode, and (c) zoomed E-field distribution near the SEEG implant.*
+
 ## From Research to Clinical Practice
 
 These scientific insights have been directly incorporated into our TIBS-R system, which includes hardware-level current limiting that automatically enforces safety boundaries while providing real-time impedance monitoring to ensure reliable electrode contact. Working in concert with TIBS-R, {{< modal-link TI-Planning-Tool >}}TIP{{< /modal-link >}} – a dedicated platform for TI stimulation planning with TIBS-R – offers a streamlined, web-accessible tool for personalized TI planning and optimization. Finally, {{< modal-link sim4life >}}Sim4Life{{< /modal-link >}} provides detailed, subject-specific safety assessments, with particular attention to field-implant interactions. Together, these tools offer researchers and clinicians automated enforcement of safety guidelines, subject-specific and risk-minimized TI stimulation optimization, real-time monitoring and adjustment capabilities, and complete documentation for regulatory compliance.
@@ -65,8 +67,6 @@ These scientific insights have been directly incorporated into our TIBS-R system
 ## Looking Ahead
 
 As brain stimulation applications continue to evolve, our research ensures they can be delivered safely in research and clinical studies. Through continued research and development, we are committed to advancing the field of NIBS while maintaining the highest safety standards. The TIBS-R system, TIP, and Sim4Life platform provide researchers and clinical scientists with the tools they need to deliver TI stimulation safely and effectively.
-
-***Anatomical model validation of the enhancement factor approach.** (a) Illustration of the IXI025 head model (29 different tissue classes, isotropic material properties), with a transverse E-field slice overlay depicting transcranial direct current stimulation (tDCS) with implanted stereoelectroencephalography (SEEG) electrodes. (b) E-field magnitude distribution on a slice containing an SEEG electrode, and (c) zoomed E-field distribution near the SEEG implant.*
 
 
 ## References
