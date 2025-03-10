@@ -16,7 +16,13 @@ The two-part investigation of TI stimulation safety represents the first systema
 |    |            |            |              |     
 |:-----------|:------------|:------------|:------------|
 |Metric|Relevance |< 2.5 kHz |2.5 – 100 kHz |
-|E-field brain (peak)|brain stimulation |16 mA (30 V/m, DBS outside stimulation zone) |16 mAxf/2.5 kHz (30 V/mxf/2.5 kHz, DBS outside stimulation zone) |
+|E-field brain (peak) |brain stimulation |16 mA (30 V/m, DBS outside stimulation zone) |16 mAxf/2.5 kHz (30 V/mxf/2.5 kHz, DBS outside stimulation zone) |
+|E-field skin (peak) |skin stimulation |7 mA (200 V/m, tACS) |7 mAx f/2.5 kHz (200 V/mx f/2.5 kHz, tACS) |
+|total current (peak) |electrode-tissue interface effects |18 mA (DBS) |18 mAx f/2.5kHz (DBS with frequency scaling) |
+|charge/phase (peak) |electrochemistry |400 mAxf/1 kHz (1.3 mC, tACS) |400 mAx f/1 kHz (1.3 mC, tACS) |
+|brain temperature increase (peak) |brain heating |14 mA (0.1°C, FDA) |14 mA (0.1°C, FDA) |
+|skin temperature increase (peak) |skin heating |100 mA (2°C, FDA) |100 mA (2°C, FDA) |
+|applied voltage (peak-to-peak) |leakage current |60 V (IEC/ISO 60601-1) |60 V (IEC/ISO 60601-1) |
 
 ***Proposed safety thresholds for TI stimulation by exposure metric (3 cm<sup>2</sup> electrodes)<sup>3</sup>:** TI stimulation can safely apply currents up to 7 mA at frequencies below 2.5 kHz. Above 2.5 kHz, safe current levels increase linearly with frequency. No more than 14 mA should be applied at any frequency to avoid unsafe brain tissue heating.*
 
