@@ -30,6 +30,16 @@ Notably, TI stimulation allows for significantly higher thresholds compared to c
 
 The practical implementation of TI stimulation demands careful consideration of several additional parameters to ensure optimal safety and efficacy. Electrode size should be selected based on the intended target depth and desired focality, with sufficient separation between electrodes to prevent unwanted field interactions. Also, TI stimulation requires careful ramping protocols to avoid transient neural effects during stimulation onset. Finally, simulations should be performed prior to applying TI stimulation to improve focality, ensure safety in light of anatomical variation, and account for special circumstances such as the presence of conductive implants.
 
+{{< modal-image Fig1-comparing-TI-stimulation-and-tES.jpg >}}
+{{< /modal-image >}} 
+
+***Comparing TI stimulation and tES:** Comparison between conventional single pair transcranial electric stimulation (tES, left) and total TI stimulation high frequency E-field exposure (middle), as well as the corresponding low-frequency TI stimulation modulation magnitude distribution (right). The total TI stimulation carrier frequency E-field map (middle) shows the maximal high frequency field magnitude achieved for in-phase, constructive interference.*
+
+{{< modal-image simulated-steady-state.jpg >}}
+{{< /modal-image >}}  
+
+***Simulated steady-state temperature increase distributions for DBS and tES:** Input current of 1 mA, bipolar electrode configuration (top-left), various electrode sizes. Heating is principally localized near the electrodes, such that brain heating is minimal for tES. In all cases, heating is well below thresholds for direct tissue damage.*
+
 ## Managing Implant Interactions
 
 A parallel investigation was focused on the specific challenges posed by metallic implants, such as DBS electrodes or recording devices, in the context of NIBS<sup>5</sup>. The analysis revealed that field enhancement effects near implanted conductors can reach factors of up to 10-fold for typical implant geometries, with enhancement scaling proportionally to conductor length in elongated implants. Importantly, while these local field concentrations are significant, they generally remain below neural activation thresholds during NIBS. We also discovered that the formation of scar tissue around implants actually helps reduce enhancement effects in the surrounding brain tissue.
@@ -42,6 +52,9 @@ Four critical mechanisms were evaluated:
 
 This comprehensive understanding of field-implant interactions enables precise, patient-specific optimization of stimulation parameters.
 
+{{< modal-image Fig3-anatomical-model-validation.jpg >}}
+{{< /modal-image >}}
+
 ## From Research to Clinical Practice
 
 These scientific insights have been directly incorporated into our TIBS-R system, which includes hardware-level current limiting that automatically enforces safety boundaries while providing real-time impedance monitoring to ensure reliable electrode contact. Working in concert with TIBS-R, {{< modal-link ti-planning-tool >}}TIP{{< /modal-link >}} – a dedicated platform for TI stimulation planning with TIBS-R – offers a streamlined, web-accessible tool for personalized TI planning and optimization. Finally, {{< modal-link Sim4Life >}}Sim4Life{{< /modal-link >}} provides detailed, subject-specific safety assessments, with particular attention to field-implant interactions. Together, these tools offer researchers and clinicians automated enforcement of safety guidelines, subject-specific and risk-minimized TI stimulation optimization, real-time monitoring and adjustment capabilities, and complete documentation for regulatory compliance.
@@ -49,21 +62,6 @@ These scientific insights have been directly incorporated into our TIBS-R system
 ## Looking Ahead
 
 As brain stimulation applications continue to evolve, our research ensures they can be delivered safely in research and clinical studies. Through continued research and development, we are committed to advancing the field of NIBS while maintaining the highest safety standards. The TIBS-R system, TIP, and Sim4Life platform provide researchers and clinical scientists with the tools they need to deliver TI stimulation safely and effectively.
-
-{{< modal-image Fig1-comparing-TI-stimulation-and-tES.jpg >}}
-{{< /modal-image >}} 
-
-***Comparing TI stimulation and tES:** Comparison between conventional single pair transcranial electric stimulation (tES, left) and total TI stimulation high frequency E-field exposure (middle), as well as the corresponding low-frequency TI stimulation modulation magnitude distribution (right). The total TI stimulation carrier frequency E-field map (middle) shows the maximal high frequency field magnitude achieved for in-phase, constructive interference.*
-
-
-{{< modal-image simulated-steady-state.jpg >}}
-{{< /modal-image >}}  
-
-***Simulated steady-state temperature increase distributions for DBS and tES:** Input current of 1 mA, bipolar electrode configuration (top-left), various electrode sizes. Heating is principally localized near the electrodes, such that brain heating is minimal for tES. In all cases, heating is well below thresholds for direct tissue damage.*
-
-
-{{< modal-image Fig3-anatomical-model-validation.jpg >}}
-{{< /modal-image >}}
 
 ***Anatomical model validation of the enhancement factor approach.** (a) Illustration of the IXI025 head model (29 different tissue classes, isotropic material properties), with a transverse E-field slice overlay depicting transcranial direct current stimulation (tDCS) with implanted stereoelectroencephalography (SEEG) electrodes. (b) E-field magnitude distribution on a slice containing an SEEG electrode, and (c) zoomed E-field distribution near the SEEG implant.*
 
