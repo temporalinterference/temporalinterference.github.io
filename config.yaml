@@ -8,3 +8,14 @@ params:
          Graphic Design:  Kevin Eason, z43.swiss
          Implementation:  Tobi Oetiker, oetiker.ch
          ###################################### -->
+markup:
+  goldmark:
+    extensions:
+      extras:
+        delete:
+          enable: true
+        subscript:
+          enable: true
+        superscript:
+          enable: true
+      strikethrough: false
