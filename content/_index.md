@@ -76,6 +76,7 @@ The Science
 {{< card-holder >}}
 {{< card research-programs >}}
 {{< card Publications >}}
+{{< card safety >}}
 {{< /card-holder >}}
 
 {{< section id=about >}}

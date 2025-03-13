@@ -1,10 +1,11 @@
 ---
 id: TI-Planning-Tool
 ---
-{{< modal-image teaser.jpg >}}
-{{< /modal-image >}}
 
 # Precise TI Stimulation with TIP and Sim4Life
+
+{{< modal-image teaser.jpg >}}
+{{< /modal-image >}}
 
 ## The Challenges
 
