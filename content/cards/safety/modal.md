@@ -8,7 +8,7 @@ Two key questions have been addressed in recent studies:
 - What are the fundamental safety boundaries for temporal interference (TI) stimulation?
 - How can patient safety be ensured for those with implanted medical devices?
 
-These studies have been described in three recent scientific publications by TI Solutions’ partner organization, the IT’IS Foundation, that combine advanced computational modeling and experimental validation to probe non-invasive brain stimulation (NIBS) safety. The first two articles are companion papers in which quantitative guidelines for the safe application of TI stimulation^1^^,^^2^ are proposed, while the third is an assessment of NIBS safety in the presence of conductive implants^3^.
+These studies have been described in three recent scientific publications by TI Solutions’ partner organization, the IT’IS Foundation, that combine advanced computational modeling and experimental validation to probe non-invasive brain stimulation (NIBS) safety. The first two articles are companion papers in which quantitative guidelines for the safe application of TI stimulation^1,2^ are proposed, while the third is an assessment of NIBS safety in the presence of conductive implants^3^.
 
 ## Setting the Boundaries: TI Stimulation Safety Framework
 
