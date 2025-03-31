@@ -9,3 +9,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 {{< modal-image news-20250401-Z43-Newsquarter-2025-Q1-1500px.jpg >}} 
 {{< /modal-image >}}
+
+{{< modal-download Z43-Newsquarter-2025-Q1-no31.pdf >}}Download the Z43 Newsquarter here.{{< /modal-download >}}
