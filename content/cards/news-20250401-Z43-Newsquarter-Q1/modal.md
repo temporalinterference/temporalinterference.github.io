@@ -7,5 +7,5 @@ This edition covers:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-{{< modal-image news-20250401-Z43-Newsquarter-Q1-1500px.jpg >}} 
+{{< modal-image news-20250401-Z43-Newsquarter-2025-Q1-1500px.jpg >}} 
 {{< /modal-image >}}
