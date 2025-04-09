@@ -8,4 +8,3 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {{< modal-image news-20250410-Bioelectromagnetics-Neurostimulation-1200px.jpg >}} 
 {{< /modal-image >}}
 
-Download PDF? (if yes, please send me the PDF)
