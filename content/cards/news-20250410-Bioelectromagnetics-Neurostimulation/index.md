@@ -1,5 +1,5 @@
 ---
-title: news-20250410-Bioelectromagnetics-Neurostimulation
+title: Neurostimulation
 ---
 April 10, 2025
 
