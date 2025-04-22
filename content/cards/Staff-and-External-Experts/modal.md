@@ -19,10 +19,6 @@ Manuel Brönnimann (R&D) is a Hardware Development Engineer with a strong backgr
 Dr. Cédric Bujard (R&D) graduated from Berklee College of Music, Boston, USA, in Musical Theory and Composition, and in Sound Production and Engineering before obtaining his M.SC. in Mathematics from EPFL, Switzerland, and his Ph.D. in Mathematics from the University of Strasbourg, France. After working as a lecturer at EPFL and in the private sector as a data scientist and software engineer, he joined the IT’IS Foundation and TI Solutions in Zurich, Switzerland, in late 2021. He develops solutions in mathematical modeling, including surrogate modeling, data analysis, optimization algorithms, system validation, and uncertainty quantification.
 {{< /image-text >}}
 
-{{< image-text title="Ana Gil Cañete" src="Ana-Gil-Canete-1500px.jpg" pos="left" ratio="one-third" >}}
-Ana Gil Cañete studied Telecommunication Engineering at the European University of Madrid before specializing in Regulatory Affairs and Quality Assurance within the medical device industry. With practical experience in regulatory submissions and product approvals, Ana supports medical technology projects in meeting the necessary requirements for market entry. This includes tasks such as preparing CE Mark documentation, liaising with regulatory authorities, and ensuring alignment with relevant standards like ISO 13485. Ana joined TI Solutions in Zurich, Switzerland, as Regulatory Engineer mid-April 2025.
-{{< /image-text >}}
-
 {{< image-text title="Myles Capstick" src="myles.jpg" pos="left" ratio="one-third" >}}
 Dr. Myles Capstick (CTO) is an Electronic Engineer and Associate Director, Project Leader and Head of Hardware at the IT’IS Foundation in Zurich, Switzerland. His expertise encompasses the design of analog, radiofrequency, microwave, and millimeter-wave systems, subsystems, circuits, and antennas, which he applies in the fields of device and system development for health risk assessment studies (*in vitro*, *in vivo* animal and human studies), measurement technology, and biomedicine. He was instrumental in developing the TIBS-R hardware and the filter solutions for electroencephalography compatibility.
 {{< /image-text >}}
@@ -37,6 +33,10 @@ Dr. Nicolas Chavannes (R&D) is an Electrical Engineer and Head of Software at th
 
 {{< image-text title="Ninad Chitnis" src="ninad-1500px-c.jpg" pos="left" ratio="one-third" >}}
 Ninad Chitnis (R&D) is currently pursuing a Ph.D. at the IT'IS Foundation in Zurich, Switzerland. Originally from Mumbai, India, he moved to Zurich to complete his M.Sc. in Electrical Engineering at ETH Zurich, specializing in radiofrequency engineering. After graduating in mid-2021, he spent about a year working at SPEAG in Zurich, during which he contributed to magnetic resonance imaging compatibility research for TIBS-R.
+{{< /image-text >}}
+
+{{< image-text title="Ana Gil Cañete" src="Ana-Gil-Canete-1500px.jpg" pos="left" ratio="one-third" >}}
+Ana Gil Cañete studied Telecommunication Engineering at the European University of Madrid before specializing in Regulatory Affairs and Quality Assurance within the medical device industry. With practical experience in regulatory submissions and product approvals, Ana supports medical technology projects in meeting the necessary requirements for market entry. This includes tasks such as preparing CE Mark documentation, liaising with regulatory authorities, and ensuring alignment with relevant standards like ISO 13485. Ana joined TI Solutions in Zurich, Switzerland, as Regulatory Engineer mid-April 2025.
 {{< /image-text >}}
 
 {{< image-text title="Eric Hainfeld" src="eric-1500px-c.jpg" pos="left" ratio="one-third" >}}
