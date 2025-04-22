@@ -36,7 +36,7 @@ Ninad Chitnis (R&D) is currently pursuing a Ph.D. at the IT'IS Foundation in Zur
 {{< /image-text >}}
 
 {{< image-text title="Ana Gil Cañete" src="Ana-Gil-Canete-1500px.jpg" pos="left" ratio="one-third" >}}
-Ana Gil Cañete studied Telecommunication Engineering at the European University of Madrid before specializing in Regulatory Affairs and Quality Assurance within the medical device industry. With practical experience in regulatory submissions and product approvals, Ana supports medical technology projects in meeting the necessary requirements for market entry. This includes tasks such as preparing CE Mark documentation, liaising with regulatory authorities, and ensuring alignment with relevant standards like ISO 13485. Ana joined TI Solutions in Zurich, Switzerland, as Regulatory Engineer mid-April 2025.
+Ana Gil Cañete studied Telecommunication Engineering at the European University of Madrid, Spain, before specializing in Regulatory Affairs and Quality Assurance within the medical device industry. With practical experience in regulatory submissions and product approvals, Ana supports medical technology projects in meeting the necessary requirements for market entry – including CE Mark documentation, liaising with regulatory authorities, and ensuring alignment with relevant standards like ISO 13485. Ana joined TI Solutions in Zurich, Switzerland, as Regulatory Engineer mid-April 2025.
 {{< /image-text >}}
 
 {{< image-text title="Eric Hainfeld" src="eric-1500px-c.jpg" pos="left" ratio="one-third" >}}
