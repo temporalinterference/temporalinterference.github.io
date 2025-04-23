@@ -8,6 +8,8 @@ Cassarà AM *et al. Recommendations for the Safe Application of Temporal Interfe
 
 Karimi F *et al. Safety of Non-Invasive Brain Stimulation in Patients with Implants: A Computational Risk Assessment.* J Neural Eng. 2025; 22:016039. [doi: 10.1088/1741-2552/ad8efa](https://iopscience.iop.org/article/10.1088/1741-2552/ad8efa)
 
+Proulx CE, Hummel FC. *Beyond the Surface: Advancing Neurorehabilitation With Transcranial Temporal Interference Stimulation — Clinical Applications and Future Prospects.* Neural Regen Res. 2025; ():10.4103/NRR.NRR-D-24-01573, March 25, 2025. [doi: 10.4103/NRR.NRR-D-24-01573](https://journals.lww.com/nrronline/citation/9900/beyond_the_surface__advancing_neurorehabilitation.775.aspx)
+
 Caldas-Martinez S *et al. Cell-specific effects of temporal interference stimulation on cortical function.* Commun Biol. 2024; 7:1076. [doi: 10.1038/s42003-024-06728](https://www.nature.com/articles/s42003-024-06728-y)
 
 Liu R *et al. Temporal interference stimulation targets deep primate brain.* NeuroImage. 2024; 291:120581. [doi: 10.1016/j.neuroimage.2024.120581](https://www.sciencedirect.com/science/article/pii/S1053811924000764)
@@ -63,6 +65,8 @@ Huang Y, Parra LC. *Can transcranial electric stimulation with multiple electrod
 Karimi F *et al. Computational analysis of non-invasive deep brain stimulation based on interfering electric fields.* Phys Med Biol. 2019; 64(23):235010. [doi:10.1088/1361-6560/ab5229](https://iopscience.iop.org/article/10.1088/1361-6560/ab5229)
 
 Rampersad S *et al. Prospects for transcranial temporal interference stimulation in humans: A computational study.* Neuroimage. 2019; 202:116124. [doi:10.1016/j.neuroimage.2019.116124](https://www.sciencedirect.com/science/article/abs/pii/S1053811919307153?via%3Dihub/)
+
+Zhu X *et al. Multi-Point Temporal Interference Stimulation by Using Each Electrode to Carry Different Frequency Currents.* IEEE Access. 2019; 7:168829–168848. [doi:10.1109/ACCESS.2019.2947857](https://ieeexplore.ieee.org/document/8871184)
 
 Grossman N. *Modulation without surgical intervention.* Science. 2018;361(6401): 461‐462. [doi:10.1126/science.aau4915](https://www.science.org/doi/10.1126/science.aau4915)
 
