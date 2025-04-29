@@ -84,7 +84,7 @@ Sajeethan Thuraisamy (R&D) began his career at SPEAG in Zurich, Switzerland, as 
 {{< /image-text >}}
 
 # External Experts
-{{< image-text title="Peter Achermann" src="peter-achermann.jpg" pos="left" ratio="one-third" >}}
+{{< image-text title="Peter Achermann" src="peter-achermann-portrait-c-1000px.jpg" pos="left" ratio="one-third" >}}
 Prof. Peter Achermann (External Expert) is Emeritus Professor at the University of Zurich, Switzerland, Vice President of the IT'IS Foundation Board in Zurich, and served as Scientific Director of *The KEY Institute for Brain-Mind Research* in Zurich until March 2021. He is internationally recognized for his contributions to sleep electroencephalography analysis, modeling of sleep regulation and circadian rhythms, and investigations related to biological effects of electromagnetic fields.
 {{< /image-text >}}
 
