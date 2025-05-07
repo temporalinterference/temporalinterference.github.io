@@ -3,7 +3,7 @@ id: Staff-and-External-Experts
 ---
 # Our Team and Contributors 
 
-{{< image-text title="Dmytro Baibara" src="Dmytro-500px-c.jpg" pos="left" ratio="one-third" >}}
+{{< image-text title="Dmytro Baibara" src="Dmytro-Baibara-1500px.jpg" pos="left" ratio="one-third" >}}
 Dmytro Baibara (R&D) was born in Ukraine, where he graduated in 2011 with a M.Sc. in Computer Science from the Kyiv Polytechnic Institute of the National Technical University of Ukraine. His professional background spans software development in various fields and environments, for example, medical devices, image processing, rapid prototyping, and data analysis. In spring 2018, he joined SPEAG in Zurich, Switzerland, as a Senior Software Developer, contributing to the ICEy team.
 {{< /image-text >}}
 
