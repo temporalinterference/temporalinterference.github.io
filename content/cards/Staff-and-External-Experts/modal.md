@@ -3,7 +3,7 @@ id: Staff-and-External-Experts
 ---
 # Our Team and Contributors 
 
-{{< image-text title="Dmytro Baibara" src="Dmytro-500px-c.jpg" pos="left" ratio="one-third" >}}
+{{< image-text title="Dmytro Baibara" src="Dmytro-Baibara-1500px.jpg" pos="left" ratio="one-third" >}}
 Dmytro Baibara (R&D) was born in Ukraine, where he graduated in 2011 with a M.Sc. in Computer Science from the Kyiv Polytechnic Institute of the National Technical University of Ukraine. His professional background spans software development in various fields and environments, for example, medical devices, image processing, rapid prototyping, and data analysis. In spring 2018, he joined SPEAG in Zurich, Switzerland, as a Senior Software Developer, contributing to the ICEy team.
 {{< /image-text >}}
 
@@ -84,7 +84,7 @@ Sajeethan Thuraisamy (R&D) began his career at SPEAG in Zurich, Switzerland, as 
 {{< /image-text >}}
 
 # External Experts
-{{< image-text title="Peter Achermann" src="peter-achermann.jpg" pos="left" ratio="one-third" >}}
+{{< image-text title="Peter Achermann" src="peter-achermann-portrait-c-1000px.jpg" pos="left" ratio="one-third" >}}
 Prof. Peter Achermann (External Expert) is Emeritus Professor at the University of Zurich, Switzerland, Vice President of the IT'IS Foundation Board in Zurich, and served as Scientific Director of *The KEY Institute for Brain-Mind Research* in Zurich until March 2021. He is internationally recognized for his contributions to sleep electroencephalography analysis, modeling of sleep regulation and circadian rhythms, and investigations related to biological effects of electromagnetic fields.
 {{< /image-text >}}
 
