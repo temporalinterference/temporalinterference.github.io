@@ -1,5 +1,5 @@
 ---
-title: New Paper "Focal Control of Non-Invasive Deep Brain Stimulation Using Multipolar Temporal Interference"
+title: New Publication "Focal Control of Non-Invasive Deep Brain Stimulation Using Multipolar Temporal Interference"
 ---
 April 25, 2025
 
