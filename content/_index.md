@@ -22,7 +22,6 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card news-20250425-focal-control >}}
 {{< card news-20250410-Bioelectromagnetics-Neurostimulation >}}
 {{< card news-20250401-Z43-Newsquarter-Q1 >}}
 {{< card news-20250218-EpiTIW-kick-off >}}
