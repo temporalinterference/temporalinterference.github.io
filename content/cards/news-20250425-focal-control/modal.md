@@ -16,9 +16,9 @@ Our TIBS-R system is designed to allow any TI variants, including mTI:
 - high precision and synchronization and software integration with Python and MATLAB
 - EEG & fMRI compatibility, including closed-loop applications
 
-For more detailed specifications on the TIBS-R system see here [add link to specifications table]
+For more detailed specifications on the TIBS-R system see {{< modal-link TIBS-R-system >}}here{{< /modal-link >}}.
 
-The study is accessible here: Bioelectronic Medicine 2025, Volume 11, Article number 7, online 27 March 2025,  [doi: 10.1186/s42234-025-00169-6](https://bioelecmed.biomedcentral.com/articles/10.1186/s42234-025-00169-6)
+Link to publication: Bioelectronic Medicine 2025, Volume 11, Article number 7, online 27 March 2025, [doi: 10.1186/s42234-025-00169-6](https://bioelecmed.biomedcentral.com/articles/10.1186/s42234-025-00169-6)
 
 {{< modal-image Botzanowski-paper-TI-adding-2-frequencies.jpg >}} 
 {{< /modal-image >}}
