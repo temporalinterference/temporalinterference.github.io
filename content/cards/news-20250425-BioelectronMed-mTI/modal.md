@@ -1,5 +1,5 @@
 ---
-id: news-20250425-focal-control
+id: news-20250425-BioelectronMed-mTI
 ---
 # New Publication "Focal Control of Non-Invasive Deep Brain Stimulation Using Multipolar Temporal Interference"
 
