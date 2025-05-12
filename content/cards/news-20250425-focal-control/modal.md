@@ -17,3 +17,6 @@ The improved focality of mTI was validated in non-human primates as well as in m
 mTI was used to successfully evoke targeted neural activity in the superior colliculus, a deep brain structure critical for eye motion control, in awake primates without behavioral side effects or evidence of discomfort (e.g., scalp twitches, or blinking responses)
 
 ACCESS ARTICLE ONLINE
+
+{{< modal-image Botzanowski-paper-TI-adding-2-frequencies.jpg >}} 
+{{< /modal-image >}}
