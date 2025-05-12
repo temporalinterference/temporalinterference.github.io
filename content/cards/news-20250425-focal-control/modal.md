@@ -11,10 +11,10 @@ Electric field simulations in this work were performed on the Sim4Life platform 
 
 The scientific and technical impact of the study can be summarized as:
 
-The use of multiple, well selected current channels and carrier frequencies to generate overlapping amplitude-modulated envelopes in mTI enables improved focality without compromising deep brain stimulation intensity
-The stimulation produced with mTI – by reducing the amplitude of each contributing envelope while maintaining the overall envelope amplitude at the target but varying off-target exposure – confines the effective stimulation to a smaller brain region and avoids unwanted off-target effects and scalp sensations
-The improved focality of mTI was validated in non-human primates as well as in mice, indicating that the method scales well across different brain sizes and anatomical geometries, suggesting potential for both preclinical research and clinical translation
-mTI was used to successfully evoke targeted neural activity in the superior colliculus, a deep brain structure critical for eye motion control, in awake primates without behavioral side effects or evidence of discomfort (e.g., scalp twitches, or blinking responses)
+* The use of multiple, well selected current channels and carrier frequencies to generate overlapping amplitude-modulated envelopes in mTI enables improved focality without compromising deep brain stimulation intensity
+* The stimulation produced with mTI – by reducing the amplitude of each contributing envelope while maintaining the overall envelope amplitude at the target but varying off-target exposure – confines the effective stimulation to a smaller brain region and avoids unwanted off-target effects and scalp sensations
+* The improved focality of mTI was validated in non-human primates as well as in mice, indicating that the method scales well across different brain sizes and anatomical geometries, suggesting potential for both preclinical research and clinical translation
+* mTI was used to successfully evoke targeted neural activity in the superior colliculus, a deep brain structure critical for eye motion control, in awake primates without behavioral side effects or evidence of discomfort (e.g., scalp twitches, or blinking responses)
 
 ACCESS ARTICLE ONLINE
 
