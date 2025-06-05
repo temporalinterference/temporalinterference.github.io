@@ -1,10 +1,20 @@
 ---
 id: TIP
 ---
-# TIP V3.0
+# TIP V4.0
 
 ## Temporal Interference Planning Tool of IT'IS
-The Temporal Interference Planning (TIP) tool Version 3.0 of the [IT'IS Foundation](https://itis.swiss) developed for TIBS-R provides an advanced modeling pipeline for electrode placement and stimulation targeting with the TIBS-R system, offering cloud-based simulations and interactive visualizations. Read more on the [IT'IS TI Planning webpage](https://itis.swiss/tools-and-systems/ti-planning/overview/).
+The Temporal Interference Planning (TIP) tool Version 4.0 of the [IT'IS Foundation](https://itis.swiss) developed for TIBS-R provides an advanced modeling pipeline for electrode placement and stimulation targeting with the TIBS-R system, offering cloud-based simulations and interactive visualizations. Read more on the [IT'IS TI Planning webpage](https://itis.swiss/tools-and-systems/ti-planning/overview/).
+
+The latest version of our powerful TI stimulation planning tool brings major innovations to researchers worldwide:
+
+* Automated Personalization: Our deep-learning model now automatically detects anatomical fiducials for consistent 10-10 electrode placement—no manual steps required
+  
+* New Optimization Engine: The surrogate-model-based (SuMo) optimizer uses artificial intelligence (AI) to explore the full electrode configuration space, delivering better results faster
+  
+* Speed and Performance Gains: Optimization is now twice as fast on average, with improved solution quality
+  
+* Improved Workflow: From drag-and-drop model upload to streamlined analysis, TIP V4.0 is more intuitive than ever
 
 ## Personalized Optimization
 
