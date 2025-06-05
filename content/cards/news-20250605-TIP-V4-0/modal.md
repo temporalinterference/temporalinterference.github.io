@@ -3,7 +3,7 @@ id: news-20250605-TIP-V4-0
 ---
 # Introducing TIP V4.0 – Fully Automated and Smarter Than Ever
 
-Our partner [IT'IS](https://itis.swiss) has released the latest version of their powerful TI stimulation planning tool {{< modal-link TIP >}}TI Planning tool{{< /modal-link >}}, TIP V4.0!
+Our partner [IT'IS](https://itis.swiss) has released the latest version of their powerful {{< modal-link TIP >}}Temporal Interference Planning tool{{< /modal-link >}}, TIP V4.0!
 
 What's new in TIP V4.0?
 
