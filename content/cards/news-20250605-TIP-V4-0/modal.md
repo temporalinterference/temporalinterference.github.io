@@ -12,3 +12,6 @@ The latest version of our powerful TI stimulation planning tool brings major inn
 * Speed and Performance Gains: Optimization is now twice as fast on average, with improved solution quality
   
 * Improved Workflow: From drag-and-drop model upload to streamlined analysis, TIP V4.0 is more intuitive than ever
+
+{{< modal-image news-20250605-TIP-V4.jpg >}}
+{{< /modal-image >}}
