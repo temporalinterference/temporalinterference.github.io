@@ -14,5 +14,5 @@ What's new in TIP V4.0?
 
 TIP V4.0 is available to members of TI Solutions {{< modal-link EAP >}}Early Adopter Program{{< /modal-link >}}.
 
-{{< modal-image news-20250605-TIP-V4-0.jpg >}}
+{{< modal-image news-20250605-TIP-V4-0-.jpg >}}
 {{< /modal-image >}}
