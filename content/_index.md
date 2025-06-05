@@ -22,6 +22,7 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
+{{< card news-20250605-TIP-V4-0 >}}
 {{< card news-20250425-BioelectronMed-mTI >}}
 {{< card news-20250410-Bioelectromagnetics-Neurostimulation >}}
 {{< card news-20250401-Z43-Newsquarter-Q1 >}}
