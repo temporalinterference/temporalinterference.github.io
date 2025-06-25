@@ -17,6 +17,6 @@ This edition covers:
 - Strong Attendance at ISMRM 2025 Workshop
 - Publications
 
-image
+PENDING image 
 
-download
+PENDING Download the Z43 Newsquarter here
