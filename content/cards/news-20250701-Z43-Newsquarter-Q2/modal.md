@@ -7,6 +7,7 @@ This edition covers:
 - IT'IS Annual Report, TCB Council Workshop, DASY8<sup>3D</sup> System at RRT Lithuania, CTTL Beijing Ready for cSAR3D Calibrations, Bioelectromagnetics Special Issue on Neurostimulation, and Successful Z43–AUDEN Workshop, IEEE MTT IMS 2025 and ISMRM 2025
 - the Release of cSAR3D V5.10, TIP V4.0, Low-Field 0.55T piX& MITS-TT-LF, and Publications
 
-PENDING image 
+{{< modal-image news-20250701-Z43-Newsquarter-Q2.jpg >}} 
+{{< /modal-image >}}
 
-Download the Z43 Newsquarter here. --> ADD LINK
+{{< modal-download news-20250701-Z43-Newsquarter-Q2-no32.pdf >}}Download the Z43 Newsquarter here.{{< /modal-download >}}
