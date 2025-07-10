@@ -1,6 +1,9 @@
 baseURL: https://temporalinterferance.com 
 languageCode: en-us
 title: TI-Solutions
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
 params:
   headercommentblock: |
     <!-- ######################################
