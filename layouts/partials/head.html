@@ -6,6 +6,8 @@
         {{ .Title }}
         {{ end }}
     </title>
+    {{ $description := .Description | default .Site.Params.description | default (printf "%s - Temporal Interference brain stimulation technology for tomorrow's treatments" .Site.Title) }}
+    <meta name="description" content="{{ $description | strings.TrimSuffix "\n" | htmlEscape }}">
     {{ $sass := resources.Get "scss/site.scss" }}
     {{ $style := $sass | resources.ExecuteAsTemplate "main.scss" . | css.Sass | minify | fingerprint }}
     {{ $secureStyle := $style | resources.Fingerprint "sha512" }}

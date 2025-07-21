@@ -3,8 +3,9 @@ languageCode: en-us
 title: TI-Solutions
 disableKinds:
   - taxonomy
-  - taxonomyTerm
 params:
+  description: |
+    TI-Solutions develops cutting-edge Temporal Interference (TI) brain stimulation technology and devices for neuroscience research and future medical treatments.
   headercommentblock: |
     <!-- ######################################
          Content:         TI-Solutions
