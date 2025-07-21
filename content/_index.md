@@ -1,5 +1,7 @@
 ---
 Title: TI-Solutions
+Description: |
+  Discover TI-Solutions' revolutionary Temporal Interference brain stimulation technology. Advanced neurostimulation devices, planning tools, and research solutions for tomorrow's medical treatments.
 ---
 {{< brain-animation >}}
 
