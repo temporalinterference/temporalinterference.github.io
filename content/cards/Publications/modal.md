@@ -3,17 +3,19 @@ id: Publications
 ---
 # Selected Publications
 
-Botzanowski B *et al. Focal Control of Non-Invasive Deep Brain Stimulation Using Multipolar Temporal Interference.* Bioelectron Med. 2025; 11(7), online 27 March. [doi:10.1186/s42234-025-00169-6](https://bioelecmed.biomedcentral.com/articles/10.1186/s42234-025-00169-6)
+Botzanowski B *et al. Focal control of non-invasive deep brain stimulation using multipolar temporal interference.* Bioelectron Med. 2025; 11(7), online 27 March. [doi:10.1186/s42234-025-00169-6](https://bioelecmed.biomedcentral.com/articles/10.1186/s42234-025-00169-6)
 
-Cassarà AM *et al. Recommendations for the Safe Application of Temporal Interference Stimulation in the Human Brain Part I: Principles of Electrical Neuromodulation and Adverse Effects.* Bioelectromagnetics. 2025; 46:e22542. [doi:10.1002/bem.22542](https://onlinelibrary.wiley.com/doi/full/10.1002/bem.22542)
+Cassarà AM *et al. Recommendations for the safe application of temporal interference stimulation in the human brain part I: Principles of electrical neuromodulation and adverse effects.* Bioelectromagnetics. 2025; 46:e22542. [doi:10.1002/bem.22542](https://onlinelibrary.wiley.com/doi/full/10.1002/bem.22542)
 
-Cassarà AM *et al. Recommendations for the Safe Application of Temporal Interference Stimulation in the Human Brain Part II: Biophysics, Dosimetry, and Safety Recommendations.* Bioelectromagnetics. 2025; 46:e22536. [doi:10.1002/bem.22536](https://onlinelibrary.wiley.com/doi/10.1002/bem.22536)
+Cassarà AM *et al. Recommendations for the safe application of temporal interference stimulation in the human brain part II: Biophysics, dosimetry, and safety recommendations.* Bioelectromagnetics. 2025; 46:e22536. [doi:10.1002/bem.22536](https://onlinelibrary.wiley.com/doi/10.1002/bem.22536)
 
 Karimi F *et al. Safety of Non-Invasive Brain Stimulation in Patients with Implants: A Computational Risk Assessment.* J Neural Eng. 2025; 22:016039. [doi: 10.1088/1741-2552/ad8efa](https://iopscience.iop.org/article/10.1088/1741-2552/ad8efa)
 
-Peterchev AV. *One's Trash is Another's Treasure: Subthreshold Kilohertz Brain Modulation as a Side Effect and as an Intervention.* Brain Stimul. 2025; 18(3):P622-623. [doi: 10.1016/j.brs.2025.03.004](https://www.brainstimjrnl.com/article/S1935-861X(25)00057-9/fulltext)
+Peterchev AV. *One's trash is another's treasure: Subthreshold kilohertz brain modulation as a side effect and as an intervention.* Brain Stimul. 2025; 18(3):P622-623. [doi: 10.1016/j.brs.2025.03.004](https://www.brainstimjrnl.com/article/S1935-861X(25)00057-9/fulltext)
 
-Proulx CE, Hummel FC. *Beyond the Surface: Advancing Neurorehabilitation With Transcranial Temporal Interference Stimulation — Clinical Applications and Future Prospects.* Neural Regen Res. 2025; ():10.4103/NRR.NRR-D-24-01573, online 25 March. [doi: 10.4103/NRR.NRR-D-24-01573](https://journals.lww.com/nrronline/citation/9900/beyond_the_surface__advancing_neurorehabilitation.775.aspx)
+Proulx CE, Hummel FC. *Beyond the surface: Advancing neurorehabilitation with transcranial temporal interference stimulation — Clinical applications and future prospects.* Neural Regen Res. 2025; ():10.4103/NRR.NRR-D-24-01573, online 25 March. [doi: 10.4103/NRR.NRR-D-24-01573](https://journals.lww.com/nrronline/citation/9900/beyond_the_surface__advancing_neurorehabilitation.775.aspx)
+
+Wang M *et al. Transcranial temporal interference stimulation precisely targets deep brain regions to regulate eye movements.* Neurosci. Bull. 2025. [doi: 10.1007/s12264-025-01387-3](https://link.springer.com/article/10.1007/s12264-025-01387-3)
 
 Caldas-Martinez S *et al. Cell-specific effects of temporal interference stimulation on cortical function.* Commun Biol. 2024; 7:1076. [doi: 10.1038/s42003-024-06728](https://www.nature.com/articles/s42003-024-06728-y)
 
@@ -71,7 +73,7 @@ Karimi F *et al. Computational analysis of non-invasive deep brain stimulation b
 
 Rampersad S *et al. Prospects for transcranial temporal interference stimulation in humans: A computational study.* Neuroimage. 2019; 202:116124. [doi:10.1016/j.neuroimage.2019.116124](https://www.sciencedirect.com/science/article/abs/pii/S1053811919307153?via%3Dihub/)
 
-Zhu X *et al. Multi-Point Temporal Interference Stimulation by Using Each Electrode to Carry Different Frequency Currents.* IEEE Access. 2019; 7:168829–168848. [doi:10.1109/ACCESS.2019.2947857](https://ieeexplore.ieee.org/document/8871184)
+Zhu X *et al. Multi-point temporal interference stimulation by using each electrode to carry different frequency currents.* IEEE Access. 2019; 7:168829–168848. [doi:10.1109/ACCESS.2019.2947857](https://ieeexplore.ieee.org/document/8871184)
 
 Grossman N. *Modulation without surgical intervention.* Science. 2018;361(6401): 461‐462. [doi:10.1126/science.aau4915](https://www.science.org/doi/10.1126/science.aau4915)
 
