@@ -10,4 +10,6 @@ Cassarà AM *et al. Recommendations for the safe application of temporal interfe
 
 Karimi F *et al. Safety of Non-Invasive Brain Stimulation in Patients with Implants: A Computational Risk Assessment.* J Neural Eng. 2025; 22:016039. [doi: 10.1088/1741-2552/ad8efa](https://iopscience.iop.org/article/10.1088/1741-2552/ad8efa)
 
+Mansourinezhad P *et al. Systematic review of experimental studies in humans on transcranial temporal interference stimulation.* J Neural Eng. 2025; 22:051001. [doi: 10.1088/1741-2552/ae0524](https://iopscience.iop.org/article/10.1088/1741-2552/ae0524/pdf)
+
 Peterchev AV. *One's trash is another's treasure: Subthreshold kilohertz brain modulation as a side effect and as an intervention.* Brain Stimul. 2025; 18(3):P622-623. [doi: 10.1016/j.brs.2025.03.004](https://www.brainstimjrnl.com/article/S1935-861X(25)00057-9/fulltext)
