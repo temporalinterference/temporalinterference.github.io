@@ -12,6 +12,8 @@ params:
          Graphic Design:  Kevin Eason, z43.swiss
          Implementation:  Tobi Oetiker, oetiker.ch
          ###################################### -->
+ignoreLogs:
+  - warning-goldmark-raw-html
 markup:
   goldmark:
     extensions:
