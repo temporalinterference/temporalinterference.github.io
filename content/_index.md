@@ -24,7 +24,7 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card news-2025-Z43-Newsquarter-Q3 >}}
+{{< card news-20250930-Z43-Newsquarter-Q3 >}}
 {{< card news-20250701-Z43-Newsquarter-Q2 >}}
 {{< card news-20250605-TIP-V4-0 >}}
 {{< card news-20250425-BioelectronMed-mTI >}}
