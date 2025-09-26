@@ -1,5 +1,5 @@
 ---
-id: news-2025-Z43-Newsquarter-Q3
+id: news-20250930-Z43-Newsquarter-Q3
 ---
 # The Z43 Newsquarter features the latest developments and activities of Zurich43
 
@@ -10,5 +10,6 @@ This edition covers:
 Image
 
 Download the Z43 Newsquarter PDF here
+
 
 
