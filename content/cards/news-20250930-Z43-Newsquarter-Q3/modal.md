@@ -10,5 +10,6 @@ This edition covers:
 {{< modal-image Z43-Newsquarter-No33.jpg >}} 
 {{< /modal-image >}}
 
-{{< modal-download news-250930-newsquarter-Z43-no33-V2.pdf >}}Download the Z43 Newsquarter here.{{< /modal-download >}}
+{{< modal-download 250930-newsquarter-Z43-no33-V2.pdf >}}Download the Z43 Newsquarter here.{{< /modal-download >}}
+
 
