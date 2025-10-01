@@ -11,6 +11,8 @@ Cassarà AM *et al. Recommendations for the safe application of temporal interfe
 
 Karimi F *et al. Safety of Non-Invasive Brain Stimulation in Patients with Implants: A Computational Risk Assessment.* J Neural Eng. 2025; 22:016039. [doi: 10.1088/1741-2552/ad8efa](https://iopscience.iop.org/article/10.1088/1741-2552/ad8efa)
 
+Mansourinezhad P *et al. Systematic review of experimental studies in humans on transcranial temporal interference stimulation.* J Neural Eng. 2025; 22:051001. [doi: 10.1088/1741-2552/ae0524](https://iopscience.iop.org/article/10.1088/1741-2552/ae0524)
+
 Peterchev AV. *One's trash is another's treasure: Subthreshold kilohertz brain modulation as a side effect and as an intervention.* Brain Stimul. 2025; 18(3):P622-623. [doi: 10.1016/j.brs.2025.03.004](https://www.brainstimjrnl.com/article/S1935-861X(25)00057-9/fulltext)
 
 Proulx CE, Hummel FC. *Beyond the surface: Advancing neurorehabilitation with transcranial temporal interference stimulation — Clinical applications and future prospects.* Neural Regen Res. 2025; ():10.4103/NRR.NRR-D-24-01573, online 25 March. [doi: 10.4103/NRR.NRR-D-24-01573](https://journals.lww.com/nrronline/citation/9900/beyond_the_surface__advancing_neurorehabilitation.775.aspx)
@@ -90,3 +92,6 @@ Vöröslakos M *et al. Direct effects of transcranial electric stimulation on br
 Dmochowski J, Bikson M. *Noninvasive neuromodulation goes deep.* Cell. 2017; 169(6):977‐978. [doi:10.1016/j.cell.2017.05.017](https://www.cell.com/cell/fulltext/S0092-8674(17)30577-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867417305779%3Fshowall%3Dtrue/)
 
 Grossman N *et al. Noninvasive deep brain stimulation via temporally interfering electric fields.* Cell. 2017; 169(6):1029‐1041.e16. [doi:10.1016/j.cell.2017.05.024](https://www.cell.com/cell/fulltext/S0092-8674(17)30584-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867417305846%3Fshowall%3Dtrue/)
+
+
+
