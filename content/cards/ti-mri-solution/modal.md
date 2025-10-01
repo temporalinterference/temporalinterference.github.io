@@ -3,8 +3,19 @@ id: TI-MRI-Solution
 ---
 # TI-MRI Solution
 
-Bear With Us!
+## Table for Sabine
 
-We are in the process of updating this page to ensure all the information is available for you. Please check back soon!
+|    |            |
+|:-----------|:------------|
+|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
+|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
+|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
+|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
+|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
+|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
 
-Thank you for your patience!
+
+{{< modal-image teaser.jpg >}}
+{{< /modal-image >}}
+cMRI3.0T-TIBS-R
+
