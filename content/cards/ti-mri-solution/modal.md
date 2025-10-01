@@ -7,7 +7,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Image: nice sketch from Stefan
 
-## Table for Sabine
+## Spec
 
 |    |            |
 |:-----------|:------------|
@@ -19,8 +19,11 @@ Image: nice sketch from Stefan
 |Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
 
 
-{{< modal-image teaser.jpg >}}
+{{< modal-image TI-MRI-Filter-Solutions-1500x1500px.jpg >}}
 {{< /modal-image >}}
 cMRI3.0T-TIBS-R
+
+Download PDF here
+
 
 
