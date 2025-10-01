@@ -5,4 +5,5 @@ September 30, 2025
 
 This edition covers:  
 - FCC Persistent Inquiry Approvals, Sim4Life Student Competition 2025, Successful Z43-DYMSTEC Workshop, STM Grant and BioEM 2025 Award, Z43 Summer Night Party
-- the Release of Sim4Life V9.0, MAGPy3, Tissue Properties Database V5.0, DASY8/6 Module SAR V17.0, Two New ViP Obese Models, and Yoon-sun V4.1 and Jeduk V4.1, and Publications
+- the Release of Sim4Life V9.0, MAGPy3, Tissue Properties Database V5.0, DASY8/6 Module SAR V17.0, Two New ViP Obese Models, plus Yoon-sun V4.1 and Jeduk V4.1, and Publications
+
