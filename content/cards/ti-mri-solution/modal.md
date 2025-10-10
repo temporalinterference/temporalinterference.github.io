@@ -5,7 +5,8 @@ id: TI-MRI-Solution
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Image: nice sketch from Stefan
+{{< modal-image MRI-Room-with-TI-Solutions-devices-V8-1920px.jpg >}}
+{{< /modal-image >}}
 
 ## Spec
 
@@ -24,6 +25,7 @@ Image: nice sketch from Stefan
 cMRI3.0T-TIBS-R
 
 Download PDF here
+
 
 
 
