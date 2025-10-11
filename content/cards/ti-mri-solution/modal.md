@@ -3,28 +3,50 @@ id: TI-MRI-Solution
 ---
 # TI-MRI Filter Solutions
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+## TI-MRI Filter Solutions of the IT'IS Foundation
+The unique TI-MRI Filter Solutions of the IT'IS Foundation [IT'IS Foundation](https://itis.swiss) allow for artifact-free concurrent functional magnetic resonance imaging (fMRI) recording during temporal interference (TI) stimulation with our TIBS-R system.  
+
+The TI protocol is conveniently operated from the PC in the MRI control room, where the TIBS-R is also located. The standard Electrode Connection Box (ECB) is replaced with an fMRI-compatible version supplied by IT’IS. Stimulation currents are delivered to the ECB, positioned near the subject’s head, through a filter integrated into the shielded room’s penetration panel and delivered via a 10-meter cable equipped with traps tuned to the scanner’s specific radiofrequency (RF) frequency.  
+
+An additional breakthrough is the set of leads developed by TI Solutions in collaboration with EMPA, Switzerland, featuring optimized distributed resistance for maximum safety and artifact-free recording during fMRI. TIBS-R supports up to four stimulation channels (eight electrodes).
 
 {{< modal-image MRI-Room-with-TI-Solutions-devices-V8-1920px.jpg >}}
 {{< /modal-image >}}
 
-## Spec
+## Specifications of TI-MRI Filter Solutions
 
 |    |            |
 |:-----------|:------------|
-|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
-|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
-|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
-|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
-|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
-|Lorem ipsum dolor sit amet|Consectetur adipiscing elit |
+|Number of Stimulation Channels|4 (8 electrodes) |
+|Electrode Connector Type|Touch proof 1.5 mm |
+|Default Feedthrough-Filter Mounting Option|20 mm clearance hole |
+|Alternative Feedthrough-Filter Mounting Option|Insertion into waveguide padded with metallic wool, filter diameter 40 mm |
+|RF Attenuation|XX dB differential / CM / shield (STILL TO BE ADDED) |
+|Cable Length Inside Shield Room|10 m |
+|Cable Length Outside Shield Room|2.9 m |
+|Number of Cable Traps|4 (2.9 T and 3 T)  3 (7 T) |
+|Electrode Type|Ag/AgCl |
+|Electrode Leads Type|Metalized textile fibres |
+|Electrode Lead Length|60 cm |
+|Electrode Lead Resistance|2.8 kOhm/m |
+|MR Operating Modes|Normal operating mode only |
+|Validated Sequences|High specific absorption rate, high gradient |
 
+## Available Systems
+
+|    |            |
+|:-----------|:------------|:------------|
+|Part Number|Operating Frequency|Scanner Manufacturer |
+|TIBS-R-I-MRI-2.9T|123.2 MHz|Siemens |
+|TIBS-R-I-MRI-2.9T|127.8 MHz|Philips, GE, Canon |
+|TIBS-R-I-MRI-2.9T|298 MHz|Siemens, GE, Philips |
 
 {{< modal-image TI-MRI-Filter-Solutions-1500x1500px.jpg >}}
 {{< /modal-image >}}
 cMRI3.0T-TIBS-R
 
 Download PDF here
+
 
 
 
