@@ -1,5 +1,6 @@
 ---
-title: TI-MRI Solution
+title: TI-MRI Solutions
 ---
 
 The TI-MRI Filter Solutions allow for artifact-free concurrent functional magnetic resonance imaging during stimulation with the TIBS-R system.
+
