@@ -1,3 +1,4 @@
 [tools]
 "aqua:gohugoio/hugo/hugo-extended" = "latest"
-hugo = "latest"
+"aqua:sass/dart-sass" = "latest"
+go = "latest"

@@ -1,8 +1,14 @@
-baseURL: https://temporalinterferance.com 
+baseURL: https://temporalinterferance.com
 languageCode: en-us
 title: TI-Solutions
 disableKinds:
   - taxonomy
+
+# Import the Z43 Cards Theme
+module:
+  imports:
+    - path: github.com/temporalinterference/z43-cards-theme
+
 params:
   description: |
     TI-Solutions develops cutting-edge Temporal Interference (TI) brain stimulation technology and devices for neuroscience research and future medical treatments.
@@ -12,6 +18,36 @@ params:
          Graphic Design:  Kevin Eason, z43.swiss
          Implementation:  Tobi Oetiker, oetiker.ch
          ###################################### -->
+
+  # Site-specific colors
+  colors:
+    background: "#e0e8f0"
+    emphasis: "#1b3764"
+    muted: "#888888"
+    link: "#1485b5"
+    cardBackground: "#fff"
+    navbarBackground: "#fff"
+    offcanvasBackground: "#1b3764"
+    inverseNavItem: "#e0e8f0"
+    inverseNavSubitem: "#e0e8f0"
+
+  # Site-specific fonts (Roboto family)
+  fonts:
+    body: "'Roboto', sans-serif"
+    heading: "'Roboto Slab', sans-serif"
+    size: "18px"
+    lineHeight: "1.2"
+
+  # Card dimensions
+  card:
+    width: "348px"
+    height: "557px"
+
+  # Favicon
+  favicon: "favicon"
+
+  # Google Analytics
+  googleAnalyticsId: "G-NLH9877VGF"
 ignoreLogs:
   - warning-goldmark-raw-html
 markup:
