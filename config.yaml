@@ -50,6 +50,10 @@ params:
   googleAnalyticsId: "G-NLH9877VGF"
 ignoreLogs:
   - warning-goldmark-raw-html
+build:
+  transpiler: dartsass
+  transpilerTimeout: 60000  # 60 seconds to prevent connection shutdown in CI
+
 markup:
   goldmark:
     extensions:
