@@ -231,7 +231,7 @@ jobs:
             mv current-site/branch-* temp-dirs/ 2>/dev/null || true
 
             # Build main site with debug logging
-            hugo --minify --logLevel debug --baseURL "${{ steps.pages.outputs.base_url }}/"
+            hugo --minify --logLevel debug --cacheDir "${{ runner.temp }}/hugo_cache" --gc --baseURL "${{ steps.pages.outputs.base_url }}/"
             rm -rf current-site/*
             cp -r public/* current-site/
 
@@ -240,7 +240,7 @@ jobs:
             rm -rf temp-dirs
           else
             # Branch build with debug logging
-            hugo --minify --logLevel debug --baseURL "${{ steps.pages.outputs.base_url }}/branch-${BRANCH}/"
+            hugo --gc --cacheDir "${{ runner.temp }}/hugo_cache" --minify --logLevel debug --baseURL "${{ steps.pages.outputs.base_url }}/branch-${BRANCH}/"
             mkdir -p current-site/branch-${BRANCH}
             rm -rf current-site/branch-${BRANCH}/*
             cp -r public/* current-site/branch-${BRANCH}/
