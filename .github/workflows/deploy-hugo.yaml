@@ -78,46 +78,6 @@ jobs:
           # Initialize theme UIKit dependency using the theme's init script
           bash "$(hugo config mounts | jq -rs '.[] | select(.path | contains("z43-cards-theme")) | .dir')/init-theme.sh"
 
-      - name: Create Dart Sass wrapper for logging
-        run: |
-          # Find the real sass binary first
-          REAL_SASS=$(which sass)
-          echo "Real sass binary: $REAL_SASS"
-
-          # Create wrapper directory
-          mkdir -p /tmp/sass-wrapper-bin
-
-          # Create wrapper script with hardcoded path to real sass
-          cat > /tmp/sass-wrapper-bin/sass << EOF
-          #!/bin/sh
-          # Wrapper to log Dart Sass calls and exits
-
-          LOGFILE="/tmp/dart-sass-calls.log"
-          echo "=== START \$(date +'%Y-%m-%d %H:%M:%S.%3N') PID=\$\$ ===" >> "\$LOGFILE"
-          echo "Args: \$@" >> "\$LOGFILE"
-          echo "PWD: \$(pwd)" >> "\$LOGFILE"
-
-          # Hardcoded path to real sass
-          REAL_SASS="$REAL_SASS"
-
-          echo "Calling: \$REAL_SASS" >> "\$LOGFILE"
-
-          # Run the real sass (NOT exec, so we can catch the exit)
-          "\$REAL_SASS" "\$@"
-          EXIT_CODE=\$?
-
-          echo "=== EXIT \$(date +'%Y-%m-%d %H:%M:%S.%3N') PID=\$\$ CODE=\$EXIT_CODE ===" >> "\$LOGFILE"
-
-          exit \$EXIT_CODE
-          EOF
-
-          chmod +x /tmp/sass-wrapper-bin/sass
-
-          # Add wrapper to PATH
-          echo "/tmp/sass-wrapper-bin" >> $GITHUB_PATH
-
-          echo "Dart Sass wrapper created and added to PATH"
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -251,6 +211,13 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          # Get the real sass binary directory and prepend to PATH
+          SASS_BIN=$(mise which sass)
+          SASS_DIR=$(dirname "$SASS_BIN")
+          export PATH="$SASS_DIR:$PATH"
+          echo "Using sass from: $SASS_BIN"
+          echo "Updated PATH for Hugo build"
+
           # Determine branch name based on event type
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             BRANCH="${{ github.head_ref }}"
@@ -277,16 +244,6 @@ jobs:
             mkdir -p current-site/branch-${BRANCH}
             rm -rf current-site/branch-${BRANCH}/*
             cp -r public/* current-site/branch-${BRANCH}/
-          fi
-
-      - name: Show Dart Sass wrapper log
-        if: always()
-        run: |
-          echo "=== Dart Sass Wrapper Call Log ==="
-          if [ -f /tmp/dart-sass-calls.log ]; then
-            cat /tmp/dart-sass-calls.log
-          else
-            echo "No log file found"
           fi
 
       - name: Generate preview index
