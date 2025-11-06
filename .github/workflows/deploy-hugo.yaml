@@ -111,6 +111,7 @@ jobs:
                  --level=inf \
                  --no-parent \
                  --no-host-directories \
+                 --quiet \
                  --directory-prefix=current-site \
                  --page-requisites \
                  --execute robots=off \
@@ -222,8 +223,8 @@ jobs:
             mkdir -p temp-dirs
             mv current-site/branch-* temp-dirs/ 2>/dev/null || true
 
-            # Build main site
-            hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+            # Build main site with debug logging
+            hugo --minify --logLevel debug --baseURL "${{ steps.pages.outputs.base_url }}/"
             rm -rf current-site/*
             cp -r public/* current-site/
 
@@ -231,8 +232,8 @@ jobs:
             mv temp-dirs/* current-site/ 2>/dev/null || true
             rm -rf temp-dirs
           else
-            # Branch build
-            hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/branch-${BRANCH}/"
+            # Branch build with debug logging
+            hugo --minify --logLevel debug --baseURL "${{ steps.pages.outputs.base_url }}/branch-${BRANCH}/"
             mkdir -p current-site/branch-${BRANCH}
             rm -rf current-site/branch-${BRANCH}/*
             cp -r public/* current-site/branch-${BRANCH}/
