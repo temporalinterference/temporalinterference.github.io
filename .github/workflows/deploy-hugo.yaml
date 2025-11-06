@@ -89,15 +89,16 @@ jobs:
 
           # Insert logging after the comment block (line 5)
           head -5 "$SASS_WRAPPER.bak" > "$SASS_WRAPPER"
-          cat >> "$SASS_WRAPPER" << 'LOGGING_EOF'
 
-# LOGGING: Track Dart Sass calls
-LOGFILE="/tmp/dart-sass-calls.log"
-echo "=== START $(date +'%Y-%m-%d %H:%M:%S.%3N') PID=$$ ===" >> "$LOGFILE"
-echo "Args: $@" >> "$LOGFILE"
-echo "PWD: $(pwd)" >> "$LOGFILE"
+          # Add logging code
+          echo '' >> "$SASS_WRAPPER"
+          echo '# LOGGING: Track Dart Sass calls' >> "$SASS_WRAPPER"
+          echo 'LOGFILE="/tmp/dart-sass-calls.log"' >> "$SASS_WRAPPER"
+          echo 'echo "=== START $(date +'"'"'%Y-%m-%d %H:%M:%S.%3N'"'"') PID=$$ ===" >> "$LOGFILE"' >> "$SASS_WRAPPER"
+          echo 'echo "Args: $@" >> "$LOGFILE"' >> "$SASS_WRAPPER"
+          echo 'echo "PWD: $(pwd)" >> "$LOGFILE"' >> "$SASS_WRAPPER"
+          echo '' >> "$SASS_WRAPPER"
 
-LOGGING_EOF
           tail -n +6 "$SASS_WRAPPER.bak" >> "$SASS_WRAPPER"
 
           echo "Modified Dart Sass wrapper with logging:"
