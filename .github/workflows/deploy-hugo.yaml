@@ -78,6 +78,23 @@ jobs:
           # Initialize theme UIKit dependency using the theme's init script
           bash "$(hugo config mounts | jq -rs '.[] | select(.path | contains("z43-cards-theme")) | .dir')/init-theme.sh"
 
+      - name: Add Dart Sass logging
+        run: |
+          # Add logging to Dart Sass wrapper to debug embedded protocol issues
+          SASS_WRAPPER=$(which sass)
+          echo "Dart Sass location: $SASS_WRAPPER"
+
+          # Insert logging after shebang
+          sed -i '5i\
+# LOGGING: Track Dart Sass calls\
+LOGFILE="/tmp/dart-sass-calls.log"\
+echo "=== START $(date +\"%Y-%m-%d %H:%M:%S.%3N\") PID=$$ ===" >> "$LOGFILE"\
+echo "Args: $@" >> "$LOGFILE"\
+echo "PWD: $(pwd)" >> "$LOGFILE"' "$SASS_WRAPPER"
+
+          echo "Modified Dart Sass wrapper with logging"
+          head -15 "$SASS_WRAPPER"
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -238,6 +255,12 @@ jobs:
             rm -rf current-site/branch-${BRANCH}/*
             cp -r public/* current-site/branch-${BRANCH}/
           fi
+
+      - name: Show Dart Sass log
+        if: always()
+        run: |
+          echo "=== Dart Sass Call Log ==="
+          cat /tmp/dart-sass-calls.log 2>/dev/null || echo "No Dart Sass log found"
 
       - name: Generate preview index
         run: |
