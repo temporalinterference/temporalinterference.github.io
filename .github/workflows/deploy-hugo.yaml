@@ -28,11 +28,11 @@ jobs:
   check-pr:
     runs-on: ubuntu-latest
     outputs:
-      has_pr: ${{ steps.check.outputs.has_pr }}
+      has_pr: ${{ steps.check.outputs.has_pr || 'false' }}
     steps:
       - name: Check if branch has PR
-        if: github.event_name == 'push' && github.ref != 'refs/heads/main'
         id: check
+        if: github.event_name == 'push' && github.ref != 'refs/heads/main'
         env:
           GH_TOKEN: ${{ github.token }}
           REPO: ${{ github.repository }}
@@ -72,7 +72,6 @@ jobs:
 
       - name: Initialize Hugo modules and theme
         run: |
-          set -x
           # Get Hugo modules
           hugo mod get -u
 
@@ -85,30 +84,49 @@ jobs:
 
       - name: Download previous site
         id: download
-        uses: actions/download-artifact@v4
+        uses: dawidd6/action-download-artifact@v6
         with:
+          workflow: deploy-hugo.yaml
           name: github-pages
           path: current-site
+          if_no_artifact_found: ignore
         continue-on-error: true
 
       - name: Prepare site directory
         run: |
+          mkdir -p current-site
+
           if [ -f current-site/artifact.tar ]; then
             tar xf current-site/artifact.tar -C current-site
             rm current-site/artifact.tar
-          else
-            mkdir -p current-site
-          fi
+            echo "Extracted site from artifact"
+          elif [ "${{ github.event_name }}" != "push" ] || [ "${{ github.ref }}" != "refs/heads/main" ]; then
+            # If no artifact and not a push to main branch, download from live site
+            echo "No artifact found, downloading from live site: ${{ steps.pages.outputs.base_url }}"
 
-          # Always fetch main to ensure we have the latest main site
-          git fetch origin main
+            # Use wget to mirror the live site
+            # Include both the main index and previews.html to discover all branch previews
+            # Must use --execute robots=off because robots.txt blocks /branch-* paths
+            wget --recursive \
+                 --level=inf \
+                 --no-parent \
+                 --no-host-directories \
+                 --directory-prefix=current-site \
+                 --page-requisites \
+                 --execute robots=off \
+                 --tries=3 \
+                 --timeout=30 \
+                 "${{ steps.pages.outputs.base_url }}/" \
+                 "${{ steps.pages.outputs.base_url }}/previews.html"
 
-          # If we're not on main and current-site is empty, build main first
-          if [ ! -f current-site/index.html ] && [ "${{ github.ref }}" != "refs/heads/main" ]; then
-            git checkout main
-            hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
-            cp -r public/* current-site/
-            git checkout -
+            # Validate download was successful
+            BRANCH_COUNT=$(find current-site -maxdepth 1 -type d -name "branch-*" | wc -l)
+            if [ ! -f current-site/index.html ] && [ "$BRANCH_COUNT" -eq 0 ]; then
+              echo "Error: Failed to download existing site - no index.html or branch directories found"
+              exit 1
+            fi
+
+            echo "Successfully downloaded existing site (found index.html or $BRANCH_COUNT branch directories)"
           fi
 
       # For fork PRs, verify the contents are safe
@@ -192,9 +210,11 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          BRANCH=${GITHUB_REF#refs/heads/}
+          # Determine branch name based on event type
           if [ "${{ github.event_name }}" = "pull_request" ]; then
             BRANCH="${{ github.head_ref }}"
+          else
+            BRANCH="${GITHUB_REF#refs/heads/}"
           fi
 
           if [ "$BRANCH" = "main" ]; then
