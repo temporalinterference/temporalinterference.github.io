@@ -27,8 +27,6 @@ defaults:
 jobs:
   check-pr:
     runs-on: ubuntu-latest
-    env:
-      DART_SASS_VERSION: 1.93.2
     outputs:
       has_pr: ${{ steps.check.outputs.has_pr || 'false' }}
     steps:
@@ -55,6 +53,8 @@ jobs:
     # Skip if this is a push to a branch that has an active PR
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/main' || needs.check-pr.outputs.has_pr != 'true'
     runs-on: ubuntu-latest
+    env:
+      DART_SASS_VERSION: 1.93.2
     steps:
       - name: Checkout
         uses: actions/checkout@v4
