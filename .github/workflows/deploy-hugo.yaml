@@ -84,16 +84,24 @@ jobs:
           SASS_WRAPPER=$(which sass)
           echo "Dart Sass location: $SASS_WRAPPER"
 
-          # Insert logging after shebang
-          sed -i '5i\
-# LOGGING: Track Dart Sass calls\
-LOGFILE="/tmp/dart-sass-calls.log"\
-echo "=== START $(date +\"%Y-%m-%d %H:%M:%S.%3N\") PID=$$ ===" >> "$LOGFILE"\
-echo "Args: $@" >> "$LOGFILE"\
-echo "PWD: $(pwd)" >> "$LOGFILE"' "$SASS_WRAPPER"
+          # Create a backup and add logging
+          cp "$SASS_WRAPPER" "$SASS_WRAPPER.bak"
 
-          echo "Modified Dart Sass wrapper with logging"
-          head -15 "$SASS_WRAPPER"
+          # Insert logging after the comment block (line 5)
+          head -5 "$SASS_WRAPPER.bak" > "$SASS_WRAPPER"
+          cat >> "$SASS_WRAPPER" << 'LOGGING_EOF'
+
+# LOGGING: Track Dart Sass calls
+LOGFILE="/tmp/dart-sass-calls.log"
+echo "=== START $(date +'%Y-%m-%d %H:%M:%S.%3N') PID=$$ ===" >> "$LOGFILE"
+echo "Args: $@" >> "$LOGFILE"
+echo "PWD: $(pwd)" >> "$LOGFILE"
+
+LOGGING_EOF
+          tail -n +6 "$SASS_WRAPPER.bak" >> "$SASS_WRAPPER"
+
+          echo "Modified Dart Sass wrapper with logging:"
+          head -20 "$SASS_WRAPPER"
 
       - name: Setup Pages
         id: pages
