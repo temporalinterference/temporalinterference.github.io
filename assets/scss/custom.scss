@@ -1,0 +1,74 @@
+// TI-Solutions Custom Font Definitions
+// from https://gwfh.mranftl.com/fonts/
+
+/* roboto-regular - latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('{{ (resources.Get "fonts/roboto-v47-latin-ext-regular.woff2").RelPermalink }}') format('woff2');
+}
+
+/* roboto-italic - latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 400;
+  src: url('{{ (resources.Get "fonts/roboto-v47-latin-ext-italic.woff2").RelPermalink }}') format('woff2');
+}
+
+/* roboto-500 - latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('{{ (resources.Get "fonts/roboto-v47-latin-ext-500.woff2").RelPermalink }}') format('woff2');
+}
+
+/* roboto-500italic - latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 500;
+  src: url('{{ (resources.Get "fonts/roboto-v47-latin-ext-500italic.woff2").RelPermalink }}') format('woff2');
+}
+
+/* roboto-700 - latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('{{ (resources.Get "fonts/roboto-v47-latin-ext-700.woff2").RelPermalink }}') format('woff2');
+}
+
+/* roboto-700italic - latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto';
+  font-style: italic;
+  font-weight: 700;
+  src: url('{{ (resources.Get "fonts/roboto-v47-latin-ext-700italic.woff2").RelPermalink }}') format('woff2');
+}
+
+/* roboto-slab-regular - latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url('{{ (resources.Get "fonts/roboto-slab-v34-latin-ext-regular.woff2").RelPermalink }}') format('woff2');
+}
+
+/* roboto-slab-700 - latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: url('{{ (resources.Get "fonts/roboto-slab-v34-latin-ext-700.woff2").RelPermalink }}') format('woff2');
+}
