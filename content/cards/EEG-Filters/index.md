@@ -1,5 +1,7 @@
 ---
-title: TI-EEG Solution
+title: TI-EEG Solutions
 ---
 
-The TI-EEG Solution allows for artifact-free, simultaneous high-density electroencephalography recording during stimulation with the TIBS-R system.
+The TI-EEG Filter Solutions allow for artifact-free, simultaneous high-density electroencephalography recording during stimulation with the TIBS-R system.
+
+
