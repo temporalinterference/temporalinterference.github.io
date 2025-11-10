@@ -32,8 +32,8 @@ Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI solu
 |Frequency Range|DC - 100 kHz |
 |Waveforms|Sinusoid, phase modulation, frequency modulation, AWG* |
 |Number of Channels Per Unit|8 synchronized, fully differential |
-|EEG Compatibility|TI-EEG filter extensions for Brain Products, Geodesic (3rd party products)*** |
-|MRI Compatibility Option|TI-MRI filter extensions for 2.9T, 3.0T and 7T  (3rd party products)*** |
+|EEG Compatibility|TI-EEG Filter Solutions for Brain Products, Geodesic (3rd party products)*** |
+|MRI Compatibility Option|TI-MRI Filter Solutions for 2.9T, 3.0T and 7.0T  (3rd party products)*** |
 |Operation Time|ca. 4 hrs active use on single battery charge, unlimited with WPT-TX/RX |
 |Battery Charger|USB-C
 |Peak Output Voltage|52 V differential** |
@@ -74,5 +74,6 @@ AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic reso
 Minimal PC specifications: Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
 
 {{< modal-download TI-Solutions-TIBS-R-flyer-web.pdf >}}Download the TIBS-R flyer here.{{< /modal-download >}}
+
 
 
