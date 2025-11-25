@@ -1,5 +1,5 @@
 ---
-title: New Publication "Non-Invasive Temporal Interference Stimulation of the Hippocampus Suppresses Epileptic Biomarkers in Patients with Epilepsy"
+title: New Publication "Non-Invasive TI Stimulation of the Hippocampus Suppresses Epileptic Biomarkers in Patients with Epilepsy"
 ---
 November 25, 2025
 
@@ -7,8 +7,6 @@ In a recent paper published in Brain Stimulation, the use of non-invasive tempor
 
 The study results suggest a possible pathway toward a non-invasive option for patients who are medication-resistant or inoperable. They also add to the growing evidence that TI stimulation can effectively target deep brain regions, and that high-frequency carriers can do so without affecting the overlying cortical structures or causing noticeable sensations.
 
-Our {{< modal-link TIBS-R-system >}}TIBS-R system{{< /modal-link >}} is designed to allow any TI variants, including 8 fully differential, synchronized channels and frequencies from direct current (DC) up to 100 kHz.
+Our {{< modal-link TIBS-R-system >}}TIBS-R system{{< /modal-link >}} is designed to allow any TI variants, featuring 8 fully differential, synchronized channels and frequencies from direct current (DC) up to 100 kHz.
 
-Reference to the publication: Missey F *et al. Non-Invasive Temporal Interference Stimulation of the Hippocampus Suppresses Epileptic Biomarkers in Patients with Epilepsy: Biophysical Differences Between Kilohertz and Amplitude Modulated Stimulation* Brain Stimul. 2026; 19(1):102981. [doi: 10.1016/j.brs.2025.11.008](https://www.sciencedirect.com/science/article/pii/S1935861X25003791?via%3Dihub)
-
-
+Reference to the publication: Missey F *et al. Non-Invasive Temporal Interference Stimulation of the Hippocampus Suppresses Epileptic Biomarkers in Patients with Epilepsy: Biophysical Differences Between Kilohertz and Amplitude Modulated Stimulation.* Brain Stimul. 2026; 19(1):102981. [doi: 10.1016/j.brs.2025.11.008](https://www.sciencedirect.com/science/article/pii/S1935861X25003791?via%3Dihub)
