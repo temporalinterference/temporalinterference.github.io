@@ -16,10 +16,12 @@ Our {{< modal-link TIBS-R-system >}}TIBS-R system{{< /modal-link >}} is designed
 - high precision and synchronization and software integration with Python and MATLAB
 - EEG & fMRI compatibility, including closed-loop applications
 
-Reference to the publication: 
+Reference to the publication: Missey F *et al.* Brain Stimul. 2026; 19(1):102981. [doi: 10.1016/j.brs.2025.11.008](https://www.sciencedirect.com/science/article/pii/S1935861X25003791?via%3Dihub)
+
 
 
 {{< modal-image news-20251125-Missey-Brain-Stimulation.jpg >}}
 {{< /modal-image >}}
+
 
 
