@@ -3,7 +3,7 @@ id: news-20251125-Missey-Brain-Stimulation
 ---
 # New Publication "Non-Invasive Temporal Interference Stimulation of the Hippocampus Suppresses Epileptic Biomarkers in Patients with Epilepsy: Biophysical Differences Between Kilohertz and Amplitude Modulated Stimulation"
 
-In a recent paper published in Brain Stimulation, the use of non-invasive temporal interference (TI) stimulation for epilepsy therapy was investigated across carrier frequencies ranging from 1 to 9 kHz. Computational modeling with the {{< modal-link TIP >}}TI Planning Tool and Sim4Lilfe{{< /modal-link >}} was employed to optimize stimulation parameters for maximal selectivity and strength in the hippocampus, and exposure predictions were validated using *in vivo* stereoelectroencephalography data. TI stimulation, but not high-frequency sham stimulation, successfully reached the hippocampus and significantly reduced epileptic biomarkers, with effects persisting beyond the stimulation period. The use of 9 kHz high-frequency carriers induced less off-target neuromodulation than 1 kHz and effectively avoided cortical effects.
+In a recent paper published in Brain Stimulation, the use of non-invasive temporal interference (TI) stimulation for epilepsy therapy was investigated across carrier frequencies ranging from 1 to 9 kHz. Computational modeling with the {{< modal-link TIP >}}TI Planning Tool and Sim4Life{{< /modal-link >}} was employed to optimize stimulation parameters for maximal selectivity and strength in the hippocampus, and exposure predictions were validated using *in vivo* stereoelectroencephalography data. TI stimulation, but not high-frequency sham stimulation, successfully reached the hippocampus and significantly reduced epileptic biomarkers, with effects persisting beyond the stimulation period. The use of 9 kHz high-frequency carriers induced less off-target neuromodulation than 1 kHz and effectively avoided cortical effects.
 
 The study results suggest a possible pathway toward a non-invasive option for patients who are medication-resistant or inoperable. They also add to the growing evidence that TI stimulation can effectively target deep brain regions, and that high-frequency carriers can do so without affecting the overlying cortical structures or causing noticeable sensations.
 
@@ -13,4 +13,5 @@ Reference to the publication: Missey F *et al. Non-Invasive Temporal Interferenc
 
 {{< modal-image news-20251125-Missey-Brain-Stimulation.jpg >}}
 {{< /modal-image >}}
+
 
