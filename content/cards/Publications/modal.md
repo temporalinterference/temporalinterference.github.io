@@ -19,7 +19,7 @@ Opančar A *et al. The same biophysical mechanism is involved in both temporal i
 
 Peterchev AV. *One's trash is another's treasure: Subthreshold kilohertz brain modulation as a side effect and as an intervention.* Brain Stimul. 2025; 18(3):P622-623. [doi: 10.1016/j.brs.2025.03.004](https://www.brainstimjrnl.com/article/S1935-861X(25)00057-9/fulltext)
 
-Rektorová I *et al. Non-invasive brain stimulation: Current and future applications in neurology.* Nature Rev Neurol. 2025; online 25 March. [doi: 10.1038/s41582-025-01137-z](https://www.nature.com/articles/s41582-025-01137-z))
+Rektorová I *et al. Non-invasive brain stimulation: Current and future applications in neurology.* Nature Rev Neurol. 2025; online 25 March. [doi: 10.1038/s41582-025-01137-z](https://www.nature.com/articles/s41582-025-01137-z)
 
 Semenov I *et al. Excitation and polarization of isolated neurons by high-frequency sine waves for temporal interference stimulation.* Cell Rep Phys Sci. 2025; 6:102660. [doi: 10.1016/j.xcrp.2025.102660](https://www.sciencedirect.com/science/article/pii/S2666386425002590)
 
@@ -94,6 +94,7 @@ Vöröslakos M *et al. Direct effects of transcranial electric stimulation on br
 Dmochowski J, Bikson M. *Noninvasive neuromodulation goes deep.* Cell. 2017; 169(6):977‐978. [doi:10.1016/j.cell.2017.05.017](https://www.cell.com/cell/fulltext/S0092-8674(17)30577-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867417305779%3Fshowall%3Dtrue/)
 
 Grossman N *et al. Noninvasive deep brain stimulation via temporally interfering electric fields.* Cell. 2017; 169(6):1029‐1041.e16. [doi:10.1016/j.cell.2017.05.024](https://www.cell.com/cell/fulltext/S0092-8674(17)30584-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867417305846%3Fshowall%3Dtrue/)
+
 
 
 
