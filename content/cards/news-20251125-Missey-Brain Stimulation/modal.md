@@ -3,8 +3,23 @@ id: news-20251125-Missey-Brain-Stimulation
 ---
 # Missey et al. Brain Stimulation
 
-Text
+# New Publication "Non-invasive Temporal Interference Stimulation of the Hippocampus Suppresses Epileptic Biomarkers in Patients with Epilepsy: Biophysical Differences between Kilohertz and Amplitude Modulated Stimulation"
+
+In a recent paper published in Brain Stimulation, the use of non-invasive temporal interference (TI) stimulation for epilepsy therapy was investigated across carrier frequencies ranging from 1 to 9 kHz. Computational modeling with Sim4Life and TIP was employed to optimize stimulation parameters for maximal selectivity and strength in the hippocampus, and exposure predictions were validated using *in vivo* stereoelectroencephalography (sEEG) data. TI stimulation, but not high-frequency sham stimulation, successfully reached the hippocampus and significantly reduced epileptic biomarkers, with effects persisting beyond the stimulation period. The use of 9 kHz high-frequency carriers induced less off-target neuromodulation than 1 kHz and effectively avoided cortical effects.
+
+The study results suggest a possible pathway toward a non-invasive option for patients who are medication-resistant or inoperable. They also add to the growing evidence that TI stimulation can effectively target deep brain regions, and that high-frequency carriers can do so without affecting the overlying cortical structures or causing noticeable sensations.
+
+Our {{< modal-link TIBS-R-system >}}TIBS-R system{{< /modal-link >}} is designed to allow any TI variants, including mTI:
+- 8 fully differential, synchronized channels
+- frequencies from direct current (DC) up to 100 kHz
+- advanced waveform control, including phase modulation
+- high precision and synchronization and software integration with Python and MATLAB
+- EEG & fMRI compatibility, including closed-loop applications
+
+Reference to the publication: 
+
 
 {{< modal-image news-20251125-Missey-Brain-Stimulation.jpg >}}
 {{< /modal-image >}}
+
 
