@@ -3,7 +3,9 @@ id: Publications
 ---
 # Selected Publications
 
-Botzanowski B *et al. Focal control of non-invasive deep brain stimulation using multipolar temporal interference.* Bioelectron Med. 2025; 11(7), online 27 March. [doi:10.1186/s42234-025-00169-6](https://bioelecmed.biomedcentral.com/articles/10.1186/s42234-025-00169-6)
+Missey F *et al. Non-invasive temporal interference stimulation of the hippocampus suppresses epileptic biomarkers in patients with Epilepsy: Biophysical differences between kilohertz and amplitude modulated stimulation.* Brain Stimul. 2026; 19(1):102981. [doi: 10.1016/j.brs.2025.11.008](https://www.sciencedirect.com/science/article/pii/S1935861X25003791?via%3Dihub)
+
+Botzanowski B *et al. Focal control of non-invasive deep brain stimulation using multipolar temporal interference.* Bioelectron Med. 2025; 11:7. [doi:10.1186/s42234-025-00169-6](https://bioelecmed.biomedcentral.com/articles/10.1186/s42234-025-00169-6)
 
 Cassarà AM *et al. Recommendations for the safe application of temporal interference stimulation in the human brain part I: Principles of electrical neuromodulation and adverse effects.* Bioelectromagnetics. 2025; 46:e22542. [doi:10.1002/bem.22542](https://onlinelibrary.wiley.com/doi/full/10.1002/bem.22542)
 
@@ -13,13 +15,15 @@ Karimi F *et al. Safety of Non-invasive brain stimulation in patients with impla
 
 Mansourinezhad P *et al. Systematic review of experimental studies in humans on transcranial temporal interference stimulation.* J Neural Eng. 2025; 22:051001. [doi: 10.1088/1741-2552/ae0524](https://iopscience.iop.org/article/10.1088/1741-2552/ae0524)
 
+Opančar A *et al. The same biophysical mechanism is involved in both temporal interference and direct kHz stimulation of peripheral nerves.* Nat Commun. 2025; 16:9006 [doi.org/10.1038/s41467-025-64059-w](https://www.nature.com/articles/s41467-025-64059-w)
+
 Peterchev AV. *One's trash is another's treasure: Subthreshold kilohertz brain modulation as a side effect and as an intervention.* Brain Stimul. 2025; 18(3):P622-623. [doi: 10.1016/j.brs.2025.03.004](https://www.brainstimjrnl.com/article/S1935-861X(25)00057-9/fulltext)
 
-Rektorová I *et al. Non-invasive brain stimulation: Current and future applications in neurology.* Nature Rev Neurol. 2025; online 25 March. [doi: 10.1038/s41582-025-01137-z](https://www.nature.com/articles/s41582-025-01137-z))
+Rektorová I *et al. Non-invasive brain stimulation: Current and future applications in neurology.* Nature Rev Neurol. 2025; online 25 March. [doi: 10.1038/s41582-025-01137-z](https://www.nature.com/articles/s41582-025-01137-z)
 
-Semenov I *et al. Excitation and polarization of isolated neurons by high-frequency sine waves for temporal interference stimulation.* Cell Rep. Phys. Sci. 2025; 6:102660. [doi: 10.1016/j.xcrp.2025.102660](https://www.sciencedirect.com/science/article/pii/S2666386425002590)
+Semenov I *et al. Excitation and polarization of isolated neurons by high-frequency sine waves for temporal interference stimulation.* Cell Rep Phys Sci. 2025; 6:102660. [doi: 10.1016/j.xcrp.2025.102660](https://www.sciencedirect.com/science/article/pii/S2666386425002590)
 
-Wang M *et al. Transcranial temporal interference stimulation precisely targets deep brain regions to regulate eye movements.* Neurosci. Bull. 2025. [doi: 10.1007/s12264-025-01387-3](https://link.springer.com/article/10.1007/s12264-025-01387-3)
+Wang M *et al. Transcranial temporal interference stimulation precisely targets deep brain regions to regulate eye movements.* Neurosci Bull. 2025. [doi: 10.1007/s12264-025-01387-3](https://link.springer.com/article/10.1007/s12264-025-01387-3)
 
 Caldas-Martinez S *et al. Cell-specific effects of temporal interference stimulation on cortical function.* Commun Biol. 2024; 7:1076. [doi: 10.1038/s42003-024-06728](https://www.nature.com/articles/s42003-024-06728-y)
 
@@ -42,8 +46,6 @@ Wessel MJ *et al. Noninvasive theta-burst stimulation of the human striatum enha
 Acerbo E *et al. Focal non-invasive deep-brain stimulation with temporal interference for the suppression of epileptic biomarkers.* Front Neurosci. 2022; 16:945221. [doi: 10.3389/fnins.2022.945221](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2022.945221/full)
 
 Botzanowski B *et al. Noninvasive stimulation of peripheral nerves using temporally-interfering electrical fields.* Adv Healthc Mater. 2022; 11(17):e2200075. [doi: 10.1002/adhm.202200075](https://onlinelibrary.wiley.com/doi/full/10.1002/adhm.202200075)
-
-Cassarà AM *et al. Safety recommendations for temporal interference stimulation in the brain.* bioRxiv. 2022.12.15.520077. [doi: 10.1101/2022.12.15.52007](https://www.biorxiv.org/content/10.1101/2022.12.15.520077v2)
 
 Lee S *et al. Multipair transcranial temporal interference stimulation for improved focalized stimulation of deep brain regions: A simulation study.* Comput Biol Med. 2022; 143:105337. [doi: 10.1016/j.compbiomed.2022.105337](https://www.sciencedirect.com/science/article/abs/pii/S0010482522001299?via%3Dihub)
 
@@ -92,6 +94,9 @@ Vöröslakos M *et al. Direct effects of transcranial electric stimulation on br
 Dmochowski J, Bikson M. *Noninvasive neuromodulation goes deep.* Cell. 2017; 169(6):977‐978. [doi:10.1016/j.cell.2017.05.017](https://www.cell.com/cell/fulltext/S0092-8674(17)30577-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867417305779%3Fshowall%3Dtrue/)
 
 Grossman N *et al. Noninvasive deep brain stimulation via temporally interfering electric fields.* Cell. 2017; 169(6):1029‐1041.e16. [doi:10.1016/j.cell.2017.05.024](https://www.cell.com/cell/fulltext/S0092-8674(17)30584-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0092867417305846%3Fshowall%3Dtrue/)
+
+
+
 
 
 
