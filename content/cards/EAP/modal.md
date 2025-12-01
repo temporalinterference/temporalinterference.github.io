@@ -16,4 +16,5 @@ TIBS-R is under continuous development, with ongoing improvements and feature ex
 Additional components specifically developed for the TIBS-R system that can also be leased:
 - Filter solutions for concurrent {{< modal-link EEG-Filters >}}electroencephalography recording{{< /modal-link >}}
 - Filter solutions for concurrent {{< modal-link MRI-Filters >}}magnetic resonance imaging{{< /modal-link >}}
-- {{< modal-link ti-wpt >}}Wireless power transfer solution{{< /modal-link >}} for continuous operation of the device
+- {{< index-link ti-wpt >}}Wireless power transfer solution{{< /index-link >}} for continuous operation of the device
+
