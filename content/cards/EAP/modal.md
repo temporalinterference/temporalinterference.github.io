@@ -11,6 +11,9 @@ Please note that all studies admitted to the EAP must receive approval from the 
 
 TIBS-R is under continuous development, with ongoing improvements and feature expansions. EAP participants have the opportunity to lease an 8-channel device for CHF 500/month, with maintenance and support included in the lease price. The minimum lease period is six months.
 
-## Additional Options
+## Additional Components
 
-Additional options, such as compatibility with concurrent {{< modal-link EEG-Filters >}}electroencephalography recording{{< /modal-link >}} and {{< modal-link MRI-Filters >}}magnetic resonance imaging{{< /modal-link >}} with our TIBS-R system, as well as continuous operation via wireless power transfer, are also available and can be leased in addition to the device.
+Additional components specifically developed for the TIBS-R system that can also be leased:
+- Filter solutions for concurrent {{< modal-link EEG-Filters >}}electroencephalography recording{{< /modal-link >}}
+- Filter solutions for concurrent {{< modal-link MRI-Filters >}}magnetic resonance imaging{{< /modal-link >}}
+- {{< modal-link ti-wpt >}}Wireless power transfer solution{{< /modal-link >}} for continuous operation of the device
