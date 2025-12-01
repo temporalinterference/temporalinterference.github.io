@@ -13,4 +13,4 @@ TIBS-R is under continuous development, with ongoing improvements and feature ex
 
 ## Additional Options
 
-Additional options, such as compatibility with concurrent electroencephalography recording and magnetic resonance imaging, as well as continuous operation via wireless power transfer, are also available.
+Additional options, such as compatibility with concurrent {{< modal-link EEG-Filters >}}electroencephalography recording{{< /modal-link >}} and {{< modal-link MRI-Filters >}}magnetic resonance imaging{{< /modal-link >}} with our TIBS-R system, as well as continuous operation via wireless power transfer, are also available and can be leased in addition to the device.
