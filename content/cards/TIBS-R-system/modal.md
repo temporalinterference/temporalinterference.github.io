@@ -73,7 +73,8 @@ AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic reso
 
 Minimal PC specifications: Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
 
-{{< modal-download 2511-TISAG-TIBS-R-flyer-Signal-Generator.pdf >}}Download the TIBS-R flyer here.{{< /modal-download >}}
+{{< modal-download 2512-TISAG-TIBS-R-flyer-Signal-Generator-V2.pdf >}}Download the TIBS-R flyer here.{{< /modal-download >}}
+
 
 
 
