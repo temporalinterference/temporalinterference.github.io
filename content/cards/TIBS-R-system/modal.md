@@ -3,20 +3,17 @@ id: TIBS-R-system
 ---
 # TIBS-R V3.2
 
-{{< modal-image TIBS-setup2.jpg >}}
-{{< /modal-image >}}
-
 ## TIBS-R Components
 
 At the core of the Temporal Interference Stimulation Signal Generator (TIBS-R) is the Intelligent Current Source (ICS) with unique specifications that can be connected to 3rd-party electrodes via an Electrode Connection Box (ECB). The ICS is controlled by a computer (PC) via an Application Programming Interface (API). Highly flexible scripting interfaces in multiple languages (e.g., Python, MATLAB) and custom-specific graphical user interfaces (GUIs) can be accessed in the Programming Window. Optical inputs and outputs are available for synchronization with external triggers (Trigger In/Out), e.g., electroencephalography (EEG) instruments. The modulation envelope is available as an analog signal (Envelope Out), e.g., to record with the EEG. The stimulation can be stopped at any time by pressing one of the two optically connected Emergency Stops.
 
 ## Real-Time Monitoring and Safety Features
 
-All pertinent parameters and information, including stimulation protocol, currents, voltages, impedances, inputs, etc., are continuously recorded and displayed to the researchers on the monitoring window. TIBS-R is electrically isolated and compliant with the relevant standards. Any malfunction is automatically detected and puts the device in a non-stimulating state that requires self-validation before stimulation can be continued.
+All pertinent parameters and information, including currents, voltages, impedances, inputs, etc., are continuously recorded and displayed to the researchers on the monitoring window. TIBS-R is electrically isolated and compliant with the relevant standards.
 
 ## EEG and MRI Compatibility
 
-Concurrent EEG recording during TI stimulation requires our TI-EEG Filter Solutions that include a high-pass filter (HPF) piggybacked to the ECB and an EEG system-specific low-pass filter (LPF) before the EEG amplifiers.
+Concurrent EEG recording requires our TI-EEG Filter Solutions that include a high-pass filter (HPF) piggybacked to the ECB and an EEG system-specific low-pass filter (LPF) before the EEG amplifiers.
 
 Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI Filter Solutions including special resistive electrodes and a different type of ECB. 
 
@@ -32,7 +29,7 @@ Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI Filt
 |Frequency Range|DC - 100 kHz |
 |Waveforms|Sinusoid, phase modulation, frequency modulation, AWG* |
 |Number of Channels Per Unit|8 synchronized, fully differential |
-|EEG Compatibility|TI-EEG Filter Solutions for Brain Products, Geodesic (3rd party products)*** |
+|EEG Compatibility Option|TI-EEG Filter Solutions for selected systems (3rd party products)*** |
 |MRI Compatibility Option|TI-MRI Filter Solutions for 2.9T, 3.0T and 7.0T  (3rd party products)*** |
 |Operation Time|ca. 4 hrs active use on single battery charge, unlimited with WPT-TX/RX |
 |Battery Charger|USB-C
@@ -73,7 +70,10 @@ AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic reso
 
 Minimal PC specifications: Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
 
-{{< modal-download 2511-TISAG-TIBS-R-flyer-Signal-Generator.pdf >}}Download the TIBS-R flyer here.{{< /modal-download >}}
+{{< modal-download 2512-TISAG-TIBS-R-flyer-Signal-Generator-V2.pdf >}}Download the TIBS-R flyer here.{{< /modal-download >}}
+
+
+
 
 
 
