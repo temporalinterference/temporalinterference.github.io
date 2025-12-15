@@ -3,6 +3,9 @@ id: TIBS-R-system
 ---
 # TIBS-R V3.2
 
+{{< modal-image TIBS-setup2.jpg >}}
+{{< /modal-image >}}
+
 ## TIBS-R Components
 
 At the core of the Temporal Interference Stimulation Signal Generator (TIBS-R) is the Intelligent Current Source (ICS) with unique specifications that can be connected to 3rd-party electrodes via an Electrode Connection Box (ECB). The ICS is controlled by a computer (PC) via an Application Programming Interface (API). Highly flexible scripting interfaces in multiple languages (e.g., Python, MATLAB) and custom-specific graphical user interfaces (GUIs) can be accessed in the Programming Window. Optical inputs and outputs are available for synchronization with external triggers (Trigger In/Out), e.g., electroencephalography (EEG) instruments. The modulation envelope is available as an analog signal (Envelope Out), e.g., to record with the EEG. The stimulation can be stopped at any time by pressing one of the two optically connected Emergency Stops.
@@ -71,6 +74,7 @@ AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic reso
 Minimal PC specifications: Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
 
 {{< modal-download 2512-TISAG-TIBS-R-flyer-Signal-Generator-V2.pdf >}}Download the TIBS-R flyer here.{{< /modal-download >}}
+
 
 
 
