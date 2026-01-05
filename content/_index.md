@@ -24,8 +24,8 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
+{{< card news-20251228-Z43-Newsquarter-Q4 >}}
 {{< card news-20251125-Missey-Brain-Stimulation >}}
-{{< card news-20250930-Z43-Newsquarter-Q3 >}}
 {{< card news-20250605-TIP-V4-0 >}}
 {{< card news-20250425-BioelectronMed-mTI >}}
 {{< card news-20250410-Bioelectromagnetics-Neurostimulation >}}
