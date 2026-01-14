@@ -5,5 +5,7 @@ id: news-20260115-TIBS-R-MRI-Filter-Solutions
 
 Text here
 
-Image here
+{{< modal-image 20260115-MRI-Filter-Solutions-news-item-visual.jpg >}}
+{{< /modal-image >}}
+
 
