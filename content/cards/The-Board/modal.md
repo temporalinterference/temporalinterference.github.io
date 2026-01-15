@@ -20,7 +20,7 @@ Dr. Esra Neufeld (CSO) is Associate Director of the Foundation for Research on I
 {{< /image-text >}}
 
 {{< image-text title="Henrich Kisker" src="henrich.png" pos="left" >}}
-Henrich Kisker (CFO) holds various positions as internal and external adviser on corporate, legal, and financial matters for a number of international companies. Since 2005, he has also been a member of the advisory board (“Bankrat”) of one of the largest Swiss banks, the Zürcher Kantonalbank, which has total assets of 167 billion Swiss francs. Until his retirement in 2018, he was the head of the tax and treasury functions of Senior PLC, an international manufacturing group listed on the London Stock Exchange.
+Henrich Kisker (CFO) has been involved with the [Zurich43](https://z43.swiss) companies since their inception as an internal and external adviser for corporate, legal, and financial matters. Henrich earned an MBA (Dipl. Kfm.) from the University of Cologne in 1981 and is a qualified Swiss public accountant (dipl. Wirtschaftsprüfer). Until 2017, he headed the tax and treasury functions of Senior plc, a London Stock Exchange-listed international manufacturing group. Prior to joining Senior in 1992, he worked in audit and business advisory roles at Arthur Andersen in Germany and Switzerland. From 2016 to 2024, he served on the board of Zürcher Kantonalbank.
 {{< /image-text >}}
 
 {{< image-text title="Alvaro Pascual-Leone" src="Alvaro-1500px.jpg" pos="left" >}}
