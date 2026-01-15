@@ -7,10 +7,11 @@ The new magnetic resonance imaging (MRI) Filter Solutions that enable temporal i
 
 We thank the IT’IS Foundation for applying their vast expertise in MRI safety to deliver these solutions to research groups enrolled in our Early Adopter Program.
 
-More information about the TI-MRI Filter Solutions is available here.
+More information about the TI-MRI Filter Solutions is available {{< modal-link MRI Filters >}}here{{< /modal-link >}}.
 
 {{< modal-image 20260115-MRI-Filter-Solutions-news-item-visual.jpg >}}
 {{< /modal-image >}}
+
 
 
 
