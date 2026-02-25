@@ -52,7 +52,7 @@ Dr. Sven Kühn (R&D) holds a Dipl. Ing. (M.Sc.) in Information and Communication
 {{< /image-text >}}
 
 {{< image-text title="Odei Maiz" src="odei-500px-cc.jpg" pos="left" ratio="one-third" >}}
-Odei Maiz (R&D) is a Software Engineer at the IT’IS Foundation in Zurich, Switzerland, where he is involved in developing advanced computational tools, including the state-of-the-art Sim4Life platform, o<sup>2</sup>S<sup>2</sup>PARC, and TIP. He holds a B.Sc. in Telecommunications Engineering and has experience in frontend application development, application programming interface generation and inter-process communication, and microservice creation.
+Odei Maiz (R&D) is a Software Engineer at the IT’IS Foundation in Zurich, Switzerland, where he is involved in developing advanced computational tools, including the state-of-the-art Sim4Life platform, o²S²PARC, and TIP. He holds a B.Sc. in Telecommunications Engineering and has experience in frontend application development, application programming interface generation and inter-process communication, and microservice creation.
 {{< /image-text >}}
 
 {{< image-text title="Livio Ponato" src="livio-1500px-c.jpg" pos="left" ratio="one-third" >}}
@@ -91,3 +91,4 @@ Prof. Peter Achermann (External Expert) is Emeritus Professor at the University 
 {{< image-text title="Thomas Schmid" src="pending.jpg" pos="left" ratio="one-third" >}}
 Thomas Schmid (External Expert) is an Electrical Engineer and was a co-founder of SPEAG in Zurich, Switzerland, in 1994. He is affiliated with the Institute for Biomedical Engineering of ETH Zurich, Switzerland. His main recent focus is on advancing imaging quality and safety of magnetic resonance imaging.
 {{< /image-text >}}
+
