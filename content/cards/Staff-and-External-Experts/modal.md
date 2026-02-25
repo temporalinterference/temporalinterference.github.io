@@ -24,7 +24,7 @@ Dr. Antonino Cassarà (R&D) obtained his Ph.D. in Physics from Sapienza Universi
 {{< /image-text >}}
 
 {{< image-text title="Nik Chavannes" src="nik-chavannes-500px-c.jpg" pos="left" ratio="one-third" >}}
-Dr. Nicolas Chavannes (R&D) is an Electrical Engineer and Head of Software at the IT’IS Foundation in Zurich, Switzerland, leading all in-house simulation software R&D related activities, with a particular focus on the Sim4Life computational platform. He has extensive experience in graphical user interface and framework design, utilizing standard object-oriented methods and modern web-based technologies/libraries. His expertise also encompasses build and deploy systems, maintenance, version control, cross-platform development, and quality assurance.
+Dr. Nicolas Chavannes (R&D) is an Electrical Engineer and Head of Software at the IT’IS Foundation in Zurich, Switzerland, leading all in-house simulation software R&D related activities, with a particular focus on the Sim4Life computational platform. He has extensive experience in graphical user interface and framework design, utilizing standard object-oriented methods and modern web-based technologies/ libraries. His expertise also encompasses build and deploy systems, maintenance, version control, cross-platform development, and quality assurance.
 {{< /image-text >}}
 
 {{< image-text title="Ninad Chitnis" src="ninad-1500px-c.jpg" pos="left" ratio="one-third" >}}
@@ -87,5 +87,6 @@ Prof. Peter Achermann (External Expert) is Emeritus Professor at the University 
 {{< image-text title="Thomas Schmid" src="pending.jpg" pos="left" ratio="one-third" >}}
 Thomas Schmid (External Expert) is an Electrical Engineer and was a co-founder of SPEAG in Zurich, Switzerland, in 1994. He is affiliated with the Institute for Biomedical Engineering of ETH Zurich, Switzerland. His main recent focus is on advancing imaging quality and safety of magnetic resonance imaging.
 {{< /image-text >}}
+
 
 
