@@ -15,10 +15,6 @@ Dr. Stefan Beerli (Head of Hardware) completed his M.Sc. in Physics and his Ph.D
 Manuel Brönnimann (R&D) is a Hardware Development Engineer with a strong background in electronic hardware design, FPGA firmware programming, and control and automation system designs. He earned his Electrical Engineering degree from the University of Applied Sciences in Rapperswil, Switzerland, followed by a M.Sc. in Automation from TU Darmstadt, Germany. With over 12 years of experience working at the PSI in Villigen and Helbling Technic in Zurich, Switzerland, he has gained extensive expertise in designing and developing advanced engineering solutions.
 {{< /image-text >}}
 
-{{< image-text title="Cédric Bujard" src="Cedric.jpg" pos="left" ratio="one-third" >}}
-Dr. Cédric Bujard (R&D) graduated from Berklee College of Music, Boston, USA, in Musical Theory and Composition, and in Sound Production and Engineering before obtaining his M.SC. in Mathematics from EPFL, Switzerland, and his Ph.D. in Mathematics from the University of Strasbourg, France. After working as a lecturer at EPFL and in the private sector as a data scientist and software engineer, he joined the IT’IS Foundation and TI Solutions in Zurich, Switzerland, in late 2021. He develops solutions in mathematical modeling, including surrogate modeling, data analysis, optimization algorithms, system validation, and uncertainty quantification.
-{{< /image-text >}}
-
 {{< image-text title="Myles Capstick" src="myles.jpg" pos="left" ratio="one-third" >}}
 Dr. Myles Capstick (CTO) is an Electronic Engineer and Associate Director, Project Leader and Head of Hardware at the IT’IS Foundation in Zurich, Switzerland. His expertise encompasses the design of analog, radiofrequency, microwave, and millimeter-wave systems, subsystems, circuits, and antennas, which he applies in the fields of device and system development for health risk assessment studies (*in vitro*, *in vivo* animal and human studies), measurement technology, and biomedicine. He was instrumental in developing the TIBS-R hardware and the filter solutions for electroencephalography compatibility.
 {{< /image-text >}}
@@ -28,7 +24,7 @@ Dr. Antonino Cassarà (R&D) obtained his Ph.D. in Physics from Sapienza Universi
 {{< /image-text >}}
 
 {{< image-text title="Nik Chavannes" src="nik-chavannes-500px-c.jpg" pos="left" ratio="one-third" >}}
-Dr. Nicolas Chavannes (R&D) is an Electrical Engineer and Head of Software at the IT’IS Foundation in Zurich, Switzerland, leading all in-house simulation software R&D related activities, with a particular focus on the Sim4Life computational platform. He has extensive experience in graphical user interface and framework design, utilizing standard object-oriented methods and modern web-based technologies/libraries. His expertise also encompasses build and deploy systems, maintenance, version control, cross-platform development, and quality assurance.
+Dr. Nicolas Chavannes (R&D) is an Electrical Engineer and Head of Software at the IT’IS Foundation in Zurich, Switzerland, leading all in-house simulation software R&D related activities, with a particular focus on the Sim4Life computational platform. He has extensive experience in graphical user interface and framework design, utilizing standard object-oriented methods and modern web-based technologies/ libraries. His expertise also encompasses build and deploy systems, maintenance, version control, cross-platform development, and quality assurance.
 {{< /image-text >}}
 
 {{< image-text title="Ninad Chitnis" src="ninad-1500px-c.jpg" pos="left" ratio="one-third" >}}
@@ -52,7 +48,7 @@ Dr. Sven Kühn (R&D) holds a Dipl. Ing. (M.Sc.) in Information and Communication
 {{< /image-text >}}
 
 {{< image-text title="Odei Maiz" src="odei-500px-cc.jpg" pos="left" ratio="one-third" >}}
-Odei Maiz (R&D) is a Software Engineer at the IT’IS Foundation in Zurich, Switzerland, where he is involved in developing advanced computational tools, including the state-of-the-art Sim4Life platform, o<sup>2</sup>S<sup>2</sup>PARC, and TIP. He holds a B.Sc. in Telecommunications Engineering and has experience in frontend application development, application programming interface generation and inter-process communication, and microservice creation.
+Odei Maiz (R&D) is a Software Engineer at the IT’IS Foundation in Zurich, Switzerland, where he is involved in developing advanced computational tools, including the state-of-the-art Sim4Life platform, o²S²PARC, and TIP. He holds a B.Sc. in Telecommunications Engineering and has experience in frontend application development, application programming interface generation and inter-process communication, and microservice creation.
 {{< /image-text >}}
 
 {{< image-text title="Livio Ponato" src="livio-1500px-c.jpg" pos="left" ratio="one-third" >}}
@@ -91,3 +87,6 @@ Prof. Peter Achermann (External Expert) is Emeritus Professor at the University 
 {{< image-text title="Thomas Schmid" src="pending.jpg" pos="left" ratio="one-third" >}}
 Thomas Schmid (External Expert) is an Electrical Engineer and was a co-founder of SPEAG in Zurich, Switzerland, in 1994. He is affiliated with the Institute for Biomedical Engineering of ETH Zurich, Switzerland. His main recent focus is on advancing imaging quality and safety of magnetic resonance imaging.
 {{< /image-text >}}
+
+
+
