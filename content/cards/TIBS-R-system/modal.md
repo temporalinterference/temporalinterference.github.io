@@ -59,7 +59,6 @@ Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI Filt
 |Environment|+5 – +40°C |
 |Instructions for Use|Yes |
 |IP Protection - Patents|US 10173061, 10905878,11759634, EP 3204113, only in FR, DE, GB, IT, ES, FI, DK, BE, NL, CH and LI, CZ; DE 10 2022 109 563 B3, US 12506470 |
-End of Life|December 2030 or later |
 
 ---
 
@@ -74,6 +73,7 @@ AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic reso
 Minimal PC specifications: Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
 
 {{< modal-download TI-Solutions-TIBS-R-flyer-web-2603.pdf >}}Download the TIBS-R flyer here.{{< /modal-download >}}
+
 
 
 
