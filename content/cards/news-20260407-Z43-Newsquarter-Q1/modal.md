@@ -9,3 +9,5 @@ This edition covers:
 
 {{< modal-image news-20260407-Z43-Newsquarter-Q1.jpg >}}
 {{< /modal-image >}}
+
+{{< modal-download news-20260407-Z43-Newsquarter-Q1.pdf >}}Download the Z43 Newsquarter here.{{< /modal-download >}}
