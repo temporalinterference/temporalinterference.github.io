@@ -20,4 +20,4 @@ Privacy Policy
 Legal Notice
 {{< /popup >}}
 
-Copyright © 2025 TI Solutions AG
+Copyright © 2026 TI Solutions AG
