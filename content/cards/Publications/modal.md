@@ -13,7 +13,9 @@ Cassarà AM *et al. Recommendations for the safe application of temporal interfe
 
 Cassarà AM *et al. Recommendations for the safe application of temporal interference stimulation in the human brain part II: Biophysics, dosimetry, and safety recommendations.* Bioelectromagnetics. 2025; 46:e22536. [doi:10.1002/bem.22536](https://onlinelibrary.wiley.com/doi/10.1002/bem.22536)
 
-Karimi F *et al. Safety of Non-invasive brain stimulation in patients with implants: A computational risk assessment.* J Neural Eng. 2025; 22:016039. [doi: 10.1088/1741-2552/ad8efa](https://iopscience.iop.org/article/10.1088/1741-2552/ad8efa)
+Demchenko I *et al. Human applications of transcranial temporal interference stimulation: A systematic review.* Brain Stimul. 2025; 18(6):2054–2066. [doi: 10.1016/j.brs.2025.10.023](https://www.brainstimjrnl.com/article/S1935-861X(25)00369-9/fulltext)
+
+Karimi F *et al. Safety of non-invasive brain stimulation in patients with implants: A computational risk assessment.* J Neural Eng. 2025; 22:016039. [doi: 10.1088/1741-2552/ad8efa](https://iopscience.iop.org/article/10.1088/1741-2552/ad8efa)
 
 Lamoš M *et al. Noninvasive temporal interference stimulation of the subthalamic nucleus in Parkinson’s disease reduces beta activity.* Mov. Disord. 2025; 40(6):1051–1060. [doi: 10.1002/mds.30134](https://movementdisorders.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.30134)
 
