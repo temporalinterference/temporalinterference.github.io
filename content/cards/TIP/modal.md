@@ -1,62 +1,78 @@
 ---
 id: TIP
 ---
-# TIP V4.0
+# TIP V5.0
 
 ## Temporal Interference Planning Tool of IT'IS
-The Temporal Interference Planning (TIP) tool Version 4.0 of the [IT'IS Foundation](https://itis.swiss) developed for TIBS-R provides an advanced modeling pipeline for electrode placement and stimulation targeting with the TIBS-R system, offering cloud-based simulations and interactive visualizations. Read more on the [IT'IS TI Planning webpage](https://itis.swiss/tools-and-systems/ti-planning/overview/).
 
-The latest version of our powerful TI stimulation planning tool brings major innovations to researchers worldwide:
+The Temporal Interference Planning (TIP) tool of the [IT'IS Foundation](https://itis.swiss), developed for TIBS-R, provides an advanced planning environment for temporal interference (TI) stimulation. TIP supports electrode placement, stimulation targeting, electromagnetic simulations, optimization, visualization, and analysis using established and personalized anatomical human and animal models. Read more on the [IT'IS TI Planning webpage](https://itis.swiss/tools-and-systems/ti-planning/overview/).
 
-* Automated Personalization: Our deep-learning model now automatically detects anatomical fiducials for consistent 10-10 electrode placement—no manual steps required
-  
-* New Optimization Engine: The surrogate-model-based (SuMo) optimizer uses artificial intelligence (AI) to explore the full electrode configuration space, delivering better results faster
-  
-* Speed and Performance Gains: Optimization is now twice as fast on average, with improved solution quality
-  
-* Improved Workflow: From drag-and-drop model upload to streamlined analysis, TIP V4.0 is more intuitive than ever
+TIP enables researchers to design and validate TI stimulation protocols without requiring deep expertise in computational modeling. It supports classic TI, multi-channel TI, and phase-modulation TI workflows, and is fully compatible with the TIBS-R system.
 
-## Personalized Optimization
+TIP V5.0 builds on the personalization and optimization capabilities introduced in previous versions and adds three major advances:
+
+* Privacy-First Personalization: MRI processing can now be performed locally using the new offline personalizer. Raw MRI data stay on the user's computer; only the anonymized, segmented model is uploaded to TIP for cloud-based simulation and optimization.
+
+* Full Sim4Life Workbench Access: The Exposure Analysis step now provides access to a complete Sim4Life workbench, including modeling, simulation, and analysis functionality, with ready-to-use template projects for precomputed and personalized models.
+
+* ~5× Faster Optimization: The surrogate-model-based SuMo optimizer now runs approximately five times faster, reducing typical optimization times from about one hour to 5–10 minutes.
+
+TIP remains available through the TI Solutions Early Adopter Program and IT'IS research partnerships. Precomputed models can be explored without personalized simulation costs; personalized models may require AWS simulation costs.
+
+## Privacy-First Personalization
 
 {{< modal-image tip_1.jpg >}}
 {{< /modal-image >}}
 
-Incorporate magnetic resonance imaging (MRI) and diffusion tensor imaging (DTI) data for individualized results, using automatic image processing to create tissue models with isotropic or anisotropic conductivity for simulations.
+Use subject-specific MRI and optional DTI data to create personalized anatomical models for TI planning.
+
+With TIP V5.0, MRI processing can run locally using the offline personalizer. Raw MRI data stay on the user's computer; only the anonymized, segmented model is uploaded to TIP.
 
 ## Electromagnetic Simulations
 
 {{< modal-image tip_2.jpg >}}
 {{< /modal-image >}}
 
-Generate isotropic or anisotropic simulations and export optimization-ready files.
+Generate isotropic or anisotropic electromagnetic simulations using precomputed or personalized models.
+
+TIP prepares the field data needed for optimization, exposure assessment, and downstream analysis.
 
 ## Configuration
 
 {{< modal-image tip_3.jpg >}}
 {{< /modal-image >}}
 
-Select species, stimulation target, and electrode locations defined on the 10-10 system to narrow the configuration search space.
+Select the anatomical model, stimulation target, and candidate electrode locations.
+
+Standardized 10–10 electrode placement supports reproducible planning while keeping the optimization search space manageable.
 
 ## Optimal Configuration Identification
 
 {{< modal-image tip_4.jpg >}}
 {{< /modal-image >}}
 
-Explore high-performing exposure parameters with metrics and visualizations, and easily document findings.
+Identify high-performing electrode configurations with the SuMo optimizer.
 
-## Visualization
+In TIP V5.0, optimization is approximately five times faster, reducing typical runtimes from about one hour to 5–10 minutes.
+
+## Visualization and Post-Processing
 
 {{< modal-image tip_5.jpg >}}
 {{< /modal-image >}}
 
-Depict advanced phase modulation schemes and pulse shapes of the complete electric field and its x-, y-, and z-components.
+Visualize stimulation fields, phase modulation, pulse shapes, and field components.
 
-## Analysis
+
+## Full Sim4Life Exposure Analysis
 
 {{< modal-image tip_6.jpg >}}
 {{< /modal-image >}}
 
-Visualize and analyze selected conditions using Sim4Life (see [www.sim4life.swiss](https://sim4life.swiss/)).
+TIP V5.0 provides ready-to-use template projects with anatomical models, targets, electrodes, and preconfigured simulations for deeper exposure analysis in a full-featured Sim4Life instance, including rendering, masking, streamlines, derived quantities, and reporting. 
+
+## Access
+
+TIP V5.0 is available to members of the TI Solutions Early Adopter Program and IT'IS research partners. For access, support, or further information, contact [tip@itis.swiss](mailto:tip@itis.swiss) or [eap@temporalinterference.com](mailto:eap@temporalinterference.com).
 
 ## Disclaimer
 
