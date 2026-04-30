@@ -1,5 +1,5 @@
 ---
-title: TIP V5.0 is Here! Privacy First, Full Sim4Life Power, 5× Faster
+title: TIP V5.0 is Here - Privacy First, Full Sim4Life Power, 5× Faster
 
 ---
 April 30, 2026
