@@ -11,7 +11,7 @@ TIP enables researchers to design and validate TI stimulation protocols without 
 
 TIP V5.0 builds on the personalization and optimization capabilities introduced in previous versions and adds three major advances:
 
-* Privacy-First Personalization: MRI processing can now be performed locally using the new offline personalizer. Raw MRI data stay on the user's computer; only the anonymized, segmented model is uploaded to TIP for cloud-based simulation and optimization.
+* Privacy-First Personalization: Magnetic resonance imaging (MRI) processing can now be performed locally using the new offline personalizer. Raw MRI data stay on the user's computer; only the anonymized, segmented model is uploaded to TIP for cloud-based simulation and optimization.
 
 * Full Sim4Life Workbench Access: The Exposure Analysis step now provides access to a complete Sim4Life workbench, including modeling, simulation, and analysis functionality, with ready-to-use template projects for precomputed and personalized models.
 
