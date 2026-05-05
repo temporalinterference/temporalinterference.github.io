@@ -17,7 +17,7 @@ TIP V5.0 builds on the personalization and optimization capabilities introduced 
 
 * ~5× Faster Optimization: The surrogate-model-based SuMo optimizer now runs approximately five times faster, reducing typical optimization times from about one hour to 5–10 minutes.
 
-TIP remains available through the TI Solutions Early Adopter Program and IT'IS research partnerships. Precomputed models can be explored without personalized simulation costs; personalized models may require AWS simulation costs.
+TIP remains available through the TI Solutions Early Adopter Program and IT'IS research partnerships. Precomputed models can be explored without personalized simulation costs; personalized models require AWS simulation costs.
 
 ## Privacy-First Personalization
 
