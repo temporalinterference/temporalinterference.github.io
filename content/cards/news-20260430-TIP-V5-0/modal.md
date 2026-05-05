@@ -1,0 +1,17 @@
+---
+id: news-20260430-TIP-V5-0
+---
+# TIP V5.0 is Here – Privacy First, Full Sim4Life Power, 5× Faster
+
+Our partner [IT'IS](https://itis.swiss) has released the latest version of their powerful {{< modal-link TIP >}}Temporal Interference Planning tool{{< /modal-link >}}, TIP V5.0!
+
+What's new in TIP V5.0?
+
+* Offline personalizer: Run magnetic resonance imaging processing locally with Sim4Life, uploading only fully anonymized models to the cloud
+* Full Sim4Life power: Access all modeling, simulation, and analysis tools, with template projects for all precomputed and personalized models
+* ~5× faster surrogate-model-based optimizer:  Comprehensive optimizations that previously required ~1 hour can now be completed in 5–10 minutes
+
+TIP V5.0 is available to members of TI Solutions {{< modal-link Early-Adopter-Program >}}Early Adopter Program{{< /modal-link >}}.
+
+{{< modal-image TIP-V5-visual.jpg >}}
+{{< /modal-image >}}

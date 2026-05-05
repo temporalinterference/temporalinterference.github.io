@@ -24,6 +24,7 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
+{{< card news-20260430-TIP-V5-0 >}}
 {{< card news-20260407-Z43-Newsquarter-Q1 >}}
 {{< card news-20260115-TIBS-R-MRI-Filter-Solutions >}}
 {{< card news-20251125-Missey-Brain-Stimulation >}}
