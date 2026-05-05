@@ -42,7 +42,7 @@ TIP prepares the field data needed for optimization, exposure assessment, and do
 {{< modal-image tip_3.jpg >}}
 {{< /modal-image >}}
 
-Select the anatomical model, stimulation target, and candidate electrode locations.
+Select the anatomical model, stimulation target, and threshold definitions.
 
 Standardized 10–10 electrode placement supports reproducible planning while keeping the optimization search space manageable.
 
