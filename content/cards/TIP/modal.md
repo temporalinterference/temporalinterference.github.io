@@ -24,7 +24,7 @@ TIP remains available through the TI Solutions Early Adopter Program and IT'IS r
 {{< modal-image tip_1.jpg >}}
 {{< /modal-image >}}
 
-Use subject-specific MRI and optional DTI data to create personalized anatomical models for TI planning.
+Use subject-specific MRI and optional diffusion tensor imaging data to create personalized anatomical models for TI planning.
 
 With TIP V5.0, MRI processing can run locally using the offline personalizer. Raw MRI data stay on the user's computer; only the anonymized, segmented model is uploaded to TIP.
 
