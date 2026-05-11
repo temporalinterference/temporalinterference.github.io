@@ -1,5 +1,5 @@
 ---
-id: Videos
+id: videos
 ---
 
 # Selected Videos
