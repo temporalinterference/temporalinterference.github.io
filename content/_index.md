@@ -83,7 +83,6 @@ The Science
 
 {{< card-holder >}}
 {{< card Publications >}}
-{{< card Selected-videos >}}
 {{< card safety >}}
 {{< /card-holder >}}
 
