@@ -70,7 +70,7 @@ TI Planning
 {{< /card-holder >}}
 
 {{< section id=other-products >}}
-TI Devices
+Other Products
 {{< /section >}}
 
 {{< card-holder >}}
