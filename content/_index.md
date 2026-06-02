@@ -69,6 +69,14 @@ TI Planning
 {{< card Sim4Life >}}
 {{< /card-holder >}}
 
+{{< section id=other-products >}}
+TI Devices
+{{< /section >}}
+
+{{< card-holder >}}
+{{< card MRI-Leads >}}
+{{< /card-holder >}}
+
 {{< section id=early-adopter-program >}}
 Early Adopter Program (EAP)
 {{< /section >}}
