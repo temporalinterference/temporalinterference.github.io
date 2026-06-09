@@ -11,4 +11,6 @@ What's new in TIP V5.2?
 *
 *
 
-image here
+TIP V5.2 is available to members of TI Solutions {{< modal-link Early-Adopter-Program >}}Early Adopter Program{{< /modal-link >}}.
+
+{{< modal-image TIP-V5-2.jpg >}} {{< /modal-image >}}
