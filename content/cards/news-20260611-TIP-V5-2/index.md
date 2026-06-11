@@ -1,5 +1,5 @@
 ---
-title: TIP V5.2 - Dense Pareto Fronts, Adaptive Precision
+title: TIP V5.2 - Smarter Optimization with Parallel Seeds, Native Constraints, and Adaptive ConvergenceDense Pareto Fronts, Adaptive Precision
 
 ---
 June 11, 2026
