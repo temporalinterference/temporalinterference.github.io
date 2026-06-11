@@ -69,14 +69,6 @@ TI Planning
 {{< card Sim4Life >}}
 {{< /card-holder >}}
 
-{{< section id=other-products >}}
-Other Products
-{{< /section >}}
-
-{{< card-holder >}}
-{{< card MRI-Leads >}}
-{{< /card-holder >}}
-
 {{< section id=early-adopter-program >}}
 Early Adopter Program (EAP)
 {{< /section >}}
@@ -92,7 +84,6 @@ The Science
 
 {{< card-holder >}}
 {{< card Publications >}}
-{{< card Selected-videos >}}
 {{< card safety >}}
 {{< /card-holder >}}
 
