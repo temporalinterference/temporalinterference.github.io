@@ -15,7 +15,7 @@ TIP V5.2 delivers a focused overhaul of the surrogate-model-based optimizer (SuM
 
 * Parallel Multi-Seed Optimization: Six independent searches run in parallel and are merged into a single, denser and richer Pareto front that covers the optimal trade-off surface more effectively, without increasing optimization time.
 
-* Adaptive Convergence: The optimizer stops automatically once convergence is reached, allowing the user to choose the precision level — low, medium, or high — that best fits the workflow.
+* Adaptive Convergence: The optimizer stops automatically once convergence is reached, allowing the user to choose the precision level – low, medium, or high – that best fits the workflow.
 
 TIP remains available through the TI Solutions Early Adopter Program and IT'IS research partnerships. Precomputed models can be explored without personalized simulation costs; personalized models require AWS simulation costs.
 
