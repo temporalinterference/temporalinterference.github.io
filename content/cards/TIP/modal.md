@@ -9,9 +9,9 @@ The Temporal Interference Planning (TIP) tool of the [IT'IS Foundation](https://
 
 TIP enables researchers to design and validate TI stimulation protocols without requiring deep expertise in computational modeling. It supports classic TI, multi-channel TI, and phase-modulation TI workflows, and is fully compatible with the TIBS-R system.
 
-TIP V5.2 delivers a focused overhaul of the surrogate-model-based optimizer (SuMo) at the heart of TIP's electrode configuration search. All of the advanced features of TIP V5.0 are preserved — privacy-first local personalization, full Sim4Life workbench access in the Exposure Analysis step, and faster optimization — while three synergistic improvements produce higher-quality, richer Pareto fronts and give users direct control over the trade-off between speed and thoroughness:
+TIP V5.2 delivers a focused overhaul of the surrogate-model-based optimizer (SuMo) at the heart of TIP's electrode configuration search. All of the advanced features of TIP V5.0 are preserved, i.e., privacy-first local personalization, full Sim4Life workbench access in the Exposure Analysis step, and faster optimization, while three synergistic improvements produce higher-quality, richer Pareto fronts and give users direct control over the trade-off between speed and thoroughness:
 
-* Native Constraint Handling: Impractical electrode configurations — such as two channels that share the same electrode — are now eliminated directly at the level of the algorithm, so that every configuration on the Pareto front is physically deployable.
+* Native Constraint Handling: Impractical electrode configurations, such as two channels that share the same electrode, are now eliminated directly at the level of the algorithm, so that every configuration on the Pareto front is physically deployable.
 
 * Parallel Multi-Seed Optimization: Six independent searches run in parallel and are merged into a single, denser and richer Pareto front that covers the optimal trade-off surface more effectively, without increasing optimization time.
 
@@ -24,7 +24,7 @@ TIP remains available through the TI Solutions Early Adopter Program and IT'IS r
 {{< modal-image tip_1.jpg >}}
 {{< /modal-image >}}
 
-Use subject-specific MRI and optional diffusion tensor imaging data to create personalized anatomical models for TI planning.
+Use subject-specific magnetic resonance imaging (MRI) and optional diffusion tensor imaging data to create personalized anatomical models for TI planning.
 
 With TIP V5.2, MRI processing can run locally using the offline personalizer. Raw MRI data stay on the user's computer; only the anonymized, segmented model is uploaded to TIP.
 
