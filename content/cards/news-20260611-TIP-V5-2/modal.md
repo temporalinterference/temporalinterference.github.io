@@ -7,9 +7,9 @@ Our partner [IT'IS](https://itis.swiss) has released the latest version of their
 
 What's new in TIP V5.2:
 
-* 
-*
-*
+* Native Constraint Handling: Impractical electrode configurations are eliminated directly at the level of the algorithm, so that every point on the Pareto front is deployable
+* Parallel Multi-Seed Optimization: Six independent searches are run in parallel and are merged into a single denser, richer Pareto front that covers the optimal trade-off surface more effectively
+* Adaptive Convergence: The optimizer stops automatically once convergence is reached allowing the user to choose the precision level – low, medium, or high – that best fits the workflow
 
 TIP V5.2 is available to members of TI Solutions {{< modal-link Early-Adopter-Program >}}Early Adopter Program{{< /modal-link >}}.
 
