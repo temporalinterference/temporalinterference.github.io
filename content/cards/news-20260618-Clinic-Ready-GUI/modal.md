@@ -6,4 +6,5 @@ id: news-20260618-Clinic-Ready-GUI
 Text here
 
 image
+
 video link
