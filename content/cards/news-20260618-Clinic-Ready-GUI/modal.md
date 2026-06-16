@@ -1,10 +1,30 @@
 ---
 id: news-20260618-Clinic-Ready-GUI
 ---
-# Clinic-Ready GUI, Custom-Built for Your Study
+# Service for Customized GUI
 
-Text here
+TIBS-R is equipped with a scripting interface designed for research applications, offering extensive configurability suited to complex experimental workflows. Although highly flexible, this interface is typically too complex for routine use in clinical studies and may require an additional software layer to ensure a streamlined user experience in the clinic, where scripting expertise cannot be readily assumed.
+
+For organizations lacking dedicated in-house software development resources, TI Solutions, in collaboration with the IT’IS Foundation, can provide custom graphical user interface (GUI) development services tailored to individual study requirements.
+
+An example GUI is shown below:
+
+[insert video] 
+
+The software can be customized to support study-specific workflows and requirements, including:
+* Subject and visit management
+* Blinded treatment allocation, e.g., verum vs. sham stimulation
+* Import and synchronization of subject databases from a central study site
+* Automated tracking of study progress and completed visits
+* Impedance verification and electrode quality assessment
+* Control and monitoring of TIBS-R stimulation sessions
+* Real-time visualization of stimulation and measurement data
+* Administration of electronic questionnaires and patient-reported outcomes
+* Operator annotation and protocol deviations logging
+* Secure data storage with comprehensive audit trails
+* Subject-, session-, and study-level report generation
+* Data export for statistical analysis and regulatory submissions
+
+If you are part of our Early Adopter Program and are interested in discussing a customized clinical study interface, please contact us as at eap@temporalinterference.com.
 
 image
-
-video link
