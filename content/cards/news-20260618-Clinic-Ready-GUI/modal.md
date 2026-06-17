@@ -11,6 +11,8 @@ An example GUI is shown below:
 
 {{< modal-movie "https://youtu.be/aJ-Deu0Mh04" >}}Clinic-Ready GUI, Custom-Built for Your Study{{< /modal-movie >}}
 
+{{< modal-image news-20260616-Customized-GUI-TI-visual.jpg "https://youtu.be/aJ-Deu0Mh04" >}}Linked image{{< /modal-image >}}
+
 The software can be customized to support study-specific workflows and requirements, including:
 * Subject and visit management
 * Blinded treatment allocation, e.g., verum vs. sham stimulation
