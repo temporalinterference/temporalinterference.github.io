@@ -9,7 +9,7 @@ For organizations lacking dedicated in-house software development resources, TI 
 
 An example GUI is shown below:
 
-{{< modal-movie "https://youtu.be/aJ-Deu0Mh04" >}}YouTube video{{< /modal-movie >}}
+
 
 The software can be customized to support study-specific workflows and requirements, including:
 * Subject and visit management
