@@ -9,10 +9,6 @@ For organizations lacking dedicated in-house software development resources, TI 
 
 An example GUI is shown below:
 
-Option 1 - Embedded Video option:
-{{< modal-movie "https://youtu.be/aJ-Deu0Mh04" >}}Clinic-Ready GUI - Custom-Built for Your Study{{< /modal-movie >}}
-
-Option 2 - Linked Image to New Tab:
 {{< modal-image Customized-GUI-youtube-thumbnail-play.jpg "https://youtu.be/aJ-Deu0Mh04" >}}Clinic-Ready GUI - Custom-Built for Your Study{{< /modal-image >}}
 
 The software can be customized to support study-specific workflows and requirements, including:
