@@ -16,7 +16,7 @@ The software can be customized to support study-specific workflows and requireme
 * Blinded treatment allocation, e.g., verum vs. sham stimulation
 * Import and synchronization of subject databases from a central study site
 * Automated tracking of study progress and completed visits
-* Impedance verification and electrode quality assessment
+* Impedance verification and electrode contact quality assessment
 * Control and monitoring of TIBS-R stimulation sessions
 * Real-time visualization of stimulation and measurement data
 * Administration of electronic questionnaires and patient-reported outcomes
