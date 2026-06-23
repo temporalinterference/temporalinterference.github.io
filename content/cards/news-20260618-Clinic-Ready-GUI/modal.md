@@ -25,5 +25,4 @@ The software can be customized to support study-specific workflows and requireme
 * Subject-, session-, and study-level report generation
 * Data export for statistical analysis and regulatory submissions
 
-If you are part of our {{< modal-link Early-Adopter-Program >}}Early Adopter Program{{< /modal-link >}} and are interested in discussing a customized clinical study interface, 
-please contact us at [eap@temporalinterference.com](mailto:eap@temporalinterference.com).
+If you are part of our {{< modal-link Early-Adopter-Program >}}Early Adopter Program{{< /modal-link >}} and are interested in discussing a customized clinical study interface, please contact us at [eap@temporalinterference.com](mailto:eap@temporalinterference.com).
