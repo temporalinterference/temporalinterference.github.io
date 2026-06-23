@@ -5,7 +5,7 @@ id: news-20260618-Clinic-Ready-GUI
 
 TIBS-R is equipped with a scripting interface designed for research applications, offering extensive configurability suited to complex experimental workflows. Although highly flexible, this interface is typically too complex for routine use in clinical studies and may require an additional software layer to ensure a streamlined user experience in the clinic, where scripting expertise cannot be readily assumed.
 
-For organizations lacking dedicated in-house software development resources, TI Solutions, in collaboration with the IT’IS Foundation, can provide custom graphical user interface (GUI) development services tailored to individual study requirements.
+For organizations lacking dedicated in-house software development resources, TI Solutions, in collaboration with the  [IT'IS Foundation](https://itis.swiss), can provide custom graphical user interface (GUI) development services tailored to individual study requirements.
 
 An example GUI is shown below:
 
