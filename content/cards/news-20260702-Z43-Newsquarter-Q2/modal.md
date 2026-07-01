@@ -9,4 +9,4 @@ This edition covers:
 
 image
 
-download
+Download the Z43 Newsquarter here.
