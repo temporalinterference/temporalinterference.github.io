@@ -24,6 +24,7 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
+{{< card news-20260702-Z43-Newsquarter-Q2 >}}
 {{< card news-20260618-Clinic-Ready-GUI >}}
 {{< card news-20260611-TIP-V5-2 >}}
 {{< card news-20260430-TIP-V5-0 >}}
