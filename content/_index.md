@@ -24,10 +24,10 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
+{{< card news-20260702-Z43-Newsquarter-Q2 >}}
 {{< card news-20260618-Clinic-Ready-GUI >}}
 {{< card news-20260611-TIP-V5-2 >}}
 {{< card news-20260430-TIP-V5-0 >}}
-{{< card news-20260407-Z43-Newsquarter-Q1 >}}
 {{< card news-20260115-TIBS-R-MRI-Filter-Solutions >}}
 {{< card news-20251125-Missey-Brain-Stimulation >}}
 {{< card news-20250605-TIP-V4-0 >}}
