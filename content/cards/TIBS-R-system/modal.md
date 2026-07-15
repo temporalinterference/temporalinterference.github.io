@@ -58,7 +58,7 @@ Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI Filt
 |Scripting|Python, MATLAB - others on request |
 |Environment|+5 – +40°C |
 |Instructions for Use|Yes |
-|IP Protection - Patents|US 10173061, 10905878,11759634, EP 3204113, only in FR, DE, GB, IT, ES, FI, DK, BE, NL, CH and LI, CZ; DE 10 2022 109 563 B3, US 12506470 |
+|IP Protection - Patents|US 10173061, 10905878,11759634, EP 3204113, only in FR, DE, GB, IT, ES, FI, DK, BE, NL, CH and LI, CZ; DE 10 2022 109 563 B3, US 12506470, KR 10-2981608 |
 
 ---
 
