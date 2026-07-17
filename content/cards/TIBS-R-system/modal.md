@@ -1,7 +1,7 @@
 ---
 id: TIBS-R-system
 ---
-# TIBS-R V3.2
+# TIBS-R V3.4
 
 {{< modal-image TIBS-setup2.jpg >}}
 {{< /modal-image >}}
@@ -51,7 +51,7 @@ Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI Filt
 |Ground Current Monitoring|Yes |
 |Monitoring - Currents / Voltages|Yes, synchronous sampling / logging of stimulation |
 |Electrode Impedance Detection|Yes - online |
-|Emergency Stop Button|Optical, suitable for MRI |
+|Emergency Stop Button|Optical |
 |Safety|Hardware-limited peak currents and voltages** |
 |Control Unit|Optical connection to host PC |
 |Compliance|IEC 62304:2006 + A1:2015, IEC 60601-1-6:2010 A1:2013 +A2:2020, ISO 14971:2007, IEC 60601-1-2:2014 + A1:2020 |
