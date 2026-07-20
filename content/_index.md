@@ -67,7 +67,6 @@ TI Planning
 
 {{< card-holder >}}
 {{< card ti-planning-tool >}}
-{{< card TIP >}}
 {{< card Sim4Life >}}
 {{< /card-holder >}}
 
