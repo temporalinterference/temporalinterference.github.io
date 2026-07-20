@@ -68,6 +68,7 @@ TI Planning
 {{< card-holder >}}
 {{< card ti-planning-tool >}}
 {{< card TIP-Research >}}
+{{< card TIP-Clinic >}}
 {{< card Sim4Life >}}
 {{< /card-holder >}}
 
