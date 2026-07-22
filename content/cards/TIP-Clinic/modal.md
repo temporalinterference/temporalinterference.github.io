@@ -17,4 +17,4 @@ Stay informed — [register](mailto:info@temporalinterference.com) your interest
 {{< modal-image TIP-Clinic-iMac-visual-V3-1600x1320px.jpg >}}
 {{< /modal-image >}}
 
-Download the TIP Clinic flyer
+{{< modal-download TIP-Clinic-Flyer-V3-web.pdf >}}Download the TIP Research flyer here.{{< /modal-download >}}
