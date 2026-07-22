@@ -12,6 +12,7 @@ Starting from patient magnetic resonance images, TIP Clinic automatically genera
 
 Register [info@temporalinterference.com](info@temporalinterference.com) your interest to be notified at release. 
 
-VISUAL
+{{< modal-image TIP-Clinic-iMac-visual-V3-1600x1320px.jpg >}}
+{{< /modal-image >}}
 
 Download the TIP Clinic flyer
