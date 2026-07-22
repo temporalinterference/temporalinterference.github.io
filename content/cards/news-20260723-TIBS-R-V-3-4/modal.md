@@ -1,7 +1,7 @@
 ---
 id: news-20260723-TIBS-R-V-3-4
 ---
-# TIBS-R V3.4 - Enhanced Trigger Features and Protocol Control
+# TIBS-R V3.4 Enhanced Trigger Features and Protocol Control
 
 With the latest TIBS-R firmware update, we introduce a range of enhancements designed to improve synchronization and simplify protocol development.
 
