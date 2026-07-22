@@ -1,4 +1,4 @@
 ---
 title: TIP Research
 ---
-TIP is a user-friendly web tool for personalized TI planning, optimized for TIBS-R, supporting multichannel optimiziation for superior focality or targeting of multiple structures and phase modulation for complex modulation schemes.
+TIP Research is a user-friendly web tool for personalized TI planning, optimized for TIBS-R, supporting multichannel optimiziation for superior focality or targeting of multiple structures and phase modulation for complex modulation schemes.
