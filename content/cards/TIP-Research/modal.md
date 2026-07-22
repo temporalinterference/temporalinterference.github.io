@@ -6,7 +6,7 @@ id: TIP-Research
 
 ## Temporal Interference Planning Tool of IT'IS
 
-The Temporal Interference Planning (TIP) tool of the [IT'IS Foundation](https://itis.swiss), developed for TIBS-R, provides an advanced planning environment for temporal interference (TI) stimulation. TIP supports electrode placement, stimulation targeting, electromagnetic simulations, optimization, visualization, and analysis using established and personalized anatomical human and animal models. Read more on the [IT'IS TI Planning webpage](https://itis.swiss/tools-and-systems/ti-planning/overview/).
+The Temporal Interference Planning Tool for Research (TIP Research) of the [IT'IS Foundation](https://itis.swiss), developed for TIBS-R, provides an advanced planning environment for temporal interference (TI) stimulation. TIP supports electrode placement, stimulation targeting, electromagnetic simulations, optimization, visualization, and analysis using established and personalized anatomical human and animal models. Read more on the [IT'IS TI Planning webpage](https://itis.swiss/tools-and-systems/ti-planning/overview/).
 
 TIP enables researchers to design and validate TI stimulation protocols without requiring deep expertise in computational modeling. It supports classic TI, multi-channel TI, and phase-modulation TI workflows, and is fully compatible with the TIBS-R system.
 
@@ -18,7 +18,7 @@ TIP V5.2 delivers a focused overhaul of the surrogate-model-based optimizer (SuM
 
 * Adaptive Convergence: The optimizer stops automatically once convergence is reached, allowing the user to choose the precision level – low, medium, or high – that best fits the workflow.
 
-TIP remains available through the TI Solutions Early Adopter Program and IT'IS research partnerships. Precomputed models can be explored without personalized simulation costs; personalized models require AWS simulation costs.
+TIP remains available through the TI Solutions Early Adopter Program and IT'IS research partnerships. Precomputed models can be explored without personalized simulation costs; personalized cloud simulations are charged according to the applicable AWS simulation cost.
 
 ## Privacy-First Personalization
 
@@ -45,14 +45,14 @@ TIP prepares the field data needed for optimization, exposure assessment, and do
 
 Select the anatomical model, stimulation target, and threshold definitions.
 
-Standardized 10–10 electrode placement supports reproducible planning while keeping the optimization search space manageable.
+Standardized 10-10 electrode placement supports reproducible planning while keeping the optimization search space manageable.
 
 ## Optimal Configuration Identification
 
 {{< modal-image tip_4.jpg >}}
 {{< /modal-image >}}
 
-Identify high-performing electrode configurations with the surrogate-model-based optimizer (SuMo).
+Identify high-performing electrode configurations with the surrogate-model-based optimizer.
 
 In TIP V5.2, native constraint handling keeps the SuMo surface smooth and ensures every configuration on the Pareto front is physically deployable, parallel multi-seed execution delivers denser and richer Pareto fronts, and adaptive convergence lets you select low, medium, or high precision to balance speed against thoroughness.
 
