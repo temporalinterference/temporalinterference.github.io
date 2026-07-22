@@ -11,8 +11,7 @@ Protocol programming via the backend has also been significantly simplified. Con
 
 Finally, protocol-level output voltage limits allow users to define voltage caps lower than the 52 V maximum, which improves patient comfort by preventing unnecessary voltage surges if electrode contact quality were to deteriorate during stimulation.
 
-These enhancements make TIBS-R even more flexible and user-friendly for research groups participating in our Early Adopter Program and conducting advanced neurostimulation studies.
-EAP groups can contact [support@temporalinterference.com](support@temporalinterference.com) for an upgrade.
+These enhancements make TIBS-R even more flexible and user-friendly for research groups participating in our Early Adopter Program (EAP) and conducting advanced neurostimulation studies. EAP groups can contact our [support team](support@temporalinterference.com) for an upgrade.
 
 {{< modal-image news-20260723-TIBS-R-V3-4-visual.jpg >}}
 {{< /modal-image >}}
