@@ -12,7 +12,7 @@ Starting from patient magnetic resonance images, TIP Clinic automatically genera
 
 ## Coming soon
 
-Stay informed — register your interest and be notified when the product is released: [info@temporalinterference.com](info@temporalinterference.com) 
+Stay informed — [register](mailto:info@temporalinterference.com) your interest and be notified when the product is released. 
 
 {{< modal-image TIP-Clinic-iMac-visual-V3-1600x1320px.jpg >}}
 {{< /modal-image >}}
