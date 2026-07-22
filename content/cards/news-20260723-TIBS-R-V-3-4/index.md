@@ -1,5 +1,5 @@
 ---
-title: TIBS-R V3.4 – Enhanced Trigger Functions and Protocol Control
+title: TIBS-R V3.4 Enhanced Trigger Functions and Protocol Control
 ---
 
 July 23, 2026
