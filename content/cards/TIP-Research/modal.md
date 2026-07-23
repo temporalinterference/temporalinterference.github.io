@@ -1,8 +1,7 @@
 ---
 id: TIP-Research
 ---
-# TIP Research
-# TIP V5.2
+# TIP Research V5.2
 
 ## Temporal Interference Planning Tool of IT'IS
 
