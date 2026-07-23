@@ -1,7 +1,7 @@
 ---
 id: TIBS-R-system
 ---
-# TIBS-R V3.2
+# TIBS-R V3.4
 
 {{< modal-image TIBS-setup2.jpg >}}
 {{< /modal-image >}}
@@ -51,14 +51,14 @@ Concurrent functional magnetic resonance imaging (fMRI) requires our TI-MRI Filt
 |Ground Current Monitoring|Yes |
 |Monitoring - Currents / Voltages|Yes, synchronous sampling / logging of stimulation |
 |Electrode Impedance Detection|Yes - online |
-|Emergency Stop Button|Optical, suitable for MRI |
+|Emergency Stop Button|Optical |
 |Safety|Hardware-limited peak currents and voltages** |
 |Control Unit|Optical connection to host PC |
 |Compliance|IEC 62304:2006 + A1:2015, IEC 60601-1-6:2010 A1:2013 +A2:2020, ISO 14971:2007, IEC 60601-1-2:2014 + A1:2020 |
 |Scripting|Python, MATLAB - others on request |
 |Environment|+5 – +40°C |
 |Instructions for Use|Yes |
-|IP Protection - Patents|US 10173061, 10905878,11759634, EP 3204113, only in FR, DE, GB, IT, ES, FI, DK, BE, NL, CH and LI, CZ; DE 10 2022 109 563 B3, US 12506470 |
+|IP Protection - Patents|US 10173061, 10905878,11759634, EP 3204113, only in FR, DE, GB, IT, ES, FI, DK, BE, NL, CH and LI, CZ; DE 10 2022 109 563 B3, US 12506470, KR 10-2981608 |
 
 ---
 
@@ -72,7 +72,7 @@ AWG: arbitrary waveform generator; EEG: electroencephalogram; MRI: magnetic reso
 
 Minimal PC specifications: Windows 11 Pro, 16 GB RAM, UHD graphics, USB-C
 
-{{< modal-download TI-Solutions-TIBS-R-flyer-web-2603.pdf >}}Download the TIBS-R flyer here.{{< /modal-download >}}
+{{< modal-download TI-Solutions-TIBS-R-flyer-web-2607.pdf >}}Download the TIBS-R flyer here.{{< /modal-download >}}
 
 
 
