@@ -1,5 +1,5 @@
 ---
-id: news-20260723-TIBS-R-V-3-4
+id: news-20260728-TIBS-R-V-3-4
 ---
 # TIBS-R V3.4 – Enhanced Trigger Functions and Protocol Control
 
@@ -15,5 +15,3 @@ These enhancements make TIBS-R even more flexible and user-friendly for research
 
 EAP groups can contact our [support team](mailto:support@temporalinterference.com) for an upgrade.
 
-{{< modal-image news-20260723-TIBS-R-V3-4-visual.jpg >}}
-{{< /modal-image >}}
