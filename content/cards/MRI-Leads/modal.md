@@ -1,9 +1,11 @@
 ---
 id: MRI-Leads
 ---
-# MRI Leads
+# MRI Lead Set
 
-### MRI-Optimized Electrode Lead Set
+### MRI Lead Set of the IT’IS Foundation
+
+The MRI-optimized electrode lead set is designed for safe, artifact-free magnetic resonance imaging scans. Each set includes ten electrodes and uses novel lead technology with a distributed resistance of 3 ± 10% kΩ/m.
 
 |    |            |
 |:-----------|:------------|
