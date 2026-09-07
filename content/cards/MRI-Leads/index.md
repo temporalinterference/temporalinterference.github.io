@@ -1,5 +1,5 @@
 ---
-title: MRI Leads
+title: MRI Lead Set
 ---
 
-MRI-Optimized Lead Set with ten electrodes per set. A novel lead technology with distributed resistance of 3+/-10% kOhm/m, warranting safe and artifact-free MRI scans.
+The MRI-optimized lead set features novel distributed-resistance technology for safe, artifact-free magnetic resonance imaging scans.
