@@ -5,9 +5,9 @@ id: MRI-Leads
 
 ### MRI-Optimized Electrode Leads
 
-The MRI-optimized electrode leads developed by TI Solutions in collaboration with [EMPA](https://www.empa.ch/web/empa/), Switzerland, feature optimized distributed resistance of 3 ± 10% kΩ/m for safe, artifact-free stimulation during functional magnetic resonance imaging. Each set includes ten electrodes.
+The MRI-optimized electrode leads developed by TI Solutions in collaboration with [EMPA](https://www.empa.ch/web/empa/), Switzerland, feature optimized distributed resistance of 3 ± 10% kΩ/m for safe, artifact-free stimulation during functional magnetic resonance imaging.
 
-TIBS-R supports up to four stimulation channels (eight electrodes).
+TIBS-R supports up to four stimulation channels (eight electrodes). Each MRI Lead Set includes ten electrodes.
 
 ---
 
