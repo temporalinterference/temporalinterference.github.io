@@ -60,6 +60,14 @@ TI Devices
 {{< card MRI-Leads >}}
 {{< /card-holder >}}
 
+{{< section id=other-products >}}
+Other Products
+{{< /section >}}
+
+{{< card-holder >}}
+{{< card MRI-Leads >}}
+{{< /card-holder >}}
+
 {{< movie tibs >}}
 
 {{< section id=ti-planning-tool >}}
