@@ -57,7 +57,6 @@ TI Devices
 {{< card ti-wpt >}}
 {{< card EEG-Filters >}}
 {{< card MRI-Filters >}}
-{{< card MRI-Leads >}}
 {{< /card-holder >}}
 
 {{< section id=other-products >}}
