@@ -12,6 +12,8 @@ navigation:
       href: '#news'
     - title: TI Devices
       href: '#ti-devices'
+    - title: Other Products
+      href: '#other-products'
     - title: TI Planning
       href: '#ti-planning-tool'
     - title: Early Adopter Program
