@@ -1,18 +1,30 @@
 ---
 id: Resistive-Leads
 ---
-# MRI Lead Set
+# Resistive Leads
 
-### MRI-Optimized Electrode Leads
+### Novel Technology
 
-The MRI-optimized electrode leads developed by TI Solutions in collaboration with [EMPA](https://www.empa.ch/web/empa/), Switzerland, feature optimized distributed resistance of 3 ± 10% kΩ/m for safe, artifact-free stimulation during functional magnetic resonance imaging.
+The novel resistive lead technology was developed by TI Solutions in collaboration with the Swiss Federal Laboratories for Materials Science and Technology (EMPA) and features optimized distributed resistance of 3 kΩ/m ± 10%. It is the most effective solution to minimize radiofrequency-induced currents in cables, across many applications. For example, it enables safe, artifact-free temporal interference stimulation during functional magnetic resonance imaging (fMRI).
 
-TIBS-R supports up to four stimulation channels (eight electrodes). Each MRI Lead Set includes ten electrodes.
+### Applications 
 
----
+The novel lead technology provides a versatile solutions for a wide range of applications involving MRI:
 
-## Specifications of the MRI Lead Set
-### MRI Lead Set for TIBS-R
+*	Closed-loop neuromodulation studies combining stimulation, electrophysiology, and fMRI
+*	Simultaneous EEG-fMRI
+*	ECG monitoring during fMRI
+*	EMG-fMRI and motor-function studies
+*	EOG monitoring for sleep and visual studies
+*	Electrodermal activity (EDA/GSR) monitoring
+*	MR-compatible polysomnography and sleep research
+*	Peripheral nerve electrophysiology
+*	Intracranial electrophysiology, where applicable
+*	Simultaneous electrical stimulation and electrophysiological recording during fMRI
+*	Multimodal brain–body monitoring during fMRI
+*	General low-noise biopotential recording in high-field MRI environments
+
+### MRI Lead Set
 
 |    |            |
 |:-----------|:------------|
