@@ -1,5 +1,5 @@
 ---
-title: MRI Lead Set
+title: Resistive Leads
 ---
 
-The MRI-optimized electrode leads use novel distributed-resistance technology for safe, artifact-free stimulation during functional magnetic resonance imaging.
+Our new lead technology with distributed-resistance is the ultimate solution for safe and artifact-free imaging inside a magnetic resonance environment.
