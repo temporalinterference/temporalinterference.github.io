@@ -78,6 +78,7 @@ Other Products
 
 {{< card-holder >}}
 {{< card Other-Products >}}
+{{< card Resistive-Leads >}}
 {{< /card-holder >}}
 
 {{< section id=early-adopter-program >}}
