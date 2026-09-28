@@ -78,7 +78,6 @@ Other Products
 
 {{< card-holder >}}
 {{< card Other-Products >}}
-{{< card MRI-Leads >}}
 {{< /card-holder >}}
 
 {{< section id=early-adopter-program >}}
