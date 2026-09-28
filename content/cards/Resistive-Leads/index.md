@@ -2,4 +2,4 @@
 title: Resistive Leads
 ---
 
-Our new lead technology with distributed-resistance is the ultimate solution for safe and artifact-free imaging inside a magnetic resonance environment.
+The new lead technology with distributed resistance provides the ultimate solution for safe, artifact-free imaging in a magnetic resonance environment.
