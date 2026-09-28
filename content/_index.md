@@ -64,6 +64,7 @@ Other Products
 {{< /section >}}
 
 {{< card-holder >}}
+{{< card Other-Products >}}
 {{< card MRI-Leads >}}
 {{< /card-holder >}}
 
