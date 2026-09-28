@@ -1,0 +1,1 @@
+TI Solutions’ main product line is dedicated to advancing the science of temporal interference stimulation and translating the technology into therapeutic solutions for everyday use. The company is also expanding its portfolio with additional products built on its underlying core technologies, opening up further opportunities across a broad range of applications.
