@@ -7,6 +7,7 @@ This edition covers:
 * the Successful Completion of.............. and Publications
 * the Release of..........
 
-Image - KEA to add
+{{< modal-image news-20261001-Z43-Newsquarter-Q3.jpg >}}
+{{< /modal-image >}}
 
-Download PDF - KEA to add
+{{< modal-download news-20261001-Z43-Newsquarter-Q3.pdf >}}Download the Z43 Newsquarter here.{{< /modal-download >}}
