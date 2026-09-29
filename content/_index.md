@@ -24,6 +24,7 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
+{{< card news-20260929-Poster-Prize-BIC-ISMRM-2026 >}}
 {{< card news-20260728-TIBS-R-V-3-4 >}}
 {{< card news-20260702-Z43-Newsquarter-Q2 >}}
 {{< card news-20260618-Clinic-Ready-GUI >}}
