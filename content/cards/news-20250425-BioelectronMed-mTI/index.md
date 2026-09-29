@@ -3,5 +3,4 @@ title: New Publication "Focal Control of Non-Invasive Deep Brain Stimulation Usi
 ---
 April 25, 2025
 
-Temporal interference stimulation works by applying high-frequency
-
+Temporal interference stimulation works by applying high-frequency currents via skin electrodes to non-invasively stimulate deep regions of the brain.
