@@ -4,4 +4,4 @@ title: TIP V5.0 is Here – Privacy First, Full Sim4Life Power, 5× Faster
 ---
 May 5, 2026
 
-Our partner [IT'IS](https://itis.swiss) has released the latest version of their powerful {{< modal-link TIP >}}Temporal Interference Planning tool{{< /modal-link >}}, TIP V5.0!
+Our partner IT'IS has released the latest version of their powerful Temporal Interference Planning Tool for Research, TIP V5.0!
