@@ -5,7 +5,7 @@ id: Resistive-Leads
 
 ### Novel Technology
 
-The novel resistive lead technology was developed by TI Solutions in collaboration with the Swiss Federal Laboratories for Materials Science and Technology (EMPA) and features optimized distributed resistance of 3 kΩ/m ± 10%. It is the most effective solution for minimization of radiofrequency-induced currents in cables across many applications, enabling, for example, safe and artifact-free temporal interference stimulation during functional MRI (fMRI).
+The novel resistive lead technology was developed by TI Solutions in collaboration with the Swiss Federal Laboratories for Materials Science and Technology (EMPA) and features optimized distributed resistance of 4.4 kΩ/m ± 20%. It is the most effective solution for minimization of radiofrequency-induced currents in cables across many applications, enabling, for example, safe and artifact-free temporal interference stimulation during functional MRI (fMRI).
 
 ### Applications 
 
@@ -29,9 +29,9 @@ The novel lead technology provides versatile solutions for a wide range of appli
 |:-----------|:------------|
 |Number of Electrodes per Set|10 |
 |Electrode Material|Ag/AgCl; other materials available upon request |
-|Electrode Lead Type|Novel lead technology with distributed resistance of 4.4 +/-20%&nbsp;kOhm/m warranting safe and artifact-free MRI scans |
-|Electrode Lead Length|60 / 80 cm |
-|Electrode Connector Type|Touch-Proof 1.5 mm male |
+|Electrode Lead Type|Novel lead technology with distributed resistance of 4.4 +/-20%&nbsp;kOhm/m, warranting safe and artifact-free MRI scans |
+|Electrode Lead Length|60 / 80 cm; any other length available upon request |
+|Electrode Connector Type|Touch-Proof 1.5 mm male or upon request |
 
 ---
 
