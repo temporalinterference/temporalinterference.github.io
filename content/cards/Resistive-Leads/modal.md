@@ -37,16 +37,10 @@ The novel lead technology provides versatile solutions for a wide range of appli
 
 {{< modal-image TI-MRIcRL800-V1-RED-view1-1620px.jpg >}}
 {{< /modal-image >}}
-TI-MRIcRL800 red
-
-{{< modal-image TI-MRIcRL800-V1-RED-view2-1620px.jpg >}}
-{{< /modal-image >}}
-TI-MRIcRL800 red
 
 {{< modal-image TI-MRIcRL800-V1-BLACK-view1-1620px.jpg >}}
 {{< /modal-image >}}
 TI-MRIcRL800 black
+Red and black MRI Lead Set pair, color-coded to match their respective red and black ECB connectors. Each set contains leads with red, yellow, purple, and blue channel identifiers, along with an unmarked spare lead.
 
-{{< modal-image TI-MRIcRL800-V1-BLACK-view2-1620px.jpg >}}
-{{< /modal-image >}}
-TI-MRIcRL800 black
+
