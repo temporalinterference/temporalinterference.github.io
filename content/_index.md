@@ -24,11 +24,12 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
+{{< card news-20261001-Z43-Newsquarter-Q3 >}}
+{{< card news-20260929-Poster-Prize-BIC-ISMRM-2026 >}}
 {{< card news-20260728-TIBS-R-V-3-4 >}}
-{{< card news-20260702-Z43-Newsquarter-Q2 >}}
 {{< card news-20260618-Clinic-Ready-GUI >}}
 {{< card news-20260611-TIP-V5-2 >}}
-{{< card news-20260430-TIP-V5-0 >}}
+{{< card news-20260505-TIP-V5-0 >}}
 {{< card news-20260115-TIBS-R-MRI-Filter-Solutions >}}
 {{< card news-20251125-Missey-Brain-Stimulation >}}
 {{< card news-20250605-TIP-V4-0 >}}
@@ -70,6 +71,15 @@ TI Planning
 {{< card TIP-Clinic >}}
 {{< card TIP-Research >}}
 {{< card Sim4Life >}}
+{{< /card-holder >}}
+
+{{< section id=other-products >}}
+Other Products
+{{< /section >}}
+
+{{< card-holder >}}
+{{< card Other-Products >}}
+{{< card Resistive-Leads >}}
 {{< /card-holder >}}
 
 {{< section id=early-adopter-program >}}

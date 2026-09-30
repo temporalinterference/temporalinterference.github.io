@@ -1,0 +1,1 @@
+Our main product line is dedicated to advancing TI stimulation research and translating the technology into therapeutic solutions for everyday use. We are also expanding our portfolio with additional products based on our core technologies for a broad range of applications.

@@ -4,4 +4,4 @@ title: TIBS-R V3.2 – Minimal Latency Trigger Functionality for Closed-Loop Pro
 
 Jan 30, 2025
 
-The TIBS-R software has been upgraded, adding the capability of delivering envelope waveforms of arbitrary shapes with minimal latency
+The TIBS-R software has been upgraded, adding the capability of delivering envelope waveforms of arbitrary shapes with minimal latency upon receiving an external trigger.

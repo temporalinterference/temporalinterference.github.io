@@ -4,11 +4,13 @@ id: Publications
 # Selected Publications
 
 ## 2026
+Demchenko I *et al. Safety and tolerability of temporal interference stimulation in humans: A systematic review and meta-analysis of an emerging deep neuromodulation technology.* Neurosci. Biobehav. Rev. 2026; 191:106981. [doi:10.1016/j.neubiorev.2026.106981](https://www.sciencedirect.com/science/article/pii/S0149763426004380)
+
 Missey F *et al. Non-invasive temporal interference stimulation of the hippocampus suppresses epileptic biomarkers in patients with Epilepsy: Biophysical differences between kilohertz and amplitude modulated stimulation.* Brain Stimul. 2026; 19(1):102981. [doi:10.1016/j.brs.2025.11.008](https://www.sciencedirect.com/science/article/pii/S1935861X25003791?via%3Dihub)
 
-Schaeffer E *et al. Enhancement of Sleep Slow Wave Activity using Transcranial Electrical Stimulation with Temporal Interference: An Interim Analysis of the STRENGTHEN Study.* Commun. Med. 2026; published July 1. [doi:10.1038/s43856-026-01744-x](https://www.nature.com/articles/s43856-026-01744-x)
+Schaeffer E *et al. Enhancement of sleep slow wave activity using transcranial electrical stimulation with temporal interference: An interim analysis of the STRENGTHEN study.* Commun. Med. 2026; published July 1. [doi:10.1038/s43856-026-01744-x](https://www.nature.com/articles/s43856-026-01744-x)
 
-Vassiliadis P *et al. Temporal interference stimulation for deep brain neuromodulation in humans.* Nat. Biomed. Eng. 2026; published May 19. [doi:10.1038/s41551-026-01665-z](https://doi.org/10.1038/s41551-026-01665-z)
+Vassiliadis P *et al. Temporal interference stimulation for deep brain neuromodulation in humans.* Nat. Biomed. Eng. 2026; 10:1279–1294. [doi:10.1038/s41551-026-01665-z](https://doi.org/10.1038/s41551-026-01665-z)
 
 ## 2025
 Antal A *et al. Low intensity transcranial electric stimulation: Safety, ethical, legal regulatory and application guidelines (2017–2025: An update) – endorsed by the European Society for Brain Stimulation (ESBS) and by the International Federation for Clinical Neurophysiology (IFCN).* Clin Neurophysiol. 2025; 184:2111436 [doi:10.1016/j.clinph.2025.2111436](https://www.sciencedirect.com/science/article/pii/S138824572501288X?via%3Dihub)
@@ -21,7 +23,9 @@ Cassarà AM *et al. Recommendations for the safe application of temporal interfe
 
 Demchenko I *et al. Human applications of transcranial temporal interference stimulation: A systematic review.* Brain Stimul. 2025; 18(6):2054–2066. [doi:10.1016/j.brs.2025.10.023](https://www.brainstimjrnl.com/article/S1935-861X(25)00369-9/fulltext)
 
-Karimi F *et al. Safety of non-invasive brain stimulation in patients with implants: A computational risk assessment.* J Neural Eng. 2025; 22:016039. [doi:10.1088/1741-2552/ad8efa](https://iopscience.iop.org/article/10.1088/1741-2552/ad8efa)
+Karimi F *et al. Safety of non-invasive brain stimulation in patients with implants: A computational risk assessment.* J Neural Eng. 2025; 22(1):016039. [doi:10.1088/1741-2552/ad8efa](https://iopscience.iop.org/article/10.1088/1741-2552/ad8efa)
+
+Karimi F *et al. Precision non-invasive brain stimulation: an in silico pipeline for personalized control of brain dynamics.* J Neural Eng. 2025; 22(2):026061. [doi:10.1088/1741-2552/adb88f](https://iopscience.iop.org/article/10.1088/1741-2552/adb88f))
 
 Lamoš M *et al. Noninvasive temporal interference stimulation of the subthalamic nucleus in Parkinson’s disease reduces beta activity.* Mov. Disord. 2025; 40(6):1051–1060. [doi:10.1002/mds.30134](https://movementdisorders.onlinelibrary.wiley.com/doi/pdfdirect/10.1002/mds.30134)
 
