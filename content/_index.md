@@ -29,6 +29,7 @@ News
 {{< card news-20260728-TIBS-R-V-3-4 >}}
 {{< card news-20260618-Clinic-Ready-GUI >}}
 {{< card news-20260611-TIP-V5-2 >}}
+{{< card news-20260505-TIP-V5-0 >}}
 {{< card news-20260115-TIBS-R-MRI-Filter-Solutions >}}
 {{< card news-20251125-Missey-Brain-Stimulation >}}
 {{< card news-20250605-TIP-V4-0 >}}
