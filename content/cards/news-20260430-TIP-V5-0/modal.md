@@ -1,5 +1,5 @@
 ---
-id: news-20260430-TIP-V5-0
+id: 
 ---
 # TIP V5.0 is Here – Privacy First, Full Sim4Life Power, 5× Faster
 
