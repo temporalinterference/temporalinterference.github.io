@@ -8,7 +8,7 @@ The unique TI-MRI Filter Solutions of the [IT'IS Foundation](https://itis.swiss)
 
 The TI protocol is conveniently operated from the PC in the MRI control room, where the TIBS-R is also located. The standard Electrode Connection Box (ECB) is replaced with an fMRI-compatible version supplied by IT’IS. Stimulation currents are delivered to the ECB, positioned near the subject’s head, through a filter integrated into the shielded room’s penetration panel and delivered via a 10-meter cable equipped with traps tuned to the scanner’s specific radiofrequency (RF) frequency.
 
-An additional breakthrough is the set of leads developed by TI Solutions in collaboration with [EMPA](https://www.empa.ch/web/empa/), Switzerland, featuring optimized distributed resistance for maximum safety and artifact-free recording during fMRI. TIBS-R supports up to four stimulation channels (eight electrodes).
+An additional breakthrough is the {{< modal-link Resistive-Leads >}}set of leads{{< /modal-link >}} developed by TI Solutions in collaboration with [EMPA](https://www.empa.ch/web/empa/), Switzerland, featuring optimized distributed resistance for maximum safety and artifact-free recording during fMRI. TIBS-R supports up to four stimulation channels (eight electrodes).
 
 {{< modal-image MRI-Room-with-TI-Solutions-devices-V8-1920px.jpg >}}
 {{< /modal-image >}}
