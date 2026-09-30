@@ -29,7 +29,7 @@ The novel lead technology provides versatile solutions for a wide range of appli
 |:-----------|:------------|
 |Number of Electrodes per Set|10 |
 |Electrode Material|Ag/AgCl; other materials available upon request |
-|Electrode Lead Type|Novel lead technology with distributed resistance of 3+/-10%&nbsp;kOhm/m warranting safe and artifact-free MRI scans |
+|Electrode Lead Type|Novel lead technology with distributed resistance of 4.4 +/-20%&nbsp;kOhm/m warranting safe and artifact-free MRI scans |
 |Electrode Lead Length|60 / 80 cm |
 |Electrode Connector Type|Touch-Proof 1.5 mm male |
 
