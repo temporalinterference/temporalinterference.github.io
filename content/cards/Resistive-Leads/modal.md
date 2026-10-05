@@ -31,7 +31,7 @@ The novel lead technology provides versatile solutions for a wide range of appli
 |Electrode Material|Ag/AgCl; other materials available upon request |
 |Electrode Lead Type|Novel lead technology with distributed resistance of 4.4&nbsp;±&nbsp;20%&nbsp;kOhm/m, warranting safe and artifact-free MRI scans |
 |Electrode Lead Length|60 / 80 cm; any other length available upon request |
-|Electrode Connector Type|Touch-Proof 1.5 mm male or upon request |
+|Electrode Connector Type|Touch-Proof 1.5 mm female or upon request |
 
 ---
 
