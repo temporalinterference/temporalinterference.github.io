@@ -3,7 +3,7 @@ id: news-20260505-TIP-V5-0
 ---
 # TIP Research V5.0 is Here – Privacy First, Full Sim4Life Power, 5× Faster
 
-Our partner [IT'IS](https://itis.swiss) has released the latest version of their powerful {{< modal-link TIP-Research >}}TI Planning Tool for Research{{< /modal-link >}}, TIP Research V5.0!
+Our partner [IT'IS](https://itis.swiss) has released the latest version of their powerful {{< modal-link TIP-Research >}}Temporal Interference Planning Tool for Research{{< /modal-link >}}, TIP Research V5.0!
 
 What's new in V5.0?
 
