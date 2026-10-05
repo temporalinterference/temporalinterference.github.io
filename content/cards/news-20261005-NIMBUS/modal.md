@@ -9,7 +9,7 @@ NIMBUS is a multicenter study to investigate whether temporal interference (TI) 
 
 We are excited to see our technology being used in this multicenter clinical study, and we look forward to supporting the NIMBUS team as the project progresses. The {{< modal-link TIP-Research >}}TI Planning Tool for Research{{< /modal-link >}}, developed by the IT’IS Foundation, is used to personalize TI stimulation for each patient. The same technology will form the basis for personalized treatment planning with TI Solutions’ first medical stimulation device.
 
-Learn more on the [NIMBUS Website](https://www.epfl.ch/labs/hummel-lab/research/current-research-projects/nimbus/).
+Learn more on the [NIMBUS Website](https://nimbus.epfl.ch/en/about-us).
 
 {{< modal-image news-20261005-NIMBUS.jpg >}}
 {{< /modal-image >}}
