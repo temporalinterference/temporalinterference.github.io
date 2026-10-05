@@ -3,7 +3,7 @@ id: news-20261005-NIMBUS
 ---
 # TIBS-R for NIMBUS Stroke Study
 
-Our {{< modal-link TIBS-R-system >}}TIBS-R{{< /modal-link >}} stimulation technology is part of the **NIMBUS** project – short for "**N**on-**I**nvasive neuro**M**odulation of deep **B**rain structures for **U**pper limb recovery after **S**troke". 
+Our {{< modal-link TIBS-R-system >}}TIBS-R{{< /modal-link >}} stimulation technology is part of the NIMBUS project – short for "Non-Invasive neuroModulation of deep Brain structures for Upper limb recovery after Stroke". 
 
 NIMBUS is a multicenter study to investigate whether temporal interference (TI) stimulation of the striatum, combined with intensive upper-limb rehabilitation, can improve recovery in chronic stroke patients. Recruitment is now underway at three centers across Switzerland: EPFL – CRR SUVA in Sion, the Lucerne Cantonal Hospital (LUKS), and the Geneva University Hospitals (HUG).
 
