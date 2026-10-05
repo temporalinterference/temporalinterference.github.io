@@ -3,7 +3,7 @@ id: news-20250605-TIP-V4-0
 ---
 # Introducing TIP Research V4.0 – Fully Automated and Smarter Than Ever
 
-Our partner [IT'IS](https://itis.swiss) has released the latest version of their powerful {{< modal-link TIP-Resarch >}}Temporal Interference Planning Tool for Research{{< /modal-link >}}, TIP Research V4.0!
+Our partner [IT'IS](https://itis.swiss) has released the latest version of their powerful {{< modal-link TIP-Research >}}Temporal Interference Planning Tool for Research{{< /modal-link >}}, TIP Research V4.0!
 
 What's new in V4.0?
 
