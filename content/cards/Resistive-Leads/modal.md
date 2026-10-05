@@ -23,7 +23,7 @@ The novel lead technology provides versatile solutions for a wide range of appli
 * Multimodal brain-body monitoring during fMRI
 * General low-noise biopotential recording in high-field MRI environments
 
-### MRI Lead Set
+### Resistive Lead Set
 
 |    |            |
 |:-----------|:------------|
