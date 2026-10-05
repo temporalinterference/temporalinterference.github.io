@@ -9,4 +9,7 @@ NIMBUS is a multicenter study to investigate whether temporal interference stimu
 
 We are excited to see our technology used in this multicenter study and look forward to supporting the NIMBUS team as the project progresses. The TIP tool, developed by IT’IS, is used to personalize TI stimulation for each patient. The same technology will form the basis for personalized treatment planning with TI Solutions’ first medical stimulation device.
 
-To learn more visit the [NIMBUS Website](https://www.epfl.ch/labs/hummel-lab/research/current-research-projects/nimbus/)
+To learn more, visit the [NIMBUS Website](https://www.epfl.ch/labs/hummel-lab/research/current-research-projects/nimbus/)
+
+{{< modal-image news-20261005-NIMBUS.jpg >}}
+{{< /modal-image >}}
