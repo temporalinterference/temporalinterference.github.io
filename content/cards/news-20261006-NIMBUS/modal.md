@@ -7,5 +7,4 @@ We are excited to see our technology being used in this multicenter clinical stu
 
 Learn more on the [NIMBUS Website](https://nimbus.epfl.ch/en/about-us).
 
-{{< modal-image news-20261005-NIMBUS.jpg >}}
-{{< /modal-image >}}
+
