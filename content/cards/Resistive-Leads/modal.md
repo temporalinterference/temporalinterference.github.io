@@ -23,7 +23,7 @@ The novel lead technology provides versatile solutions for a wide range of appli
 * Multimodal brain-body monitoring during fMRI
 * General low-noise biopotential recording in high-field MRI environments
 
-### MRI Lead Set
+### Resistive Lead Set
 
 |    |            |
 |:-----------|:------------|
@@ -31,7 +31,7 @@ The novel lead technology provides versatile solutions for a wide range of appli
 |Electrode Material|Ag/AgCl; other materials available upon request |
 |Electrode Lead Type|Novel lead technology with distributed resistance of 4.4&nbsp;±&nbsp;20%&nbsp;kOhm/m, warranting safe and artifact-free MRI scans |
 |Electrode Lead Length|60 / 80 cm; any other length available upon request |
-|Electrode Connector Type|Touch-Proof 1.5 mm male or upon request |
+|Electrode Connector Type|Touch-Proof 1.5 mm female or upon request |
 
 ---
 
@@ -40,4 +40,7 @@ The novel lead technology provides versatile solutions for a wide range of appli
 
 {{< modal-image TI-MRIcRL800-V1-BLACK-view1-1620px.jpg >}}
 {{< /modal-image >}}
-TI-MRIcRL800 red and black MRI Lead Set pair, here color-coded to match their respective red and black connectors on the {{< modal-link TIBS-R-system >}}TIBS-R ECB{{< /modal-link >}}. Each set contains leads with red, yellow, purple, and blue channel identifiers, along with an unmarked spare lead.
+TI-MRIcRL800 red and black MRI Lead Set pair, here color-coded to match their respective red and black connectors on the TIBS-R-I-MRI ECB for the {{< modal-link MRI-Filters >}}TI-MRI Filter Solutions{{< /modal-link >}} of the IT'IS Foundation. Each set contains leads with red, yellow, purple, and blue channel identifiers, along with an unmarked spare lead.
+
+Discover the story behind our resistive leads: Read the [article in Medizin & Technik (May 28, 2026)](https://medizin-und-technik.industrie.de/technik/entwicklung/kabel-im-mrt-wo-metall-keinen-zutritt-hat/?newsletter=23%2FMailing_16107%2F&ecmId=16107%2F12448&ecmUid=a43fa2f8698a6eea1f7d3b6a5b1131ff15dc0b8506cfa3a6c7bb16a50d2750c0)
+*(Note: This article is in German; please use your browser’s auto-translate feature if needed.)*
