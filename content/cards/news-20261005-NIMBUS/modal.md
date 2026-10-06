@@ -1,7 +1,3 @@
----
-id: news-20261005-NIMBUS
----
-# TIBS-R for NIMBUS Stroke Study
 
 Our {{< modal-link TIBS-R-system >}}TIBS-R{{< /modal-link >}} stimulation technology is part of the NIMBUS project – short for "Non-Invasive neuroModulation of deep Brain structures for Upper limb recovery after Stroke". 
 
