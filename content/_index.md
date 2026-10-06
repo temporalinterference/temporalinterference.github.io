@@ -24,7 +24,6 @@ News
 {{< /section >}}
 
 {{< card-holder >}}
-{{< card news-20261005-NIMBUS >}}
 {{< card news-20261001-Z43-Newsquarter-Q3 >}}
 {{< card news-20260929-Poster-Prize-BIC-ISMRM-2026 >}}
 {{< card news-20260728-TIBS-R-V-3-4 >}}
