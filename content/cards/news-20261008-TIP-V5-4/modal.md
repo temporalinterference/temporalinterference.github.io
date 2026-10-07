@@ -7,9 +7,9 @@ Our partner [IT'IS](https://itis.swiss) has released the latest version of their
 
 What's new in V5.4:
 
-*
-*
-*
+* bullet 1
+* bullet 2
+* bullet 3
 
 TIP Research V5.4 is available to members of TI Solutions {{< modal-link Early-Adopter-Program >}}Early Adopter Program{{< /modal-link >}}.
 
