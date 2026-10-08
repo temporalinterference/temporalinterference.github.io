@@ -13,4 +13,4 @@ What's new in V5.4:
 
 TIP Research V5.4 is available to members of TI Solutions {{< modal-link Early-Adopter-Program >}}Early Adopter Program{{< /modal-link >}}.
 
-{{< modal-image news-20261008-TIP-V5-4.jpg >}} {{< /modal-image >}}
+
