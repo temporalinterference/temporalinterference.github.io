@@ -42,5 +42,4 @@ The novel lead technology provides versatile solutions for a wide range of appli
 {{< /modal-image >}}
 TI-MRIcRL800 red and black MRI Lead Set pair, here color-coded to match their respective red and black connectors on the TIBS-R-I-MRI ECB for the {{< modal-link MRI-Filters >}}TI-MRI Filter Solutions{{< /modal-link >}} of the IT'IS Foundation. Each set contains leads with red, yellow, purple, and blue channel identifiers, along with an unmarked spare lead.
 
-Discover the story behind our resistive leads: Read the [article in Medizin & Technik (May 28, 2026)](https://medizin-und-technik.industrie.de/technik/entwicklung/kabel-im-mrt-wo-metall-keinen-zutritt-hat/?newsletter=23%2FMailing_16107%2F&ecmId=16107%2F12448&ecmUid=a43fa2f8698a6eea1f7d3b6a5b1131ff15dc0b8506cfa3a6c7bb16a50d2750c0)
-*(Note: This article is in German; please use your browser’s auto-translate feature if needed.)*
+Discover the story behind our resistive leads: Read the [Innosuisse press release (Jan 20, 2026)](https://www.eda.admin.ch/en/newnsb/sfd1yacfr4o7IiuLhFihk)
