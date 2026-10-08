@@ -7,9 +7,9 @@ Our partner [IT'IS](https://itis.swiss) has released the latest version of their
 
 What's new in V5.4:
 
-* bullet 1
-* bullet 2
-* bullet 3
+* Custom Regions of Interest: User-defined custom target regions, such as nuclei, deep-structure sub-volumes, or combined brain regions, can be added to personalized models and used as optimization targets.
+* Extended DTI Processing: Tensor extraction can handle diverse acquisition protocols, with denoising, optional registration to the T1 image, and a choice between a b-value cap and the diffusion kurtosis model for data with multiple or high-b-value shells.
+* Universal Current Normalization: TIP uses voltage boundary conditions followed by conductance-matrix-based current normalization to offer superior electrode modeling accuracy. A universal current normalizer automatically and reliably handles any study-relevant electrode shape and placement, including large and proximal electrodes.
 
 TIP Research V5.4 is available to members of TI Solutions {{< modal-link Early-Adopter-Program >}}Early Adopter Program{{< /modal-link >}}.
 
