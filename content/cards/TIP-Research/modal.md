@@ -1,7 +1,7 @@
 ---
 id: TIP-Research
 ---
-# TIP Research V5.2
+# TIP Research V5.4
 
 ## Temporal Interference Planning Tool of IT'IS
 
@@ -9,13 +9,13 @@ The Temporal Interference Planning Tool for Research (TIP Research) of the [IT'I
 
 TIP enables researchers to design and validate TI stimulation protocols without requiring deep expertise in computational modeling. It supports classic TI, multi-channel TI, and phase-modulation TI workflows, and is fully compatible with the TIBS-R system.
 
-TIP V5.2 delivers a focused overhaul of the surrogate-model-based optimizer (SuMo) at the heart of TIP's electrode configuration search. All of the advanced features of TIP V5.0 are preserved, i.e., privacy-first local personalization, full Sim4Life workbench access in the Exposure Analysis step, and faster optimization, while three synergistic improvements produce higher-quality, richer Pareto fronts and give users direct control over the trade-off between speed and thoroughness:
+TIP V5.4 builds study-specific personalized plans, supporting customized target regions and electrode sizes, as well as a broad range of diffusion data acquisition protocols, so the plan matches your experiment. All features of TIP V5.2 are preserved, i.e., privacy-first local personalization, full Sim4Life workbench access in the Exposure Analysis step, and the improved surrogate-model-based optimizer (SuMo).
 
-* Native Constraint Handling: Impractical electrode configurations, such as two channels that share the same electrode, are now eliminated directly at the level of the algorithm, so that every configuration on the Pareto front is physically deployable.
+* Custom Regions of Interest: User-defined custom target regions – such as nuclei, deep-structure sub-volumes, or combined brain regions – can be added to personalized models and used as optimization targets.
 
-* Parallel Multi-Seed Optimization: Six independent searches run in parallel and are merged into a single, denser and richer Pareto front that covers the optimal trade-off surface more effectively, without increasing optimization time.
+* Extended DTI Processing: Tensor extraction can handle diverse acquisition protocols, with denoising, optional registration to the T1 image, and a choice between a b-value cap or the diffusion kurtosis model for data with multiple or high b-value shells.
 
-* Adaptive Convergence: The optimizer stops automatically once convergence is reached, allowing the user to choose the precision level – low, medium, or high – that best fits the workflow.
+* Universal Current Normalization: TIP uses voltage boundary conditions followed by conductance-matrix-based current normalization to offer superior electrode modeling accuracy. A universal current normalizer automatically and reliably handles any study-relevant electrode shape and placement, including large and proximal electrodes.
 
 TIP remains available through the TI Solutions Early Adopter Program and IT'IS research partnerships. Precomputed models can be explored without personalized simulation costs; personalized cloud simulations are charged according to the applicable AWS simulation cost.
 
@@ -26,7 +26,7 @@ TIP remains available through the TI Solutions Early Adopter Program and IT'IS r
 
 Use subject-specific magnetic resonance imaging (MRI) and optional diffusion tensor imaging data to create personalized anatomical models for TI planning.
 
-With TIP V5.2, MRI processing can run locally using the offline personalizer. Raw MRI data stay on the user's computer; only the anonymized, segmented model is uploaded to TIP.
+With TIP V5.4, MRI processing can run locally using the offline personalizer. Raw MRI data stay on the user's computer; only the anonymized, segmented model is uploaded to TIP.
 
 ## Electromagnetic Simulations
 
@@ -53,7 +53,7 @@ Standardized 10-10 electrode placement supports reproducible planning while keep
 
 Identify high-performing electrode configurations with the surrogate-model-based optimizer.
 
-In TIP V5.2, native constraint handling keeps the SuMo surface smooth and ensures every configuration on the Pareto front is physically deployable, parallel multi-seed execution delivers denser and richer Pareto fronts, and adaptive convergence lets you select low, medium, or high precision to balance speed against thoroughness.
+Since TIP V5.2, native constraint handling keeps the SuMo surface smooth and ensures every configuration on the Pareto front is physically deployable, parallel multi-seed execution delivers denser and richer Pareto fronts, and adaptive convergence lets you select low, medium, or high precision to balance speed against thoroughness.
 
 ## Visualization and Post-Processing
 
@@ -68,11 +68,11 @@ Visualize stimulation fields, phase modulation, pulse shapes, and field componen
 {{< modal-image tip_6.jpg >}}
 {{< /modal-image >}}
 
-TIP V5.2 provides ready-to-use template projects with anatomical models, targets, electrodes, and preconfigured simulations for deeper exposure analysis in a full-featured Sim4Life instance, including rendering, masking, streamlines, derived quantities, and reporting. 
+TIP V5.4 provides ready-to-use template projects with anatomical models, targets, electrodes, and preconfigured simulations for deeper exposure analysis in a full-featured Sim4Life instance, including rendering, masking, streamlines, derived quantities, and reporting. 
 
 ## Access
 
-TIP V5.2 is available to members of the TI Solutions Early Adopter Program and IT'IS research partners. For access, support, or further information, contact [tip@itis.swiss](mailto:tip@itis.swiss) or [eap@temporalinterference.com](mailto:eap@temporalinterference.com).
+TIP V5.4 is available to members of the TI Solutions Early Adopter Program and IT'IS research partners. For access, support, or further information, contact [tip@itis.swiss](mailto:tip@itis.swiss) or [eap@temporalinterference.com](mailto:eap@temporalinterference.com).
 
 ## Disclaimer
 
