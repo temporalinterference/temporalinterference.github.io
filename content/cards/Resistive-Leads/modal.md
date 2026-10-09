@@ -5,7 +5,7 @@ id: Resistive-Leads
 
 ### Novel Technology
 
-The novel resistive lead technology was developed by TI Solutions in collaboration with the Swiss Federal Laboratories for Materials Science and Technology [(EMPA)](https://www.empa.ch/web/empa/), Switzerland, and features optimized distributed resistance of 4.4 kΩ/m ± 20%. It is the most effective solution for minimization of radiofrequency-induced currents in cables across many applications, enabling, for example, safe and artifact-free temporal interference stimulation during functional MRI (fMRI).
+The novel resistive lead technology was developed by TI Solutions in collaboration with the Swiss Federal Laboratories for Materials Science and Technology [(EMPA)](https://www.empa.ch/web/empa/) and features optimized distributed resistance of 4.4 kΩ/m ± 20%. It is the most effective solution for minimization of radiofrequency-induced currents in cables across many applications, enabling, for example, safe and artifact-free temporal interference stimulation during functional MRI (fMRI).
 
 ### Applications 
 
