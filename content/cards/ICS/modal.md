@@ -8,6 +8,8 @@ id: ICS
 ## Intelligent Current Source (ICS)
 
 The core component of the TIBS-R system is the battery-powered, 8-channel programmable high-impedance current source generating precise direct current (DC) and alternating current (AC) from 0 – > 100 kHz. To ensure superior electrical safety, the ICS is solely optically connected to the external world. The PC via optical Ethernet and other peripherals, including external trigger circuits, monitoring ports, and emergency stops, are also optically connected via fibers. 
+{{< modal-image TI-Solutions-Intelligent-Current-Source-202610.png >}}
+{{< /modal-image >}}
 
 ## Signal Generation
 
