@@ -8,8 +8,11 @@ Our partner [IT'IS](https://itis.swiss) has released the latest version of their
 What's new in V4.0?
 
 * Full automation for personalization based on magnetic resonance imaging – no more need for manual placement of fiducial markers
+  
 * A brand-new optimizer that’s smarter, faster, and more accurate
+  
 * Support for simultaneous trade-off evaluations between multiple stimulation goals
+  
 * Streamlined, intuitive workflows with reduced time-to-results
 
 TIP Research V4.0 is available to members of TI Solutions {{< modal-link Early-Adopter-Program >}}Early Adopter Program{{< /modal-link >}}.
