@@ -19,4 +19,6 @@ Send us an <a href="mailto:info@temporalinterference.com?subject=TI Solutions Ne
 
 Send us an [email](mailto:info@temporalinterference.com) to receive the latest news.
 
+Send us an [email](mailto:info@temporalinterference.com?subject=TI%20Solutions%20News%20-%20Sign-Up%20Request) to receive the latest news.
+
 {{< modal-image news-20261008-TIP-V5-4.jpg >}} {{< /modal-image >}}
