@@ -15,7 +15,6 @@ What's new in V5.4:
 
 TIP Research V5.4 is available to members of TI Solutions {{< modal-link Early-Adopter-Program >}}Early Adopter Program{{< /modal-link >}}.
 
-Send us an [email](mailto:info@temporalinterference.com) to receive our latest news. 
-Send us an <a href="mailto:info@temporalinterference.com?subject=<?php echo urlencode( get_the_title() ); ?>">email</a>
+Send us an <a href="mailto:info@temporalinterference.com?subject=TI Solutions News – Sign-Up Request">email</a> to receive the latest news.
 
 {{< modal-image news-20261008-TIP-V5-4.jpg >}} {{< /modal-image >}}
