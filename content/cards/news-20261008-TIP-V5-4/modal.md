@@ -21,4 +21,6 @@ Send us an [email](mailto:info@temporalinterference.com) to receive the latest n
 
 Send us an [email](mailto:info@temporalinterference.com?subject=TI%20Solutions%20News%20-%20Sign-Up%20Request) to receive the latest news.
 
+Send us an [email](mailto:info@temporalinterference.com?subject=TI%20Solutions%20News%20-%20Mailing%20List%20Registration&body=Dear%20TI%20Solutions%20Team%2C%0A%0AI%20would%20like%20to%20join%20your%20mailing%20list%20to%20receive%20news%20and%20updates%20about%20TI%20Solutions%2C%20including%20developments%20in%20Temporal%20Interference%20research%20and%20technology.%0A%0AFirst%20Name%3A%0A%0ALast%20Name%3A%0A%0AEmail%20Address%3A%0A%0APhone%20Number%3A%20%28optional%29%0A%0AInstitution%20%2F%20Company%3A%0A%0ADepartment%20%2F%20Research%20Group%3A%20%28optional%29%0A%0ACurrent%20Position%3A%20%28optional%29%0A%0ACountry%3A%0A%0AI'm%20interested%20in%20learning%20more%20about%3A%0A%0A%0AKind%20regards%2C) to receive the latest news.
+
 {{< modal-image news-20261008-TIP-V5-4.jpg >}} {{< /modal-image >}}
