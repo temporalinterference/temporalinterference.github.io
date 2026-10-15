@@ -2,7 +2,8 @@
 id: ICS
 ---
 # ICS
-
+{{< modal-image TI-Solutions-ICS-202610.jpg >}}
+{{< /modal-image >}}
 
 ## Intelligent Current Source (ICS)
 
@@ -27,7 +28,8 @@ An Electrode Connection Box (ECB) is connected to the ICS using a 3 m cable. The
 
 For continuous operation, our wireless power transfer solution (TI-WPT) can be connected between the ICS and ECB.
 
-
+{{< modal-image TI-Solutions-ICS-angled-view-202610.jpg >}}
+{{< /modal-image >}}
 
 **Trademark Notice**
 
