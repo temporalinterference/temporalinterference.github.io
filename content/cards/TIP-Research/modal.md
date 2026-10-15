@@ -5,7 +5,7 @@ id: TIP-Research
 
 ## Temporal Interference Planning Tool of IT'IS
 
-The Temporal Interference Planning Tool for Research (TIP Research) of the [IT'IS Foundation](https://itis.swiss), developed for TIBS-R, provides an advanced planning environment for temporal interference (TI) stimulation. TIP supports electrode placement, stimulation targeting, electromagnetic simulations, optimization, visualization, and analysis using established and personalized anatomical human and animal models. Read more on the [IT'IS TI Planning webpage](https://itis.swiss/tools-and-systems/ti-planning/overview/).
+The Temporal Interference Planning Tool for Research (TIP Research) of the [IT'IS Foundation](https://itis.swiss), developed for TIBS-R, provides an advanced planning environment for TI stimulation. TIP supports electrode placement, stimulation targeting, electromagnetic simulations, optimization, visualization, and analysis using established and personalized anatomical human and animal models. Read more on the [IT'IS TI Planning webpage](https://itis.swiss/tools-and-systems/ti-planning/overview/).
 
 TIP enables researchers to design and validate TI stimulation protocols without requiring deep expertise in computational modeling. It supports classic TI, multi-channel TI, and phase-modulation TI workflows, and is fully compatible with the TIBS-R system.
 
