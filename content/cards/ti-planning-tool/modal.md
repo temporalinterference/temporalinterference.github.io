@@ -2,7 +2,7 @@
 id: TI-Planning-Tool
 ---
 
-# Precise TI Stimulation with TIP and Sim4Life
+# Precise TI Stimulation with TIP Research and Sim4Life
 
 {{< modal-image teaser.jpg >}}
 {{< /modal-image >}}
@@ -13,9 +13,9 @@ The shape of the human head and its dielectric properties are highly variable, n
 
 ## Our Solution
 
-The synergy between the Temporal Interference Planning (TIP) tool and the computational platform Sim4Life provides researchers with the most advanced solution to master these challenges. By combining TIP’s intuitive protocol design with Sim4Life’s cutting-edge simulation and analysis capabilities, they empower researchers to efficiently develop, optimize, and validate TI protocols with unmatched precision.
+The synergy between the Temporal Interference Planning Tool for Research (TIP Research) and the computational platform Sim4Life provides researchers with the most advanced solution to master these challenges. By combining TIP’s intuitive protocol design with Sim4Life’s cutting-edge simulation and analysis capabilities, they empower researchers to efficiently develop, optimize, and validate TI protocols with unmatched precision.
 
-##  TIP’s Core Strengths
+##  Core Strengths of TIP Research
 
 * User-friendly design: Intuitive interface tailored for TI research
 
