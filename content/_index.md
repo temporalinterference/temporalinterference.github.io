@@ -62,7 +62,7 @@ TI Devices
 {{< card MRI-Filters >}}
 {{< /card-holder >}}
 
- {{< movie tibs >}}
+{{< movie tibs >}}
 
 {{< section id=ti-planning-tool >}}
 TI Planning
