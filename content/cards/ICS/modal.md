@@ -2,8 +2,7 @@
 id: ICS
 ---
 # ICS
-{{< modal-image TI-Solutions-ICS-202610.jpg >}}
-{{< /modal-image >}}
+
 
 ## Intelligent Current Source (ICS)
 
