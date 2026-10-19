@@ -13,4 +13,6 @@ The new filter solution has been extensively tested in collaboration with the Un
 
 More information is available under this {{< modal-link EEG-Filters >}}link{{< /modal-link >}} on our website.
 
+Send us an [email](mailto:info@temporalinterference.com?subject=Sign-Up%20for%20TI%20Solutions%20News&body=Dear%20TI%20Solutions%20Team%2C%0A%0APlease%20add%20me%20to%20your%20news%20distribution%20list.%0A%0AName%3A%0A%0ASurname%3A%0A%0AAffiliation%3A%0A%0AEmail%20address%3A%0A%0AKind%20regards%2C) to receive the latest news.
+
 {{< modal-image electroencephalography.jpg >}} {{< /modal-image >}}
