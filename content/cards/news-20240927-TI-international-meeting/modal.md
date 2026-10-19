@@ -12,5 +12,7 @@ The full program of the UK DRI Workshop is accessible on the Imperial College [w
 
 Thank you to the organizers – we are excited to see what’s next!
 
+Send us an [email](mailto:info@temporalinterference.com?subject=Sign-Up%20for%20TI%20Solutions%20News&body=Dear%20TI%20Solutions%20Team%2C%0A%0APlease%20add%20me%20to%20your%20news%20distribution%20list.%0A%0AName%3A%0A%0ASurname%3A%0A%0AAffiliation%3A%0A%0AEmail%20address%3A%0A%0AKind%20regards%2C) to receive the latest news.
+
 {{< modal-image TI-Brain-Stimulation-UK-DRI-Centre-Imperial.jpg >}} {{< /modal-image >}}
 Image credit: UK DRI at Imperial
