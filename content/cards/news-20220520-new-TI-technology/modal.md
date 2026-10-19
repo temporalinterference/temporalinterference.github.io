@@ -11,5 +11,7 @@ The ICS and its external components make TIBS-R/TIBS-R-MRI the most flexible ins
 
 For further information about our TIBS-R system, please [contact us](mailto:eap@temporalinterference.com).
 
+Send us an [email](mailto:info@temporalinterference.com?subject=Sign-Up%20for%20TI%20Solutions%20News&body=Dear%20TI%20Solutions%20Team%2C%0A%0APlease%20add%20me%20to%20your%20news%20distribution%20list.%0A%0AName%3A%0A%0ASurname%3A%0A%0AAffiliation%3A%0A%0AEmail%20address%3A%0A%0AKind%20regards%2C) to receive the latest news.
+
 {{< modal-movie ti-solutions-news-5-2022.mp4 >}}
 {{< /modal-movie >}}
