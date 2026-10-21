@@ -8,7 +8,7 @@ Last week, members of Z43 partner IT’IS Foundation, together with the teams at
 
 The aim of this project is to establish the foundation for a new paradigm for the use of TI stimulation in the treatment of epilepsy. To achieve this ambitious goal, the consortium combines expertise in (i) TI stimulation hardware design, (ii) computational electromagnetic dosimetry, (iii) neuromodulation modeling, (iv) in vitro and in vivo rodent-model experiments, (v) electrophysiology recordings, and (vi) whole brain imaging. The consortium will leverage the {{< modal-link TIBS-R-system >}}TIBS-R system{{< /modal-link >}} for this project.
 
-Send us an [email](mailto:info@temporalinterference.com?subject=Sign-Up%20for%20TI%20Solutions%20News&body=Dear%20TI%20Solutions%20Team%2C%0A%0APlease%20add%20me%20to%20your%20news%20distribution%20list.%0A%0AName%3A%0A%0ASurname%3A%0A%0AAffiliation%3A%0A%0AEmail%20address%3A%0A%0AKind%20regards%2C) to receive the latest news.
+Send us an [email](mailto:info@temporalinterference.com?subject=Sign-Up%20for%20TI%20Solutions%20News&body=Dear%20TI%20Solutions%20Team%2C%0A%0APlease%20add%20me%20to%20your%20news%20distribution%20list.%0A%0AName%3A%0A%0ASurname%3A%0A%0AAffiliation%3A%0A%0AEmail%20address%3A%0A%0AKind%20regards%2C) to join our news mailing list.
 
 {{< modal-image news-20250218-EpiTIW-kick-off.jpg >}}
 {{< /modal-image >}}
