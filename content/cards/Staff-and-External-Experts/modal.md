@@ -47,10 +47,6 @@ Tibor Kiss (R&D) is an accomplished Embedded Software Engineer with a diverse ba
 Dr. Sven Kühn (R&D) holds a Dipl. Ing. (M.Sc.) in Information and Communication Technology from Chemnitz University of Technology and a Ph.D. from ETH Zurich, Switzerland. Since joining SPEAG in Zurich in 2009, he led key innovations like the TDS sensor platform and ICEy system. Since 2022, he is Director of Hardware R&D, where he oversees hardware research and development efforts to drive innovation. He also manages SPEAG’s ISO17025-accredited calibration laboratory, ensuring top-tier standards in R&D and calibration.
 {{< /image-text >}}
 
-{{< image-text title="Odei Maiz" src="odei-500px-cc.jpg" pos="left" ratio="one-third" >}}
-Odei Maiz (R&D) is a Software Engineer at the IT’IS Foundation in Zurich, Switzerland, where he is involved in developing advanced computational tools, including the state-of-the-art Sim4Life platform, o²S²PARC, and TIP. He holds a B.Sc. in Telecommunications Engineering and has experience in frontend application development, application programming interface generation and inter-process communication, and microservice creation.
-{{< /image-text >}}
-
 {{< image-text title="Livio Ponato" src="livio-1500px-c.jpg" pos="left" ratio="one-third" >}}
 Livio Ponato (R&D) began his career with an apprenticeship as a Multimedia Electronics Technician. In 2012, after 11 months as an Electronics Technician at Bruker Biospin, he started at the Höhere Fachschule Uster, Switzerland, to study electronics. He joined SPEAG in Zurich in 2013 where he worked until 2017 before leaving to gain additional experience. During this time, he also completed his post-graduate studies as Business Engineer NDS HF. In early 2019, Livio returned to SPEAG as an Electrical Engineer.
 {{< /image-text >}}
