@@ -31,6 +31,10 @@ Dr. Nicolas Chavannes (R&D) is an Electrical Engineer and Head of Software at th
 Ninad Chitnis (R&D) is currently pursuing a Ph.D. at the IT'IS Foundation in Zurich, Switzerland. Originally from Mumbai, India, he moved to Zurich to complete his M.Sc. in Electrical Engineering at ETH Zurich, specializing in radiofrequency engineering. After graduating in mid-2021, he spent about a year working at SPEAG in Zurich, during which he contributed to magnetic resonance imaging compatibility research for TIBS-R.
 {{< /image-text >}}
 
+{{< image-text title="Reza Farsi" src="Reza-Farsi.jpg" pos="left" ratio="one-third" >}}
+Dr. Reza Farsi (R&D) holds a bachelor’s degree in Electrical Engineering and a Ph.D. in Microelectronics and Microtechnology from EPFL, where his research focused on integrated magnetic resonance sensors. He specializes in radiofrequency and analog integrated circuit design, with experience in R&D projects combining sensor technologies and circuit innovation. Reza joined TI Solutions in 2026 as a Senior RF Engineer, where he contributes to cap design and development.
+{{< /image-text >}}
+
 {{< image-text title="Ana Gil Cañete" src="Ana-Gil-Canete-1500px.jpg" pos="left" ratio="one-third" >}}
 Ana Gil Cañete studied Telecommunication Engineering at the European University of Madrid, Spain, before specializing in Regulatory Affairs and Quality Assurance within the medical device industry. With practical experience in regulatory submissions and product approvals, Ana supports medical technology projects in meeting the necessary requirements for market entry – including CE Mark documentation, liaising with regulatory authorities, and ensuring alignment with relevant standards like ISO 13485. Ana joined TI Solutions in Zurich, Switzerland, as Regulatory Engineer mid-April 2025.
 {{< /image-text >}}
